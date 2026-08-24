@@ -1,0 +1,708 @@
+/* =========================================================
+   COURSE.CSS — BELEZA EM FOCO
+   Área educacional e páginas de aula
+========================================================= */
+
+.course-shell {
+  background:
+    radial-gradient(circle at 8% 5%, rgba(255, 15, 104, .06), transparent 26%),
+    radial-gradient(circle at 92% 8%, rgba(120, 37, 198, .07), transparent 26%),
+    linear-gradient(180deg, #ffffff 0%, #fff8fb 100%);
+  min-height: 70vh;
+  padding: 28px 0 60px;
+}
+
+.course-layout {
+  display: grid;
+  grid-template-columns: 290px minmax(0, 1fr);
+  gap: 26px;
+  align-items: start;
+}
+
+/* =========================================================
+   SIDEBAR DO CURSO
+========================================================= */
+
+.course-sidebar-panel {
+  position: sticky;
+  top: 18px;
+  overflow: hidden;
+  border: 1px solid rgba(210, 50, 110, .12);
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0 10px 28px rgba(70, 20, 70, .08);
+}
+
+.course-sidebar-header {
+  padding: 19px 18px;
+  color: #fff;
+  background:
+    radial-gradient(circle at 80% 20%, rgba(255,173,0,.35), transparent 28%),
+    linear-gradient(135deg, #ff0f68, #d40b70 60%, #63148f);
+}
+
+.course-sidebar-header span {
+  display: inline-flex;
+  min-height: 23px;
+  padding: 0 8px;
+  align-items: center;
+  border-radius: 12px;
+  background: rgba(255,255,255,.15);
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: .7px;
+  text-transform: uppercase;
+}
+
+.course-sidebar-header h2 {
+  margin-top: 8px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 1.28;
+  font-weight: 900;
+}
+
+.course-sidebar-header p {
+  margin-top: 7px;
+  color: rgba(255,255,255,.92);
+  font-size: 9px;
+  line-height: 1.5;
+}
+
+.course-sidebar-progress {
+  padding: 14px 16px;
+  border-bottom: 1px solid #f2e5ec;
+}
+
+.course-sidebar-progress-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  color: #4b3b50;
+  font-size: 9px;
+  font-weight: 800;
+}
+
+.course-sidebar-progress-top strong {
+  color: #ff0f68;
+}
+
+.course-sidebar-progress-track {
+  height: 7px;
+  margin-top: 7px;
+  overflow: hidden;
+  border-radius: 10px;
+  background: #f1e4ec;
+}
+
+.course-sidebar-progress-fill {
+  width: 0;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #ff0f68, #d40b70, #7825c6);
+  transition: width .3s ease;
+}
+
+.course-lessons-nav {
+  padding: 8px;
+}
+
+.course-lesson-link {
+  min-height: 54px;
+  padding: 8px 9px;
+  display: grid;
+  grid-template-columns: 34px 1fr;
+  align-items: center;
+  gap: 9px;
+  border-radius: 8px;
+  color: #4c3b51;
+  transition: .2s ease;
+}
+
+.course-lesson-link:hover {
+  background: #fff4f8;
+  color: #d40b70;
+}
+
+.course-lesson-link.active {
+  background: linear-gradient(135deg, #fff0f6, #f8edff);
+  color: #d40b70;
+}
+
+.course-lesson-link.completed {
+  background: #f1fff7;
+}
+
+.course-lesson-index {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: #f7eaf1;
+  color: #d40b70;
+  font-size: 9px;
+  font-weight: 900;
+}
+
+.course-lesson-link.active .course-lesson-index {
+  color: #fff;
+  background: linear-gradient(135deg, #ff0f68, #d40b70);
+}
+
+.course-lesson-link.completed .course-lesson-index {
+  color: #fff;
+  background: #23a566;
+}
+
+.course-lesson-copy strong {
+  display: block;
+  font-size: 9.5px;
+  line-height: 1.35;
+}
+
+.course-lesson-copy span {
+  display: block;
+  margin-top: 2px;
+  color: #8a7e8d;
+  font-size: 8px;
+}
+
+/* =========================================================
+   CONTEÚDO PRINCIPAL DA AULA
+========================================================= */
+
+.lesson-main {
+  min-width: 0;
+}
+
+.lesson-topbar {
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.lesson-breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  color: #817384;
+  font-size: 9.5px;
+}
+
+.lesson-breadcrumb a {
+  color: #d40b70;
+  font-weight: 800;
+}
+
+.lesson-back-course {
+  min-height: 34px;
+  padding: 0 12px;
+  border: 1px solid rgba(212,11,112,.20);
+  border-radius: 18px;
+  display: inline-flex;
+  align-items: center;
+  color: #d40b70;
+  background: #fff;
+  font-size: 9px;
+  font-weight: 900;
+}
+
+.lesson-hero {
+  position: relative;
+  overflow: hidden;
+  padding: 28px 30px;
+  border-radius: 16px;
+  color: #fff;
+  background:
+    radial-gradient(circle at 85% 20%, rgba(255,173,0,.48), transparent 24%),
+    linear-gradient(120deg, #ff0f68 0%, #d40b70 52%, #63148f 100%);
+  box-shadow: 0 14px 34px rgba(75,13,104,.13);
+}
+
+.lesson-hero::after {
+  content: "";
+  position: absolute;
+  right: -70px;
+  bottom: -100px;
+  width: 210px;
+  height: 210px;
+  border: 26px solid rgba(255,255,255,.07);
+  border-radius: 50%;
+}
+
+.lesson-hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 820px;
+}
+
+.lesson-tag {
+  display: inline-flex;
+  min-height: 25px;
+  padding: 0 10px;
+  align-items: center;
+  border-radius: 14px;
+  background: rgba(255,255,255,.15);
+  font-size: 8.5px;
+  font-weight: 900;
+  letter-spacing: .7px;
+  text-transform: uppercase;
+}
+
+.lesson-hero h1 {
+  margin-top: 10px;
+  max-width: 820px;
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(28px, 4vw, 42px);
+  line-height: 1.08;
+  font-weight: 900;
+}
+
+.lesson-hero p {
+  max-width: 760px;
+  margin-top: 10px;
+  color: rgba(255,255,255,.94);
+  font-size: 12.5px;
+  line-height: 1.65;
+}
+
+.lesson-meta-row {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.lesson-meta-pill {
+  min-height: 28px;
+  padding: 0 10px;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 15px;
+  background: rgba(255,255,255,.13);
+  font-size: 8.5px;
+  font-weight: 800;
+}
+
+/* =========================================================
+   CORPO DA AULA
+========================================================= */
+
+.lesson-content {
+  margin-top: 18px;
+  padding: 28px 30px;
+  border: 1px solid rgba(210, 50, 110, .12);
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0 9px 26px rgba(70,20,70,.07);
+}
+
+.lesson-content > section + section {
+  margin-top: 28px;
+}
+
+.lesson-content h2 {
+  margin-bottom: 11px;
+  color: #32123d;
+  font-family: "Montserrat", sans-serif;
+  font-size: 21px;
+  line-height: 1.25;
+  font-weight: 900;
+}
+
+.lesson-content h3 {
+  margin: 18px 0 8px;
+  color: #4b0d68;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  line-height: 1.35;
+  font-weight: 800;
+}
+
+.lesson-content p {
+  margin-top: 10px;
+  color: #55495a;
+  font-size: 13px;
+  line-height: 1.82;
+}
+
+.lesson-content ul,
+.lesson-content ol {
+  margin-top: 12px;
+  padding-left: 22px;
+  color: #55495a;
+}
+
+.lesson-content ul {
+  list-style: disc;
+}
+
+.lesson-content ol {
+  list-style: decimal;
+}
+
+.lesson-content li {
+  padding-left: 3px;
+  margin-bottom: 8px;
+  font-size: 12.5px;
+  line-height: 1.7;
+}
+
+.lesson-highlight {
+  margin: 18px 0;
+  padding: 15px 17px;
+  border-left: 4px solid #ff0f68;
+  border-radius: 8px;
+  background: #fff3f8;
+  color: #513d52;
+  font-size: 11.5px;
+  line-height: 1.65;
+}
+
+.lesson-warning {
+  margin: 18px 0;
+  padding: 15px 17px;
+  border-left: 4px solid #ffad00;
+  border-radius: 8px;
+  background: #fff8e8;
+  color: #58472d;
+  font-size: 11.5px;
+  line-height: 1.65;
+}
+
+/* =========================================================
+   SUMÁRIO
+========================================================= */
+
+.lesson-toc {
+  margin-top: 18px;
+  padding: 16px 18px;
+  border: 1px solid rgba(212,11,112,.12);
+  border-radius: 10px;
+  background: #fff8fb;
+}
+
+.lesson-toc strong {
+  display: block;
+  color: #32123d;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+}
+
+.lesson-toc ul {
+  margin-top: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.lesson-toc li {
+  margin: 0;
+  padding: 0;
+}
+
+.lesson-toc a {
+  min-height: 30px;
+  display: flex;
+  align-items: center;
+  color: #68576b;
+  font-size: 10px;
+  border-bottom: 1px solid #f0e3ea;
+}
+
+.lesson-toc a:hover {
+  color: #ff0f68;
+}
+
+/* =========================================================
+   IMAGENS EDUCACIONAIS
+========================================================= */
+
+.lesson-step-figure,
+.article-figure {
+  margin: 20px 0;
+}
+
+.lesson-image-placeholder,
+.image-placeholder {
+  min-height: 270px;
+  padding: 30px;
+  border: 2px dashed rgba(212,11,112,.22);
+  border-radius: 13px;
+  background:
+    radial-gradient(circle at 70% 20%, rgba(120,37,198,.08), transparent 25%),
+    linear-gradient(135deg, #fff2f7, #fff9fc);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.lesson-image-placeholder span,
+.image-placeholder span {
+  color: #d40b70;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 900;
+  letter-spacing: .8px;
+}
+
+.lesson-image-placeholder small,
+.image-placeholder small {
+  max-width: 620px;
+  margin-top: 8px;
+  color: #756779;
+  font-size: 10.5px;
+  line-height: 1.55;
+}
+
+.lesson-step-figure figcaption,
+.article-figure figcaption {
+  margin-top: 7px;
+  color: #7c707f;
+  font-size: 9.5px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* =========================================================
+   VIDEO
+========================================================= */
+
+.lesson-video-section {
+  margin-top: 26px;
+  padding: 18px;
+  border-radius: 13px;
+  background:
+    linear-gradient(135deg, #311039, #4b0d68);
+  color: #fff;
+}
+
+.lesson-video-section h2 {
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.lesson-video-section p {
+  color: rgba(255,255,255,.86);
+}
+
+.lesson-video-placeholder {
+  margin-top: 14px;
+  aspect-ratio: 16 / 9;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,.14);
+  background:
+    radial-gradient(circle at 50% 50%, rgba(255,15,104,.2), transparent 35%),
+    #1e0a26;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.lesson-video-placeholder span {
+  width: 58px;
+  height: 58px;
+  margin-inline: auto;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, #ff0f68, #d40b70);
+  font-size: 22px;
+}
+
+.lesson-video-placeholder strong {
+  display: block;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.lesson-video-placeholder small {
+  display: block;
+  margin-top: 4px;
+  color: rgba(255,255,255,.7);
+  font-size: 9px;
+}
+
+/* =========================================================
+   CONCLUSÃO / PROGRESSO
+========================================================= */
+
+.mark-complete {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #efe3ea;
+  text-align: center;
+}
+
+.mark-complete .btn {
+  min-height: 46px;
+  padding-inline: 22px;
+  border: 0;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #ff0f68, #d40b70);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 900;
+}
+
+.mark-complete .btn.completed {
+  background: #23a566;
+}
+
+.lesson-complete-message {
+  margin-top: 8px;
+  color: #23a566;
+  font-size: 9px;
+  font-weight: 800;
+}
+
+/* =========================================================
+   NAVEGAÇÃO ENTRE AULAS
+========================================================= */
+
+.lesson-nav {
+  margin-top: 18px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.lesson-nav .btn {
+  min-height: 44px;
+  padding: 0 15px;
+  border-radius: 8px;
+  font-size: 10px;
+  font-weight: 900;
+}
+
+.lesson-nav .btn-secondary {
+  background: #fff;
+  color: #d40b70;
+  border: 1px solid rgba(212,11,112,.20);
+}
+
+.lesson-nav .btn-primary {
+  justify-self: stretch;
+}
+
+/* =========================================================
+   AULA — CARD DE APOIO
+========================================================= */
+
+.lesson-support-grid {
+  margin-top: 22px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.lesson-support-card {
+  padding: 15px;
+  border: 1px solid rgba(210,50,110,.12);
+  border-radius: 10px;
+  background: #fff9fc;
+}
+
+.lesson-support-card strong {
+  display: block;
+  color: #32123d;
+  font-size: 11px;
+}
+
+.lesson-support-card p {
+  margin-top: 5px;
+  color: #6c6170;
+  font-size: 9.5px;
+  line-height: 1.55;
+}
+
+/* =========================================================
+   RESPONSIVO
+========================================================= */
+
+@media (max-width: 1050px) {
+  .course-layout {
+    grid-template-columns: 250px minmax(0, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 850px) {
+  .course-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .course-sidebar-panel {
+    position: static;
+  }
+
+  .course-lessons-nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .lesson-content {
+    padding: 24px;
+  }
+
+  .lesson-support-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .course-shell {
+    padding-top: 18px;
+  }
+
+  .course-lessons-nav {
+    grid-template-columns: 1fr;
+  }
+
+  .lesson-topbar {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .lesson-hero {
+    padding: 24px 20px;
+  }
+
+  .lesson-content {
+    padding: 20px 18px;
+  }
+
+  .lesson-content h2 {
+    font-size: 18px;
+  }
+
+  .lesson-content h3 {
+    font-size: 14px;
+  }
+
+  .lesson-content p,
+  .lesson-content li {
+    font-size: 12px;
+  }
+
+  .lesson-image-placeholder,
+  .image-placeholder {
+    min-height: 220px;
+    padding: 22px 18px;
+  }
+
+  .lesson-nav {
+    grid-template-columns: 1fr;
+  }
+
+  .lesson-support-grid {
+    grid-template-columns: 1fr;
+  }
+}

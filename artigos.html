@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Buscar | Beleza em Foco</title>
+
+  <meta
+    name="description"
+    content="Encontre artigos, tutoriais e conteúdos sobre maquiagem, beleza e autocuidado no Beleza em Foco."
+  >
+
+  <link rel="canonical" href="https://seudominio.com/buscar.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@500;600;700;800;900&family=Playfair+Display:ital,wght@1,700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <script src="js/main.js" defer></script>
+  <script src="js/search.js" defer></script>
+  <script src="js/favorites.js" defer></script>
+  <script src="js/consent.js" defer></script>
+
+  <style>
+    .search-page {
+      min-height: 65vh;
+      padding: 38px 0 55px;
+      background:
+        radial-gradient(circle at 90% 10%, rgba(255, 15, 104, .07), transparent 28%),
+        linear-gradient(180deg, #fff 0%, #fff8fb 100%);
+    }
+
+    .search-page-header {
+      text-align: center;
+      margin-bottom: 28px;
+    }
+
+    .search-page-header span {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 28px;
+      padding: 0 13px;
+      margin-bottom: 9px;
+      border-radius: 20px;
+      background: rgba(255, 15, 104, .09);
+      color: #ff0f68;
+      font-size: 11px;
+      font-weight: 900;
+      letter-spacing: .7px;
+      text-transform: uppercase;
+    }
+
+    .search-page-header h1 {
+      font-family: "Montserrat", sans-serif;
+      color: #2c1236;
+      font-size: clamp(27px, 4vw, 40px);
+      font-weight: 900;
+      line-height: 1.15;
+    }
+
+    .search-page-header p {
+      max-width: 650px;
+      margin: 10px auto 0;
+      color: #6c6170;
+      font-size: 14px;
+      line-height: 1.65;
+    }
+
+    .search-page-form {
+      max-width: 760px;
+      height: 52px;
+      margin: 0 auto 32px;
+      display: flex;
+      border: 1px solid rgba(212, 11, 112, .16);
+      border-radius: 28px;
+      overflow: hidden;
+      background: #fff;
+      box-shadow: 0 10px 30px rgba(75, 13, 104, .08);
+    }
+
+    .search-page-form input {
+      flex: 1;
+      min-width: 0;
+      border: 0;
+      outline: 0;
+      padding: 0 22px;
+      color: #211426;
+      font-size: 14px;
+    }
+
+    .search-page-form button {
+      width: 125px;
+      border: 0;
+      background: linear-gradient(135deg, #ff0f68, #d40b70);
+      color: #fff;
+      font-size: 12px;
+      font-weight: 900;
+    }
+
+    .search-status {
+      margin-bottom: 18px;
+      color: #38243d;
+      font-size: 14px;
+    }
+
+    .search-status strong {
+      color: #ff0f68;
+    }
+
+    .search-results-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .search-result-card {
+      position: relative;
+      min-height: 205px;
+      padding: 20px;
+      border: 1px solid rgba(210, 50, 110, .12);
+      border-radius: 12px;
+      background: #fff;
+      box-shadow: 0 8px 23px rgba(70, 20, 70, .08);
+      transition: transform .2s ease, box-shadow .2s ease;
+    }
+
+    .search-result-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 13px 30px rgba(70, 20, 70, .12);
+    }
+
+    .search-result-category {
+      display: inline-flex;
+      min-height: 24px;
+      padding: 0 10px;
+      align-items: center;
+      border-radius: 14px;
+      background: #fff1f7;
+      color: #ff0f68;
+      font-size: 9px;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .search-result-card h2 {
+      margin-top: 12px;
+      padding-right: 28px;
+      color: #32123d;
+      font-family: "Montserrat", sans-serif;
+      font-size: 16px;
+      line-height: 1.32;
+    }
+
+    .search-result-card h2 a:hover {
+      color: #ff0f68;
+    }
+
+    .search-result-card p {
+      margin-top: 10px;
+      color: #6c6170;
+      font-size: 12px;
+      line-height: 1.6;
+    }
+
+    .search-result-link {
+      display: inline-flex;
+      margin-top: 15px;
+      color: #d40b70;
+      font-size: 11px;
+      font-weight: 900;
+    }
+
+    .search-result-card .favorite-toggle {
+      top: 16px;
+      right: 16px;
+      opacity: 1;
+    }
+
+    .search-empty {
+      grid-column: 1 / -1;
+      padding: 45px 25px;
+      border: 1px dashed rgba(212, 11, 112, .25);
+      border-radius: 14px;
+      text-align: center;
+      background: #fff;
+    }
+
+    .search-empty strong {
+      display: block;
+      color: #32123d;
+      font-family: "Montserrat", sans-serif;
+      font-size: 19px;
+    }
+
+    .search-empty p {
+      max-width: 520px;
+      margin: 8px auto 0;
+      color: #6c6170;
+      font-size: 13px;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 900px) {
+      .search-results-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 600px) {
+      .search-page {
+        padding-top: 28px;
+      }
+
+      .search-page-form {
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        border-radius: 10px;
+        overflow: visible;
+        background: transparent;
+        box-shadow: none;
+        border: 0;
+        gap: 8px;
+      }
+
+      .search-page-form input {
+        min-height: 48px;
+        border: 1px solid rgba(212, 11, 112, .16);
+        border-radius: 24px;
+        background: #fff;
+      }
+
+      .search-page-form button {
+        width: 100%;
+        min-height: 46px;
+        border-radius: 23px;
+      }
+
+      .search-results-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <a class="skip-link" href="#conteudo-principal">
+    Ir para o conteúdo principal
+  </a>
+
+  <div class="top-utility">
+    <div class="container utility-inner">
+
+      <nav class="utility-links" aria-label="Links rápidos">
+        <a href="artigos.html"><span>★</span><span>Dicas</span></a>
+        <a href="courses.html"><span>♥</span><span>Tutoriais</span></a>
+        <a href="artigos.html?categoria=produtos"><span>🎁</span><span>Produtos</span></a>
+        <a href="artigos.html?categoria=inspiracoes"><span>✣</span><span>Inspirações</span></a>
+      </nav>
+
+      <div class="utility-social" aria-label="Redes sociais">
+        <a href="#" aria-label="Instagram">◎</a>
+        <a href="#" aria-label="YouTube">▶</a>
+        <a href="#" aria-label="Pinterest">ⓟ</a>
+        <a href="#" aria-label="TikTok">♪</a>
+      </div>
+
+    </div>
+  </div>
+
+
+  <header class="site-header">
+    <div class="container header-inner">
+
+      <a href="index.html" class="brand" aria-label="Beleza em Foco">
+
+        <div class="brand-icon" aria-hidden="true">
+          <span class="lipstick lipstick-one"></span>
+          <span class="lipstick lipstick-two"></span>
+        </div>
+
+        <div class="brand-copy">
+          <span class="brand-name">Beleza em Foco</span>
+          <span class="brand-tagline">
+            MAQUIAGEM • AUTOCUIDADO • CONFIANÇA
+          </span>
+        </div>
+
+      </a>
+
+
+      <form
+        class="header-search"
+        id="header-search-form"
+        action="buscar.html"
+        method="get"
+        role="search"
+      >
+
+        <label class="sr-only" for="header-search-input">
+          Buscar no site
+        </label>
+
+        <input
+          id="header-search-input"
+          name="q"
+          type="search"
+          placeholder="Buscar artigos, tutoriais, produtos..."
+          autocomplete="off"
+        >
+
+        <button type="submit" aria-label="Pesquisar">
+          <span class="search-icon" aria-hidden="true"></span>
+        </button>
+
+        <div
+          class="search-suggestions"
+          id="search-suggestions"
+          aria-live="polite"
+        ></div>
+
+      </form>
+
+
+      <div class="header-actions">
+
+        <a href="courses.html" class="header-action courses-button">
+          <span>♛</span>
+          <span>Meus Cursos</span>
+        </a>
+
+        <a
+          href="artigos.html?favoritos=1"
+          class="header-action favorites-button"
+        >
+          <span>★</span>
+          <span>
+            Favoritos (<strong id="favorites-count">0</strong>)
+          </span>
+        </a>
+
+      </div>
+
+
+      <button
+        class="mobile-menu-toggle"
+        id="mobile-menu-toggle"
+        type="button"
+        aria-label="Abrir menu"
+        aria-controls="main-navigation"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+  </header>
+
+
+  <nav
+    class="main-navigation"
+    id="main-navigation"
+    aria-label="Navegação principal"
+  >
+    <div class="container nav-inner">
+
+      <ul class="main-menu">
+
+        <li>
+          <a href="index.html" class="nav-link nav-home">
+            <span>⌂</span>
+            INÍCIO
+          </a>
+        </li>
+
+        <li class="has-dropdown">
+
+          <button
+            class="nav-dropdown-button"
+            type="button"
+            aria-expanded="false"
+          >
+            ARTIGOS
+            <span class="dropdown-chevron">⌄</span>
+          </button>
+
+          <div class="dropdown-menu">
+            <a href="artigos.html?categoria=iniciantes">Maquiagem para iniciantes</a>
+            <a href="artigos.html?categoria=pele">Pele</a>
+            <a href="artigos.html?categoria=olhos">Olhos</a>
+            <a href="artigos.html?categoria=sobrancelhas">Sobrancelhas</a>
+            <a href="artigos.html?categoria=cilios">Cílios</a>
+            <a href="artigos.html?categoria=labios">Lábios</a>
+            <a href="artigos.html?categoria=artistica">Maquiagem artística</a>
+            <a href="artigos.html?categoria=drag">Drag Queen</a>
+            <a href="artigos.html?categoria=produtos">Produtos e ferramentas</a>
+          </div>
+
+        </li>
+
+        <li class="has-dropdown">
+
+          <button
+            class="nav-dropdown-button"
+            type="button"
+            aria-expanded="false"
+          >
+            TUTORIAIS
+            <span class="dropdown-chevron">⌄</span>
+          </button>
+
+          <div class="dropdown-menu">
+            <a href="course/lesson-01-maquiagem-para-iniciantes.html">Maquiagem básica</a>
+            <a href="courses.html">Maquiagem social</a>
+            <a href="course/lesson-05-maquiagem-glam.html">Maquiagem glam</a>
+            <a href="artigos.html?categoria=olhos">Olhos</a>
+            <a href="course/lesson-02-preparacao-de-pele.html">Pele</a>
+            <a href="course/lesson-04-cilios-posticos.html">Cílios</a>
+            <a href="course/lesson-03-design-de-sobrancelhas.html">Sobrancelhas</a>
+          </div>
+
+        </li>
+
+        <li>
+          <a href="artigos.html?categoria=produtos" class="nav-link">
+            PRODUTOS
+          </a>
+        </li>
+
+        <li>
+          <a href="about.html" class="nav-link">
+            SOBRE NÓS
+          </a>
+        </li>
+
+        <li>
+          <a href="contact.html" class="nav-link">
+            CONTATO
+          </a>
+        </li>
+
+      </ul>
+
+      <a href="artigos.html" class="articles-counter">
+        <span>▥</span>
+        <strong>50 ARTIGOS</strong>
+      </a>
+
+    </div>
+  </nav>
+
+
+  <main id="conteudo-principal" class="search-page">
+
+    <div class="container">
+
+      <header class="search-page-header">
+        <span>Busca</span>
+
+        <h1>Encontre o conteúdo que você procura</h1>
+
+        <p>
+          Pesquise entre nossos artigos sobre maquiagem, pele,
+          olhos, cílios, sobrancelhas, lábios, produtos e muito mais.
+        </p>
+      </header>
+
+
+      <form
+        class="search-page-form"
+        id="search-page-form"
+        role="search"
+      >
+
+        <label class="sr-only" for="search-page-input">
+          Digite sua busca
+        </label>
+
+        <input
+          type="search"
+          id="search-page-input"
+          placeholder="Ex.: delineado, cílios, base, batom..."
+          autocomplete="off"
+        >
+
+        <button type="submit">
+          Pesquisar
+        </button>
+
+      </form>
+
+
+      <div
+        class="search-status"
+        id="search-status"
+        aria-live="polite"
+      ></div>
+
+
+      <section
+        class="search-results-grid"
+        id="search-results"
+        aria-label="Resultados da pesquisa"
+      ></section>
+
+    </div>
+
+  </main>
+
+
+  <footer class="site-footer">
+
+    <div class="container footer-grid">
+
+      <div class="footer-brand">
+
+        <a href="index.html" class="footer-logo">
+          <span class="footer-lipstick">♟</span>
+          <span>Beleza em Foco</span>
+        </a>
+
+        <p>
+          Seu portal completo sobre maquiagem,
+          beleza e autocuidado. Inspiração diária
+          para realçar sua beleza única.
+        </p>
+
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram">◎</a>
+          <a href="#" aria-label="YouTube">▶</a>
+          <a href="#" aria-label="Pinterest">ⓟ</a>
+          <a href="#" aria-label="TikTok">♪</a>
+          <a href="#" aria-label="Facebook">f</a>
+        </div>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h2>Navegação</h2>
+
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="artigos.html">Artigos</a></li>
+          <li><a href="courses.html">Tutoriais</a></li>
+          <li><a href="contact.html">Contato</a></li>
+        </ul>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h2>Institucional</h2>
+
+        <ul>
+          <li><a href="about.html">Sobre Nós</a></li>
+          <li><a href="privacy.html">Política de Privacidade</a></li>
+          <li><a href="terms.html">Termos de Uso</a></li>
+          <li><a href="cookies.html">Política de Cookies</a></li>
+        </ul>
+
+      </div>
+
+
+      <div class="footer-newsletter">
+
+        <h2>Newsletter</h2>
+
+        <p>
+          Receba dicas exclusivas e novidades
+          direto no seu e-mail!
+        </p>
+
+        <form id="newsletter-form" novalidate>
+
+          <label class="sr-only" for="newsletter-email">
+            Seu melhor e-mail
+          </label>
+
+          <div class="newsletter-form-row">
+
+            <input
+              type="email"
+              id="newsletter-email"
+              placeholder="Seu melhor e-mail"
+              required
+            >
+
+            <button type="submit">
+              Inscrever-se
+            </button>
+
+          </div>
+
+          <p
+            class="newsletter-feedback"
+            id="newsletter-feedback"
+            aria-live="polite"
+          ></p>
+
+        </form>
+
+      </div>
+
+
+      <div class="footer-quote">
+        <span>Beleza começa</span>
+        <span>quando você</span>
+        <span>se escolhe! <b>♥</b></span>
+      </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+      <div class="container footer-bottom-inner">
+
+        <p>
+          © 2026 Beleza em Foco. Todos os direitos reservados.
+        </p>
+
+        <p class="footer-love">
+          Feito com <span>♥</span> para realçar a sua beleza!
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <div class="developer-credit">
+
+      Desenvolvido por
+
+      <a
+        href="https://dfc-black.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        DFC — Digital Future Company
+      </a>
+
+    </div>
+
+  </footer>
+
+
+  <div
+    class="cookie-banner"
+    id="cookie-banner"
+    role="dialog"
+    aria-label="Preferências de cookies"
+    hidden
+  >
+
+    <div class="cookie-content">
+
+      <div>
+        <strong>Privacidade e cookies</strong>
+
+        <p>
+          Usamos cookies para melhorar sua experiência, analisar
+          o uso do site e preparar recursos de publicidade.
+        </p>
+
+        <a href="cookies.html">
+          Política de Cookies
+        </a>
+      </div>
+
+      <div class="cookie-actions">
+
+        <button
+          type="button"
+          class="cookie-settings"
+          id="cookie-settings"
+        >
+          Configurar
+        </button>
+
+        <button
+          type="button"
+          class="cookie-reject"
+          id="cookie-reject"
+        >
+          Rejeitar não essenciais
+        </button>
+
+        <button
+          type="button"
+          class="cookie-accept"
+          id="cookie-accept"
+        >
+          Aceitar
+        </button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const form = document.getElementById("search-page-form");
+      const input = document.getElementById("search-page-input");
+      const resultsContainer = document.getElementById("search-results");
+      const status = document.getElementById("search-status");
+
+      const params = new URLSearchParams(window.location.search);
+      const initialQuery = params.get("q") || "";
+
+      input.value = initialQuery;
+
+      function escapeHTML(value) {
+        return String(value)
+          .replaceAll("&", "&amp;")
+          .replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;")
+          .replaceAll('"', "&quot;")
+          .replaceAll("'", "&#039;");
+      }
+
+      function normalizeText(value) {
+        return String(value || "")
+          .normalize("NFD")
+          .replace(/[\u0300-\u036f]/g, "")
+          .toLowerCase()
+          .trim();
+      }
+
+      function performSearch(query) {
+        const articles = window.belezaEmFocoArticles || [];
+
+        const normalizedQuery = normalizeText(query);
+
+        if (!normalizedQuery) {
+          status.innerHTML =
+            "Digite um termo acima para pesquisar entre os <strong>50 artigos</strong>.";
+
+          resultsContainer.innerHTML = `
+            <div class="search-empty">
+              <strong>O que você quer aprender hoje?</strong>
+
+              <p>
+                Experimente buscar por termos como “delineado”,
+                “pele”, “cílios”, “batom”, “sobrancelhas” ou
+                “maquiagem para iniciantes”.
+              </p>
+            </div>
+          `;
+
+          return;
+        }
+
+        const words = normalizedQuery.split(/\s+/).filter(Boolean);
+
+        const results = articles
+          .map((article) => {
+            const title = normalizeText(article.title);
+            const category = normalizeText(article.category);
+            const description = normalizeText(article.description);
+            const keywords = normalizeText(article.keywords);
+
+            let score = 0;
+
+            words.forEach((word) => {
+              if (title.includes(word)) score += 8;
+              if (category.includes(word)) score += 5;
+              if (keywords.includes(word)) score += 4;
+              if (description.includes(word)) score += 2;
+            });
+
+            if (title.includes(normalizedQuery)) {
+              score += 10;
+            }
+
+            return {
+              ...article,
+              score
+            };
+          })
+          .filter((article) => article.score > 0)
+          .sort((a, b) => b.score - a.score);
+
+        status.innerHTML = `
+          Resultados para:
+          <strong>${escapeHTML(query)}</strong>
+          — ${results.length}
+          ${results.length === 1 ? "resultado encontrado" : "resultados encontrados"}.
+        `;
+
+        if (!results.length) {
+          resultsContainer.innerHTML = `
+            <div class="search-empty">
+
+              <strong>Nenhum resultado encontrado</strong>
+
+              <p>
+                Tente usar palavras mais simples ou procurar por
+                uma categoria, como pele, olhos, lábios, cílios,
+                sobrancelhas ou produtos.
+              </p>
+
+            </div>
+          `;
+
+          return;
+        }
+
+        resultsContainer.innerHTML = results
+          .map(
+            (article) => `
+              <article class="search-result-card">
+
+                <button
+                  class="favorite-toggle"
+                  type="button"
+                  data-favorite-id="${escapeHTML(article.id)}"
+                  aria-label="Adicionar artigo aos favoritos"
+                >
+                  ♡
+                </button>
+
+                <span class="search-result-category">
+                  ${escapeHTML(article.category)}
+                </span>
+
+                <h2>
+                  <a href="${escapeHTML(article.url)}">
+                    ${escapeHTML(article.title)}
+                  </a>
+                </h2>
+
+                <p>
+                  ${escapeHTML(article.description)}
+                </p>
+
+                <a
+                  class="search-result-link"
+                  href="${escapeHTML(article.url)}"
+                >
+                  Ler artigo →
+                </a>
+
+              </article>
+            `
+          )
+          .join("");
+
+        if (typeof updateFavoriteButtons === "function") {
+          updateFavoriteButtons();
+        }
+      }
+
+      form.addEventListener("submit", (event) => {
+        event.preventDefault();
+
+        const query = input.value.trim();
+
+        const url = new URL(window.location.href);
+
+        if (query) {
+          url.searchParams.set("q", query);
+        } else {
+          url.searchParams.delete("q");
+        }
+
+        window.history.replaceState({}, "", url);
+
+        performSearch(query);
+      });
+
+      performSearch(initialQuery);
+    });
+  </script>
+
+</body>
+</html>
