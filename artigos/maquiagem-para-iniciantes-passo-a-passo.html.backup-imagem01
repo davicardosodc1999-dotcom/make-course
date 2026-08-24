@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Maquiagem para Iniciantes: Passo a Passo Completo | LUME</title>
+  <meta name="description" content="Aprenda maquiagem para iniciantes passo a passo: preparação da pele, base, corretivo, pó, blush, sobrancelhas, cílios e lábios em um guia completo e gratuito.">
+  <link rel="canonical" href="https://www.lumebeleza.com.br/artigos/maquiagem-para-iniciantes-passo-a-passo.html">
+  <meta property="og:title" content="Guia completo — Maquiagem para Iniciantes | LUME">
+  <meta property="og:description" content="Curso de maquiagem gratuito: fundamentos, kit básico e primeiro look passo a passo.">
+  <meta property="og:url" content="https://www.lumebeleza.com.br/course/lesson-01-maquiagem-para-iniciantes.html">
+  <meta property="og:locale" content="pt_BR">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Maquiagem para Iniciantes",
+    "description": "Aula introdutória do curso gratuito LUME: produtos, pincéis, higiene e primeiro look.",
+    "provider": { "@type": "Organization", "name": "LUME" },
+    "isAccessibleForFree": true,
+    "inLanguage": "pt-BR"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Início", "item": "https://www.lumebeleza.com.br/" },
+      { "@type": "ListItem", "position": 2, "name": "Curso", "item": "https://www.lumebeleza.com.br/courses.html" },
+      { "@type": "ListItem", "position": 3, "name": "Guia completo — Maquiagem para iniciantes" }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="../index.html" class="logo" aria-label="LUME — Página inicial">LUME<span>.</span></a>
+      <nav class="nav-desktop" aria-label="Navegação principal">
+        <a href="../index.html">Início</a>
+        <a href="../index.html">Curso</a>
+        <a href="../index.html#aulas">Aulas</a>
+        <a href="../about.html">Sobre</a>
+        <a href="../index.html#faq">FAQ</a>
+      </nav>
+      <a href="../index.html" class="btn btn-primary">Ver curso</a>
+      <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-mobile">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <div class="nav-mobile" id="nav-mobile" role="dialog" aria-label="Menu de navegação">
+    <div class="nav-mobile-header">
+      <a href="../index.html" class="logo">LUME<span>.</span></a>
+      <button class="nav-mobile-close menu-toggle" aria-label="Fechar menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+    <nav class="nav-mobile-links">
+      <a href="../index.html">Início</a>
+      <a href="../index.html">Curso</a>
+      <a href="../index.html#aulas">Aulas</a>
+      <a href="../about.html">Sobre</a>
+      <a href="../index.html#faq">FAQ</a>
+    </nav>
+  </div>
+
+  <main class="lesson-layout">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="../index.html">Início</a>
+        <span aria-hidden="true">/</span>
+        <a href="../index.html">Curso</a>
+        <span aria-hidden="true">/</span>
+        <span>Guia completo</span>
+      </nav>
+
+      <header class="lesson-header">
+        <p class="section-label">Guia completo de 06</p>
+        <h1>Maquiagem para iniciantes: passo a passo completo para aprender do zero</h1>
+<div class="article-editorial-label">
+    <span>GUIA LUME</span>
+    <span>MAQUIAGEM PARA INICIANTES</span>
+    <span>LEITURA GRATUITA</span>
+</div>
+        <div class="lesson-meta-bar">
+          <span>Nível: Iniciante</span>
+          <span>Tempo estimado: ~45 min</span>
+          <span class="badge-free">100% Grátis</span>
+        </div>
+      </header>
+
+      <!-- AD SLOT: LESSON TOP -->
+      <div class="ad-slot" aria-hidden="true"><!-- AD SLOT: LESSON TOP --></div>
+
+      <div class="video-placeholder video-live"><iframe src="https://www.youtube.com/embed/GLh5ZVJIeTM?rel=0" title="Maquiagem para iniciantes passo a passo" loading="lazy" allowfullscreen></iframe></div>
+
+      <nav class="toc" aria-label="Sumário da aula">
+        <h2>Neste guia</h2>
+        <a href="#introducao">Introdução</a>
+        <a href="#objetivos">O que você vai aprender</a>
+        <a href="#materiais">Materiais e produtos</a>
+        <a href="#conceitos">Conceitos essenciais</a>
+        <a href="#passo-a-passo">Passo a passo do primeiro look</a>
+        <a href="#erros">Erros comuns</a>
+        <a href="#dicas">Dicas profissionais</a>
+        <a href="#higiene">Higiene e segurança</a>
+        <a href="#pratica">Exercício prático</a>
+        <a href="#revisao">Revisão rápida</a>
+        <a href="#faq-aula">Perguntas frequentes</a>
+        <a href="#conclusao">Conclusão</a>
+      </nav>
+
+      <article class="lesson-content">
+        <section id="introducao">
+          <h2>Introdução</h2>
+          <p>Aprender maquiagem do zero não precisa ser confuso. Esta aula de maquiagem para iniciantes organiza o essencial: o que comprar (ou não), como segurar os pincéis, a ordem correta de aplicação e como montar um look simples e bonito.</p>
+          <p>O objetivo não é copiar um tutorial viral. É entender o porquê de cada etapa, para que você consiga adaptar a técnica ao seu rosto, à sua pele e ao seu dia a dia.</p>
+        </section>
+
+        <!-- AD SLOT: AFTER INTRODUCTION -->
+        <div class="ad-slot" aria-hidden="true"><!-- AD SLOT: AFTER INTRODUCTION --></div>
+
+        <section id="objetivos">
+          <h2>O que você vai aprender</h2>
+          <p>Ao final desta aula, você será capaz de:</p>
+          <ul>
+            <li>Identificar os produtos básicos de um kit inicial de maquiagem.</li>
+            <li>Reconhecer as funções principais dos pincéis mais usados.</li>
+            <li>Aplicar a ordem correta de produtos no rosto.</li>
+            <li>Executar um look diário simples e equilibrado.</li>
+            <li>Evitar os erros mais comuns de quem está começando.</li>
+          </ul>
+        </section>
+
+        <section id="materiais">
+          <h2>Materiais e produtos</h2>
+          <p>Você não precisa de dezenas de itens. Comece com o essencial e vá expandindo conforme praticar.</p>
+          <h3>Kit básico sugerido</h3>
+          <ul>
+            <li>Hidratante facial (adequado ao seu tipo de pele)</li>
+            <li>Primer (opcional no início)</li>
+            <li>Base ou BB cream</li>
+            <li>Corretivo</li>
+            <li>Pó translúcido ou compacto</li>
+            <li>Blush em pó ou creme</li>
+            <li>Máscara de cílios</li>
+            <li>Lápis ou sombra para sobrancelha</li>
+            <li>Batom ou gloss</li>
+          </ul>
+          <h3>Pincéis úteis no começo</h3>
+          <ul>
+            <li>Pincel de base (ou esponja)</li>
+            <li>Pincel de pó</li>
+            <li>Pincel de blush</li>
+            <li>Pincel pequeno para sobrancelha ou detalhes</li>
+          </ul>
+          <p>Se o orçamento estiver apertado, priorize base, corretivo, pó, blush e máscara. Muitos produtos multifuncionais resolvem bem no início.</p>
+        </section>
+
+        <section id="conceitos">
+          <h2>Conceitos essenciais</h2>
+          <h3>Ordem de aplicação</h3>
+          <p>A sequência clássica ajuda a evitar manchas e a prolongar a duração:</p>
+          <ol>
+            <li>Limpeza e hidratação</li>
+            <li>Primer (se usar)</li>
+            <li>Base</li>
+            <li>Corretivo</li>
+            <li>Pó</li>
+            <li>Contorno e blush (se aplicáveis)</li>
+            <li>Olhos e sobrancelhas</li>
+            <li>Lábios</li>
+            <li>Fixador (opcional)</li>
+          </ol>
+          <h3>Menos é mais no começo</h3>
+          <p>Camadas finas e bem espalhadas costumam render melhor do que quantidades grandes de produto. Observe a pele com luz natural sempre que possível.</p>
+        </section>
+
+        <!-- AD SLOT: MID CONTENT -->
+        <div class="ad-slot" aria-hidden="true"><!-- AD SLOT: MID CONTENT --></div>
+
+        <section id="passo-a-passo">
+<h2>Passo a passo: sua primeira maquiagem completa</h2>
+
+<p>Agora que você já conhece os produtos essenciais e entende a ordem básica de aplicação, é hora de montar sua primeira maquiagem completa. O objetivo desta prática não é criar um resultado pesado ou perfeito na primeira tentativa. A ideia é aprender a controlar quantidade, acabamento e sequência.</p>
+
+<p>Faça cada etapa com calma e observe o efeito antes de adicionar mais produto. Uma das habilidades mais importantes para quem está começando é aprender a construir a maquiagem aos poucos.</p>
+
+<h3>1. Limpe e prepare a pele</h3>
+<p>Comece com o rosto limpo. Se houver resíduos de maquiagem, excesso de oleosidade ou sujeira, a base pode acumular e perder uniformidade. Depois da limpeza, aplique um hidratante compatível com sua pele e espere alguns minutos antes de continuar.</p>
+
+<p>Se você utiliza protetor solar durante o dia, ele deve entrar antes da maquiagem. O primer é opcional para iniciantes: ele pode ajudar no acabamento, mas uma boa preparação de pele já faz grande diferença.</p>
+
+<figure class="lesson-step-image">
+  <div class="lesson-image-placeholder">
+    <span>IMAGEM 01</span>
+    <strong>Preparação e kit básico</strong>
+    <small>Adicionar foto mostrando os produtos essenciais e a pele preparada antes da maquiagem.</small>
+  </div>
+  <figcaption>Antes de começar, organize os produtos e prepare a pele. Trabalhar com poucos itens facilita o aprendizado.</figcaption>
+</figure>
+
+<h3>2. Aplique a base em pequenas quantidades</h3>
+<p>Coloque uma pequena quantidade de base no centro do rosto e espalhe em direção às laterais. Você pode usar uma esponja úmida, um pincel próprio para base ou os dedos limpos, dependendo da textura do produto.</p>
+
+<p>Não tente cobrir tudo de uma vez. Uma camada fina costuma produzir um resultado mais natural. Se alguma região ainda precisar de cobertura, adicione uma segunda camada somente naquele ponto.</p>
+
+<h3>3. Use o corretivo apenas onde necessário</h3>
+<p>O corretivo pode ser aplicado abaixo dos olhos, em pequenas manchas, marcas ou áreas que você deseja iluminar. Evite colocar uma grande quantidade formando um triângulo pesado sob os olhos, principalmente enquanto ainda está aprendendo.</p>
+
+<p>Dê leves batidinhas para espalhar. Esfregar o produto pode remover a base aplicada anteriormente.</p>
+
+<h3>4. Sele com pó estrategicamente</h3>
+<p>O pó ajuda a controlar brilho e a aumentar a estabilidade dos produtos cremosos. Isso não significa que o rosto inteiro precise receber uma camada pesada.</p>
+
+<p>Comece pela zona T — testa, nariz e queixo — ou pelas regiões que apresentam maior oleosidade. Peles secas normalmente precisam de menos pó.</p>
+
+<figure class="lesson-step-image">
+  <div class="lesson-image-placeholder">
+    <span>IMAGEM 02</span>
+    <strong>Ordem de aplicação</strong>
+    <small>Adicionar imagem didática mostrando: preparação → base → corretivo → pó → blush → sobrancelhas → cílios → lábios.</small>
+  </div>
+  <figcaption>Seguir uma sequência ajuda a entender a função de cada produto e reduz o risco de aplicar camadas desnecessárias.</figcaption>
+</figure>
+
+<h3>5. Adicione cor com blush</h3>
+<p>Pegue pouco blush no pincel e retire o excesso antes de tocar o rosto. Aplique gradualmente nas maçãs do rosto e esfume em direção às têmporas.</p>
+
+<p>O segredo é construir intensidade. É muito mais fácil adicionar produto do que tentar remover um excesso.</p>
+
+<h3>6. Preencha as sobrancelhas com leveza</h3>
+<p>Observe primeiro onde existem falhas. Em vez de desenhar uma sobrancelha completamente nova, faça pequenos traços imitando pelos e respeitando o formato natural.</p>
+
+<p>A região inicial da sobrancelha geralmente fica mais bonita quando permanece suave. Concentre um pouco mais de definição no arco e na parte final.</p>
+
+<h3>7. Finalize os olhos</h3>
+<p>Para a primeira maquiagem, você não precisa dominar um esfumado complexo. Uma sombra neutra suave pode ser aplicada na pálpebra, seguida de máscara de cílios.</p>
+
+<p>Ao aplicar máscara, posicione a escova próxima à raiz dos cílios e faça movimentos suaves em direção às pontas. Evite compartilhar máscara, lápis ou produtos que tenham contato direto com a região dos olhos.</p>
+
+<h3>8. Escolha um produto para os lábios</h3>
+<p>Batom, gloss ou hidratante com cor funcionam muito bem para iniciantes. Se estiver aprendendo a aplicar batom mais intenso, comece pelo centro dos lábios e vá definindo as bordas aos poucos.</p>
+
+<h3>9. Observe o equilíbrio do rosto</h3>
+<p>Antes de adicionar qualquer outro produto, afaste-se do espelho e observe o conjunto. Ver a maquiagem de uma distância maior ajuda a perceber se o blush está muito forte, se a base termina abruptamente no maxilar ou se as sobrancelhas estão diferentes entre si.</p>
+
+<h3>10. Faça a revisão final</h3>
+<p>Veja o resultado também em luz natural sempre que possível. A iluminação do banheiro ou do quarto pode esconder diferenças de cor e excesso de produto.</p>
+
+<p>Use essa revisão como aprendizado, não como julgamento. Identifique uma coisa que funcionou bem e uma coisa que você pretende melhorar na próxima prática.</p>
+
+<figure class="lesson-step-image">
+  <div class="lesson-image-placeholder">
+    <span>IMAGEM 03</span>
+    <strong>Resultado final do primeiro look</strong>
+    <small>Adicionar foto de uma maquiagem leve para iniciantes, mostrando pele uniforme, blush suave, sobrancelha natural, máscara e lábios.</small>
+  </div>
+  <figcaption>O primeiro look deve permitir que você reconheça sua própria pele e suas características. Técnica vem antes de excesso de produto.</figcaption>
+</figure>
+
+<div class="lesson-tip">
+<strong>Regra de ouro para iniciantes:</strong>
+<p>Se você estiver em dúvida entre colocar mais produto ou esfumar melhor o que já aplicou, primeiro esfume. Muitas vezes, o acabamento melhora sem precisar adicionar nada.</p>
+</div>
+
+</section>
+
+        <section id="erros">
+<h2>Erros comuns de quem está começando na maquiagem</h2>
+
+<p>Errar faz parte do aprendizado. A maior parte dos problemas de acabamento não acontece porque a pessoa “não leva jeito”, mas porque ainda não aprendeu a controlar quantidade, textura e sequência.</p>
+
+<h3>Usar base em um tom muito diferente do pescoço</h3>
+<p>A base deve conversar com o tom do rosto, do pescoço e do colo. Uma base muito clara pode deixar o rosto acinzentado; uma muito escura pode criar uma divisão evidente na mandíbula. Sempre que possível, teste o produto próximo ao maxilar e observe o resultado em luz natural.</p>
+
+<h3>Aplicar produto demais de uma vez</h3>
+<p>Base, corretivo, pó, blush e contorno funcionam melhor quando construídos em camadas finas. Colocar muito produto logo no início torna mais difícil corrigir o excesso e pode deixar a maquiagem marcada ou pesada.</p>
+
+<h3>Esquecer de esfumar</h3>
+<p>Linhas muito marcadas entre base, blush, sombra ou contorno normalmente indicam falta de transição. Depois de aplicar um produto, observe as bordas e esfume até que a passagem entre uma área e outra fique mais suave.</p>
+
+<h3>Usar pincéis e esponjas sujos</h3>
+<p>Ferramentas sujas podem misturar cores antigas, prejudicar o acabamento e acumular resíduos. Manter pincéis e esponjas limpos faz parte da técnica e também da higiene.</p>
+
+<h3>Ignorar o tipo de pele</h3>
+<p>Uma rotina que funciona para pele oleosa pode não funcionar para uma pele seca. Observe como sua pele reage a hidratantes, bases e pós. A maquiagem costuma ficar melhor quando os produtos acompanham as características da pele em vez de lutar contra elas.</p>
+
+<h3>Conferir o resultado apenas muito perto do espelho</h3>
+<p>De perto você percebe detalhes; de longe você percebe equilíbrio. Durante a maquiagem, alterne as duas distâncias para avaliar simetria, intensidade do blush, sobrancelhas e diferença de cor entre rosto e pescoço.</p>
+
+<h3>Tentar aprender tudo no mesmo dia</h3>
+<p>Não é necessário dominar delineado, contorno, sobrancelhas e esfumado complexo ao mesmo tempo. Escolha uma habilidade por prática. Quando o básico fica automático, técnicas mais avançadas se tornam muito mais fáceis.</p>
+
+<div class="lesson-tip">
+<strong>Como corrigir sem começar tudo de novo:</strong>
+<p>Se um produto ficou forte demais, tente primeiro esfumar com uma ferramenta limpa. Em produtos em pó, um pincel macio pode suavizar o excesso. Em produtos cremosos, pequenas batidinhas com uma esponja limpa podem ajudar a integrar melhor as camadas.</p>
+</div>
+
+</section>
+
+        <section id="dicas">
+          <h2>Dicas profissionais</h2>
+          <ul>
+            <li>Sempre observe o resultado perto de uma janela ou em luz natural.</li>
+            <li>Fotografe o look e compare com o espelho — a câmera ajuda a identificar excessos.</li>
+            <li>Limpe os pincéis regularmente (sabão neutro ou específico para pincéis).</li>
+            <li>Teste produtos novos em uma área pequena da pele se você tiver sensibilidade.</li>
+          </ul>
+        </section>
+
+        <section id="higiene">
+<h2>Higiene e segurança na maquiagem</h2>
+
+<p>Uma maquiagem bonita também depende de ferramentas limpas e produtos bem conservados. Pincéis, esponjas e aplicadores entram em contato com oleosidade, resíduos e células da pele, por isso a higiene precisa fazer parte da rotina.</p>
+
+<h3>Cuidados com pincéis e esponjas</h3>
+<p>Lave pincéis usados com produtos cremosos com mais frequência e não guarde ferramentas ainda úmidas dentro de necessaires fechadas. Depois da lavagem, deixe secar completamente em local ventilado.</p>
+
+<h3>Evite compartilhar produtos de uso direto</h3>
+<p>Máscara de cílios, lápis de olho e produtos que encostam diretamente nos lábios ou nos olhos não devem ser compartilhados. Essa região é sensível e merece atenção especial.</p>
+
+<h3>Observe validade, cheiro e textura</h3>
+<p>Mesmo antes da data indicada na embalagem, um produto pode apresentar alteração de odor, cor ou consistência. Se algo parecer diferente do normal, o mais seguro é interromper o uso.</p>
+
+<h3>Faça testes quando usar algo novo</h3>
+<p>Se você tem pele sensível ou histórico de irritação com cosméticos, testar uma pequena quantidade antes de aplicar o produto em uma área extensa pode ajudar a identificar uma reação indesejada.</p>
+
+<p>Se surgir ardência intensa, vermelhidão persistente, inchaço ou outro tipo de reação, retire o produto e procure orientação profissional de saúde quando necessário.</p>
+</section>
+
+        <section id="pratica">
+<h2>Exercício prático: repita o mesmo look duas vezes</h2>
+
+<p>Escolha um dia em que você possa praticar sem pressa e refaça o passo a passo completo deste guia. O objetivo não é terminar rápido: é observar como você aplica cada produto e identificar onde ainda existe dificuldade.</p>
+
+<h3>Primeira prática</h3>
+<p>Faça a maquiagem normalmente e, ao terminar, anote três coisas:</p>
+
+<ol>
+<li>Qual etapa foi mais fácil.</li>
+<li>Qual etapa exigiu mais atenção.</li>
+<li>Qual produto você usaria em menor ou maior quantidade na próxima tentativa.</li>
+</ol>
+
+<h3>Observe o resultado em diferentes luzes</h3>
+<p>Olhe a maquiagem perto de uma janela ou em outro ambiente com iluminação diferente. Observe principalmente a cor da base, a intensidade do blush, a transição no maxilar e o acabamento do corretivo.</p>
+
+<h3>Tire uma foto</h3>
+<p>Uma fotografia pode revelar detalhes que passam despercebidos no espelho. Não precisa publicar a imagem: use-a apenas como registro para comparar sua evolução.</p>
+
+<h3>Segunda prática</h3>
+<p>Em outro dia, repita exatamente o mesmo look tentando corrigir apenas os pontos que você identificou na primeira tentativa. Evite adicionar técnicas novas nesse momento.</p>
+
+<div class="lesson-tip">
+<strong>O objetivo é consistência, não perfeição.</strong>
+<p>Quando você consegue repetir um resultado simples com controle, significa que os fundamentos estão começando a ficar naturais. Depois disso, adicionar delineado, sombras, contorno ou técnicas mais avançadas fica muito mais fácil.</p>
+</div>
+
+</section>
+
+        <section id="revisao">
+          <h2>Revisão rápida</h2>
+          <ul>
+            <li>Kit básico é suficiente para começar.</li>
+            <li>Ordem de aplicação importa.</li>
+            <li>Camadas finas e esfumado são seus aliados.</li>
+            <li>Higiene dos pincéis e produtos é parte da técnica.</li>
+            <li>Observe luz natural e adapte ao seu rosto.</li>
+          </ul>
+        </section>
+
+        <!-- AD SLOT: BEFORE FAQ -->
+        <div class="ad-slot" aria-hidden="true"><!-- AD SLOT: BEFORE FAQ --></div>
+
+        <section id="faq-aula">
+<h2>Perguntas frequentes sobre maquiagem para iniciantes</h2>
+
+<h3>O que comprar para começar a fazer maquiagem?</h3>
+<p>Você não precisa montar uma coleção enorme. Para começar, um kit simples pode incluir hidratante, base ou BB cream, corretivo, pó, blush, máscara de cílios e um produto para os lábios. Conforme ganhar prática, você pode adicionar sombras, delineador, iluminador, contorno e outros produtos de acordo com o tipo de maquiagem que deseja fazer.</p>
+
+<h3>Qual é a ordem correta da maquiagem?</h3>
+<p>Para uma maquiagem básica, você pode começar preparando a pele com limpeza e hidratação. Depois, aplique base, corretivo, pó apenas onde necessário, blush, sobrancelhas, maquiagem dos olhos e produto para os lábios. Essa sequência não é uma regra absoluta: com experiência, você pode adaptá-la ao acabamento e aos produtos utilizados.</p>
+
+<h3>Base ou corretivo: qual passar primeiro?</h3>
+<p>Para quem está começando, aplicar a base primeiro costuma facilitar o processo porque ela já uniformiza boa parte da pele. Depois, você consegue enxergar melhor onde o corretivo realmente é necessário. Isso também ajuda a evitar uma quantidade maior de produto do que o necessário.</p>
+
+<h3>Posso fazer maquiagem sem usar pincéis?</h3>
+<p>Sim. Alguns produtos líquidos e cremosos podem ser aplicados com os dedos limpos ou com uma esponja apropriada. Os pincéis oferecem mais possibilidades de acabamento e precisão, mas você não precisa comprar vários deles antes mesmo de aprender o básico.</p>
+
+<h3>Como evitar que a maquiagem fique pesada?</h3>
+<p>Comece sempre com pequenas quantidades e construa cobertura aos poucos. Espalhe e esfume bem cada camada antes de decidir se precisa adicionar mais produto. Observar o rosto em luz natural também ajuda a perceber excesso de base, corretivo, pó ou blush.</p>
+
+<h3>Quanto tempo leva para aprender maquiagem?</h3>
+<p>Não existe um prazo igual para todas as pessoas. O mais importante é praticar as mesmas técnicas básicas até conseguir repeti-las com segurança. Em vez de tentar aprender várias técnicas avançadas ao mesmo tempo, pratique preparação da pele, base, corretivo, blush, sobrancelhas e olhos separadamente e acompanhe sua evolução.</p>
+
+<div class="lesson-tip">
+<strong>Dica para quem está começando:</strong>
+<p>Não use o resultado de outra pessoa como única referência. Formato do rosto, tipo de pele, produtos e ferramentas mudam o acabamento. Observe principalmente se você consegue repetir a técnica e entender o motivo de cada etapa.</p>
+</div>
+
+</section>
+
+        <section id="conclusao">
+          <h2>Conclusão</h2>
+          <p>Agora você já conhece a sequência essencial para criar sua primeira maquiagem com mais segurança. Continue explorando os guias da LUME para aprofundar técnicas de preparação de pele, olhos, sobrancelhas, cílios e acabamento.</p>
+        </section>
+
+        
+      <section class="article-next-guide">
+    <span>CONTINUE APRENDENDO</span>
+
+    <h2>O acabamento começa antes da base.</h2>
+
+    <p>
+        Agora que você conhece a estrutura de uma maquiagem completa,
+        aprofunde o primeiro fundamento de qualquer make bem executada:
+        a preparação da pele.
+    </p>
+
+    <a href="como-preparar-pele-antes-maquiagem.html"
+       class="btn btn-primary">
+        Ler guia de preparação de pele
+    </a>
+</section>
+</article>
+
+      
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="../index.html" class="logo">LUME<span>.</span></a>
+          <p>Educação em beleza com técnica, clareza e respeito pelo processo de cada estudante.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Curso</h4>
+          <a href="../index.html">Início</a>
+          <a href="lesson-01-maquiagem-para-iniciantes.html">Guia completo</a>
+          <a href="lesson-02-preparacao-de-pele.html">Aula 02</a>
+          <a href="lesson-03-design-de-sobrancelhas.html">Aula 03</a>
+        </div>
+        <div class="footer-col">
+          <h4>Aulas</h4>
+          <a href="lesson-04-cilios-posticos.html">Aula 04</a>
+          <a href="lesson-05-maquiagem-glam-profissional.html">Aula 05</a>
+          <a href="lesson-06-maquiagem-drag-queen.html">Aula 06</a>
+        </div>
+        <div class="footer-col">
+          <h4>Institucional</h4>
+          <a href="../about.html">Sobre</a>
+          <a href="../contact.html">Contato</a>
+          <a href="../privacy.html">Privacidade</a>
+          <a href="../cookies.html">Cookies</a>
+          <a href="../terms.html">Termos</a>
+          <a href="../editorial-policy.html">Política editorial</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 LUME. Todos os direitos reservados.</span>
+        <span>Desenvolvido por <a href="https://dfc-black.vercel.app/" target="_blank" rel="noopener noreferrer">DFC — Digital Future Company</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
+
