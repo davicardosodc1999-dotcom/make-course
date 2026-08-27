@@ -1,0 +1,700 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Maquiagem para Olhos Pequenos: Técnicas e Passo a Passo | Beleza em Foco</title>
+
+  <meta name="description" content="Aprenda técnicas de maquiagem para olhos pequenos usando sombras, delineado, iluminação e cílios para valorizar e definir o olhar.">
+
+  <link rel="canonical" href="https://seudominio.com/articles/maquiagem-para-iniciantes-guia-completo.html">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Maquiagem para Olhos Pequenos: Técnicas e Passo a Passo">
+  <meta property="og:description" content="Aprenda técnicas de maquiagem para olhos pequenos usando sombras, delineado, iluminação e cílios para valorizar e definir o olhar.">
+  <meta property="og:url" content="https://seudominio.com/articles/maquiagem-para-iniciantes-guia-completo.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@500;600;700;800;900&family=Playfair+Display:ital,wght@1,700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+
+  <script src="../js/main.js" defer></script>
+  <script src="../js/search.js" defer></script>
+  <script src="../js/favorites.js" defer></script>
+  <script src="../js/consent.js" defer></script>
+
+  <style>
+    .article-page {
+      min-height: 70vh;
+      padding: 30px 0 60px;
+      background:
+        radial-gradient(circle at 10% 5%, rgba(255,15,104,.06), transparent 24%),
+        radial-gradient(circle at 92% 7%, rgba(120,37,198,.06), transparent 25%),
+        linear-gradient(180deg,#fff,#fff8fb);
+    }
+
+    .article-breadcrumb {
+      margin-bottom: 15px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      color: #817384;
+      font-size: 10px;
+    }
+
+    .article-breadcrumb a {
+      color: #d40b70;
+      font-weight: 800;
+    }
+
+    .article-layout {
+      display: grid;
+      grid-template-columns: minmax(0,1fr) 290px;
+      gap: 26px;
+      align-items: start;
+    }
+
+    .article-main {
+      min-width: 0;
+    }
+
+    .article-header {
+      padding: 30px;
+      border-radius: 17px;
+      color: white;
+      background:
+        radial-gradient(circle at 85% 18%,rgba(255,173,0,.48),transparent 23%),
+        linear-gradient(120deg,#ff0f68,#d40b70 52%,#63148f);
+      box-shadow: 0 14px 34px rgba(75,13,104,.13);
+    }
+
+    .article-category {
+      display: inline-flex;
+      min-height: 25px;
+      padding: 0 10px;
+      align-items: center;
+      border-radius: 14px;
+      background: rgba(255,255,255,.15);
+      font-size: 9px;
+      font-weight: 900;
+      letter-spacing: .7px;
+      text-transform: uppercase;
+    }
+
+    .article-header h1 {
+      margin-top: 11px;
+      font-family: "Montserrat",sans-serif;
+      font-size: clamp(29px,4vw,43px);
+      line-height: 1.08;
+      font-weight: 900;
+    }
+
+    .article-header p {
+      margin-top: 12px;
+      max-width: 800px;
+      color: rgba(255,255,255,.93);
+      font-size: 13px;
+      line-height: 1.7;
+    }
+
+    .article-meta {
+      margin-top: 15px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .article-meta span {
+      min-height: 27px;
+      padding: 0 10px;
+      display: inline-flex;
+      align-items: center;
+      border-radius: 14px;
+      background: rgba(255,255,255,.13);
+      font-size: 8.5px;
+      font-weight: 800;
+    }
+
+    .article-cover,
+    .article-image {
+      margin: 18px 0;
+    }
+
+    .article-image-placeholder {
+      min-height: 310px;
+      padding: 30px;
+      border: 2px dashed rgba(212,11,112,.22);
+      border-radius: 13px;
+      background:
+        radial-gradient(circle at 75% 20%,rgba(120,37,198,.08),transparent 26%),
+        linear-gradient(135deg,#fff2f7,#fffafd);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .article-image-placeholder span {
+      color: #d40b70;
+      font-family: "Montserrat",sans-serif;
+      font-size: 15px;
+      font-weight: 900;
+    }
+
+    .article-image-placeholder small {
+      max-width: 650px;
+      margin-top: 7px;
+      color: #77697a;
+      font-size: 10px;
+      line-height: 1.55;
+    }
+
+    .article-image figcaption,
+    .article-cover figcaption {
+      margin-top: 7px;
+      color: #7d7180;
+      font-size: 9.5px;
+      line-height: 1.5;
+      text-align: center;
+    }
+
+    .article-content-full {
+      margin-top: 18px;
+      padding: 29px 31px;
+      border: 1px solid rgba(210,50,110,.12);
+      border-radius: 15px;
+      background: white;
+      box-shadow: 0 9px 26px rgba(70,20,70,.07);
+    }
+
+    .article-content-full h2 {
+      margin: 29px 0 10px;
+      color: #32123d;
+      font-family: "Montserrat",sans-serif;
+      font-size: 21px;
+      line-height: 1.3;
+      font-weight: 900;
+    }
+
+    .article-content-full h2:first-child {
+      margin-top: 0;
+    }
+
+    .article-content-full h3 {
+      margin: 19px 0 8px;
+      color: #4b0d68;
+      font-family: "Montserrat",sans-serif;
+      font-size: 15px;
+      line-height: 1.4;
+      font-weight: 800;
+    }
+
+    .article-content-full p {
+      margin-top: 11px;
+      color: #55495a;
+      font-size: 13px;
+      line-height: 1.83;
+    }
+
+    .article-content-full ul,
+    .article-content-full ol {
+      margin-top: 12px;
+      padding-left: 23px;
+      color: #55495a;
+    }
+
+    .article-content-full li {
+      margin-bottom: 8px;
+      font-size: 12.5px;
+      line-height: 1.72;
+    }
+
+    .article-tip {
+      margin: 18px 0;
+      padding: 15px 17px;
+      border-left: 4px solid #ff0f68;
+      border-radius: 8px;
+      background: #fff3f8;
+      color: #513d52;
+      font-size: 11.5px;
+      line-height: 1.7;
+    }
+
+    .ad-placeholder {
+      min-height: 110px;
+      margin: 24px 0;
+      border: 1px solid #e7dce3;
+      border-radius: 9px;
+      background: #faf8fa;
+      color: #9a8e9c;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: 9px;
+      letter-spacing: .7px;
+      text-transform: uppercase;
+    }
+
+    .article-favorite {
+      margin-top: 20px;
+      min-height: 42px;
+      padding: 0 16px;
+      border: 1px solid rgba(212,11,112,.25);
+      border-radius: 8px;
+      background: #fff;
+      color: #d40b70;
+      font-weight: 900;
+      cursor: pointer;
+    }
+
+    .article-faq {
+      margin-top: 30px;
+    }
+
+    .article-faq-item {
+      padding: 15px 0;
+      border-bottom: 1px solid #efe4ea;
+    }
+
+    .article-faq-item h3 {
+      margin: 0;
+    }
+
+    .article-sidebar {
+      position: sticky;
+      top: 18px;
+    }
+
+    .sidebar-card {
+      padding: 18px;
+      border: 1px solid rgba(210,50,110,.12);
+      border-radius: 12px;
+      background: #fff;
+      box-shadow: 0 8px 22px rgba(70,20,70,.07);
+    }
+
+    .sidebar-card + .sidebar-card {
+      margin-top: 13px;
+    }
+
+    .sidebar-card h2 {
+      color: #32123d;
+      font-family: "Montserrat",sans-serif;
+      font-size: 14px;
+      font-weight: 900;
+    }
+
+    .sidebar-card p {
+      margin-top: 7px;
+      color: #6c6170;
+      font-size: 9.5px;
+      line-height: 1.6;
+    }
+
+    .sidebar-links {
+      margin-top: 11px;
+      display: grid;
+      gap: 6px;
+    }
+
+    .sidebar-links a {
+      min-height: 35px;
+      padding: 0 10px;
+      border-radius: 7px;
+      background: #fff4f8;
+      color: #d40b70;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 8.8px;
+      font-weight: 900;
+    }
+
+    @media(max-width:900px){
+      .article-layout{grid-template-columns:1fr;}
+      .article-sidebar{position:static;}
+    }
+
+    @media(max-width:580px){
+      .article-page{padding-top:20px;}
+      .article-header{padding:24px 20px;}
+      .article-content-full{padding:21px 18px;}
+      .article-image-placeholder{min-height:230px;padding:20px;}
+    }
+  </style>
+</head>
+
+<body>
+
+<a class="skip-link" href="#conteudo-principal">Ir para o conteúdo principal</a>
+
+<div class="top-utility">
+  <div class="container utility-inner">
+    <nav class="utility-links" aria-label="Links rápidos">
+      <a href="../artigos.html"><span>★</span><span>Dicas</span></a>
+      <a href="../courses.html"><span>♥</span><span>Tutoriais</span></a>
+      <a href="../artigos.html?categoria=produtos"><span>🎁</span><span>Produtos</span></a>
+      <a href="../artigos.html?categoria=artistica"><span>✣</span><span>Inspirações</span></a>
+    </nav>
+
+    <div class="utility-social">
+      <a href="#" aria-label="Instagram">◎</a>
+      <a href="#" aria-label="YouTube">▶</a>
+      <a href="#" aria-label="Pinterest">ⓟ</a>
+      <a href="#" aria-label="TikTok">♪</a>
+    </div>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+
+    <a href="../index.html" class="brand" aria-label="Beleza em Foco">
+      <div class="brand-icon" aria-hidden="true">
+        <span class="lipstick lipstick-one"></span>
+        <span class="lipstick lipstick-two"></span>
+      </div>
+
+      <div class="brand-copy">
+        <span class="brand-name">Beleza em Foco</span>
+        <span class="brand-tagline">MAQUIAGEM • AUTOCUIDADO • CONFIANÇA</span>
+      </div>
+    </a>
+
+    <form class="header-search" action="../buscar.html" method="get" role="search">
+      <input
+        name="q"
+        type="search"
+        placeholder="Buscar artigos, tutoriais, produtos..."
+        aria-label="Buscar no site"
+      >
+      <button type="submit" aria-label="Pesquisar">
+        <span class="search-icon"></span>
+      </button>
+    </form>
+
+    <div class="header-actions">
+      <a href="../courses.html" class="header-action courses-button">
+        <span>♛</span><span>Meus Cursos</span>
+      </a>
+
+      <a href="../artigos.html?favoritos=1" class="header-action favorites-button">
+        <span>★</span>
+        <span>Favoritos (<strong id="favorites-count">0</strong>)</span>
+      </a>
+    </div>
+
+  </div>
+</header>
+
+<nav class="main-navigation" aria-label="Navegação principal">
+  <div class="container nav-inner">
+
+    <ul class="main-menu">
+      <li><a href="../index.html" class="nav-link">INÍCIO</a></li>
+      <li><a href="../artigos.html" class="nav-link">ARTIGOS</a></li>
+      <li><a href="../courses.html" class="nav-link">TUTORIAIS</a></li>
+      <li><a href="../artigos.html?categoria=produtos" class="nav-link">PRODUTOS</a></li>
+      <li><a href="../categorias.html" class="nav-link">CATEGORIAS</a></li>
+      <li><a href="../about.html" class="nav-link">SOBRE NÓS</a></li>
+      <li><a href="../contact.html" class="nav-link">CONTATO</a></li>
+    </ul>
+
+    <a href="../artigos.html" class="articles-counter">
+      <strong>50 ARTIGOS</strong>
+    </a>
+
+  </div>
+</nav>
+
+<main id="conteudo-principal" class="article-page">
+
+  <div class="container">
+
+    <nav class="article-breadcrumb" aria-label="Breadcrumb">
+      <a href="../index.html">Início</a>
+      <span>›</span>
+      <a href="../artigos.html">Artigos</a>
+      <span>›</span>
+      <a href="../artigos.html?categoria=iniciantes">Maquiagem para Iniciantes</a>
+      <span>›</span>
+      <span>Maquiagem para Iniciantes: Guia Completo para Começar do Zero</span>
+    </nav>
+
+    <div class="article-layout">
+
+      <div class="article-main">
+
+        <header class="article-header">
+
+          <span class="article-category">Olhos</span>
+
+          <h1>Maquiagem para Olhos Pequenos: Técnicas e Passo a Passo</h1>
+
+          <p>Um guia completo para entender os produtos essenciais, aprender a sequência básica e construir sua primeira maquiagem com mais controle, leveza e confiança.</p>
+
+          <div class="article-meta">
+            <span>Atualizado em 25 de agosto de 2026</span>
+            <span>Conteúdo educativo</span>
+            <span>Beleza em Foco</span>
+          </div>
+
+        </header>
+
+        <figure class="article-cover">
+          <div class="article-image-placeholder">
+            <span>IMAGEM DE CAPA</span>
+            <small>Imagem principal exclusiva relacionada ao tema: Maquiagem para Iniciantes: Guia Completo para Começar do Zero</small>
+          </div>
+          <figcaption>Imagem de apoio para introduzir visualmente o tema deste artigo.</figcaption>
+        </figure>
+
+        <div class="ad-placeholder" aria-label="Publicidade">
+          Espaço publicitário
+        </div>
+
+        <article class="article-content-full">
+<h2>Maquiagem para olhos pequenos: como valorizar o olhar</h2>
+<p>Maquiar olhos pequenos não significa obrigatoriamente tentar fazê-los parecer enormes. A maquiagem pode ser utilizada para destacar o formato natural, aumentar a percepção de abertura, criar profundidade ou simplesmente adicionar cor e definição. O resultado depende principalmente do posicionamento das sombras, da espessura do delineado e da maneira como cílios e região inferior são trabalhados.</p>
+<p>Um erro comum é seguir regras rígidas como nunca utilizar sombra escura ou lápis preto. Tons profundos podem funcionar perfeitamente em olhos pequenos. A diferença está na quantidade, no posicionamento e no efeito que você deseja produzir.</p>
+<p>Antes de começar, observe seus olhos abertos e relaxados. Veja quanto da pálpebra móvel permanece visível, onde está o côncavo e como o canto externo se posiciona. Essa análise vale mais do que tentar copiar exatamente uma maquiagem feita em outro formato de olho.</p>
+<h2>1. Observe o espaço real da pálpebra</h2>
+<p>Olhe diretamente para o espelho sem levantar as sobrancelhas. Essa é aproximadamente a maneira como seus olhos aparecem durante uma conversa normal. Identifique quais regiões continuam visíveis.</p>
+<p>Se grande parte da pálpebra desaparece quando os olhos estão abertos, algumas sombras precisarão subir um pouco acima da dobra para permanecerem aparentes. Faça isso gradualmente para manter controle.</p>
+<h2>2. Prepare as pálpebras com pouca quantidade</h2>
+<p>Utilize primer de olhos ou outro produto de preparação que funcione para você. A camada deve ser fina e uniforme. Produto demais pode se acumular nas dobras e diminuir a precisão das sombras.</p>
+<p>Depois da aplicação, observe se existe concentração em algum ponto e suavize antes de começar.</p>
+<h2>3. Comece por uma sombra de transição</h2>
+<p>Escolha uma tonalidade intermediária e utilize um pincel macio. Aplique na região do côncavo ou ligeiramente acima dele, dependendo do formato dos seus olhos.</p>
+<p>Faça movimentos leves e construa a cor aos poucos. Essa primeira sombra cria uma transição que facilitará adicionar profundidade sem formar uma faixa marcada.</p>
+<figure class="article-image">
+<div class="article-image-placeholder">
+<span>IMAGEM 01</span>
+<small>Posicionamento da sombra de transição em olhos pequenos.</small>
+</div>
+<figcaption>Elevar levemente a transição quando necessário permite que parte do esfumado permaneça visível com os olhos abertos.</figcaption>
+</figure>
+<h2>4. Mantenha alguma luminosidade na pálpebra</h2>
+<p>Sombras claras ou médias na pálpebra móvel podem aumentar a percepção de espaço porque refletem mais luz. Isso não significa que você precise utilizar branco ou brilho intenso.</p>
+<p>Bege, champagne, rosado, dourado suave e diversas outras tonalidades podem desempenhar essa função. Escolha de acordo com o restante da maquiagem.</p>
+<h2>5. Crie profundidade no canto externo</h2>
+<p>Utilize uma sombra um pouco mais escura em uma área menor do canto externo. Deposite primeiro e depois esfume somente as bordas.</p>
+<p>Evite espalhar imediatamente essa cor por toda a pálpebra. Manter contraste entre regiões claras e profundas ajuda a preservar dimensão.</p>
+<h2>6. Direcione o esfumado conforme o efeito desejado</h2>
+<p>Levar discretamente o esfumado para fora pode criar sensação de alongamento. Para fazer isso, utilize pouco produto no pincel e construa a direção gradualmente.</p>
+<p>Observe os dois olhos abertos depois de cada etapa. Pequenas diferenças naturais podem exigir ajustes de altura ou direção.</p>
+<div class="ad-placeholder" aria-label="Publicidade">Espaço publicitário</div>
+<h2>7. Evite perder todo o espaço com sombra escura</h2>
+<p>Sombras profundas não são proibidas. Entretanto, quando ocupam toda a região visível, podem produzir um efeito mais fechado. Se seu objetivo é criar abertura, preserve algum contraste.</p>
+<p>Você pode concentrar a tonalidade escura próxima aos cílios e no canto externo enquanto mantém outra região mais luminosa.</p>
+<h2>8. Ilumine o canto interno com precisão</h2>
+<p>Uma pequena quantidade de sombra clara ou luminosa no canto interno cria um ponto de luz. Utilize um pincel pequeno para evitar espalhar brilho por uma área maior do que deseja.</p>
+<p>O efeito pode ser discreto. Não existe necessidade de utilizar um produto extremamente metálico.</p>
+<h2>9. Trabalhe abaixo dos olhos sem pesar</h2>
+<p>A sombra inferior ajuda a conectar o esfumado superior, mas a espessura influencia o resultado. Utilize um pincel pequeno e mantenha a aplicação próxima aos cílios.</p>
+<p>Comece pelo canto externo e leve o restante do produto para dentro. Dessa forma, a maior intensidade permanece onde você possui mais controle.</p>
+<h2>10. Lápis na linha d'água depende do efeito desejado</h2>
+<p>Um lápis claro pode criar sensação visual de maior abertura em algumas maquiagens. Já tonalidades escuras produzem maior definição e podem criar um efeito mais intenso.</p>
+<p>Nenhuma das opções é obrigatória. Escolha com base no estilo da maquiagem e utilize somente produtos apropriados para essa região.</p>
+<h2>11. Faça o delineado começando fino</h2>
+<p>Em olhos com pouco espaço visível de pálpebra, um delineado muito grosso pode ocupar grande parte dessa área. Comece com uma linha fina junto aos cílios.</p>
+<p>Depois de observar os olhos abertos, decida se deseja aumentar a espessura. É muito mais fácil engrossar uma linha fina do que corrigir uma linha que já ficou grande demais.</p>
+<h2>12. Construa o gatinho com os olhos abertos</h2>
+<p>Marque primeiro a direção externa enquanto olha para frente. Isso ajuda a visualizar como o traço ficará na posição natural.</p>
+<p>Depois conecte a ponta à linha dos cílios e preencha. Caso exista uma dobra atravessando a região, adapte o desenho ao formato do seu olho em vez de tentar manter uma linha geométrica que só funciona com a pele esticada.</p>
+<figure class="article-image">
+<div class="article-image-placeholder">
+<span>IMAGEM 02</span>
+<small>Delineado fino e direcionado em olhos pequenos.</small>
+</div>
+<figcaption>Começar com um traço fino preserva espaço de pálpebra e permite aumentar a intensidade somente se necessário.</figcaption>
+</figure>
+<h2>13. Curve os cílios quando desejar maior abertura</h2>
+<p>Curvar os cílios pode aumentar a percepção de abertura porque os fios deixam de apontar para frente e passam a ficar mais visíveis. Utilize uma ferramenta adequada com cuidado.</p>
+<p>Não puxe nem faça pressão excessiva. O objetivo é criar uma curvatura confortável.</p>
+<h2>14. Aplique máscara principalmente da raiz para as pontas</h2>
+<p>Encoste o aplicador próximo à raiz e leve em direção às pontas. Trabalhar dessa maneira ajuda a distribuir produto pelo comprimento.</p>
+<p>Uma segunda camada pode ser adicionada se você desejar maior intensidade. Evite continuar aplicando indefinidamente quando os fios começarem a grudar.</p>
+<h2>15. Dê atenção aos cílios externos</h2>
+<p>Concentrar um pouco mais de definição nos fios externos pode complementar um esfumado alongado. Isso pode ser feito com máscara ou com cílios postiços adequados, caso você goste de utilizá-los.</p>
+<p>Cílios postiços não são obrigatórios. Muitas maquiagens para olhos pequenos ficam completamente definidas apenas com máscara.</p>
+<h2>16. Escolha cílios postiços proporcionais</h2>
+<p>Modelos extremamente densos podem esconder grande parte da maquiagem dos olhos. Se seu objetivo é preservar luminosidade e espaço, experimente modelos mais leves ou concentrados no canto externo.</p>
+<p>Antes de aplicar, confira o comprimento da faixa e ajuste conforme necessário seguindo as instruções apropriadas do produto.</p>
+<h2>17. Sobrancelhas influenciam a moldura do olhar</h2>
+<p>Penteie os fios e preencha somente falhas. Uma sobrancelha muito carregada pode competir visualmente com uma maquiagem delicada, enquanto definição equilibrada ajuda a estruturar o conjunto.</p>
+<p>Não tente alterar completamente o formato natural apenas para aumentar visualmente os olhos.</p>
+<h2>18. Preserve algum espaço abaixo das sobrancelhas</h2>
+<p>Ao esfumar, observe até onde a sombra está subindo. Deixar uma pequena transição entre o esfumado e a sobrancelha ajuda a manter definição.</p>
+<p>Se a cor subiu demais, utilize um pincel limpo para suavizar a borda em vez de adicionar imediatamente uma sombra muito clara por cima.</p>
+<h2>19. Smokey eye também funciona em olhos pequenos</h2>
+<p>Um olho esfumado intenso não é exclusivo de olhos grandes. A chave é controlar onde está a maior profundidade.</p>
+<p>Mantenha a cor mais escura próxima aos cílios e no canto externo e crie transições progressivamente mais suaves conforme sobe. Isso produz intensidade sem transformar toda a região em um único bloco escuro.</p>
+<h2>20. Cut crease pode ser adaptado</h2>
+<p>Se você gosta dessa técnica, marque a nova linha observando os olhos abertos. Em alguns formatos, criar a divisão ligeiramente acima da dobra natural aumenta a parte visível da pálpebra.</p>
+<p>Faça a marcação gradualmente e compare os dois lados antes de adicionar produtos de alta cobertura.</p>
+<h2>21. Sombras cintilantes podem ampliar pontos específicos</h2>
+<p>O brilho reflete luz e pode destacar a região em que é aplicado. Colocá-lo no centro ou parte interna da pálpebra cria contraste com áreas mais profundas.</p>
+<p>Pressione o produto em vez de espalhar excessivamente para manter precisão.</p>
+<h2>22. Evite excesso de produto no pincel</h2>
+<p>Olhos pequenos oferecem menos área para corrigir uma sombra que se espalhou além do desejado. Pegue pouco produto, retire o excesso e construa a intensidade.</p>
+<p>Essa abordagem também facilita manter os dois olhos semelhantes.</p>
+<h2>23. Observe a simetria com os olhos abertos</h2>
+<p>Depois de cada cor importante, afaste-se do espelho. Veja se a altura do esfumado parece equilibrada e se os cantos externos apontam para direções semelhantes.</p>
+<p>Não busque simetria matemática. Pequenas diferenças fazem parte da anatomia natural.</p>
+<figure class="article-image">
+<div class="article-image-placeholder">
+<span>IMAGEM 03</span>
+<small>Resultado final de maquiagem equilibrada para olhos pequenos.</small>
+</div>
+<figcaption>Contraste, delineado proporcional e cílios definidos podem valorizar o olhar preservando o formato natural.</figcaption>
+</figure>
+<h2>24. Corrija sombras que subiram demais</h2>
+<p>Utilize primeiro um pincel limpo para suavizar a borda. Se ainda houver necessidade, faça uma correção pequena com o produto utilizado na pele ao redor.</p>
+<p>Evite criar uma faixa pesada de corretivo apenas para cortar o esfumado, a menos que esse seja intencionalmente o estilo da maquiagem.</p>
+<h2>25. Corrija delineado muito grosso com cuidado</h2>
+<p>Se o delineado ocupou espaço demais, não tente equilibrar engrossando automaticamente o outro lado. Remova ou corrija parte do traço primeiro.</p>
+<p>Pequenas correções preservam mais da maquiagem já pronta.</p>
+<h2>26. Maquiagem natural para olhos pequenos</h2>
+<p>Para um resultado leve, utilize uma sombra de transição suave, luminosidade discreta na pálpebra, máscara e sobrancelhas organizadas. Um delineado fino é opcional.</p>
+<p>Essa combinação pode destacar o olhar sem parecer uma produção muito elaborada.</p>
+<div class="ad-placeholder" aria-label="Publicidade">Espaço publicitário</div>
+<h2>27. Maquiagem para festa</h2>
+<p>Em uma ocasião noturna, aumente gradualmente a profundidade no canto externo, acrescente brilho se desejar e intensifique os cílios.</p>
+<p>Você pode utilizar cores fortes mantendo o princípio de posicionar cada tonalidade de maneira intencional.</p>
+<h2>28. Olhos pequenos podem usar sombra preta?</h2>
+<p>Sim. Sombra preta pode criar profundidade e intensidade. Comece com pouca quantidade e concentre na região desejada.</p>
+<p>Utilizar preto de maneira estratégica é diferente de cobrir toda a área disponível sem transição. A técnica determina grande parte do efeito.</p>
+<h2>29. Olhos pequenos podem usar lápis preto?</h2>
+<p>Também podem. Na linha d'água, ele tende a criar maior definição e um efeito visual diferente de um lápis claro. Se você gosta desse resultado, não existe motivo para abandonar a técnica.</p>
+<p>Use produtos adequados para a região dos olhos e escolha o efeito de acordo com a maquiagem.</p>
+<h2>30. O formato importa mais do que uma regra pronta</h2>
+<p>Dois olhos considerados pequenos podem possuir formatos completamente diferentes. Um pode ser mais arredondado, outro alongado; um pode apresentar pálpebra aparente e outro possuir dobra mais baixa.</p>
+<p>Por isso, observe sua própria anatomia antes de seguir qualquer dica.</p>
+<h2>31. Treine apenas um olho quando estiver aprendendo</h2>
+<p>Em momentos de prática, você pode testar duas técnicas diferentes, uma em cada olho. Compare o resultado com os olhos abertos e fotografe.</p>
+<p>Essa experiência mostra rapidamente qual posicionamento funciona melhor no seu formato.</p>
+<h2>32. Fotografe em iluminação normal</h2>
+<p>Uma foto frontal ajuda a perceber se o delineado está ocupando espaço demais ou se o esfumado desaparece quando os olhos estão abertos.</p>
+<p>Evite filtros durante a avaliação porque eles podem modificar formato, contraste e textura.</p>
+<h2>Conclusão</h2>
+<p>Maquiagem para olhos pequenos não precisa ser construída a partir de proibições. Sombras escuras, delineador, lápis preto, brilho e cílios postiços podem fazer parte da produção.</p>
+<p>O segredo está principalmente em observar quanto espaço permanece visível, construir as sombras gradualmente, manter controle sobre a espessura do delineado e verificar frequentemente o resultado com os olhos abertos.</p>
+<p>Com prática, você poderá decidir quando deseja aumentar visualmente a abertura, alongar o olhar ou simplesmente destacar o formato natural.</p>
+<p><a href="como-aplicar-sombra-nos-olhos.html"><strong>Leia também: como aplicar sombra nos olhos →</strong></a></p>
+<p><a href="como-fazer-delineado-gatinho.html"><strong>Leia também: como fazer delineado perfeito →</strong></a></p>
+<p><a href="como-aplicar-mascara-de-cilios-corretamente.html"><strong>Leia também: como aplicar máscara de cílios →</strong></a></p>
+<section class="article-faq">
+<h2>Perguntas frequentes</h2>
+<div class="article-faq-item"><h3>Qual sombra aumenta visualmente olhos pequenos?</h3><p>Sombras claras ou luminosas podem destacar determinadas regiões, enquanto tons mais profundos criam dimensão. O posicionamento e o contraste são mais importantes do que escolher uma única cor.</p></div>
+<div class="article-faq-item"><h3>Olhos pequenos podem usar delineador?</h3><p>Sim. Começar com um traço fino próximo aos cílios ajuda a preservar espaço de pálpebra, e depois você pode aumentar a espessura conforme o efeito desejado.</p></div>
+<div class="article-faq-item"><h3>Posso usar lápis preto em olhos pequenos?</h3><p>Sim. Ele cria maior definição e um efeito diferente de lápis claros. Não existe uma proibição; escolha de acordo com o resultado que você deseja.</p></div>
+<div class="article-faq-item"><h3>Cílios postiços ajudam a aumentar os olhos?</h3><p>Dependendo do formato, podem criar maior definição e abertura visual, mas não são necessários. Máscara e curvatura dos cílios naturais também podem produzir esse efeito.</p></div>
+</section>
+<button type="button" class="article-favorite" data-favorite-article="maquiagem-para-olhos-pequenos.html">★ Adicionar aos favoritos</button>
+</article>
+
+      </div>
+
+      <aside class="article-sidebar">
+
+        <section class="sidebar-card">
+          <h2>Continue aprendendo</h2>
+          <p>Explore outros conteúdos relacionados e aprofunde sua prática.</p>
+
+          <div class="sidebar-links">
+            <a href="../courses.html"><span>Curso gratuito</span><span>→</span></a>
+            <a href="../categorias.html"><span>Categorias</span><span>→</span></a>
+            <a href="../artigos.html"><span>Todos os artigos</span><span>→</span></a>
+          </div>
+        </section>
+
+        <div class="ad-placeholder" aria-label="Publicidade">
+          Espaço publicitário
+        </div>
+
+      </aside>
+
+    </div>
+
+  </div>
+
+</main>
+
+<footer class="site-footer">
+
+  <div class="container footer-grid">
+
+    <div class="footer-brand">
+      <a href="../index.html" class="footer-logo">
+        <span>Beleza em Foco</span>
+      </a>
+
+      <p>
+        Seu portal sobre maquiagem, beleza e autocuidado.
+        Conteúdo educativo para aprender com mais confiança.
+      </p>
+    </div>
+
+    <div class="footer-column">
+      <h2>Navegação</h2>
+      <ul>
+        <li><a href="../index.html">Início</a></li>
+        <li><a href="../artigos.html">Artigos</a></li>
+        <li><a href="../courses.html">Tutoriais</a></li>
+        <li><a href="../categorias.html">Categorias</a></li>
+        <li><a href="../contact.html">Contato</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h2>Institucional</h2>
+      <ul>
+        <li><a href="../about.html">Sobre Nós</a></li>
+        <li><a href="../privacy.html">Política de Privacidade</a></li>
+        <li><a href="../cookies.html">Política de Cookies</a></li>
+        <li><a href="../terms.html">Termos de Uso</a></li>
+        <li><a href="../editorial-policy.html">Política Editorial</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <p>© 2026 Beleza em Foco. Todos os direitos reservados.</p>
+    </div>
+  </div>
+
+</footer>
+
+<div class="cookie-banner" id="cookie-banner" hidden>
+  <div class="cookie-content">
+    <div>
+      <strong>Privacidade e cookies</strong>
+      <p>Usamos cookies para melhorar sua experiência e preparar recursos de publicidade.</p>
+      <a href="../cookies.html">Política de Cookies</a>
+    </div>
+
+    <div class="cookie-actions">
+      <button type="button" id="cookie-settings">Configurar</button>
+      <button type="button" id="cookie-reject">Rejeitar não essenciais</button>
+      <button type="button" id="cookie-accept">Aceitar</button>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+

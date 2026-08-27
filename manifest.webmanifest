@@ -1,0 +1,12 @@
+{
+  "name": "Beleza em Foco",
+  "short_name": "Beleza em Foco",
+  "description": "Portal de maquiagem, beleza, autocuidado, tutoriais e cursos gratuitos.",
+  "lang": "pt-BR",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fff8fb",
+  "theme_color": "#d40b70",
+  "orientation": "portrait-primary"
+}

@@ -26,7 +26,7 @@
     content="Maquiagem, autocuidado e confiança. Tutoriais, artigos e inspirações para todos os estilos."
   >
   <meta property="og:url" content="https://seudominio.com/">
-  <meta property="og:image" content="assets/img/hero-maquiagem.png">
+  <meta property="og:image" content="assets/img/hero-maquiagem.webp">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Beleza em Foco">
@@ -34,7 +34,7 @@
     name="twitter:description"
     content="Maquiagem, autocuidado e confiança."
   >
-  <meta name="twitter:image" content="assets/img/hero-maquiagem.png">
+  <meta name="twitter:image" content="assets/img/hero-maquiagem.webp">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -420,7 +420,7 @@
         <div class="hero-model">
 
           <img
-            src="assets/img/hero-maquiagem.png"
+            src="assets/img/hero-maquiagem.webp"
             width="760"
             height="500"
             alt="Mulher com maquiagem glam aplicando blush"
@@ -498,13 +498,13 @@
               <span class="section-title-icon" aria-hidden="true">🔥</span>
 
               <div>
-                <h2>Todos os Artigos</h2>
+                <h2>Artigos em Destaque</h2>
                 <span class="title-line"></span>
               </div>
             </div>
 
             <a href="artigos.html" class="view-all-button">
-              50 artigos para você explorar
+              Ver todos os 50 artigos
               <span aria-hidden="true">→</span>
             </a>
 
@@ -773,7 +773,7 @@
                 <div class="article-image-wrapper">
 
                   <img
-                    src="assets/img/articles/como-aplicar-batom-perfeitamente-capa.png"
+                    src="assets/img/articles/31-batom-vermelho-como-escolher-tom-ideal-capa.webp"
                     alt="Mulher usando batom vermelho"
                     width="520"
                     height="300"
@@ -1329,88 +1329,5 @@ document.querySelectorAll(".mini-article-card").forEach((c,i)=>u(c,a[i+4],i+4));
 
 
 <script src="js/lipstick3d.js" defer></script>
-<script id="home-all-articles">
-document.addEventListener("DOMContentLoaded", () => {
-  const articles = window.belezaEmFocoArticles || [];
-  const grid = document.querySelector("#artigos-destaque .article-grid");
-  if (!grid || !articles.length) return;
-
-  grid.innerHTML = ""; const existing = new Set(
-    [...grid.querySelectorAll("a[href]")].map(a => {
-      try { return new URL(a.href, location.href).pathname.split("/").pop(); }
-      catch(e) { return ""; }
-    })
-  );
-
-  const categorySlug = value =>
-    (value || "maquiagem")
-      .normalize("NFD")
-      .replace(/[\u0300-\u036f]/g, "")
-      .toLowerCase()
-      .replace(/[^a-z0-9]+/g, "-")
-      .replace(/^-|-$/g, "");
-
-  articles.forEach((article, index) => {
-    const filename = (article.url || "").split("/").pop();
-    if (!filename || existing.has(filename)) return;
-
-    const number = String(index + 1).padStart(2, "0");
-    const category = article.category || "Maquiagem";
-    const slug = filename.replace(/\.html$/i, "");
-    const image = `assets/img/articles/${slug}-capa.png`;
-
-    const card = document.createElement("article");
-    card.className = "article-card";
-    card.dataset.category = categorySlug(category);
-    card.dataset.articleId = article.id || number;
-
-    card.innerHTML = `
-      <a href="${article.url}" class="article-image-link">
-        <div class="article-image-wrapper">
-          <img
-            src="${image}"
-            alt="${article.title}"
-            width="520"
-            height="300"
-            loading="lazy"
-            onerror="if(!this.dataset.pngFallback){this.dataset.pngFallback='1';this.src=this.src.replace(/\.webp$/i,'.png')}else{this.style.visibility='hidden'}"
-          >
-          <span class="article-number">${number}</span>
-          <span class="article-category">${category.toUpperCase()}</span>
-        </div>
-      </a>
-
-      <div class="article-card-body">
-        <button
-          class="favorite-toggle"
-          type="button"
-          data-favorite-id="${article.id || number}"
-          aria-label="Adicionar artigo aos favoritos"
-        >♡</button>
-
-        <h3>
-          <a href="${article.url}">${article.title}</a>
-        </h3>
-
-        <p>${article.description || "Confira este guia completo de maquiagem e aprenda todas as etapas."}</p>
-      </div>
-
-      <div class="article-meta">
-        <span><span aria-hidden="true">▣</span> Beleza em Foco</span>
-        <span><span aria-hidden="true">◷</span> Guia completo</span>
-      </div>
-    `;
-
-    grid.appendChild(card);
-    existing.add(filename);
-  });
-
-  if (typeof updateFavoriteButtons === "function") {
-    updateFavoriteButtons();
-  }
-
-  console.log("HOME: " + grid.querySelectorAll(".article-card").length + " artigos exibidos");
-});
-</script>
 </body>
 </html>

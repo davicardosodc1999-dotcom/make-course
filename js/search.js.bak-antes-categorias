@@ -1,4 +1,4 @@
-const headerSearchForm = document.getElementById("header-search-form");
+﻿const headerSearchForm = document.getElementById("header-search-form");
 const headerSearchInput = document.getElementById("header-search-input");
 const searchSuggestions = document.getElementById("search-suggestions");
 
@@ -6,402 +6,402 @@ const belezaEmFocoArticles = [
     {
         "id":  "01",
         "title":  "Como Aplicar Batom Perfeitamente: Contorno, Duração e Acabamento",
-        "category":  "Maquiagem",
+        "category":  "Lábios",
         "description":  "Aprenda como aplicar batom perfeitamente, preparar os lábios, usar lápis, corrigir bordas, aumentar a duração e criar acabamento definido.",
         "url":  "articles/como-aplicar-batom-perfeitamente.html",
-        "keywords":  "como aplicar batom perfeitamente: contorno, duração e acabamento"
+        "keywords":  "como aplicar batom perfeitamente contorno duração e acabamento lábios aprenda como aplicar batom perfeitamente preparar os lábios usar lápis corrigir bordas aumentar a duração e criar acabamento definido"
     },
     {
         "id":  "02",
         "title":  "Como Aplicar Blush Corretamente: Cores, Posição e Acabamento",
-        "category":  "Maquiagem",
+        "category":  "Rosto",
         "description":  "Aprenda como aplicar blush corretamente, escolher a cor ideal, controlar a quantidade e posicionar o produto para criar uma maquiagem equilibrada.",
         "url":  "articles/como-aplicar-blush-corretamente.html",
-        "keywords":  "como aplicar blush corretamente: cores, posição e acabamento"
+        "keywords":  "como aplicar blush corretamente cores posição e acabamento rosto aprenda como aplicar blush corretamente escolher a cor ideal controlar a quantidade e posicionar o produto para criar uma maquiagem equilibrada"
     },
     {
         "id":  "03",
         "title":  "Como Aplicar Corretivo Corretamente sem Craquelar ou Pesar",
-        "category":  "Maquiagem",
+        "category":  "Pele",
         "description":  "Aprenda como aplicar corretivo corretamente nas olheiras e manchas, escolher a cor, evitar craquelamento, selar com pó e criar iluminação natural.",
         "url":  "articles/como-aplicar-corretivo-corretamente.html",
-        "keywords":  "como aplicar corretivo corretamente sem craquelar ou pesar"
+        "keywords":  "como aplicar corretivo corretamente sem craquelar ou pesar pele aprenda como aplicar corretivo corretamente nas olheiras e manchas escolher a cor evitar craquelamento selar com pó e criar iluminação natural"
     },
     {
         "id":  "04",
         "title":  "Como Aplicar Iluminador Corretamente: Guia para Iniciantes",
-        "category":  "Maquiagem",
+        "category":  "Pele",
         "description":  "Aprenda como aplicar iluminador corretamente, escolher a tonalidade, iluminar as maçãs e criar luminosidade natural sem destacar textura.",
         "url":  "articles/como-aplicar-iluminador-corretamente.html",
-        "keywords":  "como aplicar iluminador corretamente: guia para iniciantes"
+        "keywords":  "como aplicar iluminador corretamente guia para iniciantes pele aprenda como aplicar iluminador corretamente escolher a tonalidade iluminar as maçãs e criar luminosidade natural sem destacar textura"
     },
     {
         "id":  "05",
         "title":  "Como Aplicar Máscara de Cílios Corretamente sem Empelotar",
-        "category":  "Maquiagem",
+        "category":  "Olhos",
         "description":  "Aprenda como aplicar máscara de cílios corretamente, criar volume e alongamento, separar os fios, evitar grumos e corrigir borrões.",
         "url":  "articles/como-aplicar-mascara-de-cilios-corretamente.html",
-        "keywords":  "como aplicar máscara de cílios corretamente sem empelotar"
+        "keywords":  "como aplicar máscara de cílios corretamente sem empelotar olhos aprenda como aplicar máscara de cílios corretamente criar volume e alongamento separar os fios evitar grumos e corrigir borrões"
     },
     {
         "id":  "06",
         "title":  "Como Aplicar Sombra nos Olhos: Guia para Iniciantes",
-        "category":  "Maquiagem",
+        "category":  "Olhos",
         "description":  "Aprenda como aplicar sombra nos olhos passo a passo, esfumar corretamente, criar profundidade e evitar manchas mesmo sendo iniciante.",
         "url":  "articles/como-aplicar-sombra-nos-olhos.html",
-        "keywords":  "como aplicar sombra nos olhos: guia para iniciantes"
+        "keywords":  "como aplicar sombra nos olhos guia para iniciantes olhos aprenda como aplicar sombra nos olhos passo a passo esfumar corretamente criar profundidade e evitar manchas mesmo sendo iniciante"
     },
     {
         "id":  "07",
         "title":  "Como Escolher a Base Certa: Cor, Subtom e Acabamento",
-        "category":  "Maquiagem",
+        "category":  "Pele",
         "description":  "Aprenda como escolher a base certa para sua pele, identificar tom e subtom, escolher cobertura e acabamento e testar a tonalidade corretamente.",
         "url":  "articles/como-escolher-a-base-certa.html",
-        "keywords":  "como escolher a base certa: cor, subtom e acabamento"
+        "keywords":  "como escolher a base certa cor subtom e acabamento pele aprenda como escolher a base certa para sua pele identificar tom e subtom escolher cobertura e acabamento e testar a tonalidade corretamente"
     },
     {
         "id":  "08",
         "title":  "Como Escolher a Base Ideal: Tom, Subtom, Cobertura e Acabamento",
-        "category":  "Maquiagem",
+        "category":  "Pele",
         "description":  "Aprenda como escolher a base ideal considerando tom, subtom, tipo de pele, cobertura, acabamento, textura e forma correta de testar antes da maquiagem.",
         "url":  "articles/como-escolher-a-base-ideal.html",
-        "keywords":  "como escolher a base ideal: tom, subtom, cobertura e acabamento"
+        "keywords":  "como escolher a base ideal tom subtom cobertura e acabamento pele aprenda como escolher a base ideal considerando tom subtom tipo de pele cobertura acabamento textura e forma correta de testar antes da maquiagem"
     },
     {
         "id":  "09",
         "title":  "Como Esfumar Sombra para Iniciantes: Passo a Passo Completo",
-        "category":  "Maquiagem",
+        "category":  "Olhos",
         "description":  "Aprenda como esfumar sombra do zero, escolher cores e pincéis, criar transições, corrigir manchas e adaptar o esfumado ao formato dos olhos.",
         "url":  "articles/como-esfumar-sombra-para-iniciantes.html",
-        "keywords":  "como esfumar sombra para iniciantes: passo a passo completo"
+        "keywords":  "como esfumar sombra para iniciantes passo a passo completo olhos aprenda como esfumar sombra do zero escolher cores e pincéis criar transições corrigir manchas e adaptar o esfumado ao formato dos olhos"
     },
     {
         "id":  "10",
         "title":  "Como Fazer a Maquiagem Durar Mais: Guia Completo",
-        "category":  "Maquiagem",
+        "category":  "Dicas",
         "description":  "Aprenda como fazer a maquiagem durar mais com preparação da pele, primer, camadas finas, pó, spray fixador e retoques estratégicos.",
         "url":  "articles/como-fazer-a-maquiagem-durar-mais.html",
-        "keywords":  "como fazer a maquiagem durar mais: guia completo"
+        "keywords":  "como fazer a maquiagem durar mais guia completo dicas aprenda como fazer a maquiagem durar mais com preparação da pele primer camadas finas pó spray fixador e retoques estratégicos"
     },
     {
         "id":  "11",
         "title":  "Como Fazer Contorno Facial para Iniciantes: Passo a Passo",
-        "category":  "Maquiagem",
+        "category":  "Pele",
         "description":  "Aprenda como fazer contorno facial para iniciantes, escolher a cor, aplicar nas maçãs, testa e mandíbula e esfumar sem deixar linhas marcadas.",
         "url":  "articles/como-fazer-contorno-facial-para-iniciantes.html",
-        "keywords":  "como fazer contorno facial para iniciantes: passo a passo"
+        "keywords":  "como fazer contorno facial para iniciantes passo a passo pele aprenda como fazer contorno facial para iniciantes escolher a cor aplicar nas maçãs testa e mandíbula e esfumar sem deixar linhas marcadas"
     },
     {
         "id":  "12",
-        "title":  "Maquiagem Drag Queen: Guia Completo Passo a Passo para Iniciantes: Passo a Passo",
-        "category":  "Maquiagem",
-        "description":  "Aprenda como fazer delineado gatinho para iniciantes, escolher o delineador, criar linhas finas, corrigir erros e adaptar a técnica ao formato dos olhos.",
-        "url":  "articles/como-fazer-delineado-gatinho-para-iniciantes.html",
-        "keywords":  "como fazer delineado gatinho para iniciantes: passo a passo"
+        "title":  "Como Fazer Delineado Gatinho: Passo a Passo para Iniciantes",
+        "category":  "Olhos",
+        "description":  "Aprenda como fazer delineado gatinho passo a passo, criar o puxado, deixar os dois olhos equilibrados e corrigir erros sem engrossar o traço.",
+        "url":  "articles/como-fazer-delineado-gatinho.html",
+        "keywords":  "como fazer delineado gatinho passo a passo para iniciantes olhos aprenda como fazer delineado gatinho passo a passo criar o puxado deixar os dois olhos equilibrados e corrigir erros sem engrossar o traço"
     },
     {
         "id":  "13",
-        "title":  "Maquiagem Drag Queen: Guia Completo Passo a Passo",
-        "category":  "Maquiagem",
-        "description":  "Aprenda como fazer delineado gatinho passo a passo, criar o puxado, deixar os dois olhos equilibrados e corrigir erros sem engrossar o traço.",
-        "url":  "articles/como-fazer-delineado-gatinho.html",
-        "keywords":  "como fazer delineado gatinho: passo a passo para iniciantes"
+        "title":  "Como Fazer Delineado Gatinho para Iniciantes: Passo a Passo",
+        "category":  "Olhos",
+        "description":  "Aprenda como fazer delineado gatinho para iniciantes, escolher o delineador, criar linhas finas, corrigir erros e adaptar a técnica ao formato dos olhos.",
+        "url":  "articles/como-fazer-delineado-gatinho-para-iniciantes.html",
+        "keywords":  "como fazer delineado gatinho para iniciantes passo a passo olhos aprenda como fazer delineado gatinho para iniciantes escolher o delineador criar linhas finas corrigir erros e adaptar a técnica ao formato dos olhos"
     },
     {
         "id":  "14",
         "title":  "Como Fazer Maquiagem para Pele Oleosa: Guia Completo",
-        "category":  "Maquiagem",
+        "category":  "Maquiagem para Iniciantes",
         "description":  "Aprenda como preparar e maquiar a pele oleosa utilizando técnicas para controlar o brilho e evitar excesso de produto.",
         "url":  "articles/como-fazer-maquiagem-para-pele-oleosa.html",
-        "keywords":  "como fazer maquiagem para pele oleosa: guia completo"
+        "keywords":  "como fazer maquiagem para pele oleosa guia completo maquiagem para iniciantes aprenda como preparar e maquiar a pele oleosa utilizando técnicas para controlar o brilho e evitar excesso de produto"
     },
     {
         "id":  "15",
         "title":  "Como Fazer Maquiagem para Pele Seca: Guia Completo",
-        "category":  "Maquiagem",
+        "category":  "Maquiagem para Iniciantes",
         "description":  "Aprenda como preparar e maquiar a pele seca utilizando hidratação, camadas finas e técnicas para um acabamento confortável.",
         "url":  "articles/como-fazer-maquiagem-para-pele-seca.html",
-        "keywords":  "como fazer maquiagem para pele seca: guia completo"
+        "keywords":  "como fazer maquiagem para pele seca guia completo maquiagem para iniciantes aprenda como preparar e maquiar a pele seca utilizando hidratação camadas finas e técnicas para um acabamento confortável"
     },
     {
         "id":  "16",
-        "title":  "Como Preencher as Sobrancelhas Naturalmente: Guia para Iniciantes",
-        "category":  "Maquiagem",
-        "description":  "Aprenda como preencher sobrancelhas naturalmente, escolher lápis, sombra ou pomada, corrigir falhas e evitar um acabamento pesado.",
-        "url":  "articles/como-preencher-sobrancelhas-naturalmente.html",
-        "keywords":  "como preencher as sobrancelhas naturalmente: guia para iniciantes"
+        "title":  "Como Preencher as Sobrancelhas Naturalmente: Passo a Passo",
+        "category":  "Sobrancelhas",
+        "description":  "Aprenda como preencher as sobrancelhas naturalmente, escolher a cor, corrigir falhas e criar fios delicados sem deixar o resultado marcado.",
+        "url":  "articles/como-preencher-as-sobrancelhas-naturalmente.html",
+        "keywords":  "como preencher as sobrancelhas naturalmente passo a passo sobrancelhas aprenda como preencher as sobrancelhas naturalmente escolher a cor corrigir falhas e criar fios delicados sem deixar o resultado marcado"
     },
     {
         "id":  "17",
-        "title":  "Como Preencher as Sobrancelhas Naturalmente: Passo a Passo",
-        "category":  "Maquiagem",
-        "description":  "Aprenda como preencher as sobrancelhas naturalmente, escolher a cor, corrigir falhas e criar fios delicados sem deixar o resultado marcado.",
-        "url":  "articles/como-preencher-as-sobrancelhas-naturalmente.html",
-        "keywords":  "como preencher as sobrancelhas naturalmente: passo a passo"
+        "title":  "Como Preencher as Sobrancelhas Naturalmente: Guia para Iniciantes",
+        "category":  "Sobrancelhas",
+        "description":  "Aprenda como preencher sobrancelhas naturalmente, escolher lápis, sombra ou pomada, corrigir falhas e evitar um acabamento pesado.",
+        "url":  "articles/como-preencher-sobrancelhas-naturalmente.html",
+        "keywords":  "como preencher as sobrancelhas naturalmente guia para iniciantes sobrancelhas aprenda como preencher sobrancelhas naturalmente escolher lápis sombra ou pomada corrigir falhas e evitar um acabamento pesado"
     },
     {
         "id":  "18",
         "title":  "Como Preparar a Pele Antes da Maquiagem: Guia Passo a Passo",
-        "category":  "Maquiagem",
+        "category":  "Pele",
         "description":  "Aprenda como preparar a pele antes da maquiagem com limpeza, hidratação, protetor, primer, base, corretivo, pó e técnicas para diferentes tipos de pele.",
         "url":  "articles/como-preparar-a-pele-antes-da-maquiagem.html",
-        "keywords":  "como preparar a pele antes da maquiagem: guia passo a passo"
+        "keywords":  "como preparar a pele antes da maquiagem guia passo a passo pele aprenda como preparar a pele antes da maquiagem com limpeza hidratação protetor primer base corretivo pó e técnicas para diferentes tipos de pele"
     },
     {
         "id":  "19",
         "title":  "Como Usar Corretivo Corretamente sem Acumular",
-        "category":  "Maquiagem",
+        "category":  "Pele",
         "description":  "Aprenda como usar corretivo corretamente, cobrir olheiras e manchas, escolher a tonalidade e evitar acúmulo nas linhas abaixo dos olhos.",
         "url":  "articles/como-usar-corretivo-corretamente.html",
-        "keywords":  "como usar corretivo corretamente sem acumular"
+        "keywords":  "como usar corretivo corretamente sem acumular pele aprenda como usar corretivo corretamente cobrir olheiras e manchas escolher a tonalidade e evitar acúmulo nas linhas abaixo dos olhos"
     },
     {
         "id":  "20",
         "title":  "Como Usar Pó Facial sem Craquelar: Guia de Selagem da Maquiagem",
-        "category":  "Maquiagem",
+        "category":  "Pele",
         "description":  "Aprenda como usar pó facial sem craquelar, escolher entre pó solto e compacto, selar corretivo, controlar oleosidade e evitar acabamento pesado.",
         "url":  "articles/como-usar-po-facial-sem-craquelar.html",
-        "keywords":  "como usar pó facial sem craquelar: guia de selagem da maquiagem"
+        "keywords":  "como usar pó facial sem craquelar guia de selagem da maquiagem pele aprenda como usar pó facial sem craquelar escolher entre pó solto e compacto selar corretivo controlar oleosidade e evitar acabamento pesado"
     },
     {
         "id":  "21",
         "title":  "Contorno Facial para Iniciantes: Como Aplicar e Esfumar Corretamente",
-        "category":  "Maquiagem",
+        "category":  "Rosto",
         "description":  "Aprenda contorno facial para iniciantes, onde aplicar, como escolher a cor, esfumar sem manchas e criar profundidade natural no rosto.",
         "url":  "articles/contorno-facial-para-iniciantes.html",
-        "keywords":  "contorno facial para iniciantes: como aplicar e esfumar corretamente"
+        "keywords":  "contorno facial para iniciantes como aplicar e esfumar corretamente rosto aprenda contorno facial para iniciantes onde aplicar como escolher a cor esfumar sem manchas e criar profundidade natural no rosto"
     },
     {
         "id":  "22",
         "title":  "Kit de Maquiagem para Iniciantes: O Que Comprar Primeiro",
-        "category":  "Maquiagem",
+        "category":  "Maquiagem para Iniciantes",
         "description":  "Veja como montar um kit de maquiagem para iniciantes com produtos e pincéis essenciais, o que comprar primeiro e quais itens podem esperar.",
         "url":  "articles/kit-de-maquiagem-para-iniciantes.html",
-        "keywords":  "kit de maquiagem para iniciantes: o que comprar primeiro"
+        "keywords":  "kit de maquiagem para iniciantes o que comprar primeiro maquiagem para iniciantes veja como montar um kit de maquiagem para iniciantes com produtos e pincéis essenciais o que comprar primeiro e quais itens podem esperar"
     },
     {
         "id":  "23",
         "title":  "Maquiagem Colorida para Iniciantes: Guia Passo a Passo",
-        "category":  "Maquiagem",
+        "category":  "Técnicas",
         "description":  "Aprenda maquiagem colorida para iniciantes com técnicas simples para usar azul, verde, rosa, roxo e outras cores sem complicação.",
         "url":  "articles/maquiagem-colorida-para-iniciantes.html",
-        "keywords":  "maquiagem colorida para iniciantes: guia passo a passo"
+        "keywords":  "maquiagem colorida para iniciantes guia passo a passo técnicas aprenda maquiagem colorida para iniciantes com técnicas simples para usar azul verde rosa roxo e outras cores sem complicação"
     },
     {
         "id":  "24",
         "title":  "Maquiagem Glow: Passo a Passo para Pele Luminosa",
-        "category":  "Maquiagem",
+        "category":  "Técnicas",
         "description":  "Aprenda como fazer maquiagem glow com pele luminosa, blush, iluminador e técnicas para criar brilho estratégico sem aparência excessivamente oleosa.",
         "url":  "articles/maquiagem-glow-passo-a-passo.html",
-        "keywords":  "maquiagem glow: passo a passo para pele luminosa"
+        "keywords":  "maquiagem glow passo a passo para pele luminosa técnicas aprenda como fazer maquiagem glow com pele luminosa blush iluminador e técnicas para criar brilho estratégico sem aparência excessivamente oleosa"
     },
     {
         "id":  "25",
         "title":  "Maquiagem Minimalista: Passo a Passo com Poucos Produtos",
-        "category":  "Maquiagem",
+        "category":  "Técnicas",
         "description":  "Aprenda como fazer maquiagem minimalista usando poucos produtos, criando uma rotina rápida, versátil e completa para diferentes ocasiões.",
         "url":  "articles/maquiagem-minimalista-passo-a-passo.html",
-        "keywords":  "maquiagem minimalista: passo a passo com poucos produtos"
+        "keywords":  "maquiagem minimalista passo a passo com poucos produtos técnicas aprenda como fazer maquiagem minimalista usando poucos produtos criando uma rotina rápida versátil e completa para diferentes ocasiões"
     },
     {
         "id":  "26",
         "title":  "Maquiagem Natural para o Dia a Dia: Passo a Passo para Iniciantes",
-        "category":  "Maquiagem",
+        "category":  "Iniciantes",
         "description":  "Aprenda maquiagem natural para o dia a dia com pele leve, corretivo, blush, sobrancelhas, olhos e lábios em um passo a passo para iniciantes.",
         "url":  "articles/maquiagem-natural-para-o-dia-a-dia.html",
-        "keywords":  "maquiagem natural para o dia a dia: passo a passo para iniciantes"
+        "keywords":  "maquiagem natural para o dia a dia passo a passo para iniciantes iniciantes aprenda maquiagem natural para o dia a dia com pele leve corretivo blush sobrancelhas olhos e lábios em um passo a passo para iniciantes"
     },
     {
         "id":  "27",
         "title":  "Maquiagem para a Noite: Guia Completo Passo a Passo",
-        "category":  "Maquiagem",
+        "category":  "Ocasiões",
         "description":  "Aprenda como fazer maquiagem para a noite com pele equilibrada, olhos esfumados, brilho, delineado e lábios intensos para diferentes eventos.",
         "url":  "articles/maquiagem-para-a-noite-guia-completo.html",
-        "keywords":  "maquiagem para a noite: guia completo passo a passo"
+        "keywords":  "maquiagem para a noite guia completo passo a passo ocasiões aprenda como fazer maquiagem para a noite com pele equilibrada olhos esfumados brilho delineado e lábios intensos para diferentes eventos"
     },
     {
         "id":  "28",
         "title":  "Maquiagem para Casamento: Guia Completo Passo a Passo",
-        "category":  "Maquiagem",
+        "category":  "Maquiagem para Iniciantes",
         "description":  "Aprenda como fazer maquiagem para casamento com preparação da pele, olhos, acabamento e técnicas para aumentar a duração.",
         "url":  "articles/maquiagem-para-casamento-guia-completo.html",
-        "keywords":  "maquiagem para casamento: guia completo passo a passo"
+        "keywords":  "maquiagem para casamento guia completo passo a passo maquiagem para iniciantes aprenda como fazer maquiagem para casamento com preparação da pele olhos acabamento e técnicas para aumentar a duração"
     },
     {
         "id":  "29",
         "title":  "Maquiagem para Dias Quentes: Como Fazer Durar no Verão",
-        "category":  "Maquiagem",
+        "category":  "Técnicas",
         "description":  "Aprenda maquiagem para dias quentes com técnicas de preparação, base, pó, olhos e retoques para manter conforto e duração durante o verão.",
         "url":  "articles/maquiagem-para-dias-quentes-verao.html",
-        "keywords":  "maquiagem para dias quentes: como fazer durar no verão"
+        "keywords":  "maquiagem para dias quentes como fazer durar no verão técnicas aprenda maquiagem para dias quentes com técnicas de preparação base pó olhos e retoques para manter conforto e duração durante o verão"
     },
     {
         "id":  "30",
         "title":  "Maquiagem para Eventos de Dia: Guia Completo",
-        "category":  "Maquiagem",
+        "category":  "Maquiagem para Iniciantes",
         "description":  "Guia completo de maquiagem para iniciantes com preparação da pele, base, corretivo, pó, blush, sobrancelhas, olhos, cílios, lábios, higiene e dicas práticas.",
         "url":  "articles/maquiagem-para-eventos-de-dia.html",
-        "keywords":  "maquiagem para eventos de dia: guia completo"
+        "keywords":  "maquiagem para eventos de dia guia completo maquiagem para iniciantes guia completo de maquiagem para iniciantes com preparação da pele base corretivo pó blush sobrancelhas olhos cílios lábios higiene e dicas práticas"
     },
     {
         "id":  "31",
         "title":  "Maquiagem para Festa Passo a Passo: Guia Completo",
-        "category":  "Maquiagem",
+        "category":  "Ocasiões",
         "description":  "Aprenda como fazer maquiagem para festa passo a passo, preparar a pele, maquiar os olhos e aumentar a duração da produção durante o evento.",
         "url":  "articles/maquiagem-para-festa-passo-a-passo.html",
-        "keywords":  "maquiagem para festa passo a passo: guia completo"
+        "keywords":  "maquiagem para festa passo a passo guia completo ocasiões aprenda como fazer maquiagem para festa passo a passo preparar a pele maquiar os olhos e aumentar a duração da produção durante o evento"
     },
     {
         "id":  "32",
         "title":  "Maquiagem para Formatura: Guia Completo Passo a Passo",
-        "category":  "Maquiagem",
+        "category":  "Ocasiões",
         "description":  "Aprenda como fazer maquiagem para formatura com pele duradoura, olhos definidos, blush, iluminador e lábios preparados para horas de festa.",
         "url":  "articles/maquiagem-para-formatura-passo-a-passo.html",
-        "keywords":  "maquiagem para formatura: guia completo passo a passo"
+        "keywords":  "maquiagem para formatura guia completo passo a passo ocasiões aprenda como fazer maquiagem para formatura com pele duradoura olhos definidos blush iluminador e lábios preparados para horas de festa"
     },
     {
         "id":  "33",
         "title":  "Maquiagem para Iniciantes: Guia Completo para Começar do Zero",
-        "category":  "Maquiagem",
+        "category":  "Maquiagem para Iniciantes",
         "description":  "Guia completo de maquiagem para iniciantes com preparação da pele, base, corretivo, pó, blush, sobrancelhas, olhos, cílios, lábios, higiene e dicas práticas.",
         "url":  "articles/maquiagem-para-iniciantes-guia-completo.html",
-        "keywords":  "maquiagem para iniciantes: guia completo para começar do zero"
+        "keywords":  "maquiagem para iniciantes guia completo para começar do zero maquiagem para iniciantes guia completo de maquiagem para iniciantes com preparação da pele base corretivo pó blush sobrancelhas olhos cílios lábios higiene e dicas práticas"
     },
     {
         "id":  "34",
         "title":  "Maquiagem para Olhos Caídos: Técnicas e Passo a Passo",
-        "category":  "Maquiagem",
+        "category":  "Olhos",
         "description":  "Aprenda maquiagem para olhos caídos com técnicas de sombra, delineado e cílios para destacar ou criar um efeito visual mais elevado.",
         "url":  "articles/maquiagem-para-olhos-caidos.html",
-        "keywords":  "maquiagem para olhos caídos: técnicas e passo a passo"
+        "keywords":  "maquiagem para olhos caídos técnicas e passo a passo olhos aprenda maquiagem para olhos caídos com técnicas de sombra delineado e cílios para destacar ou criar um efeito visual mais elevado"
     },
     {
         "id":  "35",
         "title":  "Maquiagem para Olhos Castanhos: Guia Completo",
-        "category":  "Maquiagem",
+        "category":  "Maquiagem para Iniciantes",
         "description":  "Aprenda técnicas de maquiagem para olhos castanhos com cores neutras, vibrantes e metálicas.",
         "url":  "articles/maquiagem-para-olhos-castanhos.html",
-        "keywords":  "maquiagem para olhos castanhos: guia completo"
+        "keywords":  "maquiagem para olhos castanhos guia completo maquiagem para iniciantes aprenda técnicas de maquiagem para olhos castanhos com cores neutras vibrantes e metálicas"
     },
     {
         "id":  "36",
         "title":  "Maquiagem para Olhos Claros: Guia Completo",
-        "category":  "Maquiagem",
+        "category":  "Maquiagem para Iniciantes",
         "description":  "Aprenda técnicas de maquiagem para olhos claros com sombras, delineado e cílios.",
         "url":  "articles/maquiagem-para-olhos-claros.html",
-        "keywords":  "maquiagem para olhos claros: guia completo"
+        "keywords":  "maquiagem para olhos claros guia completo maquiagem para iniciantes aprenda técnicas de maquiagem para olhos claros com sombras delineado e cílios"
     },
     {
         "id":  "37",
         "title":  "Maquiagem para Olhos Encapuzados: Guia Completo",
-        "category":  "Maquiagem",
+        "category":  "Olhos",
         "description":  "Aprenda maquiagem para olhos encapuzados com técnicas de sombra, côncavo, delineado e cílios adaptadas à dobra da pálpebra.",
         "url":  "articles/maquiagem-para-olhos-encapuzados.html",
-        "keywords":  "maquiagem para olhos encapuzados: guia completo"
+        "keywords":  "maquiagem para olhos encapuzados guia completo olhos aprenda maquiagem para olhos encapuzados com técnicas de sombra côncavo delineado e cílios adaptadas à dobra da pálpebra"
     },
     {
         "id":  "38",
         "title":  "Maquiagem para Olhos Grandes: Guia Completo Passo a Passo",
-        "category":  "Maquiagem",
+        "category":  "Olhos",
         "description":  "Aprenda como fazer maquiagem para olhos grandes usando sombras, delineado, cílios e técnicas para destacar, alongar ou equilibrar o olhar.",
         "url":  "articles/maquiagem-para-olhos-grandes.html",
-        "keywords":  "maquiagem para olhos grandes: guia completo passo a passo"
+        "keywords":  "maquiagem para olhos grandes guia completo passo a passo olhos aprenda como fazer maquiagem para olhos grandes usando sombras delineado cílios e técnicas para destacar alongar ou equilibrar o olhar"
     },
     {
         "id":  "39",
         "title":  "Maquiagem para Olhos Pequenos: Técnicas e Passo a Passo",
-        "category":  "Maquiagem",
+        "category":  "Olhos",
         "description":  "Aprenda técnicas de maquiagem para olhos pequenos usando sombras, delineado, iluminação e cílios para valorizar e definir o olhar.",
         "url":  "articles/maquiagem-para-olhos-pequenos.html",
-        "keywords":  "maquiagem para olhos pequenos: técnicas e passo a passo"
+        "keywords":  "maquiagem para olhos pequenos técnicas e passo a passo olhos aprenda técnicas de maquiagem para olhos pequenos usando sombras delineado iluminação e cílios para valorizar e definir o olhar"
     },
     {
         "id":  "40",
         "title":  "Maquiagem para Olhos Redondos: Técnicas e Passo a Passo",
-        "category":  "Maquiagem",
+        "category":  "Olhos",
         "description":  "Aprenda maquiagem para olhos redondos com sombras, delineado e cílios para destacar o formato natural ou criar um efeito mais alongado.",
         "url":  "articles/maquiagem-para-olhos-redondos.html",
-        "keywords":  "maquiagem para olhos redondos: técnicas e passo a passo"
+        "keywords":  "maquiagem para olhos redondos técnicas e passo a passo olhos aprenda maquiagem para olhos redondos com sombras delineado e cílios para destacar o formato natural ou criar um efeito mais alongado"
     },
     {
         "id":  "41",
         "title":  "Maquiagem para Olhos Verdes: Guia Completo",
-        "category":  "Maquiagem",
+        "category":  "Maquiagem para Iniciantes",
         "description":  "Aprenda técnicas de maquiagem para olhos verdes com sombras, delineado e combinações de cores.",
         "url":  "articles/maquiagem-para-olhos-verdes.html",
-        "keywords":  "maquiagem para olhos verdes: guia completo"
+        "keywords":  "maquiagem para olhos verdes guia completo maquiagem para iniciantes aprenda técnicas de maquiagem para olhos verdes com sombras delineado e combinações de cores"
     },
     {
         "id":  "42",
         "title":  "Maquiagem para Pele Acneica: Guia Completo",
-        "category":  "Maquiagem",
+        "category":  "Pele",
         "description":  "Aprenda maquiagem para pele acneica com cobertura localizada, base, corretivo e técnicas para evitar acabamento pesado.",
         "url":  "articles/maquiagem-para-pele-acneica.html",
-        "keywords":  "maquiagem para pele acneica: guia completo"
+        "keywords":  "maquiagem para pele acneica guia completo pele aprenda maquiagem para pele acneica com cobertura localizada base corretivo e técnicas para evitar acabamento pesado"
     },
     {
         "id":  "43",
         "title":  "Maquiagem para Pele Madura: Guia Completo Passo a Passo",
-        "category":  "Maquiagem",
+        "category":  "Pele",
         "description":  "Aprenda como fazer maquiagem para pele madura com preparação, base, corretivo, blush, olhos e lábios em um passo a passo completo.",
         "url":  "articles/maquiagem-para-pele-madura.html",
-        "keywords":  "maquiagem para pele madura: guia completo passo a passo"
+        "keywords":  "maquiagem para pele madura guia completo passo a passo pele aprenda como fazer maquiagem para pele madura com preparação base corretivo blush olhos e lábios em um passo a passo completo"
     },
     {
         "id":  "44",
         "title":  "Maquiagem para Pele Madura: Guia Completo Passo a Passo",
-        "category":  "Maquiagem",
+        "category":  "Pele",
         "description":  "Aprenda como fazer maquiagem para pele madura com preparação, base, corretivo, olhos e técnicas para um acabamento elegante e confortável.",
         "url":  "articles/maquiagem-para-pele-madura-guia-completo.html",
-        "keywords":  "maquiagem para pele madura: guia completo passo a passo"
+        "keywords":  "maquiagem para pele madura guia completo passo a passo pele aprenda como fazer maquiagem para pele madura com preparação base corretivo olhos e técnicas para um acabamento elegante e confortável"
     },
     {
         "id":  "45",
         "title":  "Maquiagem para Pele Mista: Guia Completo",
-        "category":  "Maquiagem",
+        "category":  "Pele",
         "description":  "Aprenda maquiagem para pele mista equilibrando regiões oleosas e secas com base, pó e preparação estratégica.",
         "url":  "articles/maquiagem-para-pele-mista.html",
-        "keywords":  "maquiagem para pele mista: guia completo"
+        "keywords":  "maquiagem para pele mista guia completo pele aprenda maquiagem para pele mista equilibrando regiões oleosas e secas com base pó e preparação estratégica"
     },
     {
         "id":  "46",
         "title":  "Maquiagem para Pele Oleosa: Guia para Maior Duração",
-        "category":  "Maquiagem",
+        "category":  "Pele",
         "description":  "Aprenda maquiagem para pele oleosa com preparação, base, pó, fixação e retoques para controlar o brilho sem deixar o acabamento pesado.",
         "url":  "articles/maquiagem-para-pele-oleosa.html",
-        "keywords":  "maquiagem para pele oleosa: guia para maior duração"
+        "keywords":  "maquiagem para pele oleosa guia para maior duração pele aprenda maquiagem para pele oleosa com preparação base pó fixação e retoques para controlar o brilho sem deixar o acabamento pesado"
     },
     {
         "id":  "47",
         "title":  "Maquiagem para Pele Seca: Guia Completo Passo a Passo",
-        "category":  "Maquiagem",
+        "category":  "Pele",
         "description":  "Aprenda maquiagem para pele seca com preparação, hidratação, base, corretivo e pó para evitar acabamento marcado e manter a pele confortável.",
         "url":  "articles/maquiagem-para-pele-seca.html",
-        "keywords":  "maquiagem para pele seca: guia completo passo a passo"
+        "keywords":  "maquiagem para pele seca guia completo passo a passo pele aprenda maquiagem para pele seca com preparação hidratação base corretivo e pó para evitar acabamento marcado e manter a pele confortável"
     },
     {
         "id":  "48",
         "title":  "Maquiagem para Pele Sensível: Guia Completo",
-        "category":  "Maquiagem",
+        "category":  "Pele",
         "description":  "Aprenda maquiagem para pele sensível com preparação suave, cobertura leve e técnicas para reduzir atrito e desconforto.",
         "url":  "articles/maquiagem-para-pele-sensivel.html",
-        "keywords":  "maquiagem para pele sensível: guia completo"
+        "keywords":  "maquiagem para pele sensível guia completo pele aprenda maquiagem para pele sensível com preparação suave cobertura leve e técnicas para reduzir atrito e desconforto"
     },
     {
         "id":  "49",
         "title":  "Maquiagem para Quem Usa Óculos: Guia Completo",
-        "category":  "Maquiagem",
+        "category":  "Técnicas",
         "description":  "Aprenda como fazer maquiagem para quem usa óculos, evitar marcas no nariz e destacar olhos, sobrancelhas e lábios sem competir com a armação.",
         "url":  "articles/maquiagem-para-quem-usa-oculos.html",
-        "keywords":  "maquiagem para quem usa óculos: guia completo"
+        "keywords":  "maquiagem para quem usa óculos guia completo técnicas aprenda como fazer maquiagem para quem usa óculos evitar marcas no nariz e destacar olhos sobrancelhas e lábios sem competir com a armação"
     },
     {
         "id":  "50",
         "title":  "Maquiagem para Trabalho: Passo a Passo Rápido e Elegante",
-        "category":  "Maquiagem",
+        "category":  "Ocasiões",
         "description":  "Aprenda como fazer maquiagem para trabalho de forma rápida, confortável e duradoura, com pele leve, olhos definidos e retoques simples.",
         "url":  "articles/maquiagem-para-trabalho-passo-a-passo.html",
-        "keywords":  "maquiagem para trabalho: passo a passo rápido e elegante"
+        "keywords":  "maquiagem para trabalho passo a passo rápido e elegante ocasiões aprenda como fazer maquiagem para trabalho de forma rápida confortável e duradoura com pele leve olhos definidos e retoques simples"
     }
 ];
 
@@ -574,4 +574,3 @@ document.addEventListener("click", (event) => {
     hideSearchSuggestions();
   }
 });scheduler
-

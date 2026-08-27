@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Contato | Beleza em Foco</title>
+
+  <meta
+    name="description"
+    content="Entre em contato com o Beleza em Foco para enviar dúvidas, sugestões, correções editoriais ou assuntos relacionados ao portal."
+  >
+
+  <link rel="canonical" href="https://seudominio.com/contact.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@500;600;700;800;900&family=Playfair+Display:ital,wght@1,700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <script src="js/main.js" defer></script>
+  <script src="js/search.js" defer></script>
+  <script src="js/favorites.js" defer></script>
+  <script src="js/consent.js" defer></script>
+
+  <style>
+    .contact-page {
+      min-height: 70vh;
+      padding: 38px 0 60px;
+      background:
+        radial-gradient(circle at 10% 5%, rgba(255,15,104,.07), transparent 24%),
+        radial-gradient(circle at 92% 6%, rgba(120,37,198,.07), transparent 26%),
+        linear-gradient(180deg, #fff 0%, #fff8fb 100%);
+    }
+
+    .contact-hero {
+      position: relative;
+      overflow: hidden;
+      padding: 36px 40px;
+      border-radius: 18px;
+      color: #fff;
+      background:
+        radial-gradient(circle at 86% 18%, rgba(255,173,0,.48), transparent 22%),
+        linear-gradient(120deg, #ff0f68 0%, #d40b70 50%, #63148f 100%);
+      box-shadow: 0 15px 38px rgba(75,13,104,.14);
+    }
+
+    .contact-hero::before {
+      content: "";
+      position: absolute;
+      right: -75px;
+      bottom: -120px;
+      width: 240px;
+      height: 240px;
+      border: 28px solid rgba(255,255,255,.07);
+      border-radius: 50%;
+    }
+
+    .contact-hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 800px;
+    }
+
+    .contact-label {
+      display: inline-flex;
+      min-height: 27px;
+      padding: 0 12px;
+      align-items: center;
+      border-radius: 16px;
+      background: rgba(255,255,255,.15);
+      font-size: 9px;
+      font-weight: 900;
+      letter-spacing: .8px;
+      text-transform: uppercase;
+    }
+
+    .contact-hero h1 {
+      margin-top: 10px;
+      font-family: "Montserrat", sans-serif;
+      font-size: clamp(30px, 4vw, 44px);
+      line-height: 1.08;
+      font-weight: 900;
+    }
+
+    .contact-hero p {
+      max-width: 730px;
+      margin-top: 12px;
+      color: rgba(255,255,255,.94);
+      font-size: 14px;
+      line-height: 1.7;
+    }
+
+    .contact-layout {
+      margin-top: 24px;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 330px;
+      gap: 26px;
+      align-items: start;
+    }
+
+    .contact-form-card {
+      padding: 28px 30px;
+      border: 1px solid rgba(210,50,110,.12);
+      border-radius: 15px;
+      background: #fff;
+      box-shadow: 0 9px 26px rgba(70,20,70,.07);
+    }
+
+    .contact-form-card h2 {
+      color: #32123d;
+      font-family: "Montserrat", sans-serif;
+      font-size: 21px;
+      font-weight: 900;
+    }
+
+    .contact-form-card > p {
+      margin-top: 7px;
+      color: #6c6170;
+      font-size: 11px;
+      line-height: 1.65;
+    }
+
+    .contact-form {
+      margin-top: 22px;
+      display: grid;
+      gap: 15px;
+    }
+
+    .contact-form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 13px;
+    }
+
+    .form-field {
+      display: grid;
+      gap: 6px;
+    }
+
+    .form-field label {
+      color: #3f2c43;
+      font-size: 10px;
+      font-weight: 800;
+    }
+
+    .form-field input,
+    .form-field select,
+    .form-field textarea {
+      width: 100%;
+      border: 1px solid #eadde5;
+      border-radius: 8px;
+      background: #fff;
+      color: #211426;
+      outline: none;
+      font-family: "Inter", sans-serif;
+      font-size: 11px;
+      transition: border-color .2s ease, box-shadow .2s ease;
+    }
+
+    .form-field input,
+    .form-field select {
+      min-height: 44px;
+      padding: 0 13px;
+    }
+
+    .form-field textarea {
+      min-height: 170px;
+      resize: vertical;
+      padding: 13px;
+      line-height: 1.6;
+    }
+
+    .form-field input:focus,
+    .form-field select:focus,
+    .form-field textarea:focus {
+      border-color: rgba(255,15,104,.55);
+      box-shadow: 0 0 0 3px rgba(255,15,104,.08);
+    }
+
+    .form-field small {
+      color: #837686;
+      font-size: 8.5px;
+      line-height: 1.5;
+    }
+
+    .contact-check {
+      display: flex;
+      gap: 9px;
+      align-items: flex-start;
+      color: #68596b;
+      font-size: 9.5px;
+      line-height: 1.55;
+    }
+
+    .contact-check input {
+      margin-top: 2px;
+      accent-color: #ff0f68;
+    }
+
+    .contact-check a {
+      color: #d40b70;
+      font-weight: 800;
+    }
+
+    .contact-submit {
+      min-height: 46px;
+      border: 0;
+      border-radius: 8px;
+      background: linear-gradient(135deg, #ff0f68, #d40b70);
+      color: #fff;
+      font-size: 11px;
+      font-weight: 900;
+      box-shadow: 0 8px 18px rgba(212,11,112,.18);
+    }
+
+    .contact-submit:hover {
+      transform: translateY(-1px);
+    }
+
+    .contact-feedback {
+      min-height: 20px;
+      padding: 0;
+      color: #23a566;
+      font-size: 10px;
+      font-weight: 800;
+      line-height: 1.5;
+    }
+
+    .contact-sidebar-card {
+      padding: 19px;
+      border: 1px solid rgba(210,50,110,.12);
+      border-radius: 13px;
+      background: #fff;
+      box-shadow: 0 8px 24px rgba(70,20,70,.08);
+    }
+
+    .contact-sidebar-card + .contact-sidebar-card {
+      margin-top: 13px;
+    }
+
+    .contact-sidebar-card h2 {
+      color: #32123d;
+      font-family: "Montserrat", sans-serif;
+      font-size: 14px;
+      font-weight: 900;
+    }
+
+    .contact-sidebar-card p {
+      margin-top: 8px;
+      color: #6c6170;
+      font-size: 10px;
+      line-height: 1.65;
+    }
+
+    .contact-info-list {
+      margin-top: 13px;
+      display: grid;
+      gap: 10px;
+    }
+
+    .contact-info-item {
+      display: grid;
+      grid-template-columns: 38px 1fr;
+      gap: 10px;
+      align-items: center;
+      padding: 10px;
+      border-radius: 9px;
+      background: #fff6fa;
+    }
+
+    .contact-info-icon {
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      color: #fff;
+      background: linear-gradient(135deg, #ff0f68, #d40b70);
+      font-size: 15px;
+    }
+
+    .contact-info-item:nth-child(even) .contact-info-icon {
+      background: linear-gradient(135deg, #7825c6, #4b0d68);
+    }
+
+    .contact-info-item strong {
+      display: block;
+      color: #3c2940;
+      font-size: 9.5px;
+    }
+
+    .contact-info-item span {
+      display: block;
+      margin-top: 2px;
+      color: #766a79;
+      font-size: 8.5px;
+      line-height: 1.45;
+      word-break: break-word;
+    }
+
+    .contact-help-links {
+      margin-top: 12px;
+      display: grid;
+      gap: 6px;
+    }
+
+    .contact-help-links a {
+      min-height: 36px;
+      padding: 0 11px;
+      border-radius: 7px;
+      background: #fff4f8;
+      color: #d40b70;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 9px;
+      font-weight: 900;
+    }
+
+    .contact-notice {
+      margin-top: 18px;
+      padding: 15px 17px;
+      border-left: 4px solid #ffad00;
+      border-radius: 8px;
+      background: #fff8e9;
+      color: #5b472c;
+      font-size: 9.5px;
+      line-height: 1.65;
+    }
+
+    @media (max-width: 850px) {
+      .contact-layout {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 580px) {
+      .contact-page {
+        padding-top: 20px;
+      }
+
+      .contact-hero {
+        padding: 26px 21px;
+      }
+
+      .contact-form-card {
+        padding: 22px 19px;
+      }
+
+      .contact-form-row {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<a class="skip-link" href="#conteudo-principal">
+  Ir para o conteúdo principal
+</a>
+
+<div class="top-utility">
+  <div class="container utility-inner">
+
+    <nav class="utility-links" aria-label="Links rápidos">
+      <a href="artigos.html"><span>★</span><span>Dicas</span></a>
+      <a href="courses.html"><span>♥</span><span>Tutoriais</span></a>
+      <a href="artigos.html?categoria=produtos"><span>🎁</span><span>Produtos</span></a>
+      <a href="artigos.html?categoria=artistica"><span>✣</span><span>Inspirações</span></a>
+    </nav>
+
+    <div class="utility-social">
+      <a href="#" aria-label="Instagram">◎</a>
+      <a href="#" aria-label="YouTube">▶</a>
+      <a href="#" aria-label="Pinterest">ⓟ</a>
+      <a href="#" aria-label="TikTok">♪</a>
+    </div>
+
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+
+    <a href="index.html" class="brand" aria-label="Beleza em Foco">
+
+      <div class="brand-icon" aria-hidden="true">
+        <span class="lipstick lipstick-one"></span>
+        <span class="lipstick lipstick-two"></span>
+      </div>
+
+      <div class="brand-copy">
+        <span class="brand-name">Beleza em Foco</span>
+        <span class="brand-tagline">
+          MAQUIAGEM • AUTOCUIDADO • CONFIANÇA
+        </span>
+      </div>
+
+    </a>
+
+    <form
+      class="header-search"
+      id="header-search-form"
+      action="buscar.html"
+      method="get"
+      role="search"
+    >
+      <label class="sr-only" for="header-search-input">
+        Buscar no site
+      </label>
+
+      <input
+        id="header-search-input"
+        name="q"
+        type="search"
+        placeholder="Buscar artigos, tutoriais, produtos..."
+        autocomplete="off"
+      >
+
+      <button type="submit" aria-label="Pesquisar">
+        <span class="search-icon"></span>
+      </button>
+
+      <div
+        class="search-suggestions"
+        id="search-suggestions"
+        aria-live="polite"
+      ></div>
+    </form>
+
+    <div class="header-actions">
+
+      <a href="courses.html" class="header-action courses-button">
+        <span>♛</span>
+        <span>Meus Cursos</span>
+      </a>
+
+      <a
+        href="artigos.html?favoritos=1"
+        class="header-action favorites-button"
+      >
+        <span>★</span>
+        <span>
+          Favoritos (<strong id="favorites-count">0</strong>)
+        </span>
+      </a>
+
+    </div>
+
+    <button
+      class="mobile-menu-toggle"
+      id="mobile-menu-toggle"
+      type="button"
+      aria-label="Abrir menu"
+      aria-controls="main-navigation"
+      aria-expanded="false"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+  </div>
+</header>
+
+<nav
+  class="main-navigation"
+  id="main-navigation"
+  aria-label="Navegação principal"
+>
+  <div class="container nav-inner">
+
+    <ul class="main-menu">
+
+      <li>
+        <a href="index.html" class="nav-link nav-home">
+          <span>⌂</span>
+          INÍCIO
+        </a>
+      </li>
+
+      <li class="has-dropdown">
+
+        <button
+          class="nav-dropdown-button"
+          type="button"
+          aria-expanded="false"
+        >
+          ARTIGOS
+          <span class="dropdown-chevron">⌄</span>
+        </button>
+
+        <div class="dropdown-menu">
+          <a href="artigos.html?categoria=iniciantes">Maquiagem para iniciantes</a>
+          <a href="artigos.html?categoria=pele">Pele</a>
+          <a href="artigos.html?categoria=olhos">Olhos</a>
+          <a href="artigos.html?categoria=sobrancelhas">Sobrancelhas</a>
+          <a href="artigos.html?categoria=cilios">Cílios</a>
+          <a href="artigos.html?categoria=labios">Lábios</a>
+          <a href="artigos.html?categoria=artistica">Maquiagem artística</a>
+          <a href="artigos.html?categoria=drag">Drag Queen</a>
+          <a href="artigos.html?categoria=produtos">Produtos e ferramentas</a>
+        </div>
+
+      </li>
+
+      <li>
+        <a href="courses.html" class="nav-link">
+          TUTORIAIS
+        </a>
+      </li>
+
+      <li>
+        <a href="artigos.html?categoria=produtos" class="nav-link">
+          PRODUTOS
+        </a>
+      </li>
+
+      <li>
+        <a href="categorias.html" class="nav-link">
+          CATEGORIAS
+        </a>
+      </li>
+
+      <li>
+        <a href="about.html" class="nav-link">
+          SOBRE NÓS
+        </a>
+      </li>
+
+      <li>
+        <a href="contact.html" class="nav-link">
+          CONTATO
+        </a>
+      </li>
+
+    </ul>
+
+    <a href="artigos.html" class="articles-counter">
+      <span>▥</span>
+      <strong>50 ARTIGOS</strong>
+    </a>
+
+  </div>
+</nav>
+
+<main id="conteudo-principal" class="contact-page">
+
+  <div class="container">
+
+    <section class="contact-hero">
+
+      <div class="contact-hero-content">
+
+        <span class="contact-label">
+          ✦ FALE CONOSCO
+        </span>
+
+        <h1>Contato</h1>
+
+        <p>
+          Tem uma dúvida, encontrou algo que precisa ser corrigido
+          ou quer enviar uma sugestão para o Beleza em Foco?
+          Use o formulário abaixo para falar com a nossa equipe.
+        </p>
+
+      </div>
+
+    </section>
+
+    <div class="contact-layout">
+
+      <section class="contact-form-card">
+
+        <h2>Envie sua mensagem</h2>
+
+        <p>
+          Preencha os campos abaixo. Esta estrutura está pronta para
+          receber posteriormente a integração real de envio de mensagens.
+        </p>
+
+        <form
+          class="contact-form"
+          id="contact-form"
+          novalidate
+        >
+
+          <div class="contact-form-row">
+
+            <div class="form-field">
+
+              <label for="contact-name">
+                Nome
+              </label>
+
+              <input
+                id="contact-name"
+                name="name"
+                type="text"
+                placeholder="Seu nome"
+                autocomplete="name"
+                required
+              >
+
+            </div>
+
+            <div class="form-field">
+
+              <label for="contact-email">
+                E-mail
+              </label>
+
+              <input
+                id="contact-email"
+                name="email"
+                type="email"
+                placeholder="seuemail@exemplo.com"
+                autocomplete="email"
+                required
+              >
+
+            </div>
+
+          </div>
+
+          <div class="form-field">
+
+            <label for="contact-subject">
+              Assunto
+            </label>
+
+            <select
+              id="contact-subject"
+              name="subject"
+              required
+            >
+              <option value="">
+                Selecione um assunto
+              </option>
+
+              <option value="duvida">
+                Dúvida sobre conteúdo
+              </option>
+
+              <option value="correcao">
+                Correção editorial
+              </option>
+
+              <option value="sugestao">
+                Sugestão de conteúdo
+              </option>
+
+              <option value="publicidade">
+                Publicidade ou parceria
+              </option>
+
+              <option value="privacidade">
+                Privacidade e dados
+              </option>
+
+              <option value="outro">
+                Outro assunto
+              </option>
+            </select>
+
+          </div>
+
+          <div class="form-field">
+
+            <label for="contact-message">
+              Mensagem
+            </label>
+
+            <textarea
+              id="contact-message"
+              name="message"
+              placeholder="Escreva sua mensagem..."
+              required
+            ></textarea>
+
+            <small>
+              Evite enviar informações pessoais sensíveis
+              desnecessárias.
+            </small>
+
+          </div>
+
+          <label class="contact-check">
+
+            <input
+              id="contact-consent"
+              type="checkbox"
+              required
+            >
+
+            <span>
+              Li e concordo com a
+              <a href="privacy.html">
+                Política de Privacidade
+              </a>
+              para o tratamento das informações enviadas neste formulário.
+            </span>
+
+          </label>
+
+          <button
+            class="contact-submit"
+            type="submit"
+          >
+            Enviar mensagem
+          </button>
+
+          <p
+            class="contact-feedback"
+            id="contact-feedback"
+            aria-live="polite"
+          ></p>
+
+        </form>
+
+        <div class="contact-notice">
+          <strong>Importante:</strong> o formulário desta versão
+          funciona como demonstração visual. Antes da publicação definitiva,
+          o envio deverá ser conectado a um serviço real de formulário
+          ou a um backend.
+        </div>
+
+      </section>
+
+      <aside>
+
+        <section class="contact-sidebar-card">
+
+          <h2>Canais de contato</h2>
+
+          <p>
+            Estes campos podem ser atualizados com os canais oficiais
+            do projeto antes do lançamento.
+          </p>
+
+          <div class="contact-info-list">
+
+            <div class="contact-info-item">
+
+              <span class="contact-info-icon">
+                ✉
+              </span>
+
+              <div>
+                <strong>E-mail</strong>
+                <span>
+                  contato@seudominio.com
+                </span>
+              </div>
+
+            </div>
+
+            <div class="contact-info-item">
+
+              <span class="contact-info-icon">
+                ◷
+              </span>
+
+              <div>
+                <strong>Prazo de resposta</strong>
+                <span>
+                  Normalmente em até 2 dias úteis
+                </span>
+              </div>
+
+            </div>
+
+            <div class="contact-info-item">
+
+              <span class="contact-info-icon">
+                ✓
+              </span>
+
+              <div>
+                <strong>Correções</strong>
+                <span>
+                  Recebemos avisos sobre possíveis erros editoriais
+                </span>
+              </div>
+
+            </div>
+
+          </div>
+
+        </section>
+
+        <section class="contact-sidebar-card">
+
+          <h2>Antes de enviar</h2>
+
+          <p>
+            Algumas informações podem estar disponíveis nas páginas
+            institucionais do site.
+          </p>
+
+          <div class="contact-help-links">
+
+            <a href="about.html">
+              <span>Sobre Nós</span>
+              <span>→</span>
+            </a>
+
+            <a href="editorial-policy.html">
+              <span>Política Editorial</span>
+              <span>→</span>
+            </a>
+
+            <a href="privacy.html">
+              <span>Privacidade</span>
+              <span>→</span>
+            </a>
+
+            <a href="cookies.html">
+              <span>Cookies</span>
+              <span>→</span>
+            </a>
+
+            <a href="terms.html">
+              <span>Termos de Uso</span>
+              <span>→</span>
+            </a>
+
+          </div>
+
+        </section>
+
+      </aside>
+
+    </div>
+
+  </div>
+
+</main>
+
+<footer class="site-footer">
+
+  <div class="footer-decor footer-decor-left"></div>
+  <div class="footer-decor footer-decor-right"></div>
+
+  <div class="container footer-grid">
+
+    <div class="footer-brand">
+
+      <a href="index.html" class="footer-logo">
+        <span class="footer-lipstick">♟</span>
+        <span>Beleza em Foco</span>
+      </a>
+
+      <p>
+        Seu portal completo sobre maquiagem,
+        beleza e autocuidado. Inspiração diária
+        para realçar sua beleza única.
+      </p>
+
+      <div class="footer-social">
+        <a href="#" aria-label="Instagram">◎</a>
+        <a href="#" aria-label="YouTube">▶</a>
+        <a href="#" aria-label="Pinterest">ⓟ</a>
+        <a href="#" aria-label="TikTok">♪</a>
+        <a href="#" aria-label="Facebook">f</a>
+      </div>
+
+    </div>
+
+    <div class="footer-column">
+
+      <h2>Navegação</h2>
+
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="artigos.html">Artigos</a></li>
+        <li><a href="courses.html">Tutoriais</a></li>
+        <li><a href="categorias.html">Categorias</a></li>
+        <li><a href="contact.html">Contato</a></li>
+      </ul>
+
+    </div>
+
+    <div class="footer-column">
+
+      <h2>Institucional</h2>
+
+      <ul>
+        <li><a href="about.html">Sobre Nós</a></li>
+        <li><a href="privacy.html">Política de Privacidade</a></li>
+        <li><a href="cookies.html">Política de Cookies</a></li>
+        <li><a href="terms.html">Termos de Uso</a></li>
+        <li><a href="editorial-policy.html">Política Editorial</a></li>
+      </ul>
+
+    </div>
+
+    <div class="footer-newsletter">
+
+      <h2>Newsletter</h2>
+
+      <p>
+        Receba dicas exclusivas e novidades
+        direto no seu e-mail!
+      </p>
+
+      <form id="newsletter-form" novalidate>
+
+        <label class="sr-only" for="newsletter-email">
+          Seu melhor e-mail
+        </label>
+
+        <div class="newsletter-form-row">
+
+          <input
+            type="email"
+            id="newsletter-email"
+            placeholder="Seu melhor e-mail"
+            required
+          >
+
+          <button type="submit">
+            Inscrever-se
+          </button>
+
+        </div>
+
+        <p
+          class="newsletter-feedback"
+          id="newsletter-feedback"
+          aria-live="polite"
+        ></p>
+
+      </form>
+
+    </div>
+
+    <div class="footer-quote">
+      <span>Beleza começa</span>
+      <span>quando você</span>
+      <span>se escolhe! <b>♥</b></span>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+
+    <div class="container footer-bottom-inner">
+
+      <p>
+        © 2026 Beleza em Foco. Todos os direitos reservados.
+      </p>
+
+      <p class="footer-love">
+        Feito com <span>♥</span> para realçar a sua beleza!
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="developer-credit">
+
+    Desenvolvido por
+
+    <a
+      href="https://dfc-black.vercel.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      DFC — Digital Future Company
+    </a>
+
+  </div>
+
+</footer>
+
+<div
+  class="cookie-banner"
+  id="cookie-banner"
+  role="dialog"
+  aria-label="Preferências de cookies"
+  hidden
+>
+
+  <div class="cookie-content">
+
+    <div>
+
+      <strong>Privacidade e cookies</strong>
+
+      <p>
+        Usamos cookies para melhorar sua experiência,
+        analisar o uso do site e preparar recursos de publicidade.
+      </p>
+
+      <a href="cookies.html">
+        Política de Cookies
+      </a>
+
+    </div>
+
+    <div class="cookie-actions">
+
+      <button
+        type="button"
+        class="cookie-settings"
+        id="cookie-settings"
+      >
+        Configurar
+      </button>
+
+      <button
+        type="button"
+        class="cookie-reject"
+        id="cookie-reject"
+      >
+        Rejeitar não essenciais
+      </button>
+
+      <button
+        type="button"
+        class="cookie-accept"
+        id="cookie-accept"
+      >
+        Aceitar
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const form = document.getElementById("contact-form");
+    const feedback = document.getElementById("contact-feedback");
+
+    if (!form || !feedback) {
+      return;
+    }
+
+    form.addEventListener("submit", (event) => {
+      event.preventDefault();
+
+      const name = document
+        .getElementById("contact-name")
+        .value
+        .trim();
+
+      const email = document
+        .getElementById("contact-email")
+        .value
+        .trim();
+
+      const subject = document
+        .getElementById("contact-subject")
+        .value;
+
+      const message = document
+        .getElementById("contact-message")
+        .value
+        .trim();
+
+      const consent = document
+        .getElementById("contact-consent")
+        .checked;
+
+      const emailPattern =
+        /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+      if (!name) {
+        feedback.style.color = "#d40b70";
+        feedback.textContent =
+          "Digite seu nome para continuar.";
+        return;
+      }
+
+      if (!emailPattern.test(email)) {
+        feedback.style.color = "#d40b70";
+        feedback.textContent =
+          "Digite um endereço de e-mail válido.";
+        return;
+      }
+
+      if (!subject) {
+        feedback.style.color = "#d40b70";
+        feedback.textContent =
+          "Selecione o assunto da mensagem.";
+        return;
+      }
+
+      if (message.length < 10) {
+        feedback.style.color = "#d40b70";
+        feedback.textContent =
+          "Escreva uma mensagem com pelo menos 10 caracteres.";
+        return;
+      }
+
+      if (!consent) {
+        feedback.style.color = "#d40b70";
+        feedback.textContent =
+          "É necessário aceitar a Política de Privacidade.";
+        return;
+      }
+
+      feedback.style.color = "#23a566";
+
+      feedback.textContent =
+        "Formulário validado. A integração real de envio será configurada antes da publicação definitiva.";
+
+      form.reset();
+    });
+  });
+</script>
+
+</body>
+</html>

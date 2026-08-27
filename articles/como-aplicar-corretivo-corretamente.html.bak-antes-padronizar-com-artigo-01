@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Como Aplicar Corretivo Corretamente sem Craquelar ou Pesar | Beleza em Foco</title>
+
+  <meta name="description" content="Aprenda como aplicar corretivo corretamente nas olheiras e manchas, escolher a cor, evitar craquelamento, selar com pó e criar iluminação natural.">
+
+  <link rel="canonical" href="https://seudominio.com/articles/como-aplicar-corretivo-corretamente.html">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Como Aplicar Corretivo Corretamente sem Craquelar ou Pesar">
+  <meta property="og:description" content="Aprenda como aplicar corretivo corretamente nas olheiras e manchas, escolher a cor, evitar craquelamento, selar com pó e criar iluminação natural.">
+  <meta property="og:url" content="https://seudominio.com/articles/como-aplicar-corretivo-corretamente.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@500;600;700;800;900&family=Playfair+Display:ital,wght@1,700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+
+  <script src="../js/main.js" defer></script>
+  <script src="../js/search.js" defer></script>
+  <script src="../js/favorites.js" defer></script>
+  <script src="../js/consent.js" defer></script>
+
+  <style>
+    .article-page {
+      min-height: 70vh;
+      padding: 30px 0 60px;
+      background:
+        radial-gradient(circle at 10% 5%, rgba(255,15,104,.06), transparent 24%),
+        radial-gradient(circle at 92% 7%, rgba(120,37,198,.06), transparent 25%),
+        linear-gradient(180deg,#fff,#fff8fb);
+    }
+
+    .article-breadcrumb {
+      margin-bottom: 15px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      color: #817384;
+      font-size: 10px;
+    }
+
+    .article-breadcrumb a {
+      color: #d40b70;
+      font-weight: 800;
+    }
+
+    .article-layout {
+      display: grid;
+      grid-template-columns: minmax(0,1fr) 290px;
+      gap: 26px;
+      align-items: start;
+    }
+
+    .article-main {
+      min-width: 0;
+    }
+
+    .article-header {
+      padding: 30px;
+      border-radius: 17px;
+      color: white;
+      background:
+        radial-gradient(circle at 85% 18%,rgba(255,173,0,.48),transparent 23%),
+        linear-gradient(120deg,#ff0f68,#d40b70 52%,#63148f);
+      box-shadow: 0 14px 34px rgba(75,13,104,.13);
+    }
+
+    .article-category {
+      display: inline-flex;
+      min-height: 25px;
+      padding: 0 10px;
+      align-items: center;
+      border-radius: 14px;
+      background: rgba(255,255,255,.15);
+      font-size: 9px;
+      font-weight: 900;
+      letter-spacing: .7px;
+      text-transform: uppercase;
+    }
+
+    .article-header h1 {
+      margin-top: 11px;
+      font-family: "Montserrat",sans-serif;
+      font-size: clamp(29px,4vw,43px);
+      line-height: 1.08;
+      font-weight: 900;
+    }
+
+    .article-header p {
+      margin-top: 12px;
+      max-width: 800px;
+      color: rgba(255,255,255,.93);
+      font-size: 13px;
+      line-height: 1.7;
+    }
+
+    .article-meta {
+      margin-top: 15px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .article-meta span {
+      min-height: 27px;
+      padding: 0 10px;
+      display: inline-flex;
+      align-items: center;
+      border-radius: 14px;
+      background: rgba(255,255,255,.13);
+      font-size: 8.5px;
+      font-weight: 800;
+    }
+
+    .article-cover,
+    .article-image {
+      margin: 18px 0;
+    }
+
+    .article-image-placeholder {
+      min-height: 310px;
+      padding: 30px;
+      border: 2px dashed rgba(212,11,112,.22);
+      border-radius: 13px;
+      background:
+        radial-gradient(circle at 75% 20%,rgba(120,37,198,.08),transparent 26%),
+        linear-gradient(135deg,#fff2f7,#fffafd);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .article-image-placeholder span {
+      color: #d40b70;
+      font-family: "Montserrat",sans-serif;
+      font-size: 15px;
+      font-weight: 900;
+    }
+
+    .article-image-placeholder small {
+      max-width: 650px;
+      margin-top: 7px;
+      color: #77697a;
+      font-size: 10px;
+      line-height: 1.55;
+    }
+
+    .article-image figcaption,
+    .article-cover figcaption {
+      margin-top: 7px;
+      color: #7d7180;
+      font-size: 9.5px;
+      line-height: 1.5;
+      text-align: center;
+    }
+
+    .article-content-full {
+      margin-top: 18px;
+      padding: 29px 31px;
+      border: 1px solid rgba(210,50,110,.12);
+      border-radius: 15px;
+      background: white;
+      box-shadow: 0 9px 26px rgba(70,20,70,.07);
+    }
+
+    .article-content-full h2 {
+      margin: 29px 0 10px;
+      color: #32123d;
+      font-family: "Montserrat",sans-serif;
+      font-size: 21px;
+      line-height: 1.3;
+      font-weight: 900;
+    }
+
+    .article-content-full h2:first-child {
+      margin-top: 0;
+    }
+
+    .article-content-full h3 {
+      margin: 19px 0 8px;
+      color: #4b0d68;
+      font-family: "Montserrat",sans-serif;
+      font-size: 15px;
+      line-height: 1.4;
+      font-weight: 800;
+    }
+
+    .article-content-full p {
+      margin-top: 11px;
+      color: #55495a;
+      font-size: 13px;
+      line-height: 1.83;
+    }
+
+    .article-content-full ul,
+    .article-content-full ol {
+      margin-top: 12px;
+      padding-left: 23px;
+      color: #55495a;
+    }
+
+    .article-content-full li {
+      margin-bottom: 8px;
+      font-size: 12.5px;
+      line-height: 1.72;
+    }
+
+    .article-tip {
+      margin: 18px 0;
+      padding: 15px 17px;
+      border-left: 4px solid #ff0f68;
+      border-radius: 8px;
+      background: #fff3f8;
+      color: #513d52;
+      font-size: 11.5px;
+      line-height: 1.7;
+    }
+
+    .ad-placeholder {
+      min-height: 110px;
+      margin: 24px 0;
+      border: 1px solid #e7dce3;
+      border-radius: 9px;
+      background: #faf8fa;
+      color: #9a8e9c;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: 9px;
+      letter-spacing: .7px;
+      text-transform: uppercase;
+    }
+
+    .article-favorite {
+      margin-top: 20px;
+      min-height: 42px;
+      padding: 0 16px;
+      border: 1px solid rgba(212,11,112,.25);
+      border-radius: 8px;
+      background: #fff;
+      color: #d40b70;
+      font-weight: 900;
+      cursor: pointer;
+    }
+
+    .article-faq {
+      margin-top: 30px;
+    }
+
+    .article-faq-item {
+      padding: 15px 0;
+      border-bottom: 1px solid #efe4ea;
+    }
+
+    .article-faq-item h3 {
+      margin: 0;
+    }
+
+    .article-sidebar {
+      position: sticky;
+      top: 18px;
+    }
+
+    .sidebar-card {
+      padding: 18px;
+      border: 1px solid rgba(210,50,110,.12);
+      border-radius: 12px;
+      background: #fff;
+      box-shadow: 0 8px 22px rgba(70,20,70,.07);
+    }
+
+    .sidebar-card + .sidebar-card {
+      margin-top: 13px;
+    }
+
+    .sidebar-card h2 {
+      color: #32123d;
+      font-family: "Montserrat",sans-serif;
+      font-size: 14px;
+      font-weight: 900;
+    }
+
+    .sidebar-card p {
+      margin-top: 7px;
+      color: #6c6170;
+      font-size: 9.5px;
+      line-height: 1.6;
+    }
+
+    .sidebar-links {
+      margin-top: 11px;
+      display: grid;
+      gap: 6px;
+    }
+
+    .sidebar-links a {
+      min-height: 35px;
+      padding: 0 10px;
+      border-radius: 7px;
+      background: #fff4f8;
+      color: #d40b70;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 8.8px;
+      font-weight: 900;
+    }
+
+    @media(max-width:900px){
+      .article-layout{grid-template-columns:1fr;}
+      .article-sidebar{position:static;}
+    }
+
+    @media(max-width:580px){
+      .article-page{padding-top:20px;}
+      .article-header{padding:24px 20px;}
+      .article-content-full{padding:21px 18px;}
+      .article-image-placeholder{min-height:230px;padding:20px;}
+    }
+  </style>
+</head>
+
+<body>
+
+<a class="skip-link" href="#conteudo-principal">Ir para o conteúdo principal</a>
+
+<div class="top-utility">
+  <div class="container utility-inner">
+    <nav class="utility-links" aria-label="Links rápidos">
+      <a href="../artigos.html"><span>★</span><span>Dicas</span></a>
+      <a href="../courses.html"><span>♥</span><span>Tutoriais</span></a>
+      <a href="../artigos.html?categoria=produtos">Pele</a>
+      <span>›</span>
+      <span>Como Aplicar Corretivo Corretamente sem Craquelar ou Pesar</span>
+    </nav>
+
+    <div class="article-layout">
+
+      <div class="article-main">
+
+        <header class="article-header">
+
+          <span class="article-category">Pele</span>
+
+          <h1>Como Aplicar Corretivo Corretamente sem Craquelar ou Pesar</h1>
+
+          <p>O corretivo pode oferecer cobertura e iluminação sem deixar a região dos olhos pesada. Aprenda a controlar cor, quantidade, aplicação e selagem.</p>
+
+          <div class="article-meta">
+            <span>Atualizado em 25 de agosto de 2026</span>
+            <span>Conteúdo educativo</span>
+            <span>Beleza em Foco</span>
+          </div>
+
+        </header>
+
+        <figure class="article-cover-figure"><img src="../assets/img/articles/como-aplicar-corretivo-corretamente-capa.png" alt="Mulher aplicando corretivo abaixo dos olhos" class="article-cover-image" loading="eager" fetchpriority="high"></figure>
+
+        <div class="ad-placeholder" aria-label="Publicidade">
+          Espaço publicitário
+        </div>
+
+        <article class="article-content-full">
+
+<h2>Corretivo não precisa virar uma máscara abaixo dos olhos</h2>
+
+<p>O corretivo é um dos produtos mais utilizados na maquiagem e, ao mesmo tempo, um dos que mais facilmente ficam pesados. Vídeos curtos popularizaram aplicações com grandes triângulos abaixo dos olhos e várias camadas de produto. Essas técnicas podem ter uma finalidade específica, mas não representam a única maneira de usar corretivo e nem sempre são as melhores para quem está começando.</p>
+
+<p>A função do corretivo é trabalhar de maneira localizada. Ele pode suavizar visualmente olheiras, pequenas manchas, vermelhidão e outras regiões onde você deseja cobertura adicional. Também pode ser usado para iluminar pontos do rosto, embora essa seja uma função estética diferente da correção de tonalidade.</p>
+
+<p>Quanto mais você compreende onde realmente precisa de produto, menor tende a ser a quantidade necessária. Isso melhora acabamento e reduz acúmulo em linhas.</p>
+
+<h2>1. Observe a região antes de aplicar</h2>
+
+<p>Antes de pegar o corretivo, olhe para o rosto em iluminação razoável. Identifique exatamente onde existe diferença de tonalidade.</p>
+
+<p>Em algumas olheiras, a área mais escura está concentrada no canto interno. Em outras, existe sombra abaixo de praticamente toda a região dos olhos. A aplicação deve acompanhar aquilo que você observa.</p>
+
+<p>Não existe necessidade de cobrir automaticamente uma área enorme apenas porque ela apareceu em um tutorial.</p>
+
+<h2>2. Corretivo do tom da pele ou mais claro?</h2>
+
+<p>Para cobrir marcas e uniformizar, um corretivo próximo ao tom da pele costuma funcionar bem. Se o produto for muito claro, ele pode chamar atenção justamente para a região que você queria esconder.</p>
+
+<p>Corretivos mais claros podem ser utilizados para iluminação. Nesse caso, o objetivo é criar contraste e trazer determinadas áreas visualmente para frente.</p>
+
+<p>Uma pessoa iniciante pode começar com apenas uma tonalidade versátil e ampliar o kit depois.</p>
+
+<h2>3. Entenda o subtom do corretivo</h2>
+
+<p>Assim como acontece com a base, o subtom interfere no resultado. Um corretivo muito amarelo, rosado ou alaranjado pode ficar evidente quando não se integra à pele.</p>
+
+<p>Na região das olheiras, algumas pessoas utilizam corretores de cor antes do corretivo tradicional. Essa técnica pode reduzir a necessidade de usar uma camada grossa de produto.</p>
+
+<p>Entretanto, correção de cor exige controle. Produto demais pode gerar uma nova tonalidade que depois precisará ser coberta.</p>
+
+<figure class="article-image">
+  <div class="article-image-placeholder">
+    <span>IMAGEM 01</span>
+    <small>Demonstração das principais áreas de aplicação do corretivo, com destaque para canto interno, pequenas manchas e pontos localizados.</small>
+  </div>
+  <figcaption>Aplicação localizada normalmente exige menos produto e facilita um acabamento natural.</figcaption>
+</figure>
+
+<h2>4. Corretor colorido: quando faz sentido</h2>
+
+<p>Corretores coloridos utilizam princípios de contraste entre cores para neutralizar visualmente determinadas tonalidades.</p>
+
+<p>Produtos pêssego ou alaranjados, por exemplo, são frequentemente utilizados para trabalhar olheiras azuladas ou arroxeadas, dependendo da profundidade da pele. Corretores verdes podem aparecer em técnicas voltadas à vermelhidão.</p>
+
+<p>O ponto importante é usar pouca quantidade. O corretor não deve transformar a pele em uma área fortemente colorida. Ele serve como uma camada fina de neutralização antes do produto do tom da pele.</p>
+
+<h2>5. Preparação da região dos olhos</h2>
+
+<p>A área abaixo dos olhos pode ser mais delicada e apresentar linhas naturais. Uma hidratação adequada pode ajudar o corretivo a se comportar melhor.</p>
+
+<p>Excesso de creme, porém, faz o produto escorregar. Use uma quantidade pequena e espere a absorção.</p>
+
+<p>Se houver muito produto sobre a superfície, pressione suavemente antes de começar a maquiagem.</p>
+
+<h2>6. Corretivo antes ou depois da base?</h2>
+
+<p>As duas formas podem funcionar, mas aplicar a base primeiro costuma ajudar iniciantes a perceber quanto corretivo ainda é necessário.</p>
+
+<p>A base já uniformiza uma parte das diferenças. Depois, o corretivo entra apenas nos pontos que permanecem visíveis.</p>
+
+<p>Quando o corretivo é aplicado primeiro e depois recebe uma grande camada de base por cima, parte do trabalho pode ser movida ou ficar pesada.</p>
+
+<h2>7. Quanto produto aplicar nas olheiras</h2>
+
+<p>Comece com pontos pequenos. Um pouco no canto interno e uma pequena quantidade na região externa podem ser suficientes para muitas pessoas.</p>
+
+<p>Espalhe e observe antes de acrescentar. Se ainda houver uma área escura, aplique outra camada exatamente naquele ponto.</p>
+
+<p>Essa construção evita colocar uma quantidade grande em regiões que já estavam uniformes.</p>
+
+<h2>8. Como espalhar com esponja</h2>
+
+<p>A esponja permite pressionar o produto e suavizar bordas. Utilize uma região pequena da ferramenta para ter precisão.</p>
+
+<p>Não arraste o corretivo para longe da área onde precisa de cobertura. Concentre o produto e apenas suavize suas extremidades.</p>
+
+<p>Se a esponja estiver muito molhada, ela pode diluir excessivamente algumas fórmulas. Retire muito bem a água quando utilizar um modelo que deve ser umedecido.</p>
+
+<div class="ad-placeholder" aria-label="Publicidade">Espaço publicitário</div>
+
+<h2>9. Como espalhar com pincel</h2>
+
+<p>Pincéis pequenos conseguem preservar mais cobertura. Deposite o corretivo no ponto desejado e trabalhe principalmente as bordas.</p>
+
+<p>Para olheiras, um pincel de tamanho adequado ao rosto facilita a precisão. Não é necessário um pincel enorme.</p>
+
+<p>Depois, você pode finalizar com uma esponja para integrar a textura, caso goste desse acabamento.</p>
+
+<h2>10. Aplicação com os dedos</h2>
+
+<p>Os dedos limpos também podem ser utilizados com algumas fórmulas. O calor ajuda determinados corretivos cremosos a espalharem.</p>
+
+<p>Use batidas leves e evite puxar a região abaixo dos olhos.</p>
+
+<p>Esse método é especialmente prático para pequenas correções.</p>
+
+<h2>11. Como cobrir uma espinha ou pequena mancha</h2>
+
+<p>Para cobertura localizada, coloque uma pequena quantidade de corretivo diretamente sobre a marca. Espere alguns segundos se a fórmula permitir maior aderência e depois esfume apenas as bordas.</p>
+
+<p>Se você espalhar completamente o centro, a cobertura desaparece. A ideia é manter pigmento sobre a região e integrar apenas sua transição com a pele.</p>
+
+<p>Uma tonalidade próxima da base costuma funcionar melhor do que um corretivo muito claro.</p>
+
+<h2>12. Como cobrir vermelhidão</h2>
+
+<p>Se a base já reduziu bastante a vermelhidão, talvez apenas um pouco de corretivo seja necessário. Em áreas pequenas, use um pincel ou ferramenta de precisão.</p>
+
+<p>Corretores verdes podem ser usados por pessoas que conhecem a técnica, mas o excesso cria aparência esverdeada e aumenta a quantidade de produto necessária depois.</p>
+
+<p>Comece sempre com o mínimo possível.</p>
+
+<h2>13. Como iluminar sem exagerar</h2>
+
+<p>Iluminação com corretivo utiliza uma tonalidade discretamente mais clara em regiões estratégicas. Abaixo dos olhos, centro da testa, nariz e queixo são exemplos comuns, mas não precisam ser usados todos de uma vez.</p>
+
+<p>Quanto maior a diferença entre o corretivo e a pele, mais dramático será o contraste.</p>
+
+<p>Para uma maquiagem natural, uma diferença pequena costuma ser suficiente.</p>
+
+<figure class="article-image">
+  <div class="article-image-placeholder">
+    <span>IMAGEM 02</span>
+    <small>Comparação entre corretivo do tom da pele usado para cobertura e corretivo levemente mais claro utilizado para iluminação.</small>
+  </div>
+  <figcaption>Correção e iluminação são objetivos diferentes e podem exigir tonalidades diferentes.</figcaption>
+</figure>
+
+<h2>14. Como impedir o corretivo de acumular nas linhas</h2>
+
+<p>Algum movimento é natural porque a região dos olhos se movimenta continuamente. O objetivo não é impedir completamente qualquer marcação, mas reduzir excesso.</p>
+
+<p>Use pouca quantidade. Depois de espalhar, espere alguns instantes e observe se o produto entrou nas linhas. Se isso acontecer, passe novamente uma esponja ou pincel antes de selar.</p>
+
+<p>Somente depois aplique uma camada fina de pó.</p>
+
+<h2>15. Preciso usar pó sobre o corretivo?</h2>
+
+<p>Não existe uma regra única. Algumas fórmulas precisam de selagem para permanecer estáveis. Outras funcionam bem praticamente sem pó.</p>
+
+<p>Se você possui uma região muito seca, excesso de pó pode deixar a textura mais evidente.</p>
+
+<p>Comece utilizando pouco produto e observe o comportamento durante algumas horas.</p>
+
+<h2>16. Como escolher o pó para a região dos olhos</h2>
+
+<p>Um pó fino pode facilitar uma aplicação leve. O mais importante é controlar quantidade.</p>
+
+<p>Retire o excesso do pincel antes de encostar na pele. Pressione ou faça movimentos suaves.</p>
+
+<p>Evite colocar uma grande camada simplesmente porque técnicas de baking aparecem em maquiagens muito específicas.</p>
+
+<h2>17. O que é baking</h2>
+
+<p>Baking é uma técnica em que uma quantidade maior de pó permanece sobre determinadas áreas por algum tempo antes de ser removida. Ela pode criar um acabamento bastante definido em maquiagens específicas.</p>
+
+<p>Isso não significa que seja necessária para uma maquiagem cotidiana. Em algumas peles, pode destacar textura e ressecamento.</p>
+
+<p>Aprenda primeiro uma selagem simples. Depois experimente técnicas mais intensas se fizerem sentido para seu estilo.</p>
+
+<h2>18. Corretivo muito seco</h2>
+
+<p>Se uma fórmula seca rapidamente, trabalhe em áreas pequenas. Não aplique em vários pontos do rosto esperando para espalhar tudo depois.</p>
+
+<p>Prepare a pele de maneira adequada e utilize uma quantidade menor.</p>
+
+<p>Se mesmo assim o acabamento continuar desconfortável, talvez aquela fórmula não seja ideal para suas preferências.</p>
+
+<h2>19. Corretivo muito cremoso</h2>
+
+<p>Produtos cremosos podem oferecer acabamento confortável, mas algumas fórmulas se movimentam mais.</p>
+
+<p>Use uma camada fina e, quando necessário, sele estrategicamente.</p>
+
+<p>Novamente, quantidade é o ponto central. Uma fórmula cremosa aplicada em excesso pode acumular rapidamente.</p>
+
+<h2>20. Como evitar aspecto acinzentado</h2>
+
+<p>Uma olheira muito pigmentada coberta apenas por corretivo claro pode ganhar aparência acinzentada. Isso acontece porque a tonalidade escura continua interferindo no resultado.</p>
+
+<p>Nesses casos, uma correção de cor muito leve pode ajudar antes do corretivo do tom adequado.</p>
+
+<p>A tonalidade correta varia com a profundidade da pele. Evite aplicar um corretor intenso sem testar.</p>
+
+<h2>21. Corretivo para maquiagem natural</h2>
+
+<p>Em uma maquiagem leve, você pode até dispensar a base e utilizar corretivo somente onde precisar.</p>
+
+<p>Aplique pequenas quantidades em olheiras, vermelhidão ou manchas e espalhe bem as bordas.</p>
+
+<p>Esse método mantém grande parte da pele sem cobertura e pode produzir um resultado muito natural.</p>
+
+<h2>22. Corretivo em maquiagem glam</h2>
+
+<p>Em uma maquiagem mais intensa, o corretivo pode participar da construção de luz e estrutura.</p>
+
+<p>Mesmo assim, camadas finas continuam sendo importantes. Uma maquiagem glam não precisa acumular uma grande espessura abaixo dos olhos.</p>
+
+<p>Iluminação pode ser construída com tonalidade e posicionamento em vez de apenas quantidade.</p>
+
+<h2>23. Posso usar corretivo como primer de sombras?</h2>
+
+<p>Algumas pessoas utilizam uma camada fina para uniformizar a pálpebra antes da sombra. Isso pode funcionar dependendo da fórmula.</p>
+
+<p>Entretanto, corretivos muito cremosos podem acumular e interferir na sombra. Primers específicos para olhos foram desenvolvidos para essa função.</p>
+
+<p>Se usar corretivo, aplique pouco e observe se precisa selar antes das sombras.</p>
+
+<h2>24. Corretivo para recortar sobrancelhas</h2>
+
+<p>Em maquiagens mais definidas, corretivo pode ser utilizado ao redor da sobrancelha para criar uma borda visual mais limpa.</p>
+
+<p>Essa técnica não é necessária em uma sobrancelha natural. Excesso de corretivo pode deixar uma faixa clara ao redor do desenho.</p>
+
+<p>Use apenas quando o efeito fizer parte da proposta e esfume cuidadosamente.</p>
+
+<figure class="article-image">
+  <div class="article-image-placeholder">
+    <span>IMAGEM 03</span>
+    <small>Resultado de corretivo aplicado em pequenas quantidades, mostrando acabamento leve e sem excesso abaixo dos olhos.</small>
+  </div>
+  <figcaption>Menos produto costuma deixar a região dos olhos mais leve e facilitar a selagem.</figcaption>
+</figure>
+
+<h2>25. Erros comuns com corretivo</h2>
+
+<p>O primeiro é escolher uma tonalidade extremamente clara para cobertura. O segundo é colocar produto demais. O terceiro é selar uma região já acumulada sem antes espalhar novamente.</p>
+
+<p>Outro erro é tentar esconder textura adicionando várias camadas. Textura é natural e, quando recebe excesso, pode ficar ainda mais evidente.</p>
+
+<p>Também é comum usar a mesma técnica em todas as pessoas. Formato dos olhos, profundidade das olheiras e tipo de pele mudam bastante.</p>
+
+<h2>26. Como retocar corretivo ao longo do dia</h2>
+
+<p>Antes de adicionar mais produto, observe o que aconteceu. Se a região apenas acumulou, espalhar o que já está ali pode ser suficiente.</p>
+
+<p>Se parte da cobertura realmente desapareceu, utilize uma quantidade mínima.</p>
+
+<p>Adicionar novas camadas sem retirar excesso pode criar um acabamento pesado rapidamente.</p>
+
+<h2>27. Como praticar a aplicação</h2>
+
+<p>Faça um teste usando metade da quantidade que você normalmente colocaria. Fotografe o resultado em iluminação natural.</p>
+
+<p>Na tentativa seguinte, concentre produto apenas nos pontos mais escuros. Compare as imagens.</p>
+
+<p>Esse exercício ajuda a perceber que cobertura estratégica frequentemente funciona melhor do que cobrir toda a região.</p>
+
+<h2>Conclusão</h2>
+
+<p>Aplicar corretivo corretamente significa entender finalidade, cor, quantidade e posicionamento. O produto deve trabalhar onde existe necessidade em vez de criar uma camada uniforme e espessa sobre todas as regiões.</p>
+
+<p>Comece com pouca quantidade, espalhe as bordas, observe o resultado e somente então acrescente mais. Se for necessário selar, retire primeiro qualquer acúmulo e use pouco pó.</p>
+
+<p>Quando você domina esse processo, o corretivo deixa de ser um produto usado para esconder o rosto e passa a ser uma ferramenta precisa de cobertura e iluminação.</p>
+
+<p><a href="como-escolher-a-base-ideal.html"><strong>Leia também: Como escolher a base ideal →</strong></a></p>
+<p><a href="como-preparar-a-pele-antes-da-maquiagem.html"><strong>Leia também: Preparação de pele passo a passo →</strong></a></p>
+<p><a href="../course/lesson-02-preparacao-de-pele.html"><strong>Acessar a aula gratuita de preparação da pele →</strong></a></p>
+
+<div class="ad-placeholder" aria-label="Publicidade">
+  Espaço publicitário
+</div>
+
+<section class="article-faq">
+  <h2>Perguntas frequentes</h2>
+  <div class="article-faq-item">
+<h3>O corretivo precisa ser mais claro que a base?</h3>
+<p>Não para cobertura. Um corretivo próximo ao tom da pele costuma funcionar melhor para corrigir marcas. Tons mais claros são usados principalmente quando o objetivo é iluminar.</p>
+</div>
+
+<div class="article-faq-item">
+<h3>Como evitar corretivo acumulado nas linhas?</h3>
+<p>Utilize pouco produto, espalhe qualquer acúmulo antes de selar e aplique uma pequena quantidade de pó somente quando necessário.</p>
+</div>
+
+<div class="article-faq-item">
+<h3>Posso usar corretivo sem base?</h3>
+<p>Sim. Em maquiagens leves, corretivo pode ser aplicado apenas nas áreas que precisam de uniformização.</p>
+</div>
+
+<div class="article-faq-item">
+<h3>Preciso fazer baking?</h3>
+<p>Não. Baking é uma técnica específica. Uma selagem leve costuma ser suficiente para muitas maquiagens e pode gerar acabamento mais natural.</p>
+</div>
+</section>
+
+<button
+  type="button"
+  class="article-favorite"
+  data-favorite-article="como-aplicar-corretivo-corretamente.html"
+>
+  ★ Adicionar aos favoritos
+</button>
+
+</article>
+
+      </div>
+
+      <aside class="article-sidebar">
+
+        <section class="sidebar-card">
+          <h2>Continue aprendendo</h2>
+          <p>Explore outros conteúdos relacionados e aprofunde sua prática.</p>
+
+          <div class="sidebar-links">
+            <a href="../courses.html"><span>Curso gratuito</span><span>→</span></a>
+            <a href="../categorias.html"><span>Categorias</span><span>→</span></a>
+            <a href="../artigos.html"><span>Todos os artigos</span><span>→</span></a>
+          </div>
+        </section>
+
+        <div class="ad-placeholder" aria-label="Publicidade">
+          Espaço publicitário
+        </div>
+
+      </aside>
+
+    </div>
+
+  </div>
+
+</main>
+
+<footer class="site-footer">
+
+  <div class="container footer-grid">
+
+    <div class="footer-brand">
+      <a href="../index.html" class="footer-logo">
+        <span>Beleza em Foco</span>
+      </a>
+
+      <p>
+        Seu portal sobre maquiagem, beleza e autocuidado.
+        Conteúdo educativo para aprender com mais confiança.
+      </p>
+    </div>
+
+    <div class="footer-column">
+      <h2>Navegação</h2>
+      <ul>
+        <li><a href="../index.html">Início</a></li>
+        <li><a href="../artigos.html">Artigos</a></li>
+        <li><a href="../courses.html">Tutoriais</a></li>
+        <li><a href="../categorias.html">Categorias</a></li>
+        <li><a href="../contact.html">Contato</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h2>Institucional</h2>
+      <ul>
+        <li><a href="../about.html">Sobre Nós</a></li>
+        <li><a href="../privacy.html">Política de Privacidade</a></li>
+        <li><a href="../cookies.html">Política de Cookies</a></li>
+        <li><a href="../terms.html">Termos de Uso</a></li>
+        <li><a href="../editorial-policy.html">Política Editorial</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <p>© 2026 Beleza em Foco. Todos os direitos reservados.</p>
+    </div>
+  </div>
+
+</footer>
+
+<div class="cookie-banner" id="cookie-banner" hidden>
+  <div class="cookie-content">
+    <div>
+      <strong>Privacidade e cookies</strong>
+      <p>Usamos cookies para melhorar sua experiência e preparar recursos de publicidade.</p>
+      <a href="../cookies.html">Política de Cookies</a>
+    </div>
+
+    <div class="cookie-actions">
+      <button type="button" id="cookie-settings">Configurar</button>
+      <button type="button" id="cookie-reject">Rejeitar não essenciais</button>
+      <button type="button" id="cookie-accept">Aceitar</button>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+

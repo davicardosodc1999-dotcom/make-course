@@ -1,0 +1,743 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Maquiagem para Olhos Redondos: Técnicas e Passo a Passo | Beleza em Foco</title>
+
+  <meta name="description" content="Aprenda maquiagem para olhos redondos com sombras, delineado e cílios para destacar o formato natural ou criar um efeito mais alongado.">
+
+  <link rel="canonical" href="https://seudominio.com/articles/maquiagem-para-iniciantes-guia-completo.html">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Maquiagem para Olhos Redondos: Técnicas e Passo a Passo">
+  <meta property="og:description" content="Aprenda maquiagem para olhos redondos com sombras, delineado e cílios para destacar o formato natural ou criar um efeito mais alongado.">
+  <meta property="og:url" content="https://seudominio.com/articles/maquiagem-para-iniciantes-guia-completo.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@500;600;700;800;900&family=Playfair+Display:ital,wght@1,700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+
+  <script src="../js/main.js" defer></script>
+  <script src="../js/search.js" defer></script>
+  <script src="../js/favorites.js" defer></script>
+  <script src="../js/consent.js" defer></script>
+
+  <style>
+    .article-page {
+      min-height: 70vh;
+      padding: 30px 0 60px;
+      background:
+        radial-gradient(circle at 10% 5%, rgba(255,15,104,.06), transparent 24%),
+        radial-gradient(circle at 92% 7%, rgba(120,37,198,.06), transparent 25%),
+        linear-gradient(180deg,#fff,#fff8fb);
+    }
+
+    .article-breadcrumb {
+      margin-bottom: 15px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      color: #817384;
+      font-size: 10px;
+    }
+
+    .article-breadcrumb a {
+      color: #d40b70;
+      font-weight: 800;
+    }
+
+    .article-layout {
+      display: grid;
+      grid-template-columns: minmax(0,1fr) 290px;
+      gap: 26px;
+      align-items: start;
+    }
+
+    .article-main {
+      min-width: 0;
+    }
+
+    .article-header {
+      padding: 30px;
+      border-radius: 17px;
+      color: white;
+      background:
+        radial-gradient(circle at 85% 18%,rgba(255,173,0,.48),transparent 23%),
+        linear-gradient(120deg,#ff0f68,#d40b70 52%,#63148f);
+      box-shadow: 0 14px 34px rgba(75,13,104,.13);
+    }
+
+    .article-category {
+      display: inline-flex;
+      min-height: 25px;
+      padding: 0 10px;
+      align-items: center;
+      border-radius: 14px;
+      background: rgba(255,255,255,.15);
+      font-size: 9px;
+      font-weight: 900;
+      letter-spacing: .7px;
+      text-transform: uppercase;
+    }
+
+    .article-header h1 {
+      margin-top: 11px;
+      font-family: "Montserrat",sans-serif;
+      font-size: clamp(29px,4vw,43px);
+      line-height: 1.08;
+      font-weight: 900;
+    }
+
+    .article-header p {
+      margin-top: 12px;
+      max-width: 800px;
+      color: rgba(255,255,255,.93);
+      font-size: 13px;
+      line-height: 1.7;
+    }
+
+    .article-meta {
+      margin-top: 15px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .article-meta span {
+      min-height: 27px;
+      padding: 0 10px;
+      display: inline-flex;
+      align-items: center;
+      border-radius: 14px;
+      background: rgba(255,255,255,.13);
+      font-size: 8.5px;
+      font-weight: 800;
+    }
+
+    .article-cover,
+    .article-image {
+      margin: 18px 0;
+    }
+
+    .article-image-placeholder {
+      min-height: 310px;
+      padding: 30px;
+      border: 2px dashed rgba(212,11,112,.22);
+      border-radius: 13px;
+      background:
+        radial-gradient(circle at 75% 20%,rgba(120,37,198,.08),transparent 26%),
+        linear-gradient(135deg,#fff2f7,#fffafd);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .article-image-placeholder span {
+      color: #d40b70;
+      font-family: "Montserrat",sans-serif;
+      font-size: 15px;
+      font-weight: 900;
+    }
+
+    .article-image-placeholder small {
+      max-width: 650px;
+      margin-top: 7px;
+      color: #77697a;
+      font-size: 10px;
+      line-height: 1.55;
+    }
+
+    .article-image figcaption,
+    .article-cover figcaption {
+      margin-top: 7px;
+      color: #7d7180;
+      font-size: 9.5px;
+      line-height: 1.5;
+      text-align: center;
+    }
+
+    .article-content-full {
+      margin-top: 18px;
+      padding: 29px 31px;
+      border: 1px solid rgba(210,50,110,.12);
+      border-radius: 15px;
+      background: white;
+      box-shadow: 0 9px 26px rgba(70,20,70,.07);
+    }
+
+    .article-content-full h2 {
+      margin: 29px 0 10px;
+      color: #32123d;
+      font-family: "Montserrat",sans-serif;
+      font-size: 21px;
+      line-height: 1.3;
+      font-weight: 900;
+    }
+
+    .article-content-full h2:first-child {
+      margin-top: 0;
+    }
+
+    .article-content-full h3 {
+      margin: 19px 0 8px;
+      color: #4b0d68;
+      font-family: "Montserrat",sans-serif;
+      font-size: 15px;
+      line-height: 1.4;
+      font-weight: 800;
+    }
+
+    .article-content-full p {
+      margin-top: 11px;
+      color: #55495a;
+      font-size: 13px;
+      line-height: 1.83;
+    }
+
+    .article-content-full ul,
+    .article-content-full ol {
+      margin-top: 12px;
+      padding-left: 23px;
+      color: #55495a;
+    }
+
+    .article-content-full li {
+      margin-bottom: 8px;
+      font-size: 12.5px;
+      line-height: 1.72;
+    }
+
+    .article-tip {
+      margin: 18px 0;
+      padding: 15px 17px;
+      border-left: 4px solid #ff0f68;
+      border-radius: 8px;
+      background: #fff3f8;
+      color: #513d52;
+      font-size: 11.5px;
+      line-height: 1.7;
+    }
+
+    .ad-placeholder {
+      min-height: 110px;
+      margin: 24px 0;
+      border: 1px solid #e7dce3;
+      border-radius: 9px;
+      background: #faf8fa;
+      color: #9a8e9c;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: 9px;
+      letter-spacing: .7px;
+      text-transform: uppercase;
+    }
+
+    .article-favorite {
+      margin-top: 20px;
+      min-height: 42px;
+      padding: 0 16px;
+      border: 1px solid rgba(212,11,112,.25);
+      border-radius: 8px;
+      background: #fff;
+      color: #d40b70;
+      font-weight: 900;
+      cursor: pointer;
+    }
+
+    .article-faq {
+      margin-top: 30px;
+    }
+
+    .article-faq-item {
+      padding: 15px 0;
+      border-bottom: 1px solid #efe4ea;
+    }
+
+    .article-faq-item h3 {
+      margin: 0;
+    }
+
+    .article-sidebar {
+      position: sticky;
+      top: 18px;
+    }
+
+    .sidebar-card {
+      padding: 18px;
+      border: 1px solid rgba(210,50,110,.12);
+      border-radius: 12px;
+      background: #fff;
+      box-shadow: 0 8px 22px rgba(70,20,70,.07);
+    }
+
+    .sidebar-card + .sidebar-card {
+      margin-top: 13px;
+    }
+
+    .sidebar-card h2 {
+      color: #32123d;
+      font-family: "Montserrat",sans-serif;
+      font-size: 14px;
+      font-weight: 900;
+    }
+
+    .sidebar-card p {
+      margin-top: 7px;
+      color: #6c6170;
+      font-size: 9.5px;
+      line-height: 1.6;
+    }
+
+    .sidebar-links {
+      margin-top: 11px;
+      display: grid;
+      gap: 6px;
+    }
+
+    .sidebar-links a {
+      min-height: 35px;
+      padding: 0 10px;
+      border-radius: 7px;
+      background: #fff4f8;
+      color: #d40b70;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 8.8px;
+      font-weight: 900;
+    }
+
+    @media(max-width:900px){
+      .article-layout{grid-template-columns:1fr;}
+      .article-sidebar{position:static;}
+    }
+
+    @media(max-width:580px){
+      .article-page{padding-top:20px;}
+      .article-header{padding:24px 20px;}
+      .article-content-full{padding:21px 18px;}
+      .article-image-placeholder{min-height:230px;padding:20px;}
+    }
+  </style>
+</head>
+
+<body>
+
+<a class="skip-link" href="#conteudo-principal">Ir para o conteúdo principal</a>
+
+<div class="top-utility">
+  <div class="container utility-inner">
+    <nav class="utility-links" aria-label="Links rápidos">
+      <a href="../artigos.html"><span>★</span><span>Dicas</span></a>
+      <a href="../courses.html"><span>♥</span><span>Tutoriais</span></a>
+      <a href="../artigos.html?categoria=produtos"><span>🎁</span><span>Produtos</span></a>
+      <a href="../artigos.html?categoria=artistica"><span>✣</span><span>Inspirações</span></a>
+    </nav>
+
+    <div class="utility-social">
+      <a href="#" aria-label="Instagram">◎</a>
+      <a href="#" aria-label="YouTube">▶</a>
+      <a href="#" aria-label="Pinterest">ⓟ</a>
+      <a href="#" aria-label="TikTok">♪</a>
+    </div>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+
+    <a href="../index.html" class="brand" aria-label="Beleza em Foco">
+      <div class="brand-icon" aria-hidden="true">
+        <span class="lipstick lipstick-one"></span>
+        <span class="lipstick lipstick-two"></span>
+      </div>
+
+      <div class="brand-copy">
+        <span class="brand-name">Beleza em Foco</span>
+        <span class="brand-tagline">MAQUIAGEM • AUTOCUIDADO • CONFIANÇA</span>
+      </div>
+    </a>
+
+    <form class="header-search" action="../buscar.html" method="get" role="search">
+      <input
+        name="q"
+        type="search"
+        placeholder="Buscar artigos, tutoriais, produtos..."
+        aria-label="Buscar no site"
+      >
+      <button type="submit" aria-label="Pesquisar">
+        <span class="search-icon"></span>
+      </button>
+    </form>
+
+    <div class="header-actions">
+      <a href="../courses.html" class="header-action courses-button">
+        <span>♛</span><span>Meus Cursos</span>
+      </a>
+
+      <a href="../artigos.html?favoritos=1" class="header-action favorites-button">
+        <span>★</span>
+        <span>Favoritos (<strong id="favorites-count">0</strong>)</span>
+      </a>
+    </div>
+
+  </div>
+</header>
+
+<nav class="main-navigation" aria-label="Navegação principal">
+  <div class="container nav-inner">
+
+    <ul class="main-menu">
+      <li><a href="../index.html" class="nav-link">INÍCIO</a></li>
+      <li><a href="../artigos.html" class="nav-link">ARTIGOS</a></li>
+      <li><a href="../courses.html" class="nav-link">TUTORIAIS</a></li>
+      <li><a href="../artigos.html?categoria=produtos" class="nav-link">PRODUTOS</a></li>
+      <li><a href="../categorias.html" class="nav-link">CATEGORIAS</a></li>
+      <li><a href="../about.html" class="nav-link">SOBRE NÓS</a></li>
+      <li><a href="../contact.html" class="nav-link">CONTATO</a></li>
+    </ul>
+
+    <a href="../artigos.html" class="articles-counter">
+      <strong>50 ARTIGOS</strong>
+    </a>
+
+  </div>
+</nav>
+
+<main id="conteudo-principal" class="article-page">
+
+  <div class="container">
+
+    <nav class="article-breadcrumb" aria-label="Breadcrumb">
+      <a href="../index.html">Início</a>
+      <span>›</span>
+      <a href="../artigos.html">Artigos</a>
+      <span>›</span>
+      <a href="../artigos.html?categoria=iniciantes">Maquiagem para Iniciantes</a>
+      <span>›</span>
+      <span>Maquiagem para Iniciantes: Guia Completo para Começar do Zero</span>
+    </nav>
+
+    <div class="article-layout">
+
+      <div class="article-main">
+
+        <header class="article-header">
+
+          <span class="article-category">Olhos</span>
+
+          <h1>Maquiagem para Olhos Redondos: Técnicas e Passo a Passo</h1>
+
+          <p>Um guia completo para entender os produtos essenciais, aprender a sequência básica e construir sua primeira maquiagem com mais controle, leveza e confiança.</p>
+
+          <div class="article-meta">
+            <span>Atualizado em 25 de agosto de 2026</span>
+            <span>Conteúdo educativo</span>
+            <span>Beleza em Foco</span>
+          </div>
+
+        </header>
+
+        <figure class="article-cover">
+          <div class="article-image-placeholder">
+            <span>IMAGEM DE CAPA</span>
+            <small>Imagem principal exclusiva relacionada ao tema: Maquiagem para Iniciantes: Guia Completo para Começar do Zero</small>
+          </div>
+          <figcaption>Imagem de apoio para introduzir visualmente o tema deste artigo.</figcaption>
+        </figure>
+
+        <div class="ad-placeholder" aria-label="Publicidade">
+          Espaço publicitário
+        </div>
+
+        <article class="article-content-full">
+<h2>Maquiagem para olhos redondos: como destacar ou alongar o formato</h2>
+<p>Olhos redondos costumam apresentar uma curvatura evidente e, em muitos casos, uma parte visível da área branca abaixo ou acima da íris quando o olhar está direcionado para frente. Essa característica cria um olhar expressivo e permite trabalhar diferentes estilos de maquiagem.</p>
+<p>Algumas pessoas procuram técnicas para alongar visualmente os olhos, enquanto outras querem destacar ainda mais a forma arredondada. Nenhum desses objetivos é superior. Entender onde posicionar sombras, delineado e cílios permite controlar o efeito de maneira consciente.</p>
+<p>O formato também pode variar bastante. Existem olhos redondos grandes, pequenos, profundos, encapuzados ou levemente caídos. Por isso, todas as técnicas precisam ser adaptadas à combinação específica de características.</p>
+<h2>1. Observe a curvatura natural</h2>
+<p>Olhe de frente e perceba onde a pálpebra forma maior arco. Observe também a direção do canto externo.</p>
+<p>Essa análise ajuda a decidir se você quer acompanhar a curvatura ou criar linhas mais horizontais.</p>
+<h2>2. Prepare a pálpebra</h2>
+<p>Aplique primer ou outro produto de preparação adequado em uma camada fina.</p>
+<p>Espalhe uniformemente e aguarde o produto assentar antes de começar as sombras.</p>
+<h2>3. Escolha uma sombra de transição</h2>
+<p>Utilize uma tonalidade intermediária no côncavo. Se deseja alongamento, concentre a direção principalmente para o canto externo em vez de criar um arco muito redondo ao redor de todo o olho.</p>
+<p>Faça movimentos suaves e observe o resultado aberto.</p>
+<figure class="article-image">
+<div class="article-image-placeholder">
+<span>IMAGEM 01</span>
+<small>Olho redondo com marcação de uma direção de esfumado mais horizontal.</small>
+</div>
+<figcaption>Direcionar a sombra lateralmente pode modificar visualmente a percepção da curvatura natural.</figcaption>
+</figure>
+<h2>4. Concentre profundidade na parte externa</h2>
+<p>Escolha uma sombra mais profunda e aplique principalmente no terço externo.</p>
+<p>Leve a cor um pouco para fora, criando continuidade com a linha dos cílios em vez de formar apenas uma mancha circular.</p>
+<h2>5. Esfume em direção à têmpora quando quiser alongar</h2>
+<p>Use o resíduo do pincel para estender suavemente a borda externa.</p>
+<p>A mudança deve ser gradual. Uma ponta extremamente marcada não é necessária a menos que esse seja o estilo desejado.</p>
+<h2>6. Preserve luminosidade na parte interna</h2>
+<p>Uma sombra clara ou luminosa na região interna e central cria contraste com o canto externo profundo.</p>
+<p>Essa diferença pode reforçar a percepção de direção lateral.</p>
+<div class="ad-placeholder" aria-label="Publicidade">Espaço publicitário</div>
+<h2>7. Evite concentrar toda a sombra escura no centro quando quiser alongar</h2>
+<p>Colocar a maior profundidade exatamente no centro pode reforçar a curvatura do olho.</p>
+<p>Se seu objetivo é um efeito mais horizontal, mova a intensidade para o lado externo.</p>
+<h2>8. Sombras escuras continuam permitidas</h2>
+<p>Preto, marrom profundo, grafite, vinho e diversas outras cores podem funcionar.</p>
+<p>O ponto principal é posicioná-las com intenção e construir intensidade progressivamente.</p>
+<h2>9. Smokey eye alongado</h2>
+<p>Concentre o tom mais profundo próximo aos cílios e no canto externo.</p>
+<p>Esfume para fora com uma tonalidade intermediária, preservando o centro um pouco mais claro se quiser aumentar o contraste.</p>
+<h2>10. Smokey arredondado também é uma escolha</h2>
+<p>Se você gosta de destacar a forma natural, pode acompanhar o arco do côncavo e distribuir profundidade de maneira mais uniforme.</p>
+<p>Esse efeito enfatiza a expressão arredondada em vez de tentar modificá-la.</p>
+<h2>11. Delineado pode transformar bastante a direção</h2>
+<p>Um traço que aumenta progressivamente de espessura em direção ao canto externo pode criar maior horizontalidade.</p>
+<p>Comece fino no canto interno para manter controle.</p>
+<h2>12. Gatinho alongado</h2>
+<p>Marque uma ponta externa direcionada lateralmente e ligeiramente para cima conforme sua preferência.</p>
+<p>Depois conecte à linha principal. Um gatinho mais horizontal costuma reforçar o efeito de alongamento.</p>
+<figure class="article-image">
+<div class="article-image-placeholder">
+<span>IMAGEM 02</span>
+<small>Delineado alongado aplicado em olhos redondos.</small>
+</div>
+<figcaption>Maior espessura e extensão no canto externo podem criar uma direção visual mais horizontal.</figcaption>
+</figure>
+<h2>13. Delineado muito curvo reforça o formato arredondado</h2>
+<p>Se o traço acompanha exatamente toda a curvatura superior sem se prolongar lateralmente, ele tende a destacar o arco natural.</p>
+<p>Isso pode ser exatamente o resultado desejado. A técnica não é errada; produz apenas outro efeito.</p>
+<h2>14. Trabalhe a parte inferior principalmente no canto externo</h2>
+<p>Para alongamento, aplique sombra mais intensa no terço externo inferior e reduza conforme avança para dentro.</p>
+<p>Conecte ao canto superior para formar continuidade.</p>
+<h2>15. Não desça demais a sombra inferior sem intenção</h2>
+<p>Uma aplicação larga abaixo de toda a íris pode enfatizar ainda mais a forma arredondada.</p>
+<p>Se deseja horizontalidade, mantenha maior concentração nas extremidades.</p>
+<h2>16. Lápis preto na linha d'água</h2>
+<p>Uma tonalidade escura cria maior definição e pode reduzir visualmente a área clara ao redor da íris.</p>
+<p>Utilize produtos apropriados para a região e escolha essa técnica apenas se gostar do resultado.</p>
+<h2>17. Lápis claro aumenta a sensação de abertura</h2>
+<p>Tons claros criam contraste diferente e podem enfatizar a dimensão natural dos olhos.</p>
+<p>Isso mostra como a mesma anatomia pode receber maquiagens com efeitos opostos.</p>
+<h2>18. Máscara concentrada no canto externo</h2>
+<p>Depois de aplicar máscara em todos os cílios, faça uma passagem adicional nos fios externos se desejar alongamento.</p>
+<p>Penteie levemente na direção lateral.</p>
+<h2>19. Cílios postiços estilo cat eye</h2>
+<p>Modelos que aumentam gradualmente de comprimento em direção ao lado externo podem reforçar uma direção alongada.</p>
+<p>Escolha densidade compatível com a maquiagem e ajuste a faixa ao tamanho dos olhos.</p>
+<h2>20. Modelos arredondados enfatizam abertura</h2>
+<p>Cílios mais longos no centro tendem a destacar a região central e podem reforçar um efeito mais aberto.</p>
+<p>Use quando desejar enfatizar a forma natural em vez de alongá-la.</p>
+<h2>21. Sobrancelhas fazem parte da composição</h2>
+<p>Penteie e preencha falhas preservando o formato natural.</p>
+<p>Uma cauda definida pode acompanhar a direção externa da maquiagem, criando continuidade visual.</p>
+<h2>22. Não redesenhe a sobrancelha apenas para modificar os olhos</h2>
+<p>Pequenas correções são suficientes. Alterar drasticamente arco e comprimento pode criar um resultado desconectado da estrutura facial.</p>
+<p>Trabalhe com o desenho que já existe.</p>
+<h2>23. Ilumine o canto interno de forma precisa</h2>
+<p>Um ponto claro nessa região aumenta luminosidade e cria contraste com o canto externo.</p>
+<p>Use pouco produto e mantenha a aplicação concentrada.</p>
+<figure class="article-image">
+<div class="article-image-placeholder">
+<span>IMAGEM 03</span>
+<small>Resultado final de maquiagem alongada para olhos redondos.</small>
+</div>
+<figcaption>Sombras, delineado e cílios direcionados externamente podem criar uma aparência mais horizontal sem esconder o formato natural.</figcaption>
+</figure>
+<h2>24. Maquiagem natural para olhos redondos</h2>
+<p>Use sombra suave no côncavo, pequena profundidade externa e máscara.</p>
+<p>Se desejar, acrescente um delineado fino que aumente discretamente em direção ao canto externo.</p>
+<h2>25. Maquiagem intensa</h2>
+<p>Crie um smokey com tons profundos, esfumando lateralmente, e combine com delineado ou lápis escuro.</p>
+<p>Uma sombra metálica no centro pode adicionar contraste sem eliminar a profundidade externa.</p>
+<h2>26. Maquiagem colorida</h2>
+<p>Substitua marrons por azul, verde, roxo, vinho ou qualquer outra tonalidade.</p>
+<p>A técnica de posicionamento permanece igual independentemente da família de cores.</p>
+<div class="ad-placeholder" aria-label="Publicidade">Espaço publicitário</div>
+<h2>27. Evite aplicar tudo de maneira simétrica ao redor da íris quando quiser alongar</h2>
+<p>Distribuir a mesma intensidade acima, abaixo e dos dois lados enfatiza o centro.</p>
+<p>Para um efeito horizontal, concentre mais peso visual na lateral externa.</p>
+<h2>28. Alternar entre os dois olhos ajuda</h2>
+<p>Faça a transição nos dois lados, depois a profundidade e então o delineado.</p>
+<p>Essa sequência reduz diferenças de direção e intensidade.</p>
+<h2>29. Observe o rosto inteiro</h2>
+<p>Olhos redondos podem chamar bastante atenção naturalmente. Depois de finalizar, veja como eles se relacionam com sobrancelhas, blush e lábios.</p>
+<p>Você pode escolher manter os olhos como principal destaque ou criar intensidade semelhante em outras regiões.</p>
+<h2>30. Faça fotografias frontais</h2>
+<p>Uma foto sem filtro ajuda a perceber se o esfumado está realmente alongado ou se o delineado termina em direções diferentes.</p>
+<p>Observe também com o rosto ligeiramente virado para verificar o efeito lateral.</p>
+<h2>31. Não existe necessidade de diminuir olhos redondos</h2>
+<p>Muitas regras antigas tratam o formato como algo a ser corrigido. Isso não é necessário.</p>
+<p>Você pode utilizar técnicas de alongamento apenas quando gostar desse efeito e, em outros dias, destacar completamente a forma arredondada.</p>
+<h2>32. Teste dois estilos diferentes</h2>
+<p>Faça um esfumado arredondado em um olho e outro puxado lateralmente no outro.</p>
+<p>Compare os resultados de frente. Esse exercício ajuda a visualizar de maneira clara como o posicionamento altera a percepção do formato.</p>
+<h2>33. Adapte às outras características</h2>
+<p>Se seus olhos também forem encapuzados, caídos ou pequenos, combine as técnicas necessárias.</p>
+<p>Formato de olhos raramente se encaixa perfeitamente em uma única categoria.</p>
+<h2>34. Controle a quantidade de produto</h2>
+<p>Independentemente da técnica, camadas pequenas oferecem maior precisão.</p>
+<p>Quanto mais profundo o pigmento, mais importante é construir gradualmente.</p>
+<h2>35. Como escolher entre destacar ou alongar olhos redondos</h2>
+<p>Antes de começar a maquiagem, decida qual característica deseja enfatizar. Se você gosta da aparência aberta e expressiva dos olhos redondos, pode trabalhar luminosidade central, cílios destacados e sombras que acompanham a curvatura natural. Se prefere criar maior horizontalidade, concentre profundidade e direção nos cantos externos.</p>
+<p>Essa escolha não precisa ser permanente. Em uma maquiagem cotidiana você pode destacar a forma natural, enquanto em uma produção noturna pode optar por um esfumado alongado. A mesma pessoa pode utilizar técnicas completamente diferentes dependendo do estilo.</p>
+<h2>36. Como criar um esfumado alongado passo a passo</h2>
+<p>Comece com uma sombra intermediária no côncavo, mas evite fazer um arco perfeitamente circular ao redor de toda a pálpebra. Conforme chega ao canto externo, direcione o movimento lateralmente.</p>
+<p>Depois coloque uma tonalidade mais profunda no terço externo. Deposite o produto próximo aos cílios e utilize o resíduo para levá-lo em direção à têmpora. A intensidade deve diminuir gradualmente conforme se afasta do olho.</p>
+<p>Finalize a região central com uma cor mais clara ou luminosa. O contraste entre centro e canto externo cria dimensão e reforça a direção horizontal.</p>
+<h2>37. Como criar um esfumado arredondado</h2>
+<p>Quando a intenção é destacar o formato natural, acompanhe a curvatura do côncavo com a sombra de transição. Adicione profundidade de maneira mais equilibrada ao redor da pálpebra, sem concentrar toda a cor apenas na extremidade.</p>
+<p>Você pode iluminar o centro da pálpebra para chamar ainda mais atenção para a região da íris. Essa técnica cria um resultado especialmente interessante com sombras metálicas ou acetinadas.</p>
+<h2>38. Como combinar sombra inferior e linha d'água</h2>
+<p>A região inferior possui grande influência na percepção do formato. Para alongar, concentre sombra escura do centro para o canto externo e mantenha a parte interna mais suave. Para enfatizar o formato redondo, você pode distribuir a cor de maneira mais uniforme abaixo dos cílios.</p>
+<p>Na linha d'água, lápis escuro cria maior definição, enquanto tons claros aumentam luminosidade. Teste as duas opções em momentos diferentes para perceber como cada uma modifica visualmente seus olhos.</p>
+<h2>39. Como escolher cílios para cada efeito</h2>
+<p>Se deseja alongamento, procure maior comprimento e densidade na parte externa. Você pode conseguir isso apenas com máscara, concentrando uma segunda camada nos fios laterais, ou utilizando cílios postiços de formato cat eye.</p>
+<p>Para enfatizar abertura, cílios mais longos na região central direcionam atenção ao centro dos olhos. Essa distribuição acompanha a curvatura natural e aumenta a aparência expressiva.</p>
+<h2>40. Como adaptar o delineado ao tamanho dos olhos</h2>
+<p>Olhos redondos também podem ser pequenos ou grandes. Em olhos menores, comece com uma linha fina para não ocupar toda a pálpebra. Em olhos maiores, você possui maior espaço para experimentar espessuras gráficas.</p>
+<p>Independentemente do tamanho, construa o gatinho progressivamente. Marque primeiro a ponta externa, compare os dois lados e só depois aumente a espessura.</p>
+<h2>41. Como usar sombra preta sem pesar</h2>
+<p>Comece depositando uma pequena quantidade no canto externo ou próximo aos cílios. Em seguida, use marrom, grafite ou outra tonalidade intermediária para suavizar a borda.</p>
+<p>Evite pegar grandes quantidades diretamente no início. O preto possui bastante impacto visual e geralmente funciona melhor quando construído em camadas pequenas.</p>
+<h2>42. Como usar cores vibrantes</h2>
+<p>Azul, verde, roxo, rosa e outras cores podem substituir completamente os tons neutros. Para alongamento, coloque a tonalidade mais profunda externamente e mantenha a direção lateral. Para destacar o formato redondo, distribua a cor acompanhando o arco natural.</p>
+<p>Em uma maquiagem colorida simples, uma única sombra também pode criar profundidade. Deposite maior quantidade perto dos cílios e reduza progressivamente em direção às bordas.</p>
+<h2>43. Como combinar olhos redondos com blush e sobrancelhas</h2>
+<p>Uma maquiagem muito alongada nos olhos pode ser acompanhada por blush aplicado em direção mais lateral, criando continuidade visual. Já um blush central produz um resultado mais delicado e arredondado.</p>
+<p>Nas sobrancelhas, preserve o desenho natural e corrija apenas pequenas falhas. Não existe necessidade de criar um arco exagerado apenas para modificar a percepção dos olhos.</p>
+<h2>44. Erros comuns ao tentar alongar</h2>
+<p>Um erro frequente é criar uma ponta externa intensa sem construir uma transição entre ela e o restante da maquiagem. Isso deixa o canto parecendo separado. Use uma sombra intermediária para conectar a profundidade à pálpebra.</p>
+<p>Outro erro é estender demais a sombra inferior para baixo enquanto tenta criar horizontalidade. Concentre a maior parte do produto próxima aos cílios e leve a direção principalmente para fora.</p>
+<h2>45. Como verificar se o efeito ficou equilibrado</h2>
+<p>Afaste-se do espelho e observe os dois olhos simultaneamente. Veja se a direção externa está semelhante e se um lado não ficou significativamente mais alto ou longo.</p>
+<p>Depois faça uma fotografia frontal. O resultado pode parecer diferente do espelho porque a imagem ajuda a observar o rosto inteiro sem acompanhar pequenos movimentos da cabeça.</p>
+<h2>46. Pratique sem tentar alcançar perfeição</h2>
+<p>Os dois olhos não são geometricamente idênticos. Pequenas diferenças de tamanho, inclinação e dobra são normais. Em vez de aumentar continuamente um lado para igualar ao outro, procure equilíbrio visual.</p>
+<p>Com repetição, você aprende quais posições de sombra, delineado e cílios produzem os efeitos que mais gosta em seus próprios olhos.</p>
+<h2>Conclusão</h2>
+<p>Olhos redondos podem ser destacados de várias maneiras. Se você deseja alongamento, direcione sombras, delineado e cílios para o canto externo e mantenha maior intensidade nessa região.</p>
+<p>Se prefere enfatizar a forma natural, acompanhe a curvatura, concentre luminosidade no centro e trabalhe cílios que aumentem a abertura.</p>
+<p>Não existe uma opção correta para todos os dias. Aprender como cada posicionamento modifica visualmente o formato permite escolher conscientemente o efeito que melhor combina com sua maquiagem.</p>
+<p><a href="como-aplicar-sombra-nos-olhos.html"><strong>Leia também: como aplicar sombra nos olhos →</strong></a></p>
+<p><a href="como-fazer-delineado-gatinho.html"><strong>Leia também: como fazer delineado gatinho →</strong></a></p>
+<p><a href="maquiagem-para-olhos-grandes.html"><strong>Leia também: maquiagem para olhos grandes →</strong></a></p>
+<section class="article-faq">
+<h2>Perguntas frequentes</h2>
+<div class="article-faq-item"><h3>Como alongar olhos redondos com maquiagem?</h3><p>Concentre a maior profundidade no canto externo, esfume lateralmente e utilize delineado e cílios que aumentem de intensidade nessa direção.</p></div>
+<div class="article-faq-item"><h3>Olhos redondos podem usar lápis preto?</h3><p>Sim. Um lápis escuro na linha d'água cria maior definição e pode modificar a percepção da abertura natural.</p></div>
+<div class="article-faq-item"><h3>Qual delineado combina com olhos redondos?</h3><p>Um gatinho mais alongado pode criar direção horizontal, enquanto linhas que acompanham a curvatura natural enfatizam o formato arredondado.</p></div>
+<div class="article-faq-item"><h3>Qual cílio postiço usar em olhos redondos?</h3><p>Modelos mais longos no canto externo favorecem alongamento, enquanto cílios mais longos no centro destacam a abertura. Escolha conforme o efeito desejado.</p></div>
+</section>
+<button type="button" class="article-favorite" data-favorite-article="maquiagem-para-olhos-redondos.html">★ Adicionar aos favoritos</button>
+</article>
+
+      </div>
+
+      <aside class="article-sidebar">
+
+        <section class="sidebar-card">
+          <h2>Continue aprendendo</h2>
+          <p>Explore outros conteúdos relacionados e aprofunde sua prática.</p>
+
+          <div class="sidebar-links">
+            <a href="../courses.html"><span>Curso gratuito</span><span>→</span></a>
+            <a href="../categorias.html"><span>Categorias</span><span>→</span></a>
+            <a href="../artigos.html"><span>Todos os artigos</span><span>→</span></a>
+          </div>
+        </section>
+
+        <div class="ad-placeholder" aria-label="Publicidade">
+          Espaço publicitário
+        </div>
+
+      </aside>
+
+    </div>
+
+  </div>
+
+</main>
+
+<footer class="site-footer">
+
+  <div class="container footer-grid">
+
+    <div class="footer-brand">
+      <a href="../index.html" class="footer-logo">
+        <span>Beleza em Foco</span>
+      </a>
+
+      <p>
+        Seu portal sobre maquiagem, beleza e autocuidado.
+        Conteúdo educativo para aprender com mais confiança.
+      </p>
+    </div>
+
+    <div class="footer-column">
+      <h2>Navegação</h2>
+      <ul>
+        <li><a href="../index.html">Início</a></li>
+        <li><a href="../artigos.html">Artigos</a></li>
+        <li><a href="../courses.html">Tutoriais</a></li>
+        <li><a href="../categorias.html">Categorias</a></li>
+        <li><a href="../contact.html">Contato</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h2>Institucional</h2>
+      <ul>
+        <li><a href="../about.html">Sobre Nós</a></li>
+        <li><a href="../privacy.html">Política de Privacidade</a></li>
+        <li><a href="../cookies.html">Política de Cookies</a></li>
+        <li><a href="../terms.html">Termos de Uso</a></li>
+        <li><a href="../editorial-policy.html">Política Editorial</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <p>© 2026 Beleza em Foco. Todos os direitos reservados.</p>
+    </div>
+  </div>
+
+</footer>
+
+<div class="cookie-banner" id="cookie-banner" hidden>
+  <div class="cookie-content">
+    <div>
+      <strong>Privacidade e cookies</strong>
+      <p>Usamos cookies para melhorar sua experiência e preparar recursos de publicidade.</p>
+      <a href="../cookies.html">Política de Cookies</a>
+    </div>
+
+    <div class="cookie-actions">
+      <button type="button" id="cookie-settings">Configurar</button>
+      <button type="button" id="cookie-reject">Rejeitar não essenciais</button>
+      <button type="button" id="cookie-accept">Aceitar</button>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+
