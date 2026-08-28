@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Política de Privacidade | Beleza em Foco</title>
+
+  <meta
+    name="description"
+    content="Conheça a Política de Privacidade do Beleza em Foco e saiba como informações, cookies, formulários e recursos do site podem ser utilizados."
+  >
+
+  <link rel="canonical" href="https://seudominio.com/privacy.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@500;600;700;800;900&family=Playfair+Display:ital,wght@1,700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <script src="js/main.js" defer></script>
+  <script src="js/search.js" defer></script>
+  <script src="js/favorites.js" defer></script>
+  <script src="js/consent.js" defer></script>
+
+  <style>
+    .legal-page {
+      min-height: 70vh;
+      padding: 38px 0 60px;
+      background:
+        radial-gradient(circle at 10% 4%, rgba(255,15,104,.07), transparent 24%),
+        radial-gradient(circle at 92% 6%, rgba(120,37,198,.07), transparent 26%),
+        linear-gradient(180deg, #fff 0%, #fff8fb 100%);
+    }
+
+    .legal-hero {
+      position: relative;
+      overflow: hidden;
+      padding: 36px 40px;
+      border-radius: 18px;
+      color: #fff;
+      background:
+        radial-gradient(circle at 86% 18%, rgba(255,173,0,.48), transparent 22%),
+        linear-gradient(120deg, #ff0f68 0%, #d40b70 50%, #63148f 100%);
+      box-shadow: 0 15px 38px rgba(75,13,104,.14);
+    }
+
+    .legal-hero::before {
+      content: "";
+      position: absolute;
+      right: -75px;
+      bottom: -120px;
+      width: 240px;
+      height: 240px;
+      border: 28px solid rgba(255,255,255,.07);
+      border-radius: 50%;
+    }
+
+    .legal-hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 820px;
+    }
+
+    .legal-label {
+      display: inline-flex;
+      min-height: 27px;
+      padding: 0 12px;
+      align-items: center;
+      border-radius: 16px;
+      background: rgba(255,255,255,.15);
+      font-size: 9px;
+      font-weight: 900;
+      letter-spacing: .8px;
+      text-transform: uppercase;
+    }
+
+    .legal-hero h1 {
+      margin-top: 10px;
+      font-family: "Montserrat", sans-serif;
+      font-size: clamp(30px, 4vw, 44px);
+      line-height: 1.08;
+      font-weight: 900;
+    }
+
+    .legal-hero p {
+      max-width: 760px;
+      margin-top: 12px;
+      color: rgba(255,255,255,.94);
+      font-size: 14px;
+      line-height: 1.7;
+    }
+
+    .legal-layout {
+      margin-top: 24px;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 300px;
+      gap: 26px;
+      align-items: start;
+    }
+
+    .legal-content {
+      padding: 28px 30px;
+      border: 1px solid rgba(210,50,110,.12);
+      border-radius: 15px;
+      background: #fff;
+      box-shadow: 0 9px 26px rgba(70,20,70,.07);
+    }
+
+    .legal-content section + section {
+      margin-top: 28px;
+    }
+
+    .legal-content h2 {
+      color: #32123d;
+      font-family: "Montserrat", sans-serif;
+      font-size: 20px;
+      line-height: 1.3;
+      font-weight: 900;
+    }
+
+    .legal-content h3 {
+      margin-top: 17px;
+      color: #4b0d68;
+      font-family: "Montserrat", sans-serif;
+      font-size: 14px;
+      font-weight: 800;
+    }
+
+    .legal-content p {
+      margin-top: 10px;
+      color: #55495a;
+      font-size: 12px;
+      line-height: 1.8;
+    }
+
+    .legal-content ul {
+      margin-top: 12px;
+      padding-left: 20px;
+      list-style: disc;
+      color: #55495a;
+    }
+
+    .legal-content li {
+      margin-bottom: 8px;
+      font-size: 11.5px;
+      line-height: 1.7;
+    }
+
+    .legal-note {
+      margin-top: 18px;
+      padding: 15px 17px;
+      border-left: 4px solid #ffad00;
+      border-radius: 8px;
+      background: #fff8e9;
+      color: #5b472c;
+      font-size: 10px;
+      line-height: 1.65;
+    }
+
+    .legal-highlight {
+      margin-top: 18px;
+      padding: 15px 17px;
+      border-left: 4px solid #ff0f68;
+      border-radius: 8px;
+      background: #fff3f8;
+      color: #513d52;
+      font-size: 10.5px;
+      line-height: 1.65;
+    }
+
+    .legal-sidebar-card {
+      position: sticky;
+      top: 18px;
+      padding: 18px;
+      border: 1px solid rgba(210,50,110,.12);
+      border-radius: 13px;
+      background: #fff;
+      box-shadow: 0 8px 24px rgba(70,20,70,.08);
+    }
+
+    .legal-sidebar-card h2 {
+      color: #32123d;
+      font-family: "Montserrat", sans-serif;
+      font-size: 14px;
+      font-weight: 900;
+    }
+
+    .legal-sidebar-card p {
+      margin-top: 7px;
+      color: #6c6170;
+      font-size: 9.5px;
+      line-height: 1.6;
+    }
+
+    .legal-nav {
+      margin-top: 12px;
+      display: grid;
+      gap: 6px;
+    }
+
+    .legal-nav a {
+      min-height: 34px;
+      padding: 0 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-radius: 7px;
+      background: #fff4f8;
+      color: #d40b70;
+      font-size: 8.8px;
+      font-weight: 900;
+    }
+
+    .legal-date {
+      margin-top: 15px;
+      color: #837686;
+      font-size: 8.5px;
+      line-height: 1.5;
+    }
+
+    @media (max-width: 850px) {
+      .legal-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .legal-sidebar-card {
+        position: static;
+      }
+    }
+
+    @media (max-width: 580px) {
+      .legal-page {
+        padding-top: 20px;
+      }
+
+      .legal-hero {
+        padding: 26px 21px;
+      }
+
+      .legal-content {
+        padding: 22px 19px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<a class="skip-link" href="#conteudo-principal">
+  Ir para o conteúdo principal
+</a>
+
+<div class="top-utility">
+  <div class="container utility-inner">
+
+    <nav class="utility-links" aria-label="Links rápidos">
+      <a href="artigos.html"><span>★</span><span>Dicas</span></a>
+      <a href="courses.html"><span>♥</span><span>Tutoriais</span></a>
+      <a href="artigos.html?categoria=produtos"><span>🎁</span><span>Produtos</span></a>
+      <a href="artigos.html?categoria=artistica"><span>✣</span><span>Inspirações</span></a>
+    </nav>
+
+    <div class="utility-social">
+      <a href="#" aria-label="Instagram">◎</a>
+      <a href="#" aria-label="YouTube">▶</a>
+      <a href="#" aria-label="Pinterest">ⓟ</a>
+      <a href="#" aria-label="TikTok">♪</a>
+    </div>
+
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+
+    <a href="index.html" class="brand" aria-label="Beleza em Foco">
+
+      <div class="brand-icon" aria-hidden="true">
+        <span class="lipstick lipstick-one"></span>
+        <span class="lipstick lipstick-two"></span>
+      </div>
+
+      <div class="brand-copy">
+        <span class="brand-name">Beleza em Foco</span>
+        <span class="brand-tagline">
+          MAQUIAGEM • AUTOCUIDADO • CONFIANÇA
+        </span>
+      </div>
+
+    </a>
+
+    <form
+      class="header-search"
+      id="header-search-form"
+      action="buscar.html"
+      method="get"
+      role="search"
+    >
+      <label class="sr-only" for="header-search-input">
+        Buscar no site
+      </label>
+
+      <input
+        id="header-search-input"
+        name="q"
+        type="search"
+        placeholder="Buscar artigos, tutoriais, produtos..."
+        autocomplete="off"
+      >
+
+      <button type="submit" aria-label="Pesquisar">
+        <span class="search-icon"></span>
+      </button>
+
+      <div
+        class="search-suggestions"
+        id="search-suggestions"
+        aria-live="polite"
+      ></div>
+    </form>
+
+    <div class="header-actions">
+
+      <a href="courses.html" class="header-action courses-button">
+        <span>♛</span>
+        <span>Meus Cursos</span>
+      </a>
+
+      <a
+        href="artigos.html?favoritos=1"
+        class="header-action favorites-button"
+      >
+        <span>★</span>
+        <span>
+          Favoritos (<strong id="favorites-count">0</strong>)
+        </span>
+      </a>
+
+    </div>
+
+    <button
+      class="mobile-menu-toggle"
+      id="mobile-menu-toggle"
+      type="button"
+      aria-label="Abrir menu"
+      aria-controls="main-navigation"
+      aria-expanded="false"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+  </div>
+</header>
+
+<nav
+  class="main-navigation"
+  id="main-navigation"
+  aria-label="Navegação principal"
+>
+  <div class="container nav-inner">
+
+    <ul class="main-menu">
+
+      <li>
+        <a href="index.html" class="nav-link nav-home">
+          <span>⌂</span>
+          INÍCIO
+        </a>
+      </li>
+
+      <li class="has-dropdown">
+        <button
+          class="nav-dropdown-button"
+          type="button"
+          aria-expanded="false"
+        >
+          ARTIGOS
+          <span class="dropdown-chevron">⌄</span>
+        </button>
+
+        <div class="dropdown-menu">
+          <a href="artigos.html?categoria=iniciantes">Maquiagem para iniciantes</a>
+          <a href="artigos.html?categoria=pele">Pele</a>
+          <a href="artigos.html?categoria=olhos">Olhos</a>
+          <a href="artigos.html?categoria=sobrancelhas">Sobrancelhas</a>
+          <a href="artigos.html?categoria=cilios">Cílios</a>
+          <a href="artigos.html?categoria=labios">Lábios</a>
+          <a href="artigos.html?categoria=artistica">Maquiagem artística</a>
+          <a href="artigos.html?categoria=drag">Drag Queen</a>
+          <a href="artigos.html?categoria=produtos">Produtos e ferramentas</a>
+        </div>
+      </li>
+
+      <li>
+        <a href="courses.html" class="nav-link">
+          TUTORIAIS
+        </a>
+      </li>
+
+      <li>
+        <a href="artigos.html?categoria=produtos" class="nav-link">
+          PRODUTOS
+        </a>
+      </li>
+
+      <li>
+        <a href="categorias.html" class="nav-link">
+          CATEGORIAS
+        </a>
+      </li>
+
+      <li>
+        <a href="about.html" class="nav-link">
+          SOBRE NÓS
+        </a>
+      </li>
+
+      <li>
+        <a href="mailto:juarezimoveispronto@hotmail.com" class="nav-link">
+          CONTATO
+        </a>
+      </li>
+
+    </ul>
+
+    <a href="artigos.html" class="articles-counter">
+      <span>▥</span>
+      <strong>50 ARTIGOS</strong>
+    </a>
+
+  </div>
+</nav>
+
+<main id="conteudo-principal" class="legal-page">
+
+  <div class="container">
+
+    <section class="legal-hero">
+
+      <div class="legal-hero-content">
+
+        <span class="legal-label">
+          ✦ PRIVACIDADE
+        </span>
+
+        <h1>Política de Privacidade</h1>
+
+        <p>
+          Esta política explica como o Beleza em Foco pode coletar,
+          utilizar, armazenar e proteger informações relacionadas
+          ao uso do site.
+        </p>
+
+      </div>
+
+    </section>
+
+    <div class="legal-layout">
+
+      <article class="legal-content">
+
+        <section id="introducao">
+
+          <h2>1. Introdução</h2>
+
+          <p>
+            O Beleza em Foco valoriza a privacidade de seus visitantes.
+            Esta Política de Privacidade descreve de forma geral como
+            informações podem ser tratadas durante a navegação e utilização
+            dos recursos disponíveis no portal.
+          </p>
+
+          <p>
+            Ao utilizar o site, você pode interagir com funcionalidades
+            como favoritos, progresso do curso, pesquisa, formulários,
+            preferências de cookies e, futuramente, serviços de análise
+            e publicidade.
+          </p>
+
+          <p>
+            Buscamos coletar apenas informações compatíveis com as
+            funcionalidades oferecidas e com finalidades legítimas
+            relacionadas ao funcionamento, melhoria e segurança do site.
+          </p>
+
+        </section>
+
+        <section id="dados">
+
+          <h2>2. Informações que podem ser coletadas</h2>
+
+          <h3>Informações fornecidas pelo usuário</h3>
+
+          <p>
+            Quando o visitante utiliza formulários ou recursos semelhantes,
+            poderá fornecer voluntariamente informações como:
+          </p>
+
+          <ul>
+            <li>nome;</li>
+            <li>endereço de e-mail;</li>
+            <li>assunto da mensagem;</li>
+            <li>conteúdo enviado em formulários;</li>
+            <li>preferências relacionadas a comunicações, quando aplicável.</li>
+          </ul>
+
+          <p>
+            Evite enviar informações pessoais sensíveis que não sejam
+            necessárias para o atendimento da solicitação.
+          </p>
+
+          <h3>Informações armazenadas localmente no navegador</h3>
+
+          <p>
+            Algumas funcionalidades atuais utilizam armazenamento local
+            do navegador, também conhecido como localStorage.
+          </p>
+
+          <p>
+            Esse recurso é utilizado, por exemplo, para:
+          </p>
+
+          <ul>
+            <li>salvar artigos marcados como favoritos;</li>
+            <li>registrar aulas concluídas no curso;</li>
+            <li>manter o percentual de progresso do curso;</li>
+            <li>registrar a preferência do usuário em relação ao aviso de cookies.</li>
+          </ul>
+
+          <p>
+            Essas informações permanecem, em regra, no próprio navegador
+            utilizado pelo visitante e podem ser removidas ao limpar os
+            dados do site ou do navegador.
+          </p>
+
+        </section>
+
+        <section id="uso">
+
+          <h2>3. Como as informações podem ser utilizadas</h2>
+
+          <p>
+            As informações podem ser utilizadas para finalidades como:
+          </p>
+
+          <ul>
+            <li>permitir o funcionamento de recursos do site;</li>
+            <li>salvar preferências escolhidas pelo visitante;</li>
+            <li>responder mensagens e solicitações;</li>
+            <li>melhorar navegação, conteúdo e experiência do usuário;</li>
+            <li>identificar falhas técnicas;</li>
+            <li>manter segurança e integridade do portal;</li>
+            <li>cumprir obrigações legais quando aplicáveis.</li>
+          </ul>
+
+        </section>
+
+        <section id="cookies">
+
+          <h2>4. Cookies e tecnologias semelhantes</h2>
+
+          <p>
+            Cookies são pequenos arquivos que podem ser armazenados
+            no dispositivo do usuário durante a navegação.
+          </p>
+
+          <p>
+            O Beleza em Foco poderá utilizar cookies ou tecnologias
+            semelhantes para funcionalidades essenciais, preferências,
+            análise de desempenho e, futuramente, publicidade.
+          </p>
+
+          <p>
+            Quando necessário, o visitante poderá receber um aviso
+            solicitando sua escolha em relação a categorias de cookies
+            que não sejam estritamente essenciais.
+          </p>
+
+          <p>
+            Para informações mais específicas, consulte nossa
+            <a href="cookies.html"><strong>Política de Cookies</strong></a>.
+          </p>
+
+        </section>
+
+        <section id="analytics">
+
+          <h2>5. Serviços de análise</h2>
+
+          <p>
+            O site poderá futuramente utilizar serviços de análise de
+            audiência para compreender, de forma agregada, como visitantes
+            navegam pelo portal.
+          </p>
+
+          <p>
+            Esses serviços podem processar informações técnicas como
+            páginas acessadas, duração de visitas, tipo de dispositivo,
+            navegador e outras informações relacionadas ao uso do site.
+          </p>
+
+          <p>
+            A implantação definitiva desses serviços deverá respeitar
+            os mecanismos de consentimento aplicáveis.
+          </p>
+
+        </section>
+
+        <section id="publicidade">
+
+          <h2>6. Publicidade e Google AdSense</h2>
+
+          <p>
+            O Beleza em Foco poderá utilizar plataformas de publicidade,
+            incluindo o Google AdSense, para exibir anúncios no site.
+          </p>
+
+          <p>
+            Provedores de publicidade podem utilizar cookies ou outras
+            tecnologias para selecionar, limitar, medir ou personalizar
+            anúncios conforme as configurações e consentimentos aplicáveis.
+          </p>
+
+          <p>
+            A presença de publicidade não significa que os anunciantes
+            controlem nosso conteúdo editorial. Buscamos manter anúncios
+            visualmente separados de menus, botões e outros elementos
+            interativos para reduzir o risco de cliques acidentais.
+          </p>
+
+          <div class="legal-highlight">
+            A implementação de publicidade e serviços de medição deve ser
+            configurada juntamente com mecanismos adequados de consentimento
+            antes do lançamento definitivo.
+          </div>
+
+        </section>
+
+        <section id="terceiros">
+
+          <h2>7. Serviços e links de terceiros</h2>
+
+          <p>
+            O site poderá incluir links para páginas, vídeos, redes sociais
+            ou serviços operados por terceiros.
+          </p>
+
+          <p>
+            Ao acessar um serviço externo, as políticas de privacidade
+            daquele terceiro passam a reger o tratamento realizado por ele.
+            O Beleza em Foco não controla integralmente práticas adotadas
+            por sites externos.
+          </p>
+
+        </section>
+
+        <section id="newsletter">
+
+          <h2>8. Newsletter e comunicações</h2>
+
+          <p>
+            O site possui áreas preparadas para inscrição em newsletter.
+            Enquanto não houver uma integração real de envio, os formulários
+            podem funcionar apenas como demonstração de interface.
+          </p>
+
+          <p>
+            Quando uma plataforma de newsletter for implementada,
+            esta política deverá ser atualizada caso necessário para
+            informar o serviço utilizado, finalidade e forma de cancelamento
+            da inscrição.
+          </p>
+
+        </section>
+
+        <section id="contato">
+
+          <h2>9. Formulário de contato</h2>
+
+          <p>
+            A página de contato possui campos preparados para nome,
+            e-mail, assunto e mensagem.
+          </p>
+
+          <p>
+            A versão atual pode funcionar apenas como demonstração visual
+            enquanto não estiver conectada a um serviço de envio ou backend.
+            Quando a integração definitiva for configurada, as informações
+            enviadas poderão ser processadas com a finalidade de responder
+            solicitações e manter histórico necessário de atendimento.
+          </p>
+
+        </section>
+
+        <section id="seguranca">
+
+          <h2>10. Segurança</h2>
+
+          <p>
+            Procuramos utilizar medidas razoáveis para proteger informações
+            e reduzir riscos de acesso indevido, perda ou uso não autorizado.
+          </p>
+
+          <p>
+            Entretanto, nenhum sistema conectado à internet pode oferecer
+            garantia absoluta de segurança. O usuário também deve adotar
+            boas práticas ao utilizar dispositivos, navegadores e contas.
+          </p>
+
+        </section>
+
+        <section id="retencao">
+
+          <h2>11. Retenção de informações</h2>
+
+          <p>
+            Informações eventualmente recebidas por formulários ou serviços
+            integrados poderão ser mantidas pelo período necessário para
+            cumprir a finalidade correspondente, atender solicitações,
+            cumprir obrigações ou proteger direitos legítimos.
+          </p>
+
+          <p>
+            Dados armazenados somente no navegador, como favoritos e
+            progresso do curso, permanecem sob controle do próprio usuário
+            e podem ser apagados através das configurações do navegador.
+          </p>
+
+        </section>
+
+        <section id="direitos">
+
+          <h2>12. Direitos do usuário</h2>
+
+          <p>
+            Dependendo da legislação aplicável e do tipo de tratamento
+            realizado, o usuário poderá ter direitos relacionados a seus
+            dados pessoais, incluindo solicitação de informações,
+            correção, exclusão ou outras medidas previstas em lei.
+          </p>
+
+          <p>
+            Solicitações relacionadas à privacidade poderão ser enviadas
+            através da página de contato.
+          </p>
+
+        </section>
+
+        <section id="criancas">
+
+          <h2>13. Uso por menores</h2>
+
+          <p>
+            O portal possui caráter educativo e geral, mas não foi criado
+            com o objetivo específico de coletar dados pessoais de crianças.
+          </p>
+
+          <p>
+            Caso sejam implementados recursos que exijam coleta mais ampla
+            de informações, deverão ser avaliadas as exigências legais
+            aplicáveis ao público e ao tipo de serviço.
+          </p>
+
+        </section>
+
+        <section id="alteracoes">
+
+          <h2>14. Alterações nesta política</h2>
+
+          <p>
+            Esta Política de Privacidade poderá ser atualizada para refletir
+            alterações no site, novos serviços, integrações, requisitos
+            legais ou mudanças nas práticas de tratamento.
+          </p>
+
+          <p>
+            A versão atualizada será publicada nesta própria página.
+          </p>
+
+        </section>
+
+        <section id="fale-conosco">
+
+          <h2>15. Contato sobre privacidade</h2>
+
+          <p>
+            Para dúvidas, solicitações ou questões relacionadas à
+            privacidade, utilize nossa página de contato.
+          </p>
+
+          <p>
+            <a href="mailto:juarezimoveispronto@hotmail.com"><strong>Ir para a página de Contato →</strong></a>
+          </p>
+
+          <div class="legal-note">
+            Antes do lançamento definitivo, substitua qualquer endereço
+            genérico ou domínio de demonstração pelos dados oficiais
+            do responsável pelo site.
+          </div>
+
+        </section>
+
+      </article>
+
+      <aside class="legal-sidebar-card">
+
+        <h2>Nesta política</h2>
+
+        <p>
+          Acesse rapidamente as principais seções.
+        </p>
+
+        <nav class="legal-nav">
+          <a href="#dados"><span>Informações coletadas</span><span>→</span></a>
+          <a href="#uso"><span>Uso das informações</span><span>→</span></a>
+          <a href="#cookies"><span>Cookies</span><span>→</span></a>
+          <a href="#publicidade"><span>Publicidade</span><span>→</span></a>
+          <a href="#terceiros"><span>Terceiros</span><span>→</span></a>
+          <a href="#seguranca"><span>Segurança</span><span>→</span></a>
+          <a href="#direitos"><span>Direitos</span><span>→</span></a>
+          <a href="#fale-conosco"><span>Contato</span><span>→</span></a>
+        </nav>
+
+        <p class="legal-date">
+          Última atualização: 25 de agosto de 2026.
+        </p>
+
+      </aside>
+
+    </div>
+
+  </div>
+
+</main>
+
+<footer class="site-footer">
+
+  <div class="footer-decor footer-decor-left"></div>
+  <div class="footer-decor footer-decor-right"></div>
+
+  <div class="container footer-grid">
+
+    <div class="footer-brand">
+
+      <a href="index.html" class="footer-logo">
+        <span class="footer-lipstick">♟</span>
+        <span>Beleza em Foco</span>
+      </a>
+
+      <p>
+        Seu portal completo sobre maquiagem,
+        beleza e autocuidado. Inspiração diária
+        para realçar sua beleza única.
+      </p>
+
+      <div class="footer-social">
+        <a href="#" aria-label="Instagram">◎</a>
+        <a href="#" aria-label="YouTube">▶</a>
+        <a href="#" aria-label="Pinterest">ⓟ</a>
+        <a href="#" aria-label="TikTok">♪</a>
+        <a href="#" aria-label="Facebook">f</a>
+      </div>
+
+    </div>
+
+    <div class="footer-column">
+
+      <h2>Navegação</h2>
+
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="artigos.html">Artigos</a></li>
+        <li><a href="courses.html">Tutoriais</a></li>
+        <li><a href="categorias.html">Categorias</a></li>
+        <li><a href="mailto:juarezimoveispronto@hotmail.com">Contato</a></li>
+      </ul>
+
+    </div>
+
+    <div class="footer-column">
+
+      <h2>Institucional</h2>
+
+      <ul>
+        <li><a href="about.html">Sobre Nós</a></li>
+        <li><a href="privacy.html">Política de Privacidade</a></li>
+        <li><a href="cookies.html">Política de Cookies</a></li>
+        <li><a href="terms.html">Termos de Uso</a></li>
+        <li><a href="editorial-policy.html">Política Editorial</a></li>
+      </ul>
+
+    </div>
+
+    <div class="footer-newsletter">
+
+      <h2>Newsletter</h2>
+
+      <p>
+        Receba dicas exclusivas e novidades
+        direto no seu e-mail!
+      </p>
+
+      <form id="newsletter-form" novalidate>
+
+        <label class="sr-only" for="newsletter-email">
+          Seu melhor e-mail
+        </label>
+
+        <div class="newsletter-form-row">
+
+          <input
+            type="email"
+            id="newsletter-email"
+            placeholder="Seu melhor e-mail"
+            required
+          >
+
+          <button type="submit">
+            Inscrever-se
+          </button>
+
+        </div>
+
+        <p
+          class="newsletter-feedback"
+          id="newsletter-feedback"
+          aria-live="polite"
+        ></p>
+
+      </form>
+
+    </div>
+
+    <div class="footer-quote">
+      <span>Beleza começa</span>
+      <span>quando você</span>
+      <span>se escolhe! <b>♥</b></span>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+
+    <div class="container footer-bottom-inner">
+
+      <p>
+        © 2026 Beleza em Foco. Todos os direitos reservados.
+      </p>
+
+      <p class="footer-love">
+        Feito com <span>♥</span> para realçar a sua beleza!
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="developer-credit">
+
+    Desenvolvido por
+
+    <a
+      href="https://dfc-black.vercel.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      DFC — Digital Future Company
+    </a>
+
+  </div>
+
+</footer>
+
+<div
+  class="cookie-banner"
+  id="cookie-banner"
+  role="dialog"
+  aria-label="Preferências de cookies"
+  hidden
+>
+
+  <div class="cookie-content">
+
+    <div>
+
+      <strong>Privacidade e cookies</strong>
+
+      <p>
+        Usamos cookies para melhorar sua experiência,
+        analisar o uso do site e preparar recursos de publicidade.
+      </p>
+
+      <a href="cookies.html">
+        Política de Cookies
+      </a>
+
+    </div>
+
+    <div class="cookie-actions">
+
+      <button
+        type="button"
+        class="cookie-settings"
+        id="cookie-settings"
+      >
+        Configurar
+      </button>
+
+      <button
+        type="button"
+        class="cookie-reject"
+        id="cookie-reject"
+      >
+        Rejeitar não essenciais
+      </button>
+
+      <button
+        type="button"
+        class="cookie-accept"
+        id="cookie-accept"
+      >
+        Aceitar
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>

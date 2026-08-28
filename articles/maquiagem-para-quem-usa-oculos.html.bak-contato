@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Maquiagem para Quem Usa Óculos: Guia Completo | Beleza em Foco</title>
+
+  <meta name="description" content="Aprenda como fazer maquiagem para quem usa óculos, evitar marcas no nariz e destacar olhos, sobrancelhas e lábios sem competir com a armação.">
+
+  <link rel="canonical" href="https://seudominio.com/articles/maquiagem-para-iniciantes-guia-completo.html">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Maquiagem para Quem Usa Óculos: Guia Completo">
+  <meta property="og:description" content="Aprenda como fazer maquiagem para quem usa óculos, evitar marcas no nariz e destacar olhos, sobrancelhas e lábios sem competir com a armação.">
+  <meta property="og:url" content="https://seudominio.com/articles/maquiagem-para-iniciantes-guia-completo.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@500;600;700;800;900&family=Playfair+Display:ital,wght@1,700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+
+  <script src="../js/main.js" defer></script>
+  <script src="../js/search.js" defer></script>
+  <script src="../js/favorites.js" defer></script>
+  <script src="../js/consent.js" defer></script>
+
+  <style>
+    .article-page {
+      min-height: 70vh;
+      padding: 30px 0 60px;
+      background:
+        radial-gradient(circle at 10% 5%, rgba(255,15,104,.06), transparent 24%),
+        radial-gradient(circle at 92% 7%, rgba(120,37,198,.06), transparent 25%),
+        linear-gradient(180deg,#fff,#fff8fb);
+    }
+
+    .article-breadcrumb {
+      margin-bottom: 15px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      color: #817384;
+      font-size: 10px;
+    }
+
+    .article-breadcrumb a {
+      color: #d40b70;
+      font-weight: 800;
+    }
+
+    .article-layout {
+      display: grid;
+      grid-template-columns: minmax(0,1fr) 290px;
+      gap: 26px;
+      align-items: start;
+    }
+
+    .article-main {
+      min-width: 0;
+    }
+
+    .article-header {
+      padding: 30px;
+      border-radius: 17px;
+      color: white;
+      background:
+        radial-gradient(circle at 85% 18%,rgba(255,173,0,.48),transparent 23%),
+        linear-gradient(120deg,#ff0f68,#d40b70 52%,#63148f);
+      box-shadow: 0 14px 34px rgba(75,13,104,.13);
+    }
+
+    .article-category {
+      display: inline-flex;
+      min-height: 25px;
+      padding: 0 10px;
+      align-items: center;
+      border-radius: 14px;
+      background: rgba(255,255,255,.15);
+      font-size: 9px;
+      font-weight: 900;
+      letter-spacing: .7px;
+      text-transform: uppercase;
+    }
+
+    .article-header h1 {
+      margin-top: 11px;
+      font-family: "Montserrat",sans-serif;
+      font-size: clamp(29px,4vw,43px);
+      line-height: 1.08;
+      font-weight: 900;
+    }
+
+    .article-header p {
+      margin-top: 12px;
+      max-width: 800px;
+      color: rgba(255,255,255,.93);
+      font-size: 13px;
+      line-height: 1.7;
+    }
+
+    .article-meta {
+      margin-top: 15px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .article-meta span {
+      min-height: 27px;
+      padding: 0 10px;
+      display: inline-flex;
+      align-items: center;
+      border-radius: 14px;
+      background: rgba(255,255,255,.13);
+      font-size: 8.5px;
+      font-weight: 800;
+    }
+
+    .article-cover,
+    .article-image {
+      margin: 18px 0;
+    }
+
+    .article-image-placeholder {
+      min-height: 310px;
+      padding: 30px;
+      border: 2px dashed rgba(212,11,112,.22);
+      border-radius: 13px;
+      background:
+        radial-gradient(circle at 75% 20%,rgba(120,37,198,.08),transparent 26%),
+        linear-gradient(135deg,#fff2f7,#fffafd);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .article-image-placeholder span {
+      color: #d40b70;
+      font-family: "Montserrat",sans-serif;
+      font-size: 15px;
+      font-weight: 900;
+    }
+
+    .article-image-placeholder small {
+      max-width: 650px;
+      margin-top: 7px;
+      color: #77697a;
+      font-size: 10px;
+      line-height: 1.55;
+    }
+
+    .article-image figcaption,
+    .article-cover figcaption {
+      margin-top: 7px;
+      color: #7d7180;
+      font-size: 9.5px;
+      line-height: 1.5;
+      text-align: center;
+    }
+
+    .article-content-full {
+      margin-top: 18px;
+      padding: 29px 31px;
+      border: 1px solid rgba(210,50,110,.12);
+      border-radius: 15px;
+      background: white;
+      box-shadow: 0 9px 26px rgba(70,20,70,.07);
+    }
+
+    .article-content-full h2 {
+      margin: 29px 0 10px;
+      color: #32123d;
+      font-family: "Montserrat",sans-serif;
+      font-size: 21px;
+      line-height: 1.3;
+      font-weight: 900;
+    }
+
+    .article-content-full h2:first-child {
+      margin-top: 0;
+    }
+
+    .article-content-full h3 {
+      margin: 19px 0 8px;
+      color: #4b0d68;
+      font-family: "Montserrat",sans-serif;
+      font-size: 15px;
+      line-height: 1.4;
+      font-weight: 800;
+    }
+
+    .article-content-full p {
+      margin-top: 11px;
+      color: #55495a;
+      font-size: 13px;
+      line-height: 1.83;
+    }
+
+    .article-content-full ul,
+    .article-content-full ol {
+      margin-top: 12px;
+      padding-left: 23px;
+      color: #55495a;
+    }
+
+    .article-content-full li {
+      margin-bottom: 8px;
+      font-size: 12.5px;
+      line-height: 1.72;
+    }
+
+    .article-tip {
+      margin: 18px 0;
+      padding: 15px 17px;
+      border-left: 4px solid #ff0f68;
+      border-radius: 8px;
+      background: #fff3f8;
+      color: #513d52;
+      font-size: 11.5px;
+      line-height: 1.7;
+    }
+
+    .ad-placeholder {
+      min-height: 110px;
+      margin: 24px 0;
+      border: 1px solid #e7dce3;
+      border-radius: 9px;
+      background: #faf8fa;
+      color: #9a8e9c;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: 9px;
+      letter-spacing: .7px;
+      text-transform: uppercase;
+    }
+
+    .article-favorite {
+      margin-top: 20px;
+      min-height: 42px;
+      padding: 0 16px;
+      border: 1px solid rgba(212,11,112,.25);
+      border-radius: 8px;
+      background: #fff;
+      color: #d40b70;
+      font-weight: 900;
+      cursor: pointer;
+    }
+
+    .article-faq {
+      margin-top: 30px;
+    }
+
+    .article-faq-item {
+      padding: 15px 0;
+      border-bottom: 1px solid #efe4ea;
+    }
+
+    .article-faq-item h3 {
+      margin: 0;
+    }
+
+    .article-sidebar {
+      position: sticky;
+      top: 18px;
+    }
+
+    .sidebar-card {
+      padding: 18px;
+      border: 1px solid rgba(210,50,110,.12);
+      border-radius: 12px;
+      background: #fff;
+      box-shadow: 0 8px 22px rgba(70,20,70,.07);
+    }
+
+    .sidebar-card + .sidebar-card {
+      margin-top: 13px;
+    }
+
+    .sidebar-card h2 {
+      color: #32123d;
+      font-family: "Montserrat",sans-serif;
+      font-size: 14px;
+      font-weight: 900;
+    }
+
+    .sidebar-card p {
+      margin-top: 7px;
+      color: #6c6170;
+      font-size: 9.5px;
+      line-height: 1.6;
+    }
+
+    .sidebar-links {
+      margin-top: 11px;
+      display: grid;
+      gap: 6px;
+    }
+
+    .sidebar-links a {
+      min-height: 35px;
+      padding: 0 10px;
+      border-radius: 7px;
+      background: #fff4f8;
+      color: #d40b70;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 8.8px;
+      font-weight: 900;
+    }
+
+    @media(max-width:900px){
+      .article-layout{grid-template-columns:1fr;}
+      .article-sidebar{position:static;}
+    }
+
+    @media(max-width:580px){
+      .article-page{padding-top:20px;}
+      .article-header{padding:24px 20px;}
+      .article-content-full{padding:21px 18px;}
+      .article-image-placeholder{min-height:230px;padding:20px;}
+    }
+  </style>
+</head>
+
+<body>
+
+<a class="skip-link" href="#conteudo-principal">Ir para o conteúdo principal</a>
+
+<div class="top-utility">
+  <div class="container utility-inner">
+    <nav class="utility-links" aria-label="Links rápidos">
+      <a href="../artigos.html"><span>★</span><span>Dicas</span></a>
+      <a href="../courses.html"><span>♥</span><span>Tutoriais</span></a>
+      <a href="../artigos.html?categoria=produtos"><span>🎁</span><span>Produtos</span></a>
+      <a href="../artigos.html?categoria=artistica"><span>✣</span><span>Inspirações</span></a>
+    </nav>
+
+    <div class="utility-social">
+      <a href="#" aria-label="Instagram">◎</a>
+      <a href="#" aria-label="YouTube">▶</a>
+      <a href="#" aria-label="Pinterest">ⓟ</a>
+      <a href="#" aria-label="TikTok">♪</a>
+    </div>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+
+    <a href="../index.html" class="brand" aria-label="Beleza em Foco">
+      <div class="brand-icon" aria-hidden="true">
+        <span class="lipstick lipstick-one"></span>
+        <span class="lipstick lipstick-two"></span>
+      </div>
+
+      <div class="brand-copy">
+        <span class="brand-name">Beleza em Foco</span>
+        <span class="brand-tagline">MAQUIAGEM • AUTOCUIDADO • CONFIANÇA</span>
+      </div>
+    </a>
+
+    <form class="header-search" action="../buscar.html" method="get" role="search">
+      <input
+        name="q"
+        type="search"
+        placeholder="Buscar artigos, tutoriais, produtos..."
+        aria-label="Buscar no site"
+      >
+      <button type="submit" aria-label="Pesquisar">
+        <span class="search-icon"></span>
+      </button>
+    </form>
+
+    <div class="header-actions">
+      <a href="../courses.html" class="header-action courses-button">
+        <span>♛</span><span>Meus Cursos</span>
+      </a>
+
+      <a href="../artigos.html?favoritos=1" class="header-action favorites-button">
+        <span>★</span>
+        <span>Favoritos (<strong id="favorites-count">0</strong>)</span>
+      </a>
+    </div>
+
+  </div>
+</header>
+
+<nav class="main-navigation" aria-label="Navegação principal">
+  <div class="container nav-inner">
+
+    <ul class="main-menu">
+      <li><a href="../index.html" class="nav-link">INÍCIO</a></li>
+      <li><a href="../artigos.html" class="nav-link">ARTIGOS</a></li>
+      <li><a href="../courses.html" class="nav-link">TUTORIAIS</a></li>
+      <li><a href="../artigos.html?categoria=produtos" class="nav-link">PRODUTOS</a></li>
+      <li><a href="../categorias.html" class="nav-link">CATEGORIAS</a></li>
+      <li><a href="../about.html" class="nav-link">SOBRE NÓS</a></li>
+      <li><a href="../contact.html" class="nav-link">CONTATO</a></li>
+    </ul>
+
+    <a href="../artigos.html" class="articles-counter">
+      <strong>50 ARTIGOS</strong>
+    </a>
+
+  </div>
+</nav>
+
+<main id="conteudo-principal" class="article-page">
+
+  <div class="container">
+
+    <nav class="article-breadcrumb" aria-label="Breadcrumb">
+      <a href="../index.html">Início</a>
+      <span>›</span>
+      <a href="../artigos.html">Artigos</a>
+      <span>›</span>
+      <a href="../artigos.html?categoria=iniciantes">Maquiagem para Iniciantes</a>
+      <span>›</span>
+      <span>Maquiagem para Iniciantes: Guia Completo para Começar do Zero</span>
+    </nav>
+
+    <div class="article-layout">
+
+      <div class="article-main">
+
+        <header class="article-header">
+
+          <span class="article-category">Técnicas</span>
+
+          <h1>Maquiagem para Quem Usa Óculos: Guia Completo</h1>
+
+          <p>Um guia completo para entender os produtos essenciais, aprender a sequência básica e construir sua primeira maquiagem com mais controle, leveza e confiança.</p>
+
+          <div class="article-meta">
+            <span>Atualizado em 25 de agosto de 2026</span>
+            <span>Conteúdo educativo</span>
+            <span>Beleza em Foco</span>
+          </div>
+
+        </header>
+
+        <figure class="article-cover"><img src="../assets/img/articles/maquiagem-para-quem-usa-oculos-capa.png" alt="Mulher usando oculos e fazendo maquiagem" loading="eager" fetchpriority="high"></figure>
+
+        <div class="ad-placeholder" aria-label="Publicidade">
+          Espaço publicitário
+        </div>
+
+        <article class="article-content-full">
+<h2>Maquiagem para quem usa óculos: como destacar o rosto sem competir com a armação</h2>
+<p>Usar óculos muda a maneira como a maquiagem é percebida porque a armação cria linhas, contraste e sombras adicionais sobre o rosto. Dependendo do formato, da cor e da espessura, ela pode chamar bastante atenção para os olhos, sobrancelhas e região central da face. Isso não significa que a maquiagem precise ser discreta, mas conhecer essa interação ajuda a criar um resultado mais equilibrado.</p>
+<p>Algumas pessoas percebem que os óculos escondem parte da sombra, enquanto outras sentem que determinadas lentes aumentam ou diminuem visualmente os olhos. A região do nariz também merece atenção porque a armação pode causar atrito e remover base ao longo do dia.</p>
+<p>Por isso, maquiagem para quem usa óculos não é uma técnica única. O melhor resultado depende tanto da maquiagem quanto do tipo de armação, do grau das lentes, do formato dos olhos e da maneira como os óculos se apoiam no rosto.</p>
+<h2>1. Observe como a armação corta o rosto</h2>
+<p>Coloque os óculos e olhe diretamente para o espelho antes de começar. Veja quais áreas permanecem mais visíveis, onde a armação cruza a sobrancelha e quanto espaço existe entre a lente e os olhos.</p>
+<p>Esse mapa ajuda a decidir onde colocar maior contraste.</p>
+<h2>2. Considere a cor da armação</h2>
+<p>Armações pretas ou muito escuras já criam bastante definição. Modelos claros, transparentes ou metálicos produzem outro efeito.</p>
+<p>Você pode escolher cores que complementem a armação ou trabalhar contrastes propositalmente.</p>
+<h2>3. Prepare a pele normalmente</h2>
+<p>Faça limpeza, hidratação e proteção solar conforme sua rotina. Não existe necessidade de alterar completamente a preparação apenas por usar óculos.</p>
+<p>Dê tempo para os produtos assentarem antes de começar a base.</p>
+<figure class="article-image"><img src="../assets/img/articles/maquiagem-para-quem-usa-oculos-img-01.jfif" alt="Maquiagem para Quem Usa Óculos - referência visual 1" loading="lazy"><figcaption>Referência visual relacionada a maquiagem para quem usa óculos, complementando as orientações apresentadas nesta etapa do guia.</figcaption></figure>
+<h2>4. Aplique pouca base na região do nariz</h2>
+<p>A ponte dos óculos costuma encostar diretamente sobre a pele. Quanto mais produto existir nessa região, maior a chance de parte dele transferir para a armação.</p>
+<p>Comece com uma camada fina e construa somente se realmente precisar de cobertura.</p>
+<h2>5. Evite excesso de corretivo próximo às plaquetas</h2>
+<p>Em modelos com plaquetas, existe atrito concentrado em pequenas regiões laterais do nariz.</p>
+<p>Utilize apenas a quantidade necessária e pressione bem o produto para integrar à base.</p>
+<h2>6. Sele estrategicamente as áreas de contato</h2>
+<p>Uma pequena quantidade de pó pode ajudar a reduzir transferência onde a armação toca.</p>
+<p>Não aplique uma camada enorme. O atrito continuará existindo e excesso de pó também pode ficar marcado.</p>
+<div class="ad-placeholder" aria-label="Publicidade">Espaço publicitário</div>
+<h2>7. Limpe a armação antes de colocar</h2>
+<p>Óleo e resíduos presentes no apoio nasal podem acelerar a remoção da maquiagem.</p>
+<p>Manter os óculos limpos melhora tanto o conforto quanto a aparência da região.</p>
+<h2>8. Não tente impedir completamente qualquer marca</h2>
+<p>Óculos exercem pressão física sobre a pele. Alguma transferência pode acontecer mesmo com técnicas de longa duração.</p>
+<p>A meta mais realista é reduzir o excesso e facilitar pequenos retoques.</p>
+<h2>9. Blush precisa ser observado com a armação colocada</h2>
+<p>Algumas armações terminam exatamente sobre a parte superior das bochechas. Coloque os óculos para avaliar se o blush está visível ou se ficou parcialmente escondido.</p>
+<p>Você pode elevar ou deslocar discretamente a aplicação quando desejar maior destaque.</p>
+<h2>10. Evite que a armação remova produtos cremosos nas bochechas</h2>
+<p>Se os óculos tocam o topo das maçãs, aplique camadas finas nessa região.</p>
+<p>Quando necessário, sele suavemente com um produto em pó relacionado.</p>
+<h2>11. Bronzer continua funcionando normalmente</h2>
+<p>Distribua em regiões que deseja aquecer e observe o resultado com os óculos.</p>
+<p>A armação cria linhas adicionais, portanto esfume completamente para evitar excesso de divisões visuais.</p>
+<h2>12. Iluminador deve considerar a lente e a armação</h2>
+<p>Um ponto de brilho exatamente onde a armação toca pode ficar escondido ou transferir.</p>
+<p>Posicione ligeiramente acima ou ao lado conforme o formato do seu rosto.</p>
+<h2>13. Sobrancelhas ficam especialmente importantes</h2>
+<p>Os óculos criam uma moldura abaixo ou sobre as sobrancelhas. Penteie os fios e observe se existem falhas que ficam mais evidentes quando a armação está colocada.</p>
+<p>Preencha apenas onde necessário.</p>
+<h2>14. Não faça sobrancelhas muito pesadas automaticamente</h2>
+<p>Uma armação escura somada a sobrancelhas extremamente marcadas cria bastante peso na região superior.</p>
+<p>Isso pode ser exatamente o estilo desejado, mas não é uma obrigação para equilibrar os óculos.</p>
+<h2>15. Mantenha o início das sobrancelhas suave</h2>
+<p>Pequenos traços e gel costumam ser suficientes para criar estrutura.</p>
+<p>Aumente gradualmente a definição em direção ao arco e à cauda.</p>
+<figure class="article-image"><img src="../assets/img/articles/maquiagem-para-quem-usa-oculos-img-02.jfif" alt="Maquiagem para Quem Usa Óculos - referência visual 2" loading="lazy"><figcaption>Referência visual relacionada a maquiagem para quem usa óculos, complementando as orientações apresentadas nesta etapa do guia.</figcaption></figure>
+<h2>16. Observe como suas lentes modificam os olhos</h2>
+<p>Alguns graus podem fazer os olhos parecerem visualmente maiores através das lentes, enquanto outros produzem redução.</p>
+<p>Essa mudança é óptica e pode influenciar a intensidade que você prefere utilizar nas sombras.</p>
+<h2>17. Quando as lentes aumentam visualmente os olhos</h2>
+<p>Linhas e pequenas diferenças de esfumado podem ficar mais aparentes.</p>
+<p>Trabalhe as transições com cuidado e retire excessos de máscara quando necessário.</p>
+<h2>18. Quando as lentes diminuem visualmente os olhos</h2>
+<p>Você pode aumentar definição utilizando luminosidade, máscara, delineado ou sombras um pouco mais contrastantes.</p>
+<p>Não existe necessidade de aplicar tudo ao mesmo tempo.</p>
+<h2>19. Comece a sombra com uma tonalidade intermediária</h2>
+<p>Crie profundidade no côncavo e observe com os óculos.</p>
+<p>A lente pode reduzir ou alterar parte da cor percebida, então faça ajustes somente depois de conferir.</p>
+<h2>20. Sombras matte ajudam a criar estrutura</h2>
+<p>Utilize tons médios e profundos para desenhar o olho sem depender exclusivamente de brilho.</p>
+<p>Marrons, taupe, vinho e outras cores funcionam muito bem.</p>
+<h2>21. Sombras brilhantes também funcionam com óculos</h2>
+<p>Um ponto metálico na pálpebra pode aparecer através das lentes e criar luminosidade interessante.</p>
+<p>Aplique de maneira precisa para controlar reflexos.</p>
+<h2>22. Ilumine o canto interno quando quiser maior abertura</h2>
+<p>Esse ponto costuma permanecer visível mesmo com armações maiores.</p>
+<p>Use uma pequena quantidade para evitar excesso de partículas próximo à lente.</p>
+<h2>23. Delineado pode acompanhar a espessura da armação</h2>
+<p>Com uma armação muito grossa, um delineado extremamente fino pode ficar menos evidente.</p>
+<p>Você pode aumentar a espessura gradualmente se desejar maior presença.</p>
+<h2>24. Armações delicadas permitem qualquer intensidade</h2>
+<p>Modelos finos deixam maior parte dos olhos visualmente livre.</p>
+<p>Nesse caso, tanto delineados suaves quanto gráficos podem aparecer com clareza.</p>
+<h2>25. Gatinho precisa ser avaliado com os óculos</h2>
+<p>Uma ponta muito longa pode ficar escondida atrás da lateral da armação.</p>
+<p>Faça primeiro a marcação, coloque os óculos e veja se o desenho permanece visível.</p>
+<h2>26. Delineado esfumado é uma opção versátil</h2>
+<p>Utilize sombra ou lápis próximo aos cílios e suavize a borda.</p>
+<p>Essa técnica adiciona definição sem depender de uma ponta externa perfeitamente visível.</p>
+<div class="ad-placeholder" aria-label="Publicidade">Espaço publicitário</div>
+<h2>27. Máscara pode encostar na lente</h2>
+<p>Se seus cílios são longos ou as lentes ficam próximas, excesso de produto nas pontas pode criar pequenas marcas.</p>
+<p>Concentre maior quantidade na raiz e remova excesso do aplicador antes de passar nas extremidades.</p>
+<h2>28. Curvar os cílios pode ajudar</h2>
+<p>Uma curvatura adequada direciona os fios para cima e pode reduzir o contato com a lente.</p>
+<p>Utilize o curvex antes da máscara e com cuidado.</p>
+<h2>29. Escolha máscara resistente quando necessário</h2>
+<p>Se seus cílios frequentemente transferem produto para a lente, uma fórmula de maior resistência pode ajudar.</p>
+<p>Faça testes porque diferentes produtos apresentam resultados distintos.</p>
+<h2>30. Cílios postiços precisam considerar o espaço físico</h2>
+<p>Modelos muito longos podem encostar na lente e causar desconforto.</p>
+<p>Prefira comprimento adequado à distância entre seus olhos e os óculos.</p>
+<h2>31. Cílios externos podem criar definição sem tocar tanto na lente</h2>
+<p>Modelos concentrados lateralmente ou pequenos tufos podem adicionar efeito sem aumentar todo o comprimento frontal.</p>
+<p>Sempre utilize produtos apropriados e aplique corretamente.</p>
+<h2>32. Trabalhe a linha inferior dos olhos</h2>
+<p>Essa região costuma permanecer bem visível abaixo da armação. Uma sombra intermediária ou lápis pode aumentar definição.</p>
+<p>Concentre próximo aos cílios e esfume suavemente.</p>
+<h2>33. Não exagere automaticamente na linha inferior</h2>
+<p>Como as lentes podem modificar o tamanho aparente dos olhos, verifique com os óculos antes de aumentar a intensidade.</p>
+<p>Uma pequena quantidade pode ser suficiente.</p>
+<h2>34. Batom pode equilibrar uma armação marcante</h2>
+<p>Quando a parte superior do rosto possui muito contraste, lábios definidos criam outro ponto de atenção.</p>
+<p>Nude, vermelho, vinho, rosa ou qualquer outra cor podem funcionar.</p>
+<h2>35. Batom intenso combina muito bem com óculos</h2>
+<p>Armações marcantes e lábios fortes podem formar uma composição propositalmente expressiva.</p>
+<p>Não existe necessidade de manter o restante do rosto neutro.</p>
+<h2>36. Maquiagem natural com óculos</h2>
+<p>Uniformize a pele, aplique blush, organize sobrancelhas, máscara e um produto labial.</p>
+<p>Essa sequência já cria contraste suficiente para muitas armações.</p>
+<h2>37. Maquiagem noturna com óculos</h2>
+<p>Aumente o esfumado, utilize delineado e escolha lábios mais intensos se desejar.</p>
+<p>Faça a avaliação final com a armação que realmente será usada no evento.</p>
+<h2>38. Óculos coloridos podem participar da paleta</h2>
+<p>Você pode repetir tonalidades semelhantes nas sombras ou utilizar cores complementares.</p>
+<p>Não precisa combinar exatamente; a ideia é criar uma composição intencional.</p>
+<h2>39. Armações transparentes deixam mais da maquiagem visível</h2>
+<p>Como possuem menor peso visual, elas permitem que sombras, sobrancelhas e delineados apareçam com bastante clareza.</p>
+<p>Aproveite essa característica quando quiser um olho elaborado.</p>
+<h2>40. Armações grandes podem cobrir parte do blush</h2>
+<p>Observe a posição das bordas inferiores e ajuste discretamente o blush quando necessário.</p>
+<p>Não altere excessivamente o posicionamento apenas para que toda a cor fique visível.</p>
+<h2>41. Faça retoques no nariz de maneira localizada</h2>
+<p>Quando remover os óculos, provavelmente haverá pequenas marcas. Pressione uma esponja limpa ou adicione quantidade mínima de base na região.</p>
+<p>Depois sele levemente se precisar.</p>
+<h2>42. Evite acumular produto sobre a marca</h2>
+<p>Se toda vez que a base sair você colocar outra camada sem retirar excesso, a região pode ficar cada vez mais espessa.</p>
+<p>Faça primeiro uma pequena correção da superfície.</p>
+<figure class="article-image"><img src="../assets/img/articles/maquiagem-para-quem-usa-oculos-img-03.jfif" alt="Maquiagem para Quem Usa Óculos - referência visual 3" loading="lazy"><figcaption>Referência visual relacionada a maquiagem para quem usa óculos, complementando as orientações apresentadas nesta etapa do guia.</figcaption></figure>
+<h2>43. Limpe os óculos durante o dia</h2>
+<p>Base, oleosidade e produtos podem transferir para a parte interna da armação.</p>
+<p>Uma limpeza adequada reduz a chance de devolver esses resíduos para a pele.</p>
+<h2>44. Faça fotografias usando os óculos</h2>
+<p>Uma maquiagem pode parecer intensa sem a armação e perfeitamente equilibrada depois que ela é colocada.</p>
+<p>Fotografe o resultado completo antes de fazer novas correções.</p>
+<h2>45. Observe reflexos das lentes</h2>
+<p>Em fotos, lentes podem refletir luz e esconder parte dos olhos.</p>
+<p>Isso depende do ângulo e da iluminação, não apenas da maquiagem.</p>
+<h2>46. Ajuste a maquiagem ao seu estilo de armação</h2>
+<p>Se você alterna entre vários óculos, talvez perceba que uma maquiagem funciona de maneira diferente com cada modelo.</p>
+<p>Não existe necessidade de criar uma rotina totalmente nova, mas pequenos ajustes podem melhorar a composição.</p>
+<h2>47. Não trate óculos como algo que esconde sua maquiagem</h2>
+<p>A armação faz parte do visual e pode inclusive destacar sombras, sobrancelhas e lábios.</p>
+<p>Em vez de competir com ela, use-a como mais um elemento da composição.</p>
+<h2>48. Priorize conforto</h2>
+<p>Se cílios encostam na lente ou a armação começa a deslizar devido ao excesso de produto, ajuste a técnica.</p>
+<p>A maquiagem precisa funcionar junto com os óculos durante várias horas.</p>
+<h2>Conclusão</h2>
+<p>Maquiagem para quem usa óculos funciona melhor quando a armação é considerada desde o início da aplicação. A região do nariz precisa de camadas controladas, sobrancelhas merecem atenção e os olhos devem ser avaliados através das próprias lentes.</p>
+<p>Sombras, delineado, cílios e batom podem ter qualquer intensidade. O segredo é observar quanto da maquiagem continua visível e como a armação modifica o contraste.</p>
+<p>Com pequenos ajustes, óculos deixam de parecer um obstáculo e passam a fazer parte do resultado final.</p>
+<p><a href="como-aplicar-sombra-nos-olhos.html"><strong>Leia também: como aplicar sombra nos olhos →</strong></a></p>
+<p><a href="como-preencher-as-sobrancelhas-naturalmente.html"><strong>Leia também: como preencher as sobrancelhas →</strong></a></p>
+<p><a href="como-aplicar-mascara-de-cilios-corretamente.html"><strong>Leia também: como aplicar máscara de cílios →</strong></a></p>
+<section class="article-faq">
+<h2>Perguntas frequentes</h2>
+<div class="article-faq-item"><h3>Como evitar que os óculos tirem a base do nariz?</h3><p>Utilize camadas finas nessa região, sele levemente e mantenha a armação limpa. Alguma transferência ainda pode ocorrer por causa do atrito físico.</p></div>
+<div class="article-faq-item"><h3>Preciso usar maquiagem mais forte por causa dos óculos?</h3><p>Não. A intensidade depende do seu estilo e de quanto a armação e as lentes alteram visualmente o contraste dos olhos.</p></div>
+<div class="article-faq-item"><h3>Como evitar máscara de cílios na lente?</h3><p>Remova excesso do aplicador, concentre produto na raiz e considere curvar os cílios para direcioná-los para cima.</p></div>
+<div class="article-faq-item"><h3>Batom forte combina com óculos?</h3><p>Sim. Lábios intensos podem criar um ponto de atenção interessante e equilibrar visualmente armações marcantes.</p></div>
+</section>
+<button type="button" class="article-favorite" data-favorite-article="maquiagem-para-quem-usa-oculos.html">★ Adicionar aos favoritos</button>
+</article>
+
+      </div>
+
+      <aside class="article-sidebar">
+
+        <section class="sidebar-card">
+          <h2>Continue aprendendo</h2>
+          <p>Explore outros conteúdos relacionados e aprofunde sua prática.</p>
+
+          <div class="sidebar-links">
+            <a href="../courses.html"><span>Curso gratuito</span><span>→</span></a>
+            <a href="../categorias.html"><span>Categorias</span><span>→</span></a>
+            <a href="../artigos.html"><span>Todos os artigos</span><span>→</span></a>
+          </div>
+        </section>
+
+        <div class="ad-placeholder" aria-label="Publicidade">
+          Espaço publicitário
+        </div>
+
+      </aside>
+
+    </div>
+
+  </div>
+
+</main>
+
+<footer class="site-footer">
+
+  <div class="container footer-grid">
+
+    <div class="footer-brand">
+      <a href="../index.html" class="footer-logo">
+        <span>Beleza em Foco</span>
+      </a>
+
+      <p>
+        Seu portal sobre maquiagem, beleza e autocuidado.
+        Conteúdo educativo para aprender com mais confiança.
+      </p>
+    </div>
+
+    <div class="footer-column">
+      <h2>Navegação</h2>
+      <ul>
+        <li><a href="../index.html">Início</a></li>
+        <li><a href="../artigos.html">Artigos</a></li>
+        <li><a href="../courses.html">Tutoriais</a></li>
+        <li><a href="../categorias.html">Categorias</a></li>
+        <li><a href="../contact.html">Contato</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h2>Institucional</h2>
+      <ul>
+        <li><a href="../about.html">Sobre Nós</a></li>
+        <li><a href="../privacy.html">Política de Privacidade</a></li>
+        <li><a href="../cookies.html">Política de Cookies</a></li>
+        <li><a href="../terms.html">Termos de Uso</a></li>
+        <li><a href="../editorial-policy.html">Política Editorial</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <p>© 2026 Beleza em Foco. Todos os direitos reservados.</p>
+    </div>
+  </div>
+
+</footer>
+
+<div class="cookie-banner" id="cookie-banner" hidden>
+  <div class="cookie-content">
+    <div>
+      <strong>Privacidade e cookies</strong>
+      <p>Usamos cookies para melhorar sua experiência e preparar recursos de publicidade.</p>
+      <a href="../cookies.html">Política de Cookies</a>
+    </div>
+
+    <div class="cookie-actions">
+      <button type="button" id="cookie-settings">Configurar</button>
+      <button type="button" id="cookie-reject">Rejeitar não essenciais</button>
+      <button type="button" id="cookie-accept">Aceitar</button>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+

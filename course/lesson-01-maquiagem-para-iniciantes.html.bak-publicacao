@@ -1,0 +1,1154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Maquiagem para Iniciantes: Guia Completo | Beleza em Foco</title>
+
+  <meta
+    name="description"
+    content="Aprenda maquiagem para iniciantes passo a passo: produtos essenciais, preparação, pele, olhos, sobrancelhas, lábios, higiene e erros comuns."
+  >
+
+  <link
+    rel="canonical"
+    href="https://seudominio.com/course/lesson-01-maquiagem-para-iniciantes.html"
+  >
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@500;600;700;800;900&family=Playfair+Display:ital,wght@1,700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="stylesheet" href="../css/course.css">
+
+  <script src="../js/main.js" defer></script>
+  <script src="../js/search.js" defer></script>
+  <script src="../js/favorites.js" defer></script>
+  <script src="../js/course-progress.js" defer></script>
+  <script src="../js/consent.js" defer></script>
+</head>
+
+<body>
+
+<a class="skip-link" href="#conteudo-principal">
+  Ir para o conteúdo principal
+</a>
+
+<div class="top-utility">
+  <div class="container utility-inner">
+
+    <nav class="utility-links" aria-label="Links rápidos">
+      <a href="../artigos.html"><span>★</span><span>Dicas</span></a>
+      <a href="../courses.html"><span>♥</span><span>Tutoriais</span></a>
+      <a href="../artigos.html?categoria=produtos"><span>🎁</span><span>Produtos</span></a>
+      <a href="../artigos.html?categoria=artistica"><span>✣</span><span>Inspirações</span></a>
+    </nav>
+
+    <div class="utility-social">
+      <a href="#" aria-label="Instagram">◎</a>
+      <a href="#" aria-label="YouTube">▶</a>
+      <a href="#" aria-label="Pinterest">ⓟ</a>
+      <a href="#" aria-label="TikTok">♪</a>
+    </div>
+
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+
+    <a href="../index.html" class="brand" aria-label="Beleza em Foco">
+
+      <div class="brand-icon" aria-hidden="true">
+        <span class="lipstick lipstick-one"></span>
+        <span class="lipstick lipstick-two"></span>
+      </div>
+
+      <div class="brand-copy">
+        <span class="brand-name">Beleza em Foco</span>
+        <span class="brand-tagline">
+          MAQUIAGEM • AUTOCUIDADO • CONFIANÇA
+        </span>
+      </div>
+
+    </a>
+
+    <form
+      class="header-search"
+      action="../buscar.html"
+      method="get"
+      role="search"
+    >
+      <label class="sr-only" for="header-search-input">
+        Buscar no site
+      </label>
+
+      <input
+        id="header-search-input"
+        name="q"
+        type="search"
+        placeholder="Buscar artigos, tutoriais, produtos..."
+        autocomplete="off"
+      >
+
+      <button type="submit" aria-label="Pesquisar">
+        <span class="search-icon"></span>
+      </button>
+
+      <div
+        class="search-suggestions"
+        id="search-suggestions"
+        aria-live="polite"
+      ></div>
+    </form>
+
+    <div class="header-actions">
+
+      <a href="../courses.html" class="header-action courses-button">
+        <span>♛</span>
+        <span>Meus Cursos</span>
+      </a>
+
+      <a
+        href="../artigos.html?favoritos=1"
+        class="header-action favorites-button"
+      >
+        <span>★</span>
+        <span>
+          Favoritos (<strong id="favorites-count">0</strong>)
+        </span>
+      </a>
+
+    </div>
+
+    <button
+      class="mobile-menu-toggle"
+      id="mobile-menu-toggle"
+      type="button"
+      aria-label="Abrir menu"
+      aria-controls="main-navigation"
+      aria-expanded="false"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+  </div>
+</header>
+
+<nav
+  class="main-navigation"
+  id="main-navigation"
+  aria-label="Navegação principal"
+>
+  <div class="container nav-inner">
+
+    <ul class="main-menu">
+
+      <li>
+        <a href="../index.html" class="nav-link nav-home">
+          <span>⌂</span>
+          INÍCIO
+        </a>
+      </li>
+
+      <li class="has-dropdown">
+
+        <button
+          class="nav-dropdown-button"
+          type="button"
+          aria-expanded="false"
+        >
+          ARTIGOS
+          <span class="dropdown-chevron">⌄</span>
+        </button>
+
+        <div class="dropdown-menu">
+          <a href="../artigos.html?categoria=iniciantes">Maquiagem para iniciantes</a>
+          <a href="../artigos.html?categoria=pele">Pele</a>
+          <a href="../artigos.html?categoria=olhos">Olhos</a>
+          <a href="../artigos.html?categoria=sobrancelhas">Sobrancelhas</a>
+          <a href="../artigos.html?categoria=cilios">Cílios</a>
+          <a href="../artigos.html?categoria=labios">Lábios</a>
+          <a href="../artigos.html?categoria=artistica">Maquiagem artística</a>
+          <a href="../artigos.html?categoria=drag">Drag Queen</a>
+          <a href="../artigos.html?categoria=produtos">Produtos e ferramentas</a>
+        </div>
+
+      </li>
+
+      <li>
+        <a href="../courses.html" class="nav-link">
+          TUTORIAIS
+        </a>
+      </li>
+
+      <li>
+        <a href="../artigos.html?categoria=produtos" class="nav-link">
+          PRODUTOS
+        </a>
+      </li>
+
+      <li>
+        <a href="../categorias.html" class="nav-link">
+          CATEGORIAS
+        </a>
+      </li>
+
+      <li>
+        <a href="../about.html" class="nav-link">
+          SOBRE NÓS
+        </a>
+      </li>
+
+      <li>
+        <a href="mailto:juarezimoveispronto@hotmail.com" class="nav-link">
+          CONTATO
+        </a>
+      </li>
+
+    </ul>
+
+    <a href="../artigos.html" class="articles-counter">
+      <span>▥</span>
+      <strong>50 ARTIGOS</strong>
+    </a>
+
+  </div>
+</nav>
+
+
+<main id="conteudo-principal" class="course-shell">
+
+  <div class="container">
+
+    <div class="course-layout">
+
+      <!-- SIDEBAR -->
+
+      <aside class="course-sidebar-panel">
+
+        <div class="course-sidebar-header">
+
+          <span>Curso gratuito</span>
+
+          <h2>
+            Maquiagem:
+            Do Zero ao Glam
+          </h2>
+
+          <p>
+            6 aulas organizadas em uma sequência prática.
+          </p>
+
+        </div>
+
+        <div class="course-sidebar-progress">
+
+          <div class="course-sidebar-progress-top">
+
+            <span>Seu progresso</span>
+
+            <strong class="course-sidebar-progress-percentage">
+              0%
+            </strong>
+
+          </div>
+
+          <div class="course-sidebar-progress-track">
+
+            <div
+              class="course-sidebar-progress-fill"
+            ></div>
+
+          </div>
+
+        </div>
+
+        <nav class="course-lessons-nav" aria-label="Aulas do curso">
+
+          <a
+            href="lesson-01-maquiagem-para-iniciantes.html"
+            class="course-lesson-link active"
+            data-lesson-id="lesson-01"
+          >
+
+            <span class="course-lesson-index">01</span>
+
+            <span class="course-lesson-copy">
+              <strong>Maquiagem para Iniciantes</strong>
+              <span>Fundamentos</span>
+            </span>
+
+          </a>
+
+          <a
+            href="lesson-02-preparacao-de-pele.html"
+            class="course-lesson-link"
+            data-lesson-id="lesson-02"
+          >
+
+            <span class="course-lesson-index">02</span>
+
+            <span class="course-lesson-copy">
+              <strong>Preparação de Pele</strong>
+              <span>Pele e acabamento</span>
+            </span>
+
+          </a>
+
+          <a
+            href="lesson-03-design-de-sobrancelhas.html"
+            class="course-lesson-link"
+            data-lesson-id="lesson-03"
+          >
+
+            <span class="course-lesson-index">03</span>
+
+            <span class="course-lesson-copy">
+              <strong>Design de Sobrancelhas</strong>
+              <span>Mapeamento</span>
+            </span>
+
+          </a>
+
+          <a
+            href="lesson-04-cilios-posticos.html"
+            class="course-lesson-link"
+            data-lesson-id="lesson-04"
+          >
+
+            <span class="course-lesson-index">04</span>
+
+            <span class="course-lesson-copy">
+              <strong>Cílios Postiços</strong>
+              <span>Aplicação</span>
+            </span>
+
+          </a>
+
+          <a
+            href="lesson-05-maquiagem-glam.html"
+            class="course-lesson-link"
+            data-lesson-id="lesson-05"
+          >
+
+            <span class="course-lesson-index">05</span>
+
+            <span class="course-lesson-copy">
+              <strong>Maquiagem Glam</strong>
+              <span>Look completo</span>
+            </span>
+
+          </a>
+
+          <a
+            href="lesson-06-maquiagem-drag-queen.html"
+            class="course-lesson-link"
+            data-lesson-id="lesson-06"
+          >
+
+            <span class="course-lesson-index">06</span>
+
+            <span class="course-lesson-copy">
+              <strong>Maquiagem Drag Queen</strong>
+              <span>Transformação</span>
+            </span>
+
+          </a>
+
+        </nav>
+
+      </aside>
+
+
+      <!-- CONTEÚDO -->
+
+      <div class="lesson-main">
+
+        <div class="lesson-topbar">
+
+          <nav class="lesson-breadcrumb" aria-label="Breadcrumb">
+            <a href="../index.html">Início</a>
+            <span>›</span>
+            <a href="../courses.html">Curso</a>
+            <span>›</span>
+            <span>Aula 01</span>
+          </nav>
+
+          <a href="../courses.html" class="lesson-back-course">
+            ← Voltar ao curso
+          </a>
+
+        </div>
+
+
+        <header class="lesson-hero">
+
+          <div class="lesson-hero-content">
+
+            <span class="lesson-tag">
+              AULA 01 • FUNDAMENTOS
+            </span>
+
+            <h1>
+              Maquiagem para Iniciantes:
+              começando do zero
+            </h1>
+
+            <p>
+              Aprenda os fundamentos que você precisa dominar antes de
+              avançar para técnicas mais elaboradas. Nesta aula, vamos
+              organizar produtos, ferramentas e a sequência básica de
+              uma maquiagem completa.
+            </p>
+
+            <div class="lesson-meta-row">
+
+              <span class="lesson-meta-pill">
+                ✦ Nível iniciante
+              </span>
+
+              <span class="lesson-meta-pill">
+                ▶ Vídeo complementar
+              </span>
+
+              <span class="lesson-meta-pill">
+                ✓ Aula gratuita
+              </span>
+
+            </div>
+
+          </div>
+
+        </header>
+
+
+        <article class="lesson-content">
+
+          <section id="intro">
+
+            <h2>Introdução</h2>
+
+            <p>
+              Começar a se maquiar pode parecer complicado quando você
+              observa dezenas de produtos, pincéis, técnicas e nomes
+              diferentes. Na prática, porém, uma boa maquiagem começa
+              com poucos fundamentos: entender a função de cada produto,
+              aprender a usar pequenas quantidades e respeitar a ordem
+              de aplicação.
+            </p>
+
+            <p>
+              Você não precisa ter uma nécessaire profissional para
+              começar. Também não precisa dominar delineado, contorno
+              ou técnicas avançadas logo na primeira tentativa. O mais
+              importante nesta etapa é construir uma base sólida.
+            </p>
+
+            <p>
+              Ao longo desta aula você vai entender como preparar seu
+              espaço, quais produtos realmente são úteis para uma pessoa
+              iniciante e como montar uma maquiagem simples de forma
+              organizada.
+            </p>
+
+          </section>
+
+
+          <div class="lesson-toc">
+
+            <strong>Nesta aula você vai aprender:</strong>
+
+            <ul>
+              <li><a href="#antes">1. Antes de começar</a></li>
+              <li><a href="#kit">2. Kit básico de maquiagem</a></li>
+              <li><a href="#preparacao">3. Preparação inicial da pele</a></li>
+              <li><a href="#sequencia">4. Sequência básica da maquiagem</a></li>
+              <li><a href="#olhos">5. Olhos para iniciantes</a></li>
+              <li><a href="#sobrancelhas">6. Sobrancelhas</a></li>
+              <li><a href="#labios">7. Lábios</a></li>
+              <li><a href="#erros">8. Erros comuns</a></li>
+              <li><a href="#higiene">9. Higiene e conservação</a></li>
+            </ul>
+
+          </div>
+
+
+          <section id="antes">
+
+            <h2>1. Antes de começar</h2>
+
+            <p>
+              Antes de abrir a maquiagem, organize o ambiente. Procure
+              trabalhar em um local limpo, com boa iluminação e, sempre
+              que possível, próximo de uma fonte de luz natural.
+            </p>
+
+            <p>
+              Lave as mãos antes de tocar no rosto e confira se os
+              pincéis e esponjas estão limpos. Esse cuidado simples
+              reduz a transferência de sujeira, oleosidade e resíduos
+              antigos para a pele.
+            </p>
+
+            <div class="lesson-highlight">
+              <strong>Dica:</strong> para aprender mais rápido, faça a
+              maquiagem olhando para o rosto como um todo. Afaste-se do
+              espelho algumas vezes durante o processo para verificar
+              equilíbrio, intensidade e simetria.
+            </div>
+
+          </section>
+
+
+          <section id="kit">
+
+            <h2>2. O kit básico de maquiagem</h2>
+
+            <p>
+              Uma das maiores dúvidas de quem está começando é o que
+              realmente precisa comprar. Você não precisa de dezenas
+              de produtos. Um conjunto enxuto já permite praticar
+              praticamente todos os fundamentos.
+            </p>
+
+            <h3>Produtos essenciais</h3>
+
+            <ul>
+              <li>Hidratante adequado ao seu tipo de pele.</li>
+              <li>Protetor solar para uso durante o dia.</li>
+              <li>Base ou produto de cobertura leve.</li>
+              <li>Corretivo.</li>
+              <li>Pó facial, caso seja necessário para sua pele.</li>
+              <li>Blush.</li>
+              <li>Produto para sobrancelhas.</li>
+              <li>Paleta pequena de sombras neutras.</li>
+              <li>Máscara de cílios.</li>
+              <li>Batom, balm ou gloss.</li>
+            </ul>
+
+            <h3>Ferramentas básicas</h3>
+
+            <p>
+              Para começar, uma esponja de maquiagem e poucos pincéis
+              já são suficientes. Um pincel para pó ou blush, um pincel
+              de sombra e um pincel de esfumar atendem boa parte das
+              necessidades de uma maquiagem básica.
+            </p>
+
+            <figure class="lesson-step-figure">
+
+              <div class="lesson-image-placeholder">
+                <span>IMAGEM 01</span>
+                <small>
+                  Kit básico para iniciantes organizado com base,
+                  corretivo, blush, sombras, máscara, batom,
+                  pincéis e esponja.
+                </small>
+              </div>
+
+              <figcaption>
+                Exemplo visual dos principais itens para montar
+                um primeiro kit de maquiagem.
+              </figcaption>
+
+            </figure>
+
+          </section>
+
+
+          <section id="preparacao">
+
+            <h2>3. Preparação inicial da pele</h2>
+
+            <p>
+              O resultado da maquiagem depende bastante da condição da
+              pele antes da aplicação. Quando a superfície está muito
+              ressecada, oleosa ou com excesso de produto, a base pode
+              acumular, separar ou destacar textura.
+            </p>
+
+            <p>
+              Comece com o rosto limpo. Em seguida, aplique uma quantidade
+              adequada de hidratante e aguarde a absorção. Durante o dia,
+              utilize também o protetor solar conforme as orientações do
+              produto.
+            </p>
+
+            <p>
+              Primer é opcional. Ele pode ser útil dependendo do efeito
+              desejado, mas não precisa ser tratado como uma etapa
+              obrigatória para quem está começando.
+            </p>
+
+            <div class="lesson-warning">
+              Se algum cosmético provocar ardência persistente, coceira,
+              inchaço ou irritação, interrompa o uso. Não continue
+              aplicando maquiagem sobre uma reação importante.
+            </div>
+
+          </section>
+
+
+          <section id="sequencia">
+
+            <h2>4. Sequência básica da maquiagem</h2>
+
+            <p>
+              Não existe uma única ordem obrigatória para todos os
+              estilos de maquiagem, mas uma sequência simples facilita
+              muito o aprendizado.
+            </p>
+
+            <ol>
+              <li>Preparação da pele.</li>
+              <li>Base.</li>
+              <li>Corretivo.</li>
+              <li>Pó, quando necessário.</li>
+              <li>Blush e outros produtos de acabamento.</li>
+              <li>Sobrancelhas.</li>
+              <li>Sombras.</li>
+              <li>Máscara de cílios.</li>
+              <li>Lábios.</li>
+            </ol>
+
+            <h3>Base</h3>
+
+            <p>
+              Comece com pouca quantidade. Distribua pequenos pontos
+              pelo rosto e espalhe aos poucos. É mais fácil adicionar
+              cobertura do que remover uma camada muito pesada.
+            </p>
+
+            <p>
+              Observe especialmente a região próxima ao cabelo,
+              mandíbula e laterais do nariz. Essas áreas costumam
+              revelar facilmente quando a base não foi bem espalhada.
+            </p>
+
+            <h3>Corretivo</h3>
+
+            <p>
+              O corretivo pode ser usado nas olheiras e em pontos que
+              ainda precisam de cobertura. Evite aplicar uma camada
+              muito grossa em toda a região dos olhos.
+            </p>
+
+            <h3>Pó</h3>
+
+            <p>
+              O pó ajuda a reduzir brilho e fixar produtos cremosos.
+              Ele não precisa necessariamente ser aplicado em todo o
+              rosto. Comece pelas regiões que apresentam mais oleosidade.
+            </p>
+
+            <figure class="lesson-step-figure">
+
+              <div class="lesson-image-placeholder">
+                <span>IMAGEM 02</span>
+                <small>
+                  Demonstração da aplicação de base e corretivo
+                  em pequenas quantidades, com acabamento gradual.
+                </small>
+              </div>
+
+              <figcaption>
+                Construir cobertura em camadas finas ajuda a manter
+                um acabamento mais natural.
+              </figcaption>
+
+            </figure>
+
+          </section>
+
+
+          <section id="olhos">
+
+            <h2>5. Olhos para iniciantes</h2>
+
+            <p>
+              Para a primeira maquiagem, você pode trabalhar com duas
+              ou três sombras neutras. Uma tonalidade clara pode ser
+              usada como base, uma cor média para marcar suavemente o
+              côncavo e uma tonalidade um pouco mais profunda para dar
+              dimensão.
+            </p>
+
+            <p>
+              O segredo do esfumado está menos na quantidade de sombra
+              e mais na construção gradual. Pegue pouco produto no
+              pincel, retire o excesso e faça movimentos suaves.
+            </p>
+
+            <h3>Máscara de cílios</h3>
+
+            <p>
+              Retire o aplicador do tubo sem bombear repetidamente.
+              Posicione-o próximo à raiz dos cílios e conduza em direção
+              às pontas. Uma segunda camada pode ser adicionada caso
+              você queira mais definição.
+            </p>
+
+          </section>
+
+
+          <section id="sobrancelhas">
+
+            <h2>6. Sobrancelhas</h2>
+
+            <p>
+              Para iniciantes, o objetivo não deve ser desenhar uma
+              sobrancelha completamente nova. Comece preenchendo apenas
+              pequenas falhas e respeitando o formato natural.
+            </p>
+
+            <p>
+              Faça traços leves, principalmente na parte inicial da
+              sobrancelha. Uma frente excessivamente marcada pode deixar
+              o resultado artificial.
+            </p>
+
+          </section>
+
+
+          <section id="labios">
+
+            <h2>7. Finalizando com os lábios</h2>
+
+            <p>
+              Nos lábios, você pode começar simplesmente com balm,
+              gloss ou batom. Para maior definição, use um lápis
+              próximo da tonalidade do produto escolhido.
+            </p>
+
+            <p>
+              O contorno pode ajudar a deixar as bordas mais limpas,
+              mas deve ser feito com calma. Para aprender, priorize
+              acompanhar o desenho natural dos lábios.
+            </p>
+
+            <figure class="lesson-step-figure">
+
+              <div class="lesson-image-placeholder">
+                <span>IMAGEM 03</span>
+                <small>
+                  Resultado de uma maquiagem básica completa,
+                  mostrando pele leve, olhos suaves, sobrancelhas
+                  naturais e acabamento dos lábios.
+                </small>
+              </div>
+
+              <figcaption>
+                Resultado esperado de uma maquiagem simples
+                construída com os fundamentos desta aula.
+              </figcaption>
+
+            </figure>
+
+          </section>
+
+
+          <section id="erros">
+
+            <h2>8. Erros comuns de quem está começando</h2>
+
+            <h3>Usar produto demais</h3>
+
+            <p>
+              Excesso de base, corretivo, pó ou sombra torna a correção
+              mais difícil. Trabalhe com pequenas quantidades e aumente
+              gradualmente.
+            </p>
+
+            <h3>Tentar copiar uma técnica avançada imediatamente</h3>
+
+            <p>
+              Técnicas complexas ficam muito mais fáceis depois que
+              você domina preparação, aplicação de base, esfumado e
+              controle de quantidade.
+            </p>
+
+            <h3>Não observar a maquiagem de longe</h3>
+
+            <p>
+              Quando você fica muito próximo do espelho durante todo
+              o processo, pequenos detalhes parecem enormes. Observe
+              periodicamente o conjunto do rosto.
+            </p>
+
+            <h3>Ignorar seu próprio formato de rosto e olhos</h3>
+
+            <p>
+              Uma técnica vista em outra pessoa pode precisar de
+              adaptação. Use tutoriais como referência, não como uma
+              regra rígida.
+            </p>
+
+          </section>
+
+
+          <section id="higiene">
+
+            <h2>9. Higiene e conservação</h2>
+
+            <p>
+              Maquiagem entra em contato direto com pele, olhos e
+              lábios. Por isso, higiene faz parte da técnica.
+            </p>
+
+            <ul>
+              <li>Mantenha pincéis e esponjas limpos.</li>
+              <li>Não compartilhe produtos de uso pessoal para olhos e lábios.</li>
+              <li>Observe alterações de cheiro, textura ou aparência.</li>
+              <li>Mantenha embalagens fechadas quando não estiverem em uso.</li>
+              <li>Evite guardar cosméticos em ambientes excessivamente quentes ou úmidos.</li>
+              <li>Siga as orientações e o prazo indicado pelo fabricante.</li>
+            </ul>
+
+            <div class="lesson-highlight">
+              Técnica e higiene caminham juntas. Criar bons hábitos desde
+              a primeira aula ajuda a tornar sua rotina de maquiagem mais
+              organizada e segura.
+            </div>
+
+          </section>
+
+
+          <section class="lesson-video-section">
+
+            <h2>Vídeo complementar da aula</h2>
+
+            <p>
+              Este espaço receberá o vídeo prático correspondente
+              à Aula 01.
+            </p>
+
+            <div class="lesson-video-placeholder">
+
+              <div>
+
+                <span>▶</span>
+
+                <strong>
+                  Vídeo — Maquiagem para Iniciantes
+                </strong>
+
+                <small>
+                  Área preparada para incorporação do vídeo da aula.
+                </small>
+
+              </div>
+
+            </div>
+
+          </section>
+
+
+          <section>
+
+            <h2>Resumo da Aula 01</h2>
+
+            <p>
+              Nesta primeira etapa, você aprendeu que uma maquiagem
+              bem construída não depende de uma enorme quantidade de
+              produtos. Preparação, controle de quantidade, aplicação
+              gradual e prática são os pilares mais importantes.
+            </p>
+
+            <p>
+              Na próxima aula vamos aprofundar uma das partes mais
+              importantes de todo o processo: a preparação da pele,
+              entendendo como criar uma base equilibrada para receber
+              os demais produtos.
+            </p>
+
+          </section>
+
+
+          <div class="lesson-support-grid">
+
+            <div class="lesson-support-card">
+              <strong>Pratique</strong>
+              <p>
+                Repita uma maquiagem básica usando pequenas
+                quantidades de produto.
+              </p>
+            </div>
+
+            <div class="lesson-support-card">
+              <strong>Observe</strong>
+              <p>
+                Compare o acabamento em luz natural sempre
+                que possível.
+              </p>
+            </div>
+
+            <div class="lesson-support-card">
+              <strong>Não tenha pressa</strong>
+              <p>
+                Coordenação e precisão melhoram com repetição.
+              </p>
+            </div>
+
+          </div>
+
+
+          <div class="mark-complete">
+
+            <button
+              class="btn btn-primary"
+              type="button"
+              data-mark-complete="lesson-01"
+              aria-pressed="false"
+            >
+              Marcar aula como concluída
+            </button>
+
+            <p class="lesson-complete-message"></p>
+
+          </div>
+
+        </article>
+
+
+        <nav class="lesson-nav" aria-label="Navegação entre aulas">
+
+          <a
+            href="../courses.html"
+            class="btn btn-secondary"
+          >
+            ← Visão geral do curso
+          </a>
+
+          <a
+            href="lesson-02-preparacao-de-pele.html"
+            class="btn btn-primary"
+          >
+            Próxima aula: Preparação de Pele →
+          </a>
+
+        </nav>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</main>
+
+
+<footer class="site-footer">
+
+  <div class="footer-decor footer-decor-left"></div>
+  <div class="footer-decor footer-decor-right"></div>
+
+  <div class="container footer-grid">
+
+    <div class="footer-brand">
+
+      <a href="../index.html" class="footer-logo">
+        <span class="footer-lipstick">♟</span>
+        <span>Beleza em Foco</span>
+      </a>
+
+      <p>
+        Seu portal completo sobre maquiagem,
+        beleza e autocuidado. Inspiração diária
+        para realçar sua beleza única.
+      </p>
+
+      <div class="footer-social">
+        <a href="#" aria-label="Instagram">◎</a>
+        <a href="#" aria-label="YouTube">▶</a>
+        <a href="#" aria-label="Pinterest">ⓟ</a>
+        <a href="#" aria-label="TikTok">♪</a>
+        <a href="#" aria-label="Facebook">f</a>
+      </div>
+
+    </div>
+
+
+    <div class="footer-column">
+
+      <h2>Navegação</h2>
+
+      <ul>
+        <li><a href="../index.html">Início</a></li>
+        <li><a href="../artigos.html">Artigos</a></li>
+        <li><a href="../courses.html">Tutoriais</a></li>
+        <li><a href="../categorias.html">Categorias</a></li>
+        <li><a href="mailto:juarezimoveispronto@hotmail.com">Contato</a></li>
+      </ul>
+
+    </div>
+
+
+    <div class="footer-column">
+
+      <h2>Institucional</h2>
+
+      <ul>
+        <li><a href="../about.html">Sobre Nós</a></li>
+        <li><a href="../privacy.html">Política de Privacidade</a></li>
+        <li><a href="../cookies.html">Política de Cookies</a></li>
+        <li><a href="../terms.html">Termos de Uso</a></li>
+        <li><a href="../editorial-policy.html">Política Editorial</a></li>
+      </ul>
+
+    </div>
+
+
+    <div class="footer-newsletter">
+
+      <h2>Newsletter</h2>
+
+      <p>
+        Receba dicas exclusivas e novidades
+        direto no seu e-mail!
+      </p>
+
+      <form id="newsletter-form" novalidate>
+
+        <label class="sr-only" for="newsletter-email">
+          Seu melhor e-mail
+        </label>
+
+        <div class="newsletter-form-row">
+
+          <input
+            type="email"
+            id="newsletter-email"
+            placeholder="Seu melhor e-mail"
+            required
+          >
+
+          <button type="submit">
+            Inscrever-se
+          </button>
+
+        </div>
+
+        <p
+          class="newsletter-feedback"
+          id="newsletter-feedback"
+          aria-live="polite"
+        ></p>
+
+      </form>
+
+    </div>
+
+
+    <div class="footer-quote">
+      <span>Beleza começa</span>
+      <span>quando você</span>
+      <span>se escolhe! <b>♥</b></span>
+    </div>
+
+  </div>
+
+
+  <div class="footer-bottom">
+
+    <div class="container footer-bottom-inner">
+
+      <p>
+        © 2026 Beleza em Foco. Todos os direitos reservados.
+      </p>
+
+      <p class="footer-love">
+        Feito com <span>♥</span> para realçar a sua beleza!
+      </p>
+
+    </div>
+
+  </div>
+
+
+  <div class="developer-credit">
+
+    Desenvolvido por
+
+    <a
+      href="https://dfc-black.vercel.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      DFC — Digital Future Company
+    </a>
+
+  </div>
+
+</footer>
+
+
+<div
+  class="cookie-banner"
+  id="cookie-banner"
+  role="dialog"
+  aria-label="Preferências de cookies"
+  hidden
+>
+
+  <div class="cookie-content">
+
+    <div>
+
+      <strong>Privacidade e cookies</strong>
+
+      <p>
+        Usamos cookies para melhorar sua experiência,
+        analisar o uso do site e preparar recursos de publicidade.
+      </p>
+
+      <a href="../cookies.html">
+        Política de Cookies
+      </a>
+
+    </div>
+
+
+    <div class="cookie-actions">
+
+      <button
+        type="button"
+        class="cookie-settings"
+        id="cookie-settings"
+      >
+        Configurar
+      </button>
+
+      <button
+        type="button"
+        class="cookie-reject"
+        id="cookie-reject"
+      >
+        Rejeitar não essenciais
+      </button>
+
+      <button
+        type="button"
+        class="cookie-accept"
+        id="cookie-accept"
+      >
+        Aceitar
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>

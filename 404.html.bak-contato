@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Página não encontrada | Beleza em Foco</title>
+
+  <meta
+    name="description"
+    content="A página que você tentou acessar não foi encontrada. Volte para o Beleza em Foco e continue explorando nossos conteúdos de maquiagem e beleza."
+  >
+
+  <meta name="robots" content="noindex, follow">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@500;600;700;800;900&family=Playfair+Display:ital,wght@1,700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <script src="js/main.js" defer></script>
+  <script src="js/search.js" defer></script>
+  <script src="js/favorites.js" defer></script>
+  <script src="js/consent.js" defer></script>
+
+  <style>
+    .error-page {
+      min-height: 70vh;
+      padding: 48px 0 64px;
+      display: flex;
+      align-items: center;
+      background:
+        radial-gradient(circle at 10% 5%, rgba(255,15,104,.08), transparent 25%),
+        radial-gradient(circle at 92% 8%, rgba(120,37,198,.09), transparent 28%),
+        linear-gradient(180deg, #fff 0%, #fff7fb 100%);
+    }
+
+    .error-card {
+      position: relative;
+      overflow: hidden;
+      min-height: 480px;
+      padding: 54px 48px;
+      border-radius: 22px;
+      display: grid;
+      grid-template-columns: 1fr .85fr;
+      gap: 40px;
+      align-items: center;
+      color: #fff;
+      background:
+        radial-gradient(circle at 85% 20%, rgba(255,173,0,.5), transparent 23%),
+        radial-gradient(circle at 55% 110%, rgba(255,95,127,.38), transparent 34%),
+        linear-gradient(125deg, #ff0f68 0%, #d40b70 48%, #5f168c 100%);
+      box-shadow: 0 20px 50px rgba(75,13,104,.18);
+    }
+
+    .error-card::before {
+      content: "";
+      position: absolute;
+      width: 320px;
+      height: 320px;
+      right: -115px;
+      top: -155px;
+      border-radius: 50%;
+      border: 34px solid rgba(255,255,255,.07);
+    }
+
+    .error-card::after {
+      content: "";
+      position: absolute;
+      width: 170px;
+      height: 170px;
+      left: -85px;
+      bottom: -95px;
+      border-radius: 50%;
+      background: rgba(255,255,255,.05);
+    }
+
+    .error-copy,
+    .error-visual {
+      position: relative;
+      z-index: 2;
+    }
+
+    .error-label {
+      display: inline-flex;
+      min-height: 29px;
+      padding: 0 13px;
+      align-items: center;
+      border-radius: 17px;
+      background: rgba(255,255,255,.16);
+      font-size: 9px;
+      font-weight: 900;
+      letter-spacing: .8px;
+      text-transform: uppercase;
+    }
+
+    .error-number {
+      margin-top: 10px;
+      font-family: "Montserrat", sans-serif;
+      font-size: clamp(72px, 10vw, 125px);
+      line-height: .9;
+      font-weight: 900;
+      letter-spacing: -7px;
+      color: #fff;
+      text-shadow: 0 10px 30px rgba(58,6,70,.18);
+    }
+
+    .error-copy h1 {
+      margin-top: 16px;
+      max-width: 650px;
+      font-family: "Montserrat", sans-serif;
+      font-size: clamp(27px, 4vw, 40px);
+      line-height: 1.12;
+      font-weight: 900;
+    }
+
+    .error-copy p {
+      max-width: 640px;
+      margin-top: 13px;
+      color: rgba(255,255,255,.92);
+      font-size: 13px;
+      line-height: 1.7;
+    }
+
+    .error-actions {
+      margin-top: 22px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .error-button {
+      min-height: 45px;
+      padding: 0 19px;
+      border-radius: 8px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+      font-size: 10px;
+      font-weight: 900;
+      transition: transform .2s ease;
+    }
+
+    .error-button:hover {
+      transform: translateY(-2px);
+    }
+
+    .error-button.primary {
+      background: #fff;
+      color: #d40b70;
+    }
+
+    .error-button.secondary {
+      border: 1px solid rgba(255,255,255,.38);
+      background: rgba(255,255,255,.1);
+      color: #fff;
+    }
+
+    .error-visual {
+      min-height: 315px;
+      display: grid;
+      place-items: center;
+    }
+
+    .error-beauty-card {
+      width: min(100%, 330px);
+      padding: 28px;
+      border: 1px solid rgba(255,255,255,.22);
+      border-radius: 20px;
+      background: rgba(255,255,255,.12);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 20px 45px rgba(47,7,61,.2);
+      text-align: center;
+    }
+
+    .error-icon {
+      position: relative;
+      width: 120px;
+      height: 120px;
+      margin: 0 auto;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      background: rgba(255,255,255,.94);
+      box-shadow: 0 15px 35px rgba(47,7,61,.2);
+    }
+
+    .error-icon::before {
+      content: "";
+      position: absolute;
+      width: 22px;
+      height: 64px;
+      left: 37px;
+      bottom: 27px;
+      border-radius: 5px 5px 3px 3px;
+      background: linear-gradient(
+        to bottom,
+        #ff3d80 0 39%,
+        #d5b27a 39% 48%,
+        #32123d 48% 100%
+      );
+      transform: rotate(-13deg);
+    }
+
+    .error-icon::after {
+      content: "";
+      position: absolute;
+      width: 22px;
+      height: 67px;
+      right: 35px;
+      bottom: 25px;
+      border-radius: 5px 5px 3px 3px;
+      background: linear-gradient(
+        to bottom,
+        #9b2ed1 0 35%,
+        #d5b27a 35% 45%,
+        #32123d 45% 100%
+      );
+      transform: rotate(15deg);
+    }
+
+    .error-beauty-card strong {
+      display: block;
+      margin-top: 20px;
+      font-family: "Montserrat", sans-serif;
+      font-size: 18px;
+      font-weight: 900;
+    }
+
+    .error-beauty-card p {
+      margin-top: 7px;
+      color: rgba(255,255,255,.82);
+      font-size: 10.5px;
+      line-height: 1.6;
+    }
+
+    .error-suggestions {
+      margin-top: 24px;
+      padding: 22px;
+      border: 1px solid rgba(210,50,110,.12);
+      border-radius: 14px;
+      background: #fff;
+      box-shadow: 0 9px 25px rgba(70,20,70,.07);
+    }
+
+    .error-suggestions-header {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 15px;
+    }
+
+    .error-suggestions h2 {
+      color: #32123d;
+      font-family: "Montserrat", sans-serif;
+      font-size: 18px;
+      font-weight: 900;
+    }
+
+    .error-suggestions p {
+      margin-top: 5px;
+      color: #6c6170;
+      font-size: 10px;
+      line-height: 1.55;
+    }
+
+    .error-suggestions-header a {
+      color: #d40b70;
+      font-size: 9px;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+
+    .error-links-grid {
+      margin-top: 17px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+    }
+
+    .error-link-card {
+      min-height: 110px;
+      padding: 15px;
+      border: 1px solid rgba(210,50,110,.11);
+      border-radius: 10px;
+      background: #fff8fb;
+      transition: transform .2s ease, box-shadow .2s ease;
+    }
+
+    .error-link-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(70,20,70,.08);
+    }
+
+    .error-link-icon {
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      color: #fff;
+      background: linear-gradient(135deg, #ff0f68, #d40b70);
+      font-size: 14px;
+    }
+
+    .error-link-card:nth-child(even) .error-link-icon {
+      background: linear-gradient(135deg, #7825c6, #4b0d68);
+    }
+
+    .error-link-card strong {
+      display: block;
+      margin-top: 10px;
+      color: #32123d;
+      font-size: 10px;
+    }
+
+    .error-link-card span {
+      display: block;
+      margin-top: 4px;
+      color: #7a6d7d;
+      font-size: 8.5px;
+      line-height: 1.45;
+    }
+
+    @media (max-width: 900px) {
+      .error-card {
+        grid-template-columns: 1fr;
+      }
+
+      .error-visual {
+        min-height: 250px;
+      }
+
+      .error-links-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 580px) {
+      .error-page {
+        padding-top: 25px;
+      }
+
+      .error-card {
+        min-height: 0;
+        padding: 34px 22px;
+      }
+
+      .error-number {
+        letter-spacing: -4px;
+      }
+
+      .error-actions {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+
+      .error-button {
+        width: 100%;
+      }
+
+      .error-links-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .error-suggestions-header {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<a class="skip-link" href="#conteudo-principal">
+  Ir para o conteúdo principal
+</a>
+
+<div class="top-utility">
+  <div class="container utility-inner">
+
+    <nav class="utility-links" aria-label="Links rápidos">
+      <a href="artigos.html"><span>★</span><span>Dicas</span></a>
+      <a href="courses.html"><span>♥</span><span>Tutoriais</span></a>
+      <a href="artigos.html?categoria=produtos"><span>🎁</span><span>Produtos</span></a>
+      <a href="artigos.html?categoria=artistica"><span>✣</span><span>Inspirações</span></a>
+    </nav>
+
+    <div class="utility-social">
+      <a href="#" aria-label="Instagram">◎</a>
+      <a href="#" aria-label="YouTube">▶</a>
+      <a href="#" aria-label="Pinterest">ⓟ</a>
+      <a href="#" aria-label="TikTok">♪</a>
+    </div>
+
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+
+    <a href="index.html" class="brand" aria-label="Beleza em Foco">
+
+      <div class="brand-icon" aria-hidden="true">
+        <span class="lipstick lipstick-one"></span>
+        <span class="lipstick lipstick-two"></span>
+      </div>
+
+      <div class="brand-copy">
+        <span class="brand-name">Beleza em Foco</span>
+        <span class="brand-tagline">
+          MAQUIAGEM • AUTOCUIDADO • CONFIANÇA
+        </span>
+      </div>
+
+    </a>
+
+    <form
+      class="header-search"
+      id="header-search-form"
+      action="buscar.html"
+      method="get"
+      role="search"
+    >
+
+      <label
+        class="sr-only"
+        for="header-search-input"
+      >
+        Buscar no site
+      </label>
+
+      <input
+        id="header-search-input"
+        name="q"
+        type="search"
+        placeholder="Buscar artigos, tutoriais, produtos..."
+        autocomplete="off"
+      >
+
+      <button
+        type="submit"
+        aria-label="Pesquisar"
+      >
+        <span class="search-icon"></span>
+      </button>
+
+      <div
+        class="search-suggestions"
+        id="search-suggestions"
+        aria-live="polite"
+      ></div>
+
+    </form>
+
+    <div class="header-actions">
+
+      <a
+        href="courses.html"
+        class="header-action courses-button"
+      >
+        <span>♛</span>
+        <span>Meus Cursos</span>
+      </a>
+
+      <a
+        href="artigos.html?favoritos=1"
+        class="header-action favorites-button"
+      >
+        <span>★</span>
+
+        <span>
+          Favoritos (<strong id="favorites-count">0</strong>)
+        </span>
+      </a>
+
+    </div>
+
+    <button
+      class="mobile-menu-toggle"
+      id="mobile-menu-toggle"
+      type="button"
+      aria-label="Abrir menu"
+      aria-controls="main-navigation"
+      aria-expanded="false"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+  </div>
+</header>
+
+<nav
+  class="main-navigation"
+  id="main-navigation"
+  aria-label="Navegação principal"
+>
+  <div class="container nav-inner">
+
+    <ul class="main-menu">
+
+      <li>
+        <a
+          href="index.html"
+          class="nav-link nav-home"
+        >
+          <span>⌂</span>
+          INÍCIO
+        </a>
+      </li>
+
+      <li class="has-dropdown">
+
+        <button
+          class="nav-dropdown-button"
+          type="button"
+          aria-expanded="false"
+        >
+          ARTIGOS
+          <span class="dropdown-chevron">⌄</span>
+        </button>
+
+        <div class="dropdown-menu">
+          <a href="artigos.html?categoria=iniciantes">Maquiagem para iniciantes</a>
+          <a href="artigos.html?categoria=pele">Pele</a>
+          <a href="artigos.html?categoria=olhos">Olhos</a>
+          <a href="artigos.html?categoria=sobrancelhas">Sobrancelhas</a>
+          <a href="artigos.html?categoria=cilios">Cílios</a>
+          <a href="artigos.html?categoria=labios">Lábios</a>
+          <a href="artigos.html?categoria=artistica">Maquiagem artística</a>
+          <a href="artigos.html?categoria=drag">Drag Queen</a>
+          <a href="artigos.html?categoria=produtos">Produtos e ferramentas</a>
+        </div>
+
+      </li>
+
+      <li>
+        <a href="courses.html" class="nav-link">
+          TUTORIAIS
+        </a>
+      </li>
+
+      <li>
+        <a
+          href="artigos.html?categoria=produtos"
+          class="nav-link"
+        >
+          PRODUTOS
+        </a>
+      </li>
+
+      <li>
+        <a
+          href="categorias.html"
+          class="nav-link"
+        >
+          CATEGORIAS
+        </a>
+      </li>
+
+      <li>
+        <a href="about.html" class="nav-link">
+          SOBRE NÓS
+        </a>
+      </li>
+
+      <li>
+        <a href="contact.html" class="nav-link">
+          CONTATO
+        </a>
+      </li>
+
+    </ul>
+
+    <a
+      href="artigos.html"
+      class="articles-counter"
+    >
+      <span>▥</span>
+      <strong>50 ARTIGOS</strong>
+    </a>
+
+  </div>
+</nav>
+
+
+<main
+  id="conteudo-principal"
+  class="error-page"
+>
+
+  <div class="container">
+
+    <section class="error-card">
+
+      <div class="error-copy">
+
+        <span class="error-label">
+          ✦ OPS! ALGO SAIU DO LUGAR
+        </span>
+
+        <div class="error-number">
+          404
+        </div>
+
+        <h1>
+          Essa página não foi encontrada.
+        </h1>
+
+        <p>
+          Parece que este endereço não existe, foi alterado
+          ou saiu do nosso nécessaire. Mas você ainda pode
+          continuar explorando todos os conteúdos do
+          Beleza em Foco.
+        </p>
+
+        <div class="error-actions">
+
+          <a
+            href="index.html"
+            class="error-button primary"
+          >
+            ← Voltar para o início
+          </a>
+
+          <a
+            href="artigos.html"
+            class="error-button secondary"
+          >
+            Explorar os 50 artigos
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <div class="error-visual">
+
+        <div class="error-beauty-card">
+
+          <div
+            class="error-icon"
+            aria-hidden="true"
+          ></div>
+
+          <strong>
+            Sua beleza continua por aqui.
+          </strong>
+
+          <p>
+            Use o menu, a busca ou os atalhos abaixo
+            para encontrar o conteúdo que estava procurando.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <section class="error-suggestions">
+
+      <div class="error-suggestions-header">
+
+        <div>
+
+          <h2>
+            Talvez você esteja procurando por...
+          </h2>
+
+          <p>
+            Escolha uma das áreas principais do portal
+            e continue navegando.
+          </p>
+
+        </div>
+
+        <a href="buscar.html">
+          Ir para a busca →
+        </a>
+
+      </div>
+
+
+      <div class="error-links-grid">
+
+        <a
+          href="artigos.html"
+          class="error-link-card"
+        >
+
+          <span class="error-link-icon">
+            ✦
+          </span>
+
+          <strong>
+            Artigos
+          </strong>
+
+          <span>
+            Explore todos os conteúdos de maquiagem e beleza.
+          </span>
+
+        </a>
+
+
+        <a
+          href="courses.html"
+          class="error-link-card"
+        >
+
+          <span class="error-link-icon">
+            ▶
+          </span>
+
+          <strong>
+            Curso gratuito
+          </strong>
+
+          <span>
+            Aprenda maquiagem em seis aulas organizadas.
+          </span>
+
+        </a>
+
+
+        <a
+          href="categorias.html"
+          class="error-link-card"
+        >
+
+          <span class="error-link-icon">
+            ◇
+          </span>
+
+          <strong>
+            Categorias
+          </strong>
+
+          <span>
+            Encontre conteúdos por assunto e técnica.
+          </span>
+
+        </a>
+
+
+        <a
+          href="contact.html"
+          class="error-link-card"
+        >
+
+          <span class="error-link-icon">
+            ✉
+          </span>
+
+          <strong>
+            Contato
+          </strong>
+
+          <span>
+            Avise nossa equipe se encontrou um link quebrado.
+          </span>
+
+        </a>
+
+      </div>
+
+    </section>
+
+  </div>
+
+</main>
+
+
+<footer class="site-footer">
+
+  <div class="footer-decor footer-decor-left"></div>
+  <div class="footer-decor footer-decor-right"></div>
+
+  <div class="container footer-grid">
+
+    <div class="footer-brand">
+
+      <a
+        href="index.html"
+        class="footer-logo"
+      >
+        <span class="footer-lipstick">♟</span>
+        <span>Beleza em Foco</span>
+      </a>
+
+      <p>
+        Seu portal completo sobre maquiagem,
+        beleza e autocuidado. Inspiração diária
+        para realçar sua beleza única.
+      </p>
+
+      <div class="footer-social">
+        <a href="#" aria-label="Instagram">◎</a>
+        <a href="#" aria-label="YouTube">▶</a>
+        <a href="#" aria-label="Pinterest">ⓟ</a>
+        <a href="#" aria-label="TikTok">♪</a>
+        <a href="#" aria-label="Facebook">f</a>
+      </div>
+
+    </div>
+
+
+    <div class="footer-column">
+
+      <h2>Navegação</h2>
+
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="artigos.html">Artigos</a></li>
+        <li><a href="courses.html">Tutoriais</a></li>
+        <li><a href="categorias.html">Categorias</a></li>
+        <li><a href="contact.html">Contato</a></li>
+      </ul>
+
+    </div>
+
+
+    <div class="footer-column">
+
+      <h2>Institucional</h2>
+
+      <ul>
+        <li><a href="about.html">Sobre Nós</a></li>
+        <li><a href="privacy.html">Política de Privacidade</a></li>
+        <li><a href="cookies.html">Política de Cookies</a></li>
+        <li><a href="terms.html">Termos de Uso</a></li>
+        <li><a href="editorial-policy.html">Política Editorial</a></li>
+      </ul>
+
+    </div>
+
+
+    <div class="footer-newsletter">
+
+      <h2>Newsletter</h2>
+
+      <p>
+        Receba dicas exclusivas e novidades
+        direto no seu e-mail!
+      </p>
+
+      <form
+        id="newsletter-form"
+        novalidate
+      >
+
+        <label
+          class="sr-only"
+          for="newsletter-email"
+        >
+          Seu melhor e-mail
+        </label>
+
+        <div class="newsletter-form-row">
+
+          <input
+            type="email"
+            id="newsletter-email"
+            placeholder="Seu melhor e-mail"
+            required
+          >
+
+          <button type="submit">
+            Inscrever-se
+          </button>
+
+        </div>
+
+        <p
+          class="newsletter-feedback"
+          id="newsletter-feedback"
+          aria-live="polite"
+        ></p>
+
+      </form>
+
+    </div>
+
+
+    <div class="footer-quote">
+      <span>Beleza começa</span>
+      <span>quando você</span>
+      <span>se escolhe! <b>♥</b></span>
+    </div>
+
+  </div>
+
+
+  <div class="footer-bottom">
+
+    <div class="container footer-bottom-inner">
+
+      <p>
+        © 2026 Beleza em Foco. Todos os direitos reservados.
+      </p>
+
+      <p class="footer-love">
+        Feito com <span>♥</span> para realçar a sua beleza!
+      </p>
+
+    </div>
+
+  </div>
+
+
+  <div class="developer-credit">
+
+    Desenvolvido por
+
+    <a
+      href="https://dfc-black.vercel.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      DFC — Digital Future Company
+    </a>
+
+  </div>
+
+</footer>
+
+
+<div
+  class="cookie-banner"
+  id="cookie-banner"
+  role="dialog"
+  aria-label="Preferências de cookies"
+  hidden
+>
+
+  <div class="cookie-content">
+
+    <div>
+
+      <strong>
+        Privacidade e cookies
+      </strong>
+
+      <p>
+        Usamos cookies para melhorar sua experiência,
+        analisar o uso do site e preparar recursos de publicidade.
+      </p>
+
+      <a href="cookies.html">
+        Política de Cookies
+      </a>
+
+    </div>
+
+
+    <div class="cookie-actions">
+
+      <button
+        type="button"
+        class="cookie-settings"
+        id="cookie-settings"
+      >
+        Configurar
+      </button>
+
+      <button
+        type="button"
+        class="cookie-reject"
+        id="cookie-reject"
+      >
+        Rejeitar não essenciais
+      </button>
+
+      <button
+        type="button"
+        class="cookie-accept"
+        id="cookie-accept"
+      >
+        Aceitar
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,1205 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Política Editorial | Beleza em Foco</title>
+
+  <meta
+    name="description"
+    content="Conheça os princípios editoriais do Beleza em Foco, incluindo originalidade, revisão, correções, fontes, transparência, publicidade e responsabilidade com o leitor."
+  >
+
+  <link rel="canonical" href="https://seudominio.com/editorial-policy.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@500;600;700;800;900&family=Playfair+Display:ital,wght@1,700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <script src="js/main.js" defer></script>
+  <script src="js/search.js" defer></script>
+  <script src="js/favorites.js" defer></script>
+  <script src="js/consent.js" defer></script>
+
+  <style>
+    .legal-page {
+      min-height: 70vh;
+      padding: 38px 0 60px;
+      background:
+        radial-gradient(circle at 10% 4%, rgba(255,15,104,.07), transparent 24%),
+        radial-gradient(circle at 92% 6%, rgba(120,37,198,.07), transparent 26%),
+        linear-gradient(180deg, #fff 0%, #fff8fb 100%);
+    }
+
+    .legal-hero {
+      position: relative;
+      overflow: hidden;
+      padding: 36px 40px;
+      border-radius: 18px;
+      color: #fff;
+      background:
+        radial-gradient(circle at 86% 18%, rgba(255,173,0,.48), transparent 22%),
+        linear-gradient(120deg, #ff0f68 0%, #d40b70 50%, #63148f 100%);
+      box-shadow: 0 15px 38px rgba(75,13,104,.14);
+    }
+
+    .legal-hero::before {
+      content: "";
+      position: absolute;
+      right: -75px;
+      bottom: -120px;
+      width: 240px;
+      height: 240px;
+      border: 28px solid rgba(255,255,255,.07);
+      border-radius: 50%;
+    }
+
+    .legal-hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 820px;
+    }
+
+    .legal-label {
+      display: inline-flex;
+      min-height: 27px;
+      padding: 0 12px;
+      align-items: center;
+      border-radius: 16px;
+      background: rgba(255,255,255,.15);
+      font-size: 9px;
+      font-weight: 900;
+      letter-spacing: .8px;
+      text-transform: uppercase;
+    }
+
+    .legal-hero h1 {
+      margin-top: 10px;
+      font-family: "Montserrat", sans-serif;
+      font-size: clamp(30px, 4vw, 44px);
+      line-height: 1.08;
+      font-weight: 900;
+    }
+
+    .legal-hero p {
+      max-width: 760px;
+      margin-top: 12px;
+      color: rgba(255,255,255,.94);
+      font-size: 14px;
+      line-height: 1.7;
+    }
+
+    .legal-layout {
+      margin-top: 24px;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 300px;
+      gap: 26px;
+      align-items: start;
+    }
+
+    .legal-content {
+      padding: 28px 30px;
+      border: 1px solid rgba(210,50,110,.12);
+      border-radius: 15px;
+      background: #fff;
+      box-shadow: 0 9px 26px rgba(70,20,70,.07);
+    }
+
+    .legal-content section + section {
+      margin-top: 28px;
+    }
+
+    .legal-content h2 {
+      color: #32123d;
+      font-family: "Montserrat", sans-serif;
+      font-size: 20px;
+      line-height: 1.3;
+      font-weight: 900;
+    }
+
+    .legal-content h3 {
+      margin-top: 17px;
+      color: #4b0d68;
+      font-family: "Montserrat", sans-serif;
+      font-size: 14px;
+      font-weight: 800;
+    }
+
+    .legal-content p {
+      margin-top: 10px;
+      color: #55495a;
+      font-size: 12px;
+      line-height: 1.8;
+    }
+
+    .legal-content ul {
+      margin-top: 12px;
+      padding-left: 20px;
+      list-style: disc;
+      color: #55495a;
+    }
+
+    .legal-content li {
+      margin-bottom: 8px;
+      font-size: 11.5px;
+      line-height: 1.7;
+    }
+
+    .legal-highlight {
+      margin-top: 18px;
+      padding: 15px 17px;
+      border-left: 4px solid #ff0f68;
+      border-radius: 8px;
+      background: #fff3f8;
+      color: #513d52;
+      font-size: 10.5px;
+      line-height: 1.65;
+    }
+
+    .legal-note {
+      margin-top: 18px;
+      padding: 15px 17px;
+      border-left: 4px solid #ffad00;
+      border-radius: 8px;
+      background: #fff8e9;
+      color: #5b472c;
+      font-size: 10px;
+      line-height: 1.65;
+    }
+
+    .editorial-principles {
+      margin-top: 16px;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .editorial-principle {
+      padding: 16px;
+      border: 1px solid rgba(210,50,110,.12);
+      border-radius: 10px;
+      background: #fff8fb;
+    }
+
+    .editorial-principle strong {
+      display: block;
+      color: #32123d;
+      font-size: 11px;
+    }
+
+    .editorial-principle p {
+      margin-top: 5px;
+      color: #6c6170;
+      font-size: 9.5px;
+      line-height: 1.55;
+    }
+
+    .legal-sidebar-card {
+      position: sticky;
+      top: 18px;
+      padding: 18px;
+      border: 1px solid rgba(210,50,110,.12);
+      border-radius: 13px;
+      background: #fff;
+      box-shadow: 0 8px 24px rgba(70,20,70,.08);
+    }
+
+    .legal-sidebar-card h2 {
+      color: #32123d;
+      font-family: "Montserrat", sans-serif;
+      font-size: 14px;
+      font-weight: 900;
+    }
+
+    .legal-sidebar-card p {
+      margin-top: 7px;
+      color: #6c6170;
+      font-size: 9.5px;
+      line-height: 1.6;
+    }
+
+    .legal-nav {
+      margin-top: 12px;
+      display: grid;
+      gap: 6px;
+    }
+
+    .legal-nav a {
+      min-height: 34px;
+      padding: 0 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-radius: 7px;
+      background: #fff4f8;
+      color: #d40b70;
+      font-size: 8.8px;
+      font-weight: 900;
+    }
+
+    .legal-date {
+      margin-top: 15px;
+      color: #837686;
+      font-size: 8.5px;
+      line-height: 1.5;
+    }
+
+    @media (max-width: 850px) {
+      .legal-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .legal-sidebar-card {
+        position: static;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .editorial-principles {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 580px) {
+      .legal-page {
+        padding-top: 20px;
+      }
+
+      .legal-hero {
+        padding: 26px 21px;
+      }
+
+      .legal-content {
+        padding: 22px 19px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<a class="skip-link" href="#conteudo-principal">
+  Ir para o conteúdo principal
+</a>
+
+<div class="top-utility">
+  <div class="container utility-inner">
+
+    <nav class="utility-links" aria-label="Links rápidos">
+      <a href="artigos.html"><span>★</span><span>Dicas</span></a>
+      <a href="courses.html"><span>♥</span><span>Tutoriais</span></a>
+      <a href="artigos.html?categoria=produtos"><span>🎁</span><span>Produtos</span></a>
+      <a href="artigos.html?categoria=artistica"><span>✣</span><span>Inspirações</span></a>
+    </nav>
+
+    <div class="utility-social">
+      <a href="#" aria-label="Instagram">◎</a>
+      <a href="#" aria-label="YouTube">▶</a>
+      <a href="#" aria-label="Pinterest">ⓟ</a>
+      <a href="#" aria-label="TikTok">♪</a>
+    </div>
+
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+
+    <a href="index.html" class="brand" aria-label="Beleza em Foco">
+
+      <div class="brand-icon" aria-hidden="true">
+        <span class="lipstick lipstick-one"></span>
+        <span class="lipstick lipstick-two"></span>
+      </div>
+
+      <div class="brand-copy">
+        <span class="brand-name">Beleza em Foco</span>
+        <span class="brand-tagline">
+          MAQUIAGEM • AUTOCUIDADO • CONFIANÇA
+        </span>
+      </div>
+
+    </a>
+
+    <form
+      class="header-search"
+      id="header-search-form"
+      action="buscar.html"
+      method="get"
+      role="search"
+    >
+      <label class="sr-only" for="header-search-input">
+        Buscar no site
+      </label>
+
+      <input
+        id="header-search-input"
+        name="q"
+        type="search"
+        placeholder="Buscar artigos, tutoriais, produtos..."
+        autocomplete="off"
+      >
+
+      <button type="submit" aria-label="Pesquisar">
+        <span class="search-icon"></span>
+      </button>
+
+      <div
+        class="search-suggestions"
+        id="search-suggestions"
+        aria-live="polite"
+      ></div>
+    </form>
+
+    <div class="header-actions">
+
+      <a href="courses.html" class="header-action courses-button">
+        <span>♛</span>
+        <span>Meus Cursos</span>
+      </a>
+
+      <a
+        href="artigos.html?favoritos=1"
+        class="header-action favorites-button"
+      >
+        <span>★</span>
+        <span>
+          Favoritos (<strong id="favorites-count">0</strong>)
+        </span>
+      </a>
+
+    </div>
+
+    <button
+      class="mobile-menu-toggle"
+      id="mobile-menu-toggle"
+      type="button"
+      aria-label="Abrir menu"
+      aria-controls="main-navigation"
+      aria-expanded="false"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+  </div>
+</header>
+
+<nav
+  class="main-navigation"
+  id="main-navigation"
+  aria-label="Navegação principal"
+>
+  <div class="container nav-inner">
+
+    <ul class="main-menu">
+
+      <li>
+        <a href="index.html" class="nav-link nav-home">
+          <span>⌂</span>
+          INÍCIO
+        </a>
+      </li>
+
+      <li class="has-dropdown">
+
+        <button
+          class="nav-dropdown-button"
+          type="button"
+          aria-expanded="false"
+        >
+          ARTIGOS
+          <span class="dropdown-chevron">⌄</span>
+        </button>
+
+        <div class="dropdown-menu">
+          <a href="artigos.html?categoria=iniciantes">Maquiagem para iniciantes</a>
+          <a href="artigos.html?categoria=pele">Pele</a>
+          <a href="artigos.html?categoria=olhos">Olhos</a>
+          <a href="artigos.html?categoria=sobrancelhas">Sobrancelhas</a>
+          <a href="artigos.html?categoria=cilios">Cílios</a>
+          <a href="artigos.html?categoria=labios">Lábios</a>
+          <a href="artigos.html?categoria=artistica">Maquiagem artística</a>
+          <a href="artigos.html?categoria=drag">Drag Queen</a>
+          <a href="artigos.html?categoria=produtos">Produtos e ferramentas</a>
+        </div>
+
+      </li>
+
+      <li>
+        <a href="courses.html" class="nav-link">
+          TUTORIAIS
+        </a>
+      </li>
+
+      <li>
+        <a href="artigos.html?categoria=produtos" class="nav-link">
+          PRODUTOS
+        </a>
+      </li>
+
+      <li>
+        <a href="categorias.html" class="nav-link">
+          CATEGORIAS
+        </a>
+      </li>
+
+      <li>
+        <a href="about.html" class="nav-link">
+          SOBRE NÓS
+        </a>
+      </li>
+
+      <li>
+        <a href="mailto:juarezimoveispronto@hotmail.com" class="nav-link">
+          CONTATO
+        </a>
+      </li>
+
+    </ul>
+
+    <a href="artigos.html" class="articles-counter">
+      <span>▥</span>
+      <strong>50 ARTIGOS</strong>
+    </a>
+
+  </div>
+</nav>
+
+<main id="conteudo-principal" class="legal-page">
+
+  <div class="container">
+
+    <section class="legal-hero">
+
+      <div class="legal-hero-content">
+
+        <span class="legal-label">
+          ✦ PADRÕES EDITORIAIS
+        </span>
+
+        <h1>Política Editorial</h1>
+
+        <p>
+          Esta política apresenta os princípios utilizados pelo
+          Beleza em Foco para criação, revisão, atualização e
+          publicação de conteúdos.
+        </p>
+
+      </div>
+
+    </section>
+
+    <div class="legal-layout">
+
+      <article class="legal-content">
+
+        <section id="missao">
+
+          <h2>1. Nossa missão editorial</h2>
+
+          <p>
+            O Beleza em Foco tem como objetivo produzir conteúdos
+            educativos sobre maquiagem, beleza e autocuidado com linguagem
+            clara, estrutura organizada e utilidade prática para o leitor.
+          </p>
+
+          <p>
+            Nosso propósito é ajudar pessoas a compreender técnicas,
+            ferramentas e conceitos, oferecendo explicações que possam
+            ser utilizadas como ponto de partida para aprendizado e prática.
+          </p>
+
+          <p>
+            Priorizamos conteúdos que respondam dúvidas reais e que tenham
+            valor além de títulos, tendências momentâneas ou textos criados
+            apenas para ocupar espaço.
+          </p>
+
+        </section>
+
+        <section id="principios">
+
+          <h2>2. Princípios editoriais</h2>
+
+          <div class="editorial-principles">
+
+            <div class="editorial-principle">
+              <strong>Originalidade</strong>
+              <p>
+                Buscamos produzir textos próprios, organizados e
+                substanciais, evitando reprodução indevida de terceiros.
+              </p>
+            </div>
+
+            <div class="editorial-principle">
+              <strong>Clareza</strong>
+              <p>
+                Explicamos técnicas de forma acessível, especialmente
+                quando o conteúdo é destinado a iniciantes.
+              </p>
+            </div>
+
+            <div class="editorial-principle">
+              <strong>Utilidade</strong>
+              <p>
+                O conteúdo deve ajudar o leitor a compreender ou executar
+                algo, não apenas repetir informações genéricas.
+              </p>
+            </div>
+
+            <div class="editorial-principle">
+              <strong>Transparência</strong>
+              <p>
+                Publicidade, relações comerciais e limitações relevantes
+                devem ser apresentadas de maneira clara.
+              </p>
+            </div>
+
+            <div class="editorial-principle">
+              <strong>Responsabilidade</strong>
+              <p>
+                Evitamos promessas irreais e adotamos cautela em temas
+                envolvendo pele, olhos, reações e segurança.
+              </p>
+            </div>
+
+            <div class="editorial-principle">
+              <strong>Atualização</strong>
+              <p>
+                Conteúdos podem ser revistos quando houver necessidade de
+                correção, melhoria ou atualização.
+              </p>
+            </div>
+
+          </div>
+
+        </section>
+
+        <section id="producao">
+
+          <h2>3. Processo de criação de conteúdo</h2>
+
+          <p>
+            Cada conteúdo deve partir de um objetivo claro. Antes de
+            escrever, buscamos definir qual dúvida será respondida,
+            qual nível de conhecimento é esperado e quais etapas precisam
+            ser explicadas.
+          </p>
+
+          <p>
+            Em conteúdos práticos, priorizamos uma estrutura progressiva.
+            Uma técnica pode ser dividida em preparação, materiais,
+            execução, acabamento, erros comuns e cuidados.
+          </p>
+
+          <p>
+            Essa organização ajuda o leitor a acompanhar o processo sem
+            precisar interpretar instruções desconectadas.
+          </p>
+
+          <h3>Conteúdo para iniciantes</h3>
+
+          <p>
+            Quando o material é voltado para iniciantes, evitamos assumir
+            conhecimento prévio que ainda não foi apresentado.
+            Termos técnicos devem ser contextualizados sempre que possível.
+          </p>
+
+          <h3>Conteúdo mais avançado</h3>
+
+          <p>
+            Em técnicas mais elaboradas, podemos partir de fundamentos
+            explicados anteriormente e direcionar o leitor para conteúdos
+            complementares quando isso melhora a experiência.
+          </p>
+
+        </section>
+
+        <section id="originalidade">
+
+          <h2>4. Originalidade e qualidade</h2>
+
+          <p>
+            O Beleza em Foco busca publicar conteúdo original e
+            substancial.
+          </p>
+
+          <p>
+            Não consideramos adequado criar páginas quase vazias,
+            repetir o mesmo texto em diferentes URLs ou publicar grandes
+            quantidades de conteúdo sem utilidade real para o visitante.
+          </p>
+
+          <p>
+            Quando diferentes artigos abordam assuntos relacionados,
+            procuramos dar a cada página um objetivo específico e uma
+            abordagem própria.
+          </p>
+
+          <div class="legal-highlight">
+            Quantidade de páginas não substitui qualidade. Nosso objetivo
+            é que cada conteúdo tenha uma função clara dentro do portal.
+          </div>
+
+        </section>
+
+        <section id="fontes">
+
+          <h2>5. Fontes e referências</h2>
+
+          <p>
+            Muitos conteúdos de maquiagem são baseados em técnicas práticas
+            amplamente conhecidas. Entretanto, determinados assuntos podem
+            exigir fontes externas, especialmente quando envolvem segurança,
+            ingredientes, recomendações oficiais ou informações técnicas.
+          </p>
+
+          <p>
+            Nesses casos, buscamos priorizar fontes confiáveis e adequadas
+            ao tipo de informação apresentada.
+          </p>
+
+          <p>
+            Sempre que uma afirmação depender diretamente de uma referência
+            específica, o conteúdo poderá indicar a fonte correspondente.
+          </p>
+
+        </section>
+
+        <section id="saude">
+
+          <h2>6. Conteúdos relacionados à saúde</h2>
+
+          <p>
+            Beleza e maquiagem podem envolver temas próximos à saúde,
+            principalmente em conteúdos sobre pele, olhos, irritações,
+            alergias e uso de produtos.
+          </p>
+
+          <p>
+            O Beleza em Foco não deve apresentar diagnóstico médico,
+            prescrição ou tratamento como se fosse um serviço de saúde.
+          </p>
+
+          <p>
+            Quando necessário, utilizamos orientações gerais de segurança
+            e indicamos que sintomas preocupantes exigem avaliação adequada.
+          </p>
+
+          <p>
+            O conteúdo editorial não substitui consulta com médico,
+            dermatologista, oftalmologista ou outro profissional de saúde.
+          </p>
+
+        </section>
+
+        <section id="revisao">
+
+          <h2>7. Revisão editorial</h2>
+
+          <p>
+            Conteúdos podem passar por revisão de estrutura, clareza,
+            gramática, consistência e experiência de leitura.
+          </p>
+
+          <p>
+            A revisão pode incluir:
+          </p>
+
+          <ul>
+            <li>correção de erros de escrita;</li>
+            <li>melhoria da organização de tópicos;</li>
+            <li>adição de explicações que estavam incompletas;</li>
+            <li>remoção de trechos redundantes;</li>
+            <li>atualização de informações;</li>
+            <li>melhoria de links internos;</li>
+            <li>adição ou atualização de imagens e recursos educacionais.</li>
+          </ul>
+
+        </section>
+
+        <section id="correcoes">
+
+          <h2>8. Correções</h2>
+
+          <p>
+            Caso seja identificado um erro factual ou editorial relevante,
+            o conteúdo poderá ser corrigido.
+          </p>
+
+          <p>
+            Erros simples de ortografia ou formatação podem ser corrigidos
+            sem aviso específico.
+          </p>
+
+          <p>
+            Em alterações mais substanciais, a página poderá ter sua data
+            de atualização modificada para refletir a revisão.
+          </p>
+
+          <p>
+            Leitores também podem enviar avisos sobre possíveis erros
+            através da página de contato.
+          </p>
+
+        </section>
+
+        <section id="datas">
+
+          <h2>9. Datas de publicação e atualização</h2>
+
+          <p>
+            Quando aplicável, conteúdos podem apresentar data de publicação
+            e data de atualização.
+          </p>
+
+          <p>
+            A data de atualização deve representar uma revisão relevante,
+            e não ser alterada artificialmente apenas para fazer uma página
+            antiga parecer recente.
+          </p>
+
+        </section>
+
+        <section id="autoria">
+
+          <h2>10. Autoria e responsabilidade editorial</h2>
+
+          <p>
+            O portal poderá apresentar informações de autoria, equipe
+            editorial ou responsável pelo conteúdo quando essa estrutura
+            estiver definida.
+          </p>
+
+          <p>
+            A identificação editorial deve ser verdadeira e não deve
+            atribuir experiência, formação profissional ou credenciais
+            inexistentes a autores.
+          </p>
+
+          <p>
+            Antes da publicação definitiva, os dados de autoria e
+            responsabilidade devem ser revisados para representar
+            corretamente quem participa do projeto.
+          </p>
+
+        </section>
+
+        <section id="publicidade">
+
+          <h2>11. Publicidade e independência editorial</h2>
+
+          <p>
+            O Beleza em Foco poderá utilizar publicidade como forma de
+            monetização.
+          </p>
+
+          <p>
+            Anúncios devem ser visualmente identificáveis e posicionados
+            de modo que não sejam confundidos com botões de navegação,
+            downloads ou ações editoriais.
+          </p>
+
+          <p>
+            A existência de um anunciante não deve determinar automaticamente
+            opiniões, conclusões ou recomendações publicadas no conteúdo.
+          </p>
+
+          <div class="legal-highlight">
+            Publicidade e conteúdo editorial devem permanecer claramente
+            separados para preservar a confiança do leitor e evitar
+            cliques acidentais.
+          </div>
+
+        </section>
+
+        <section id="afiliados">
+
+          <h2>12. Links comerciais e afiliados</h2>
+
+          <p>
+            O portal poderá futuramente utilizar links de afiliados ou
+            outras relações comerciais.
+          </p>
+
+          <p>
+            Quando aplicável, essas relações deverão ser identificadas
+            de forma clara para que o leitor saiba quando uma compra ou
+            ação pode gerar comissão para o site.
+          </p>
+
+          <p>
+            Uma relação de afiliado não deve ser apresentada como se fosse
+            uma avaliação independente quando houver conflito relevante.
+          </p>
+
+        </section>
+
+        <section id="avaliacoes">
+
+          <h2>13. Produtos e recomendações</h2>
+
+          <p>
+            Conteúdos podem mencionar produtos, categorias de cosméticos
+            ou ferramentas como parte de uma explicação.
+          </p>
+
+          <p>
+            Sempre que possível, recomendações devem considerar finalidade,
+            características, vantagens, limitações e público adequado,
+            evitando afirmações absolutas como “melhor para todo mundo”.
+          </p>
+
+          <p>
+            O resultado de cosméticos pode variar entre pessoas,
+            especialmente devido a tipo de pele, sensibilidade,
+            tonalidade e preferências de acabamento.
+          </p>
+
+        </section>
+
+        <section id="imagens">
+
+          <h2>14. Imagens, vídeos e recursos visuais</h2>
+
+          <p>
+            Recursos visuais devem complementar o conteúdo e ajudar o
+            leitor a compreender a técnica apresentada.
+          </p>
+
+          <p>
+            Sempre que utilizarmos imagens de terceiros, devemos respeitar
+            as respectivas licenças, autorizações e direitos aplicáveis.
+          </p>
+
+          <p>
+            Imagens meramente decorativas não devem substituir
+            demonstrações necessárias quando o conteúdo exige orientação
+            visual.
+          </p>
+
+          <p>
+            Vídeos incorporados de plataformas externas podem estar sujeitos
+            aos termos e políticas da própria plataforma.
+          </p>
+
+        </section>
+
+        <section id="ia">
+
+          <h2>15. Uso de ferramentas tecnológicas</h2>
+
+          <p>
+            Ferramentas digitais podem ser utilizadas como apoio em etapas
+            de organização, revisão, estruturação ou produção.
+          </p>
+
+          <p>
+            A responsabilidade editorial continua sendo verificar se o
+            resultado final é coerente, útil e apropriado antes da publicação.
+          </p>
+
+          <p>
+            Conteúdo automatizado não deve ser publicado indiscriminadamente
+            apenas para aumentar o número de páginas do portal.
+          </p>
+
+        </section>
+
+        <section id="comentarios">
+
+          <h2>16. Conteúdo enviado por leitores</h2>
+
+          <p>
+            Caso o site futuramente permita comentários, avaliações ou
+            outros conteúdos enviados por usuários, poderão ser adotadas
+            regras específicas de moderação.
+          </p>
+
+          <p>
+            Conteúdos abusivos, ilegais, enganosos, spam ou que violem
+            direitos de terceiros poderão ser removidos.
+          </p>
+
+        </section>
+
+        <section id="atualizacao">
+
+          <h2>17. Atualização desta política</h2>
+
+          <p>
+            Esta Política Editorial poderá ser revisada conforme o portal
+            evoluir, novos processos forem implementados ou novas formas
+            de conteúdo forem adicionadas.
+          </p>
+
+          <p>
+            A versão mais recente ficará disponível nesta página.
+          </p>
+
+        </section>
+
+        <section id="contato">
+
+          <h2>18. Correções, dúvidas e contato</h2>
+
+          <p>
+            Se você identificar um erro, desejar sugerir uma atualização
+            ou tiver dúvidas sobre nossas práticas editoriais, utilize a
+            página de contato.
+          </p>
+
+          <p>
+            <a href="mailto:juarezimoveispronto@hotmail.com">
+              <strong>Ir para a página de Contato →</strong>
+            </a>
+          </p>
+
+          <div class="legal-note">
+            Antes do lançamento definitivo, revise os dados reais de
+            autoria, responsáveis editoriais, fontes utilizadas e qualquer
+            informação institucional ainda apresentada como demonstração.
+          </div>
+
+        </section>
+
+      </article>
+
+      <aside class="legal-sidebar-card">
+
+        <h2>Nesta política</h2>
+
+        <p>
+          Consulte rapidamente nossos principais padrões editoriais.
+        </p>
+
+        <nav class="legal-nav">
+          <a href="#principios"><span>Princípios</span><span>→</span></a>
+          <a href="#producao"><span>Criação</span><span>→</span></a>
+          <a href="#originalidade"><span>Originalidade</span><span>→</span></a>
+          <a href="#fontes"><span>Fontes</span><span>→</span></a>
+          <a href="#revisao"><span>Revisão</span><span>→</span></a>
+          <a href="#correcoes"><span>Correções</span><span>→</span></a>
+          <a href="#publicidade"><span>Publicidade</span><span>→</span></a>
+          <a href="#contato"><span>Contato</span><span>→</span></a>
+        </nav>
+
+        <p class="legal-date">
+          Última atualização: 25 de agosto de 2026.
+        </p>
+
+      </aside>
+
+    </div>
+
+  </div>
+
+</main>
+
+<footer class="site-footer">
+
+  <div class="footer-decor footer-decor-left"></div>
+  <div class="footer-decor footer-decor-right"></div>
+
+  <div class="container footer-grid">
+
+    <div class="footer-brand">
+
+      <a href="index.html" class="footer-logo">
+        <span class="footer-lipstick">♟</span>
+        <span>Beleza em Foco</span>
+      </a>
+
+      <p>
+        Seu portal completo sobre maquiagem,
+        beleza e autocuidado. Inspiração diária
+        para realçar sua beleza única.
+      </p>
+
+      <div class="footer-social">
+        <a href="#" aria-label="Instagram">◎</a>
+        <a href="#" aria-label="YouTube">▶</a>
+        <a href="#" aria-label="Pinterest">ⓟ</a>
+        <a href="#" aria-label="TikTok">♪</a>
+        <a href="#" aria-label="Facebook">f</a>
+      </div>
+
+    </div>
+
+    <div class="footer-column">
+
+      <h2>Navegação</h2>
+
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="artigos.html">Artigos</a></li>
+        <li><a href="courses.html">Tutoriais</a></li>
+        <li><a href="categorias.html">Categorias</a></li>
+        <li><a href="mailto:juarezimoveispronto@hotmail.com">Contato</a></li>
+      </ul>
+
+    </div>
+
+    <div class="footer-column">
+
+      <h2>Institucional</h2>
+
+      <ul>
+        <li><a href="about.html">Sobre Nós</a></li>
+        <li><a href="privacy.html">Política de Privacidade</a></li>
+        <li><a href="cookies.html">Política de Cookies</a></li>
+        <li><a href="terms.html">Termos de Uso</a></li>
+        <li><a href="editorial-policy.html">Política Editorial</a></li>
+      </ul>
+
+    </div>
+
+    <div class="footer-newsletter">
+
+      <h2>Newsletter</h2>
+
+      <p>
+        Receba dicas exclusivas e novidades
+        direto no seu e-mail!
+      </p>
+
+      <form id="newsletter-form" novalidate>
+
+        <label class="sr-only" for="newsletter-email">
+          Seu melhor e-mail
+        </label>
+
+        <div class="newsletter-form-row">
+
+          <input
+            type="email"
+            id="newsletter-email"
+            placeholder="Seu melhor e-mail"
+            required
+          >
+
+          <button type="submit">
+            Inscrever-se
+          </button>
+
+        </div>
+
+        <p
+          class="newsletter-feedback"
+          id="newsletter-feedback"
+          aria-live="polite"
+        ></p>
+
+      </form>
+
+    </div>
+
+    <div class="footer-quote">
+      <span>Beleza começa</span>
+      <span>quando você</span>
+      <span>se escolhe! <b>♥</b></span>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+
+    <div class="container footer-bottom-inner">
+
+      <p>
+        © 2026 Beleza em Foco. Todos os direitos reservados.
+      </p>
+
+      <p class="footer-love">
+        Feito com <span>♥</span> para realçar a sua beleza!
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="developer-credit">
+
+    Desenvolvido por
+
+    <a
+      href="https://dfc-black.vercel.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      DFC — Digital Future Company
+    </a>
+
+  </div>
+
+</footer>
+
+<div
+  class="cookie-banner"
+  id="cookie-banner"
+  role="dialog"
+  aria-label="Preferências de cookies"
+  hidden
+>
+
+  <div class="cookie-content">
+
+    <div>
+
+      <strong>Privacidade e cookies</strong>
+
+      <p>
+        Usamos cookies para melhorar sua experiência,
+        analisar o uso do site e preparar recursos de publicidade.
+      </p>
+
+      <a href="cookies.html">
+        Política de Cookies
+      </a>
+
+    </div>
+
+    <div class="cookie-actions">
+
+      <button
+        type="button"
+        class="cookie-settings"
+        id="cookie-settings"
+      >
+        Configurar
+      </button>
+
+      <button
+        type="button"
+        class="cookie-reject"
+        id="cookie-reject"
+      >
+        Rejeitar não essenciais
+      </button>
+
+      <button
+        type="button"
+        class="cookie-accept"
+        id="cookie-accept"
+      >
+        Aceitar
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>

@@ -573,5 +573,4 @@ document.addEventListener("click", (event) => {
   if (!headerSearchForm.contains(event.target)) {
     hideSearchSuggestions();
   }
-});scheduler
-
+});

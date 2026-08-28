@@ -1,0 +1,1157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Política de Cookies | Beleza em Foco</title>
+
+  <meta
+    name="description"
+    content="Saiba como o Beleza em Foco utiliza cookies, armazenamento local e tecnologias semelhantes para preferências, funcionamento, análise e publicidade."
+  >
+
+  <link rel="canonical" href="https://seudominio.com/cookies.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@500;600;700;800;900&family=Playfair+Display:ital,wght@1,700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <script src="js/main.js" defer></script>
+  <script src="js/search.js" defer></script>
+  <script src="js/favorites.js" defer></script>
+  <script src="js/consent.js" defer></script>
+
+  <style>
+    .legal-page {
+      min-height: 70vh;
+      padding: 38px 0 60px;
+      background:
+        radial-gradient(circle at 10% 4%, rgba(255,15,104,.07), transparent 24%),
+        radial-gradient(circle at 92% 6%, rgba(120,37,198,.07), transparent 26%),
+        linear-gradient(180deg, #fff 0%, #fff8fb 100%);
+    }
+
+    .legal-hero {
+      position: relative;
+      overflow: hidden;
+      padding: 36px 40px;
+      border-radius: 18px;
+      color: #fff;
+      background:
+        radial-gradient(circle at 86% 18%, rgba(255,173,0,.48), transparent 22%),
+        linear-gradient(120deg, #ff0f68 0%, #d40b70 50%, #63148f 100%);
+      box-shadow: 0 15px 38px rgba(75,13,104,.14);
+    }
+
+    .legal-hero::before {
+      content: "";
+      position: absolute;
+      right: -75px;
+      bottom: -120px;
+      width: 240px;
+      height: 240px;
+      border: 28px solid rgba(255,255,255,.07);
+      border-radius: 50%;
+    }
+
+    .legal-hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 820px;
+    }
+
+    .legal-label {
+      display: inline-flex;
+      min-height: 27px;
+      padding: 0 12px;
+      align-items: center;
+      border-radius: 16px;
+      background: rgba(255,255,255,.15);
+      font-size: 9px;
+      font-weight: 900;
+      letter-spacing: .8px;
+      text-transform: uppercase;
+    }
+
+    .legal-hero h1 {
+      margin-top: 10px;
+      font-family: "Montserrat", sans-serif;
+      font-size: clamp(30px, 4vw, 44px);
+      line-height: 1.08;
+      font-weight: 900;
+    }
+
+    .legal-hero p {
+      max-width: 760px;
+      margin-top: 12px;
+      color: rgba(255,255,255,.94);
+      font-size: 14px;
+      line-height: 1.7;
+    }
+
+    .legal-layout {
+      margin-top: 24px;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 300px;
+      gap: 26px;
+      align-items: start;
+    }
+
+    .legal-content {
+      padding: 28px 30px;
+      border: 1px solid rgba(210,50,110,.12);
+      border-radius: 15px;
+      background: #fff;
+      box-shadow: 0 9px 26px rgba(70,20,70,.07);
+    }
+
+    .legal-content section + section {
+      margin-top: 28px;
+    }
+
+    .legal-content h2 {
+      color: #32123d;
+      font-family: "Montserrat", sans-serif;
+      font-size: 20px;
+      line-height: 1.3;
+      font-weight: 900;
+    }
+
+    .legal-content h3 {
+      margin-top: 17px;
+      color: #4b0d68;
+      font-family: "Montserrat", sans-serif;
+      font-size: 14px;
+      font-weight: 800;
+    }
+
+    .legal-content p {
+      margin-top: 10px;
+      color: #55495a;
+      font-size: 12px;
+      line-height: 1.8;
+    }
+
+    .legal-content ul {
+      margin-top: 12px;
+      padding-left: 20px;
+      list-style: disc;
+      color: #55495a;
+    }
+
+    .legal-content li {
+      margin-bottom: 8px;
+      font-size: 11.5px;
+      line-height: 1.7;
+    }
+
+    .cookie-table-wrap {
+      margin-top: 16px;
+      overflow-x: auto;
+    }
+
+    .cookie-table {
+      width: 100%;
+      min-width: 650px;
+      border-collapse: collapse;
+      font-size: 10px;
+    }
+
+    .cookie-table th,
+    .cookie-table td {
+      padding: 11px 12px;
+      border: 1px solid #eee0e8;
+      text-align: left;
+      vertical-align: top;
+      line-height: 1.55;
+    }
+
+    .cookie-table th {
+      background: #fff3f8;
+      color: #4b0d68;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 900;
+    }
+
+    .cookie-table td {
+      color: #5f5262;
+    }
+
+    .legal-note {
+      margin-top: 18px;
+      padding: 15px 17px;
+      border-left: 4px solid #ffad00;
+      border-radius: 8px;
+      background: #fff8e9;
+      color: #5b472c;
+      font-size: 10px;
+      line-height: 1.65;
+    }
+
+    .legal-highlight {
+      margin-top: 18px;
+      padding: 15px 17px;
+      border-left: 4px solid #ff0f68;
+      border-radius: 8px;
+      background: #fff3f8;
+      color: #513d52;
+      font-size: 10.5px;
+      line-height: 1.65;
+    }
+
+    .legal-sidebar-card {
+      position: sticky;
+      top: 18px;
+      padding: 18px;
+      border: 1px solid rgba(210,50,110,.12);
+      border-radius: 13px;
+      background: #fff;
+      box-shadow: 0 8px 24px rgba(70,20,70,.08);
+    }
+
+    .legal-sidebar-card h2 {
+      color: #32123d;
+      font-family: "Montserrat", sans-serif;
+      font-size: 14px;
+      font-weight: 900;
+    }
+
+    .legal-sidebar-card p {
+      margin-top: 7px;
+      color: #6c6170;
+      font-size: 9.5px;
+      line-height: 1.6;
+    }
+
+    .legal-nav {
+      margin-top: 12px;
+      display: grid;
+      gap: 6px;
+    }
+
+    .legal-nav a {
+      min-height: 34px;
+      padding: 0 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-radius: 7px;
+      background: #fff4f8;
+      color: #d40b70;
+      font-size: 8.8px;
+      font-weight: 900;
+    }
+
+    .cookie-preference-button {
+      margin-top: 14px;
+      width: 100%;
+      min-height: 40px;
+      border: 0;
+      border-radius: 7px;
+      background: linear-gradient(135deg, #ff0f68, #d40b70);
+      color: #fff;
+      font-size: 9px;
+      font-weight: 900;
+    }
+
+    .legal-date {
+      margin-top: 15px;
+      color: #837686;
+      font-size: 8.5px;
+      line-height: 1.5;
+    }
+
+    @media (max-width: 850px) {
+      .legal-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .legal-sidebar-card {
+        position: static;
+      }
+    }
+
+    @media (max-width: 580px) {
+      .legal-page {
+        padding-top: 20px;
+      }
+
+      .legal-hero {
+        padding: 26px 21px;
+      }
+
+      .legal-content {
+        padding: 22px 19px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<a class="skip-link" href="#conteudo-principal">
+  Ir para o conteúdo principal
+</a>
+
+<div class="top-utility">
+  <div class="container utility-inner">
+
+    <nav class="utility-links" aria-label="Links rápidos">
+      <a href="artigos.html"><span>★</span><span>Dicas</span></a>
+      <a href="courses.html"><span>♥</span><span>Tutoriais</span></a>
+      <a href="artigos.html?categoria=produtos"><span>🎁</span><span>Produtos</span></a>
+      <a href="artigos.html?categoria=artistica"><span>✣</span><span>Inspirações</span></a>
+    </nav>
+
+    <div class="utility-social">
+      <a href="#" aria-label="Instagram">◎</a>
+      <a href="#" aria-label="YouTube">▶</a>
+      <a href="#" aria-label="Pinterest">ⓟ</a>
+      <a href="#" aria-label="TikTok">♪</a>
+    </div>
+
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+
+    <a href="index.html" class="brand" aria-label="Beleza em Foco">
+
+      <div class="brand-icon" aria-hidden="true">
+        <span class="lipstick lipstick-one"></span>
+        <span class="lipstick lipstick-two"></span>
+      </div>
+
+      <div class="brand-copy">
+        <span class="brand-name">Beleza em Foco</span>
+        <span class="brand-tagline">
+          MAQUIAGEM • AUTOCUIDADO • CONFIANÇA
+        </span>
+      </div>
+
+    </a>
+
+    <form
+      class="header-search"
+      id="header-search-form"
+      action="buscar.html"
+      method="get"
+      role="search"
+    >
+      <label class="sr-only" for="header-search-input">
+        Buscar no site
+      </label>
+
+      <input
+        id="header-search-input"
+        name="q"
+        type="search"
+        placeholder="Buscar artigos, tutoriais, produtos..."
+        autocomplete="off"
+      >
+
+      <button type="submit" aria-label="Pesquisar">
+        <span class="search-icon"></span>
+      </button>
+
+      <div
+        class="search-suggestions"
+        id="search-suggestions"
+        aria-live="polite"
+      ></div>
+    </form>
+
+    <div class="header-actions">
+
+      <a href="courses.html" class="header-action courses-button">
+        <span>♛</span>
+        <span>Meus Cursos</span>
+      </a>
+
+      <a
+        href="artigos.html?favoritos=1"
+        class="header-action favorites-button"
+      >
+        <span>★</span>
+        <span>
+          Favoritos (<strong id="favorites-count">0</strong>)
+        </span>
+      </a>
+
+    </div>
+
+    <button
+      class="mobile-menu-toggle"
+      id="mobile-menu-toggle"
+      type="button"
+      aria-label="Abrir menu"
+      aria-controls="main-navigation"
+      aria-expanded="false"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+  </div>
+</header>
+
+<nav
+  class="main-navigation"
+  id="main-navigation"
+  aria-label="Navegação principal"
+>
+  <div class="container nav-inner">
+
+    <ul class="main-menu">
+
+      <li>
+        <a href="index.html" class="nav-link nav-home">
+          <span>⌂</span>
+          INÍCIO
+        </a>
+      </li>
+
+      <li class="has-dropdown">
+        <button
+          class="nav-dropdown-button"
+          type="button"
+          aria-expanded="false"
+        >
+          ARTIGOS
+          <span class="dropdown-chevron">⌄</span>
+        </button>
+
+        <div class="dropdown-menu">
+          <a href="artigos.html?categoria=iniciantes">Maquiagem para iniciantes</a>
+          <a href="artigos.html?categoria=pele">Pele</a>
+          <a href="artigos.html?categoria=olhos">Olhos</a>
+          <a href="artigos.html?categoria=sobrancelhas">Sobrancelhas</a>
+          <a href="artigos.html?categoria=cilios">Cílios</a>
+          <a href="artigos.html?categoria=labios">Lábios</a>
+          <a href="artigos.html?categoria=artistica">Maquiagem artística</a>
+          <a href="artigos.html?categoria=drag">Drag Queen</a>
+          <a href="artigos.html?categoria=produtos">Produtos e ferramentas</a>
+        </div>
+      </li>
+
+      <li>
+        <a href="courses.html" class="nav-link">
+          TUTORIAIS
+        </a>
+      </li>
+
+      <li>
+        <a href="artigos.html?categoria=produtos" class="nav-link">
+          PRODUTOS
+        </a>
+      </li>
+
+      <li>
+        <a href="categorias.html" class="nav-link">
+          CATEGORIAS
+        </a>
+      </li>
+
+      <li>
+        <a href="about.html" class="nav-link">
+          SOBRE NÓS
+        </a>
+      </li>
+
+      <li>
+        <a href="mailto:juarezimoveispronto@hotmail.com" class="nav-link">
+          CONTATO
+        </a>
+      </li>
+
+    </ul>
+
+    <a href="artigos.html" class="articles-counter">
+      <span>▥</span>
+      <strong>50 ARTIGOS</strong>
+    </a>
+
+  </div>
+</nav>
+
+<main id="conteudo-principal" class="legal-page">
+
+  <div class="container">
+
+    <section class="legal-hero">
+
+      <div class="legal-hero-content">
+
+        <span class="legal-label">
+          ✦ COOKIES E PREFERÊNCIAS
+        </span>
+
+        <h1>Política de Cookies</h1>
+
+        <p>
+          Entenda como o Beleza em Foco utiliza cookies,
+          armazenamento local e tecnologias semelhantes para
+          manter funcionalidades, lembrar preferências e preparar
+          recursos de análise e publicidade.
+        </p>
+
+      </div>
+
+    </section>
+
+    <div class="legal-layout">
+
+      <article class="legal-content">
+
+        <section id="o-que-sao">
+
+          <h2>1. O que são cookies?</h2>
+
+          <p>
+            Cookies são pequenos arquivos que sites podem armazenar
+            no dispositivo do visitante para lembrar informações sobre
+            uma sessão, preferências ou interações realizadas durante
+            a navegação.
+          </p>
+
+          <p>
+            Além de cookies tradicionais, sites podem utilizar outras
+            tecnologias semelhantes, como armazenamento local do
+            navegador, conhecido como localStorage.
+          </p>
+
+          <p>
+            Essas tecnologias podem ter finalidades diferentes. Algumas
+            são necessárias para permitir determinadas funcionalidades,
+            enquanto outras podem ser utilizadas para medir audiência,
+            personalizar experiências ou oferecer publicidade.
+          </p>
+
+        </section>
+
+        <section id="uso-atual">
+
+          <h2>2. O que o Beleza em Foco utiliza atualmente</h2>
+
+          <p>
+            Na versão atual do site, algumas funcionalidades utilizam
+            armazenamento local do navegador para manter preferências
+            sem necessidade de criação de conta.
+          </p>
+
+          <p>
+            Entre os recursos que podem utilizar localStorage estão:
+          </p>
+
+          <ul>
+            <li>artigos adicionados aos favoritos;</li>
+            <li>aulas marcadas como concluídas;</li>
+            <li>percentual de progresso no curso;</li>
+            <li>escolha realizada no aviso de cookies.</li>
+          </ul>
+
+          <p>
+            Essas informações ficam armazenadas no navegador do próprio
+            visitante e não representam, por si só, criação de uma conta
+            no Beleza em Foco.
+          </p>
+
+        </section>
+
+        <section id="categorias">
+
+          <h2>3. Categorias de cookies e tecnologias semelhantes</h2>
+
+          <div class="cookie-table-wrap">
+
+            <table class="cookie-table">
+
+              <thead>
+                <tr>
+                  <th>Categoria</th>
+                  <th>Finalidade</th>
+                  <th>Exemplos</th>
+                </tr>
+              </thead>
+
+              <tbody>
+
+                <tr>
+                  <td>
+                    <strong>Essenciais</strong>
+                  </td>
+
+                  <td>
+                    Permitem funcionalidades fundamentais ou registram
+                    escolhas necessárias para o funcionamento do site.
+                  </td>
+
+                  <td>
+                    Preferência relacionada ao aviso de cookies.
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <strong>Preferências</strong>
+                  </td>
+
+                  <td>
+                    Lembram escolhas feitas pelo visitante para melhorar
+                    a continuidade da experiência.
+                  </td>
+
+                  <td>
+                    Favoritos e progresso das aulas.
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <strong>Analytics</strong>
+                  </td>
+
+                  <td>
+                    Podem ajudar a compreender como as páginas são utilizadas
+                    e quais conteúdos recebem mais acessos.
+                  </td>
+
+                  <td>
+                    Ferramentas de medição de audiência, quando implementadas.
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <strong>Publicidade</strong>
+                  </td>
+
+                  <td>
+                    Podem ser utilizados por plataformas de anúncios para
+                    medir, limitar ou personalizar publicidade, conforme
+                    consentimento e configurações aplicáveis.
+                  </td>
+
+                  <td>
+                    Google AdSense ou serviços semelhantes, quando ativados.
+                  </td>
+                </tr>
+
+              </tbody>
+
+            </table>
+
+          </div>
+
+        </section>
+
+        <section id="armazenamento-local">
+
+          <h2>4. Armazenamento local do navegador</h2>
+
+          <p>
+            O site utiliza localStorage para determinadas funções que
+            precisam permanecer disponíveis mesmo depois que o visitante
+            atualiza ou fecha a página.
+          </p>
+
+          <h3>Favoritos</h3>
+
+          <p>
+            Quando um artigo é marcado como favorito, seu identificador
+            pode ser salvo no navegador para que a escolha seja lembrada
+            em visitas futuras realizadas no mesmo navegador.
+          </p>
+
+          <h3>Progresso do curso</h3>
+
+          <p>
+            Quando uma aula é marcada como concluída, essa informação
+            pode ser armazenada localmente para calcular o progresso
+            das seis aulas.
+          </p>
+
+          <h3>Preferência de consentimento</h3>
+
+          <p>
+            O navegador também pode registrar se o visitante aceitou
+            ou rejeitou a opção apresentada pelo banner de cookies,
+            evitando que a mesma mensagem seja apresentada
+            repetidamente sem necessidade.
+          </p>
+
+        </section>
+
+        <section id="analytics">
+
+          <h2>5. Cookies de análise</h2>
+
+          <p>
+            O Beleza em Foco poderá futuramente utilizar ferramentas de
+            análise para compreender como o público navega pelo portal.
+          </p>
+
+          <p>
+            Informações como páginas visitadas, tempo aproximado de
+            navegação, tipo de dispositivo e origem do acesso podem
+            ser utilizadas de forma agregada para melhorar conteúdo
+            e desempenho.
+          </p>
+
+          <p>
+            Quando a legislação ou a tecnologia utilizada exigir
+            consentimento prévio, esses recursos deverão permanecer
+            inativos até que o visitante faça sua escolha.
+          </p>
+
+        </section>
+
+        <section id="adsense">
+
+          <h2>6. Cookies de publicidade e Google AdSense</h2>
+
+          <p>
+            O site poderá ser monetizado através de plataformas de
+            publicidade, incluindo o Google AdSense.
+          </p>
+
+          <p>
+            Plataformas de publicidade podem utilizar cookies,
+            identificadores ou tecnologias relacionadas para funcionalidades
+            como medição de anúncios, prevenção de fraude, limitação de
+            frequência e personalização, conforme as configurações
+            disponíveis e o consentimento exigido.
+          </p>
+
+          <p>
+            Antes da ativação definitiva desses serviços, o mecanismo
+            de consentimento deverá ser configurado de acordo com os
+            requisitos aplicáveis ao público atendido pelo site.
+          </p>
+
+          <div class="legal-highlight">
+            A existência de um espaço destinado a anúncio no layout
+            não significa que cookies publicitários já estejam ativos.
+            Eles somente deverão ser carregados depois da integração
+            efetiva da plataforma correspondente.
+          </div>
+
+        </section>
+
+        <section id="terceiros">
+
+          <h2>7. Cookies e tecnologias de terceiros</h2>
+
+          <p>
+            Alguns recursos externos incorporados ao site podem ser
+            fornecidos por terceiros. Isso pode ocorrer, por exemplo,
+            com vídeos, ferramentas analíticas, redes sociais ou
+            plataformas publicitárias.
+          </p>
+
+          <p>
+            Esses terceiros poderão aplicar suas próprias tecnologias
+            conforme seus serviços e políticas. Sempre que possível,
+            procuraremos configurar integrações de maneira compatível
+            com as preferências e consentimentos necessários.
+          </p>
+
+        </section>
+
+        <section id="gerenciamento">
+
+          <h2>8. Como gerenciar cookies</h2>
+
+          <p>
+            O usuário pode controlar diversas formas de armazenamento
+            através das configurações do próprio navegador.
+          </p>
+
+          <p>
+            Dependendo do navegador utilizado, é possível:
+          </p>
+
+          <ul>
+            <li>visualizar cookies e dados armazenados por sites;</li>
+            <li>apagar cookies existentes;</li>
+            <li>limpar dados de armazenamento local;</li>
+            <li>bloquear determinadas categorias de cookies;</li>
+            <li>configurar regras específicas para determinados sites.</li>
+          </ul>
+
+          <p>
+            A remoção dos dados locais do Beleza em Foco pode apagar,
+            por exemplo, artigos favoritos e o progresso salvo no curso.
+          </p>
+
+        </section>
+
+        <section id="recusar">
+
+          <h2>9. O que acontece ao rejeitar cookies não essenciais?</h2>
+
+          <p>
+            A rejeição de cookies não essenciais não deve impedir
+            o acesso ao conteúdo editorial principal do portal.
+          </p>
+
+          <p>
+            Entretanto, determinados serviços futuros de análise,
+            personalização ou publicidade podem deixar de funcionar
+            ou operar de maneira limitada.
+          </p>
+
+          <p>
+            Recursos estritamente necessários ao funcionamento
+            solicitado pelo visitante podem continuar disponíveis
+            quando sua utilização não depender de consentimento.
+          </p>
+
+        </section>
+
+        <section id="alterar-escolha">
+
+          <h2>10. Alteração de preferências</h2>
+
+          <p>
+            O visitante deve poder rever escolhas relacionadas ao
+            consentimento quando os recursos definitivos de cookies
+            e publicidade forem implementados.
+          </p>
+
+          <p>
+            Na versão atual, a preferência do banner fica registrada
+            localmente no navegador. Caso deseje remover essa escolha,
+            também é possível limpar os dados do site pelas configurações
+            do navegador.
+          </p>
+
+          <div class="legal-note">
+            O botão “Configurar” do banner atual é uma estrutura
+            demonstrativa. Antes do lançamento definitivo com analytics
+            ou publicidade, será necessário integrar um gerenciador
+            de consentimento compatível com os serviços efetivamente usados.
+          </div>
+
+        </section>
+
+        <section id="mudancas">
+
+          <h2>11. Alterações nesta Política de Cookies</h2>
+
+          <p>
+            Esta política poderá ser atualizada quando novas tecnologias,
+            integrações ou serviços forem adicionados ao Beleza em Foco.
+          </p>
+
+          <p>
+            Alterações relevantes serão refletidas nesta página,
+            incluindo atualização da data indicada abaixo.
+          </p>
+
+        </section>
+
+        <section id="contato">
+
+          <h2>12. Dúvidas</h2>
+
+          <p>
+            Para dúvidas relacionadas ao uso de cookies, privacidade
+            ou tecnologias semelhantes, utilize nossa página de contato.
+          </p>
+
+          <p>
+            <a href="mailto:juarezimoveispronto@hotmail.com">
+              <strong>Ir para a página de Contato →</strong>
+            </a>
+          </p>
+
+        </section>
+
+      </article>
+
+      <aside class="legal-sidebar-card">
+
+        <h2>Nesta política</h2>
+
+        <p>
+          Navegue pelas principais informações sobre cookies.
+        </p>
+
+        <nav class="legal-nav">
+          <a href="#o-que-sao"><span>O que são cookies</span><span>→</span></a>
+          <a href="#uso-atual"><span>Uso atual</span><span>→</span></a>
+          <a href="#categorias"><span>Categorias</span><span>→</span></a>
+          <a href="#armazenamento-local"><span>LocalStorage</span><span>→</span></a>
+          <a href="#analytics"><span>Analytics</span><span>→</span></a>
+          <a href="#adsense"><span>Publicidade</span><span>→</span></a>
+          <a href="#gerenciamento"><span>Gerenciar cookies</span><span>→</span></a>
+          <a href="#contato"><span>Contato</span><span>→</span></a>
+        </nav>
+
+        <button
+          type="button"
+          class="cookie-preference-button"
+          id="open-cookie-preferences"
+        >
+          Rever preferência de cookies
+        </button>
+
+        <p class="legal-date">
+          Última atualização: 25 de agosto de 2026.
+        </p>
+
+      </aside>
+
+    </div>
+
+  </div>
+
+</main>
+
+<footer class="site-footer">
+
+  <div class="footer-decor footer-decor-left"></div>
+  <div class="footer-decor footer-decor-right"></div>
+
+  <div class="container footer-grid">
+
+    <div class="footer-brand">
+
+      <a href="index.html" class="footer-logo">
+        <span class="footer-lipstick">♟</span>
+        <span>Beleza em Foco</span>
+      </a>
+
+      <p>
+        Seu portal completo sobre maquiagem,
+        beleza e autocuidado. Inspiração diária
+        para realçar sua beleza única.
+      </p>
+
+      <div class="footer-social">
+        <a href="#" aria-label="Instagram">◎</a>
+        <a href="#" aria-label="YouTube">▶</a>
+        <a href="#" aria-label="Pinterest">ⓟ</a>
+        <a href="#" aria-label="TikTok">♪</a>
+        <a href="#" aria-label="Facebook">f</a>
+      </div>
+
+    </div>
+
+    <div class="footer-column">
+
+      <h2>Navegação</h2>
+
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="artigos.html">Artigos</a></li>
+        <li><a href="courses.html">Tutoriais</a></li>
+        <li><a href="categorias.html">Categorias</a></li>
+        <li><a href="mailto:juarezimoveispronto@hotmail.com">Contato</a></li>
+      </ul>
+
+    </div>
+
+    <div class="footer-column">
+
+      <h2>Institucional</h2>
+
+      <ul>
+        <li><a href="about.html">Sobre Nós</a></li>
+        <li><a href="privacy.html">Política de Privacidade</a></li>
+        <li><a href="cookies.html">Política de Cookies</a></li>
+        <li><a href="terms.html">Termos de Uso</a></li>
+        <li><a href="editorial-policy.html">Política Editorial</a></li>
+      </ul>
+
+    </div>
+
+    <div class="footer-newsletter">
+
+      <h2>Newsletter</h2>
+
+      <p>
+        Receba dicas exclusivas e novidades
+        direto no seu e-mail!
+      </p>
+
+      <form id="newsletter-form" novalidate>
+
+        <label class="sr-only" for="newsletter-email">
+          Seu melhor e-mail
+        </label>
+
+        <div class="newsletter-form-row">
+
+          <input
+            type="email"
+            id="newsletter-email"
+            placeholder="Seu melhor e-mail"
+            required
+          >
+
+          <button type="submit">
+            Inscrever-se
+          </button>
+
+        </div>
+
+        <p
+          class="newsletter-feedback"
+          id="newsletter-feedback"
+          aria-live="polite"
+        ></p>
+
+      </form>
+
+    </div>
+
+    <div class="footer-quote">
+      <span>Beleza começa</span>
+      <span>quando você</span>
+      <span>se escolhe! <b>♥</b></span>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+
+    <div class="container footer-bottom-inner">
+
+      <p>
+        © 2026 Beleza em Foco. Todos os direitos reservados.
+      </p>
+
+      <p class="footer-love">
+        Feito com <span>♥</span> para realçar a sua beleza!
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="developer-credit">
+
+    Desenvolvido por
+
+    <a
+      href="https://dfc-black.vercel.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      DFC — Digital Future Company
+    </a>
+
+  </div>
+
+</footer>
+
+<div
+  class="cookie-banner"
+  id="cookie-banner"
+  role="dialog"
+  aria-label="Preferências de cookies"
+  hidden
+>
+
+  <div class="cookie-content">
+
+    <div>
+
+      <strong>Privacidade e cookies</strong>
+
+      <p>
+        Usamos cookies para melhorar sua experiência,
+        analisar o uso do site e preparar recursos de publicidade.
+      </p>
+
+      <a href="cookies.html">
+        Política de Cookies
+      </a>
+
+    </div>
+
+    <div class="cookie-actions">
+
+      <button
+        type="button"
+        class="cookie-settings"
+        id="cookie-settings"
+      >
+        Configurar
+      </button>
+
+      <button
+        type="button"
+        class="cookie-reject"
+        id="cookie-reject"
+      >
+        Rejeitar não essenciais
+      </button>
+
+      <button
+        type="button"
+        class="cookie-accept"
+        id="cookie-accept"
+      >
+        Aceitar
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const button =
+      document.getElementById("open-cookie-preferences");
+
+    const banner =
+      document.getElementById("cookie-banner");
+
+    if (!button || !banner) {
+      return;
+    }
+
+    button.addEventListener("click", () => {
+      try {
+        localStorage.removeItem(
+          "belezaEmFocoCookieConsent"
+        );
+      } catch (error) {
+        console.warn(
+          "Não foi possível remover a preferência.",
+          error
+        );
+      }
+
+      banner.removeAttribute("hidden");
+
+      banner.scrollIntoView({
+        behavior:
+          window.matchMedia(
+            "(prefers-reduced-motion: reduce)"
+          ).matches
+            ? "auto"
+            : "smooth",
+        block: "nearest"
+      });
+    });
+  });
+</script>
+
+</body>
+</html>

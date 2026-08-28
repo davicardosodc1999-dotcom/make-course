@@ -1,0 +1,1318 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Cílios Postiços Passo a Passo | Beleza em Foco</title>
+
+  <meta
+    name="description"
+    content="Aprenda a aplicar cílios postiços passo a passo: medição, corte, cola, posicionamento, acabamento, remoção e cuidados de higiene."
+  >
+
+  <link
+    rel="canonical"
+    href="https://seudominio.com/course/lesson-04-cilios-posticos.html"
+  >
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@500;600;700;800;900&family=Playfair+Display:ital,wght@1,700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="stylesheet" href="../css/course.css">
+
+  <script src="../js/main.js" defer></script>
+  <script src="../js/search.js" defer></script>
+  <script src="../js/favorites.js" defer></script>
+  <script src="../js/course-progress.js" defer></script>
+  <script src="../js/consent.js" defer></script>
+</head>
+
+<body>
+
+<a class="skip-link" href="#conteudo-principal">
+  Ir para o conteúdo principal
+</a>
+
+<div class="top-utility">
+  <div class="container utility-inner">
+
+    <nav class="utility-links" aria-label="Links rápidos">
+      <a href="../artigos.html"><span>★</span><span>Dicas</span></a>
+      <a href="../courses.html"><span>♥</span><span>Tutoriais</span></a>
+      <a href="../artigos.html?categoria=produtos"><span>🎁</span><span>Produtos</span></a>
+      <a href="../artigos.html?categoria=artistica"><span>✣</span><span>Inspirações</span></a>
+    </nav>
+
+    <div class="utility-social">
+      <a href="#" aria-label="Instagram">◎</a>
+      <a href="#" aria-label="YouTube">▶</a>
+      <a href="#" aria-label="Pinterest">ⓟ</a>
+      <a href="#" aria-label="TikTok">♪</a>
+    </div>
+
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+
+    <a href="../index.html" class="brand" aria-label="Beleza em Foco">
+
+      <div class="brand-icon" aria-hidden="true">
+        <span class="lipstick lipstick-one"></span>
+        <span class="lipstick lipstick-two"></span>
+      </div>
+
+      <div class="brand-copy">
+        <span class="brand-name">Beleza em Foco</span>
+        <span class="brand-tagline">
+          MAQUIAGEM • AUTOCUIDADO • CONFIANÇA
+        </span>
+      </div>
+
+    </a>
+
+    <form
+      class="header-search"
+      action="../buscar.html"
+      method="get"
+      role="search"
+    >
+      <label class="sr-only" for="header-search-input">
+        Buscar no site
+      </label>
+
+      <input
+        id="header-search-input"
+        name="q"
+        type="search"
+        placeholder="Buscar artigos, tutoriais, produtos..."
+        autocomplete="off"
+      >
+
+      <button type="submit" aria-label="Pesquisar">
+        <span class="search-icon"></span>
+      </button>
+
+      <div
+        class="search-suggestions"
+        id="search-suggestions"
+        aria-live="polite"
+      ></div>
+    </form>
+
+    <div class="header-actions">
+
+      <a href="../courses.html" class="header-action courses-button">
+        <span>♛</span>
+        <span>Meus Cursos</span>
+      </a>
+
+      <a
+        href="../artigos.html?favoritos=1"
+        class="header-action favorites-button"
+      >
+        <span>★</span>
+        <span>
+          Favoritos (<strong id="favorites-count">0</strong>)
+        </span>
+      </a>
+
+    </div>
+
+    <button
+      class="mobile-menu-toggle"
+      id="mobile-menu-toggle"
+      type="button"
+      aria-label="Abrir menu"
+      aria-controls="main-navigation"
+      aria-expanded="false"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+  </div>
+</header>
+
+<nav
+  class="main-navigation"
+  id="main-navigation"
+  aria-label="Navegação principal"
+>
+  <div class="container nav-inner">
+
+    <ul class="main-menu">
+
+      <li>
+        <a href="../index.html" class="nav-link nav-home">
+          <span>⌂</span>
+          INÍCIO
+        </a>
+      </li>
+
+      <li class="has-dropdown">
+        <button
+          class="nav-dropdown-button"
+          type="button"
+          aria-expanded="false"
+        >
+          ARTIGOS
+          <span class="dropdown-chevron">⌄</span>
+        </button>
+
+        <div class="dropdown-menu">
+          <a href="../artigos.html?categoria=iniciantes">Maquiagem para iniciantes</a>
+          <a href="../artigos.html?categoria=pele">Pele</a>
+          <a href="../artigos.html?categoria=olhos">Olhos</a>
+          <a href="../artigos.html?categoria=sobrancelhas">Sobrancelhas</a>
+          <a href="../artigos.html?categoria=cilios">Cílios</a>
+          <a href="../artigos.html?categoria=labios">Lábios</a>
+          <a href="../artigos.html?categoria=artistica">Maquiagem artística</a>
+          <a href="../artigos.html?categoria=drag">Drag Queen</a>
+          <a href="../artigos.html?categoria=produtos">Produtos e ferramentas</a>
+        </div>
+      </li>
+
+      <li>
+        <a href="../courses.html" class="nav-link">
+          TUTORIAIS
+        </a>
+      </li>
+
+      <li>
+        <a href="../artigos.html?categoria=produtos" class="nav-link">
+          PRODUTOS
+        </a>
+      </li>
+
+      <li>
+        <a href="../categorias.html" class="nav-link">
+          CATEGORIAS
+        </a>
+      </li>
+
+      <li>
+        <a href="../about.html" class="nav-link">
+          SOBRE NÓS
+        </a>
+      </li>
+
+      <li>
+        <a href="mailto:juarezimoveispronto@hotmail.com" class="nav-link">
+          CONTATO
+        </a>
+      </li>
+
+    </ul>
+
+    <a href="../artigos.html" class="articles-counter">
+      <span>▥</span>
+      <strong>50 ARTIGOS</strong>
+    </a>
+
+  </div>
+</nav>
+
+<main id="conteudo-principal" class="course-shell">
+
+  <div class="container">
+
+    <div class="course-layout">
+
+      <aside class="course-sidebar-panel">
+
+        <div class="course-sidebar-header">
+
+          <span>Curso gratuito</span>
+
+          <h2>
+            Maquiagem:
+            Do Zero ao Glam
+          </h2>
+
+          <p>
+            6 aulas organizadas em uma sequência prática.
+          </p>
+
+        </div>
+
+        <div class="course-sidebar-progress">
+
+          <div class="course-sidebar-progress-top">
+
+            <span>Seu progresso</span>
+
+            <strong class="course-sidebar-progress-percentage">
+              0%
+            </strong>
+
+          </div>
+
+          <div class="course-sidebar-progress-track">
+            <div class="course-sidebar-progress-fill"></div>
+          </div>
+
+        </div>
+
+        <nav class="course-lessons-nav" aria-label="Aulas do curso">
+
+          <a
+            href="lesson-01-maquiagem-para-iniciantes.html"
+            class="course-lesson-link"
+            data-lesson-id="lesson-01"
+          >
+            <span class="course-lesson-index">01</span>
+
+            <span class="course-lesson-copy">
+              <strong>Maquiagem para Iniciantes</strong>
+              <span>Fundamentos</span>
+            </span>
+          </a>
+
+          <a
+            href="lesson-02-preparacao-de-pele.html"
+            class="course-lesson-link"
+            data-lesson-id="lesson-02"
+          >
+            <span class="course-lesson-index">02</span>
+
+            <span class="course-lesson-copy">
+              <strong>Preparação de Pele</strong>
+              <span>Pele e acabamento</span>
+            </span>
+          </a>
+
+          <a
+            href="lesson-03-design-de-sobrancelhas.html"
+            class="course-lesson-link"
+            data-lesson-id="lesson-03"
+          >
+            <span class="course-lesson-index">03</span>
+
+            <span class="course-lesson-copy">
+              <strong>Design de Sobrancelhas</strong>
+              <span>Mapeamento</span>
+            </span>
+          </a>
+
+          <a
+            href="lesson-04-cilios-posticos.html"
+            class="course-lesson-link active"
+            data-lesson-id="lesson-04"
+          >
+            <span class="course-lesson-index">04</span>
+
+            <span class="course-lesson-copy">
+              <strong>Cílios Postiços</strong>
+              <span>Aplicação</span>
+            </span>
+          </a>
+
+          <a
+            href="lesson-05-maquiagem-glam.html"
+            class="course-lesson-link"
+            data-lesson-id="lesson-05"
+          >
+            <span class="course-lesson-index">05</span>
+
+            <span class="course-lesson-copy">
+              <strong>Maquiagem Glam</strong>
+              <span>Look completo</span>
+            </span>
+          </a>
+
+          <a
+            href="lesson-06-maquiagem-drag-queen.html"
+            class="course-lesson-link"
+            data-lesson-id="lesson-06"
+          >
+            <span class="course-lesson-index">06</span>
+
+            <span class="course-lesson-copy">
+              <strong>Maquiagem Drag Queen</strong>
+              <span>Transformação</span>
+            </span>
+          </a>
+
+        </nav>
+
+      </aside>
+
+      <div class="lesson-main">
+
+        <div class="lesson-topbar">
+
+          <nav class="lesson-breadcrumb" aria-label="Breadcrumb">
+            <a href="../index.html">Início</a>
+            <span>›</span>
+            <a href="../courses.html">Curso</a>
+            <span>›</span>
+            <span>Aula 04</span>
+          </nav>
+
+          <a href="../courses.html" class="lesson-back-course">
+            ← Voltar ao curso
+          </a>
+
+        </div>
+
+        <header class="lesson-hero">
+
+          <div class="lesson-hero-content">
+
+            <span class="lesson-tag">
+              AULA 04 • CÍLIOS POSTIÇOS
+            </span>
+
+            <h1>
+              Cílios Postiços:
+              medição, aplicação e acabamento
+            </h1>
+
+            <p>
+              Aprenda a escolher, medir, ajustar e aplicar cílios postiços
+              com mais controle, além de entender como posicionar a faixa
+              próxima à raiz dos cílios naturais e como remover sem puxar
+              a pele.
+            </p>
+
+            <div class="lesson-meta-row">
+
+              <span class="lesson-meta-pill">
+                ✦ Nível iniciante
+              </span>
+
+              <span class="lesson-meta-pill">
+                ✧ Aplicação prática
+              </span>
+
+              <span class="lesson-meta-pill">
+                ▶ Vídeo complementar
+              </span>
+
+              <span class="lesson-meta-pill">
+                ✓ Aula gratuita
+              </span>
+
+            </div>
+
+          </div>
+
+        </header>
+
+        <article class="lesson-content">
+
+          <section id="intro">
+
+            <h2>Introdução</h2>
+
+            <p>
+              Cílios postiços podem transformar completamente a leitura do
+              olhar, mas também são uma das etapas que mais intimidam quem
+              está começando. Normalmente, a dificuldade não está em uma
+              única coisa. Medir a faixa, escolher o tamanho adequado,
+              controlar a quantidade de cola e posicionar o cílio próximo
+              da raiz exigem coordenação e prática.
+            </p>
+
+            <p>
+              O erro mais comum é tentar aplicar o cílio direto da embalagem.
+              Muitas faixas são maiores do que o espaço disponível na
+              pálpebra. Quando isso acontece, elas podem levantar nos cantos,
+              incomodar ou ultrapassar visualmente o olho.
+            </p>
+
+            <p>
+              Nesta aula vamos dividir o processo em pequenas etapas. Primeiro
+              você vai aprender a observar o modelo e medir a faixa. Depois,
+              veremos como cortar corretamente, como aplicar a cola e por que
+              o tempo de espera antes do posicionamento faz diferença.
+            </p>
+
+            <p>
+              Também vamos abordar acabamento, remoção e higiene. Cílios
+              postiços ficam próximos aos olhos, por isso cuidado com cola,
+              ferramentas e limpeza é essencial.
+            </p>
+
+          </section>
+
+          <div class="lesson-toc">
+
+            <strong>Nesta aula você vai aprender:</strong>
+
+            <ul>
+              <li><a href="#escolha">1. Escolhendo o modelo</a></li>
+              <li><a href="#medicao">2. Como medir a faixa</a></li>
+              <li><a href="#corte">3. Como cortar corretamente</a></li>
+              <li><a href="#preparacao">4. Preparação antes da cola</a></li>
+              <li><a href="#cola">5. Aplicação da cola</a></li>
+              <li><a href="#posicionamento">6. Como posicionar os cílios</a></li>
+              <li><a href="#ajuste">7. Ajuste dos cantos</a></li>
+              <li><a href="#acabamento">8. Acabamento final</a></li>
+              <li><a href="#remocao">9. Como remover sem machucar</a></li>
+              <li><a href="#erros">10. Erros comuns</a></li>
+              <li><a href="#higiene">11. Higiene e segurança</a></li>
+            </ul>
+
+          </div>
+
+          <section id="escolha">
+
+            <h2>1. Escolhendo o modelo de cílios</h2>
+
+            <p>
+              Nem todo cílio postiço produz o mesmo efeito. Existem modelos
+              mais naturais, com fios curtos e espaçados, e opções muito
+              volumosas ou alongadas. Para começar, normalmente é mais fácil
+              trabalhar com uma faixa leve e flexível.
+            </p>
+
+            <p>
+              Faixas muito grossas podem ser mais difíceis de acomodar na
+              curvatura do olho. Elas também costumam exigir maior precisão
+              no posicionamento para que não pareçam visualmente separadas
+              dos cílios naturais.
+            </p>
+
+            <h3>Efeito natural</h3>
+
+            <p>
+              Modelos com fios distribuídos e comprimento moderado são bons
+              para praticar. Eles ajudam a entender o movimento da faixa sem
+              esconder completamente a maquiagem dos olhos.
+            </p>
+
+            <h3>Efeito gatinho</h3>
+
+            <p>
+              Modelos que aumentam gradualmente em direção ao canto externo
+              criam uma sensação de alongamento. Dependendo do formato dos
+              olhos, pode ser necessário ajustar a parte externa para evitar
+              que a cauda fique excessivamente longa.
+            </p>
+
+            <h3>Volume intenso</h3>
+
+            <p>
+              Cílios mais densos são interessantes em maquiagens dramáticas,
+              mas podem dificultar a aprendizagem inicial. Se você nunca
+              aplicou uma faixa completa, comece com algo mais flexível.
+            </p>
+
+          </section>
+
+          <section id="medicao">
+
+            <h2>2. Como medir a faixa antes de aplicar</h2>
+
+            <p>
+              A medição deve acontecer antes da cola. Com uma pinça própria
+              ou com os dedos limpos, retire o cílio cuidadosamente da
+              embalagem segurando pela faixa, não puxando os fios.
+            </p>
+
+            <p>
+              Apoie a faixa sobre a pálpebra, próxima à raiz dos cílios
+              naturais, apenas para verificar o comprimento. Não pressione
+              e não tente colar nesse momento.
+            </p>
+
+            <p>
+              Observe se a faixa começa muito próxima do canto interno.
+              Deixar um pequeno espaço costuma aumentar o conforto e evita
+              que a extremidade fique tocando uma região sensível.
+            </p>
+
+            <p>
+              Depois observe o canto externo. Se houver excesso de faixa
+              ultrapassando o final da sua linha natural de cílios, faça
+              uma marca mental ou utilize uma referência segura para
+              identificar quanto deverá ser removido.
+            </p>
+
+            <figure class="lesson-step-figure">
+
+              <div
+                class="lesson-image-placeholder"
+                data-image-target="../assets/img/course/lesson-04-cilios-01.webp"
+              >
+                <span>IMAGEM 01</span>
+
+                <small>
+                  Close educacional mostrando a faixa de cílios sendo
+                  apoiada sem cola sobre a linha natural para medir o
+                  comprimento, com indicação visual do excesso no canto
+                  externo.
+                </small>
+              </div>
+
+              <figcaption>
+                Sempre meça a faixa antes de usar cola. Um bom ajuste
+                melhora o conforto e reduz a chance de descolar nos cantos.
+              </figcaption>
+
+            </figure>
+
+          </section>
+
+          <section id="corte">
+
+            <h2>3. Como cortar e ajustar os cílios</h2>
+
+            <p>
+              Quando a faixa estiver longa demais, corte uma pequena parte.
+              Faça ajustes graduais. Se você remover uma seção muito grande
+              de uma só vez, não será possível recuperar o comprimento
+              original.
+            </p>
+
+            <p>
+              Na maioria dos casos, o corte é feito pelo canto externo,
+              porque essa área costuma possuir os fios mais longos e permite
+              preservar melhor o desenho da região interna.
+            </p>
+
+            <p>
+              Observe o agrupamento dos fios. Em vez de cortar no meio de
+              um pequeno conjunto, procure remover a faixa em uma divisão
+              natural do modelo. Isso ajuda a manter um acabamento limpo.
+            </p>
+
+            <h3>Meça novamente</h3>
+
+            <p>
+              Depois de cortar, coloque a faixa sobre o olho novamente,
+              ainda sem cola. Verifique se ela acompanha o comprimento da
+              linha dos cílios sem pressionar os cantos.
+            </p>
+
+            <div class="lesson-highlight">
+              Corte pouco por vez. É melhor precisar de dois pequenos
+              ajustes do que remover uma grande parte e deixar o cílio curto.
+            </div>
+
+          </section>
+
+          <section id="preparacao">
+
+            <h2>4. Preparação antes da aplicação</h2>
+
+            <p>
+              Antes de usar a cola, finalize a maior parte da maquiagem dos
+              olhos. Sombras e delineado, quando utilizados, normalmente
+              podem ser feitos antes da faixa.
+            </p>
+
+            <p>
+              Seus cílios naturais também podem receber uma camada leve de
+              máscara, dependendo da técnica e do efeito desejado. O objetivo
+              é facilitar a integração visual entre os fios naturais e os
+              postiços.
+            </p>
+
+            <p>
+              Deixe tudo necessário ao alcance: cílios já medidos, cola
+              apropriada, espelho e ferramenta de aplicação caso utilize.
+              Ter que procurar objetos com cola já aplicada aumenta a chance
+              de perder o ponto ideal de aderência.
+            </p>
+
+          </section>
+
+          <section id="cola">
+
+            <h2>5. Como aplicar a cola na faixa</h2>
+
+            <p>
+              Utilize somente cola desenvolvida para cílios postiços e siga
+              as instruções da embalagem. Não improvise com adesivos que não
+              foram feitos para uso próximo aos olhos.
+            </p>
+
+            <p>
+              Aplique uma camada fina e uniforme ao longo da faixa. Não é
+              necessário criar uma camada grossa. Excesso de cola demora
+              mais para estabilizar, pode escorrer e dificulta o acabamento.
+            </p>
+
+            <h3>Dê atenção às extremidades</h3>
+
+            <p>
+              Os cantos são regiões que frequentemente começam a descolar.
+              Por isso, a faixa deve receber cobertura uniforme também nas
+              pontas, sem criar grandes gotas.
+            </p>
+
+            <h3>Espere o tempo indicado</h3>
+
+            <p>
+              Um dos erros mais comuns é colocar o cílio imediatamente após
+              a aplicação da cola. Dependendo do produto, é necessário
+              aguardar um curto período até que o adesivo fique mais pegajoso.
+              Siga a orientação do fabricante.
+            </p>
+
+            <p>
+              Quando a cola está líquida demais, a faixa tende a escorregar
+              sobre a pálpebra. Isso torna o posicionamento muito mais
+              difícil para iniciantes.
+            </p>
+
+            <figure class="lesson-step-figure">
+
+              <div
+                class="lesson-image-placeholder"
+                data-image-target="../assets/img/course/lesson-04-cilios-02.webp"
+              >
+                <span>IMAGEM 02</span>
+
+                <small>
+                  Close educacional da faixa de cílios segurada pelas
+                  extremidades enquanto uma camada fina e uniforme de
+                  cola específica para cílios é aplicada ao longo da base.
+                </small>
+              </div>
+
+              <figcaption>
+                Uma camada fina e regular de cola oferece mais controle
+                do que grandes quantidades de adesivo.
+              </figcaption>
+
+            </figure>
+
+          </section>
+
+          <section id="posicionamento">
+
+            <h2>6. Como posicionar os cílios postiços</h2>
+
+            <p>
+              Posicione o espelho levemente abaixo da linha dos olhos. Assim,
+              você consegue olhar para baixo sem fechar completamente a
+              pálpebra, o que facilita a visualização da raiz dos cílios.
+            </p>
+
+            <p>
+              Segure a faixa aproximadamente pelo centro e aproxime-a da
+              linha natural. O objetivo é colocá-la o mais próximo possível
+              da raiz dos cílios sem colar sobre os fios naturais e sem
+              encostar na linha d'água.
+            </p>
+
+            <h3>Primeiro o centro</h3>
+
+            <p>
+              Uma estratégia útil é apoiar primeiro a região central. Isso
+              cria um ponto de referência e evita tentar controlar as duas
+              extremidades ao mesmo tempo.
+            </p>
+
+            <h3>Depois o canto externo</h3>
+
+            <p>
+              Ajuste o canto externo próximo à raiz. Observe se a faixa está
+              acompanhando a direção da maquiagem e se não foi posicionada
+              muito abaixo.
+            </p>
+
+            <h3>Finalize no canto interno</h3>
+
+            <p>
+              Por último, acomode a região interna. Evite colocar a faixa
+              muito próxima do canal lacrimal, porque isso pode causar
+              desconforto.
+            </p>
+
+            <figure class="lesson-step-figure">
+
+              <div
+                class="lesson-image-placeholder"
+                data-image-target="../assets/img/course/lesson-04-cilios-03.webp"
+              >
+                <span>IMAGEM 03</span>
+
+                <small>
+                  Close educacional mostrando a faixa sendo posicionada
+                  próxima à raiz dos cílios naturais, com o centro apoiado
+                  primeiro e depois os cantos externo e interno ajustados.
+                </small>
+              </div>
+
+              <figcaption>
+                Posicione primeiro o centro e ajuste as extremidades em
+                seguida para ter mais controle sobre a faixa.
+              </figcaption>
+
+            </figure>
+
+          </section>
+
+          <section id="ajuste">
+
+            <h2>7. Ajustando os cantos</h2>
+
+            <p>
+              Depois que a faixa estiver posicionada, observe principalmente
+              as extremidades. Um canto levantado costuma ficar muito mais
+              evidente do que uma pequena diferença no centro.
+            </p>
+
+            <p>
+              Pressione suavemente a faixa próxima à raiz, utilizando uma
+              ferramenta apropriada ou dedos limpos. Não belisque a pele e
+              não pressione diretamente o globo ocular.
+            </p>
+
+            <p>
+              Se uma ponta não estiver aderindo, não adicione uma grande
+              quantidade de cola sobre a pálpebra. Dependendo da situação,
+              pode ser melhor remover a faixa e corrigir a aplicação de forma
+              limpa.
+            </p>
+
+          </section>
+
+          <section id="acabamento">
+
+            <h2>8. Acabamento final</h2>
+
+            <p>
+              Quando a cola estiver estabilizada, observe a integração entre
+              a faixa e a maquiagem dos olhos. Dependendo do estilo, uma
+              pequena correção de delineado pode ajudar a disfarçar a base
+              do cílio.
+            </p>
+
+            <p>
+              Não é necessário criar um delineado muito grosso apenas para
+              esconder a faixa. Quanto melhor for o posicionamento próximo
+              à raiz, menor será a necessidade de correção.
+            </p>
+
+            <h3>Unindo visualmente os fios</h3>
+
+            <p>
+              Caso os cílios naturais estejam muito separados da faixa,
+              observe se uma pequena camada de máscara ou um ajuste suave
+              resolve. Evite apertar com força.
+            </p>
+
+            <p>
+              Analise os dois olhos de frente. Verifique altura, inclinação
+              e posição dos cantos. Pequenas diferenças são normais, mas
+              uma faixa muito mais alta ou baixa que a outra pode precisar
+              de correção.
+            </p>
+
+          </section>
+
+          <section id="remocao">
+
+            <h2>9. Como retirar os cílios sem machucar</h2>
+
+            <p>
+              Nunca puxe a faixa rapidamente. A região das pálpebras é
+              delicada, e puxar com força pode causar desconforto e também
+              arrancar cílios naturais.
+            </p>
+
+            <p>
+              Siga as recomendações do adesivo utilizado. Quando necessário,
+              use um produto adequado para ajudar a amolecer a cola antes
+              de começar a remoção.
+            </p>
+
+            <p>
+              Comece por uma extremidade e solte gradualmente. Segure a
+              pele com cuidado quando necessário e retire a faixa devagar,
+              acompanhando a linha dos cílios.
+            </p>
+
+            <h3>Depois da remoção</h3>
+
+            <p>
+              Remova resíduos de cola da pele com cuidado. Não esfregue
+              vigorosamente os olhos. Se a faixa for reutilizável conforme
+              indicação do fabricante, retire o excesso de adesivo dela sem
+              deformar sua base.
+            </p>
+
+          </section>
+
+          <section id="erros">
+
+            <h2>10. Erros comuns na aplicação</h2>
+
+            <h3>Não medir antes</h3>
+
+            <p>
+              Uma faixa longa demais pode tocar os cantos, levantar durante
+              o uso e deixar o resultado desproporcional.
+            </p>
+
+            <h3>Cortar pelo lado errado</h3>
+
+            <p>
+              Dependendo do desenho do modelo, cortar a região interna pode
+              alterar o formato pensado para encaixar próximo ao canto
+              interno. Observe o modelo antes de decidir onde reduzir.
+            </p>
+
+            <h3>Usar cola demais</h3>
+
+            <p>
+              Mais cola não significa maior fixação. Excesso pode aumentar
+              o tempo de espera, escorrer e dificultar o posicionamento.
+            </p>
+
+            <h3>Colar com o adesivo muito líquido</h3>
+
+            <p>
+              Quando a cola ainda não atingiu o ponto indicado pelo
+              fabricante, a faixa escorrega e fica difícil de controlar.
+            </p>
+
+            <h3>Posicionar longe da raiz</h3>
+
+            <p>
+              Uma faixa muito acima dos cílios naturais cria uma separação
+              visual evidente. A aplicação deve ficar próxima da raiz, sem
+              tocar a linha d'água.
+            </p>
+
+            <h3>Colar sobre os cílios naturais</h3>
+
+            <p>
+              Isso pode causar desconforto na remoção e puxar fios naturais.
+              O adesivo deve trabalhar com a faixa e a região apropriada da
+              pele, conforme as instruções do produto.
+            </p>
+
+            <h3>Tentar corrigir infinitamente</h3>
+
+            <p>
+              Quando a faixa já foi reposicionada muitas vezes, a cola pode
+              se espalhar e o acabamento piorar. Às vezes é melhor remover,
+              limpar e recomeçar com calma.
+            </p>
+
+          </section>
+
+          <section id="higiene">
+
+            <h2>11. Higiene e segurança perto dos olhos</h2>
+
+            <p>
+              A região dos olhos exige atenção extra. Cola, pinças, cílios
+              e outros produtos devem estar limpos e em boas condições.
+            </p>
+
+            <ul>
+              <li>Use apenas cola própria para cílios postiços.</li>
+              <li>Siga as instruções e advertências do fabricante.</li>
+              <li>Não compartilhe cola ou produtos de contato próximo aos olhos.</li>
+              <li>Evite utilizar ferramentas sujas.</li>
+              <li>Não use uma faixa visivelmente contaminada ou danificada.</li>
+              <li>Evite aproximar ferramentas pontiagudas do olho sem controle.</li>
+              <li>Não aplique o adesivo diretamente dentro do olho.</li>
+              <li>Interrompa o uso se houver irritação importante.</li>
+            </ul>
+
+            <div class="lesson-warning">
+              <strong>Atenção:</strong> dor intensa, inchaço, vermelhidão
+              importante, alteração da visão ou contato acidental relevante
+              de produto com o olho exigem cuidado adequado. Não continue
+              usando o produto apenas para terminar a maquiagem.
+            </div>
+
+          </section>
+
+          <section id="pratica">
+
+            <h2>Exercício prático</h2>
+
+            <p>
+              Antes de tentar fazer uma aplicação completa rapidamente,
+              pratique apenas a medição. Retire a faixa da embalagem,
+              apoie sobre o olho sem cola, observe o excesso e recoloque.
+              Faça isso algumas vezes até entender a posição.
+            </p>
+
+            <p>
+              Depois, pratique o movimento de posicionamento usando uma faixa
+              sem cola. Treine apoiar o centro, ajustar o canto externo e
+              finalmente o interno.
+            </p>
+
+            <p>
+              Essa repetição ajuda sua mão a memorizar o caminho antes de
+              você trabalhar com adesivo. Quando estiver mais confortável,
+              faça a aplicação real com calma e seguindo o tempo indicado
+              para a cola escolhida.
+            </p>
+
+            <p>
+              Se não ficar perfeito na primeira tentativa, isso é normal.
+              Cílios postiços envolvem coordenação fina, e a precisão melhora
+              muito com prática.
+            </p>
+
+          </section>
+
+          <section class="lesson-video-section">
+
+            <h2>Vídeo complementar da aula</h2>
+
+            <p>
+              Este espaço está preparado para receber o vídeo prático
+              específico sobre aplicação de cílios postiços.
+            </p>
+
+            <div
+              class="lesson-video-placeholder"
+              data-video-topic="Como aplicar cílios postiços passo a passo"
+            >
+              <div>
+
+                <span>▶</span>
+
+                <strong>
+                  Vídeo — Aplicação de Cílios Postiços
+                </strong>
+
+                <small>
+                  Área preparada para incorporação do vídeo desta aula.
+                </small>
+
+              </div>
+            </div>
+
+          </section>
+
+          <section>
+
+            <h2>Resumo da Aula 04</h2>
+
+            <p>
+              Nesta aula você aprendeu que uma boa aplicação começa antes
+              da cola. O primeiro passo é escolher uma faixa adequada e
+              medir cuidadosamente o comprimento sobre o olho.
+            </p>
+
+            <p>
+              Quando houver excesso, o corte deve ser feito gradualmente.
+              Depois, a faixa recebe uma camada fina de cola própria para
+              cílios e deve respeitar o tempo de espera indicado pelo
+              fabricante.
+            </p>
+
+            <p>
+              No posicionamento, uma estratégia prática é apoiar primeiro
+              o centro e depois ajustar os cantos externo e interno. A faixa
+              deve ficar próxima da raiz dos cílios naturais sem tocar a
+              linha d'água.
+            </p>
+
+            <p>
+              Também vimos que remoção e higiene fazem parte da técnica.
+              Puxar a faixa rapidamente ou utilizar produtos inadequados
+              próximo aos olhos pode causar desconforto e problemas
+              desnecessários.
+            </p>
+
+            <p>
+              Na próxima aula vamos reunir várias técnicas já estudadas
+              para construir uma maquiagem glam completa, trabalhando
+              intensidade, contraste e acabamento.
+            </p>
+
+          </section>
+
+          <div class="lesson-support-grid">
+
+            <div class="lesson-support-card">
+
+              <strong>Meça antes</strong>
+
+              <p>
+                Nunca presuma que a faixa da embalagem já possui
+                o tamanho ideal para seu olho.
+              </p>
+
+            </div>
+
+            <div class="lesson-support-card">
+
+              <strong>Use pouca cola</strong>
+
+              <p>
+                Uma camada fina e uniforme oferece mais controle
+                e facilita o acabamento.
+              </p>
+
+            </div>
+
+            <div class="lesson-support-card">
+
+              <strong>Centro primeiro</strong>
+
+              <p>
+                Apoiar o centro antes dos cantos torna o posicionamento
+                muito mais simples para iniciantes.
+              </p>
+
+            </div>
+
+          </div>
+
+          <div class="mark-complete">
+
+            <button
+              class="btn btn-primary"
+              type="button"
+              data-mark-complete="lesson-04"
+              aria-pressed="false"
+            >
+              Marcar aula como concluída
+            </button>
+
+            <p class="lesson-complete-message"></p>
+
+          </div>
+
+        </article>
+
+        <nav class="lesson-nav" aria-label="Navegação entre aulas">
+
+          <a
+            href="lesson-03-design-de-sobrancelhas.html"
+            class="btn btn-secondary"
+          >
+            ← Aula anterior: Sobrancelhas
+          </a>
+
+          <a
+            href="lesson-05-maquiagem-glam.html"
+            class="btn btn-primary"
+          >
+            Próxima aula: Maquiagem Glam →
+          </a>
+
+        </nav>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</main>
+
+<footer class="site-footer">
+
+  <div class="footer-decor footer-decor-left"></div>
+  <div class="footer-decor footer-decor-right"></div>
+
+  <div class="container footer-grid">
+
+    <div class="footer-brand">
+
+      <a href="../index.html" class="footer-logo">
+        <span class="footer-lipstick">♟</span>
+        <span>Beleza em Foco</span>
+      </a>
+
+      <p>
+        Seu portal completo sobre maquiagem,
+        beleza e autocuidado. Inspiração diária
+        para realçar sua beleza única.
+      </p>
+
+      <div class="footer-social">
+        <a href="#" aria-label="Instagram">◎</a>
+        <a href="#" aria-label="YouTube">▶</a>
+        <a href="#" aria-label="Pinterest">ⓟ</a>
+        <a href="#" aria-label="TikTok">♪</a>
+        <a href="#" aria-label="Facebook">f</a>
+      </div>
+
+    </div>
+
+    <div class="footer-column">
+
+      <h2>Navegação</h2>
+
+      <ul>
+        <li><a href="../index.html">Início</a></li>
+        <li><a href="../artigos.html">Artigos</a></li>
+        <li><a href="../courses.html">Tutoriais</a></li>
+        <li><a href="../categorias.html">Categorias</a></li>
+        <li><a href="mailto:juarezimoveispronto@hotmail.com">Contato</a></li>
+      </ul>
+
+    </div>
+
+    <div class="footer-column">
+
+      <h2>Institucional</h2>
+
+      <ul>
+        <li><a href="../about.html">Sobre Nós</a></li>
+        <li><a href="../privacy.html">Política de Privacidade</a></li>
+        <li><a href="../cookies.html">Política de Cookies</a></li>
+        <li><a href="../terms.html">Termos de Uso</a></li>
+        <li><a href="../editorial-policy.html">Política Editorial</a></li>
+      </ul>
+
+    </div>
+
+    <div class="footer-newsletter">
+
+      <h2>Newsletter</h2>
+
+      <p>
+        Receba dicas exclusivas e novidades
+        direto no seu e-mail!
+      </p>
+
+      <form id="newsletter-form" novalidate>
+
+        <label class="sr-only" for="newsletter-email">
+          Seu melhor e-mail
+        </label>
+
+        <div class="newsletter-form-row">
+
+          <input
+            type="email"
+            id="newsletter-email"
+            placeholder="Seu melhor e-mail"
+            required
+          >
+
+          <button type="submit">
+            Inscrever-se
+          </button>
+
+        </div>
+
+        <p
+          class="newsletter-feedback"
+          id="newsletter-feedback"
+          aria-live="polite"
+        ></p>
+
+      </form>
+
+    </div>
+
+    <div class="footer-quote">
+      <span>Beleza começa</span>
+      <span>quando você</span>
+      <span>se escolhe! <b>♥</b></span>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+
+    <div class="container footer-bottom-inner">
+
+      <p>
+        © 2026 Beleza em Foco. Todos os direitos reservados.
+      </p>
+
+      <p class="footer-love">
+        Feito com <span>♥</span> para realçar a sua beleza!
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="developer-credit">
+
+    Desenvolvido por
+
+    <a
+      href="https://dfc-black.vercel.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      DFC — Digital Future Company
+    </a>
+
+  </div>
+
+</footer>
+
+<div
+  class="cookie-banner"
+  id="cookie-banner"
+  role="dialog"
+  aria-label="Preferências de cookies"
+  hidden
+>
+
+  <div class="cookie-content">
+
+    <div>
+
+      <strong>Privacidade e cookies</strong>
+
+      <p>
+        Usamos cookies para melhorar sua experiência,
+        analisar o uso do site e preparar recursos de publicidade.
+      </p>
+
+      <a href="../cookies.html">
+        Política de Cookies
+      </a>
+
+    </div>
+
+    <div class="cookie-actions">
+
+      <button
+        type="button"
+        class="cookie-settings"
+        id="cookie-settings"
+      >
+        Configurar
+      </button>
+
+      <button
+        type="button"
+        class="cookie-reject"
+        id="cookie-reject"
+      >
+        Rejeitar não essenciais
+      </button>
+
+      <button
+        type="button"
+        class="cookie-accept"
+        id="cookie-accept"
+      >
+        Aceitar
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>

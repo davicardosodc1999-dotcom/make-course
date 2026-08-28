@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Categorias | Beleza em Foco</title>
+
+  <meta
+    name="description"
+    content="Explore as categorias do Beleza em Foco: maquiagem para iniciantes, pele, olhos, sobrancelhas, cílios, lábios, ferramentas, maquiagem social, drag queen e maquiagem artística."
+  >
+
+  <link rel="canonical" href="https://seudominio.com/categorias.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@500;600;700;800;900&family=Playfair+Display:ital,wght@1,700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <script src="js/main.js" defer></script>
+  <script src="js/search.js" defer></script>
+  <script src="js/favorites.js" defer></script>
+  <script src="js/consent.js" defer></script>
+
+  <style>
+    .categories-page {
+      min-height: 70vh;
+      padding: 38px 0 58px;
+      background:
+        radial-gradient(circle at 12% 5%, rgba(255, 15, 104, .06), transparent 24%),
+        radial-gradient(circle at 92% 8%, rgba(120, 37, 198, .07), transparent 25%),
+        linear-gradient(180deg, #ffffff, #fff8fb);
+    }
+
+    .categories-hero {
+      position: relative;
+      overflow: hidden;
+      padding: 34px 38px;
+      margin-bottom: 28px;
+      border-radius: 16px;
+      color: #fff;
+      background:
+        radial-gradient(circle at 82% 20%, rgba(255, 173, 0, .45), transparent 22%),
+        linear-gradient(120deg, #ff0f68 0%, #d40b70 46%, #63148f 100%);
+      box-shadow: 0 14px 35px rgba(75, 13, 104, .14);
+    }
+
+    .categories-hero::before,
+    .categories-hero::after {
+      content: "";
+      position: absolute;
+      border-radius: 50%;
+      pointer-events: none;
+    }
+
+    .categories-hero::before {
+      width: 210px;
+      height: 210px;
+      right: 150px;
+      bottom: -145px;
+      border: 24px solid rgba(255,255,255,.08);
+    }
+
+    .categories-hero::after {
+      width: 115px;
+      height: 115px;
+      right: 25px;
+      top: -55px;
+      background: rgba(255,173,0,.16);
+    }
+
+    .categories-hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 760px;
+    }
+
+    .categories-kicker {
+      display: inline-flex;
+      align-items: center;
+      min-height: 27px;
+      padding: 0 12px;
+      border-radius: 18px;
+      background: rgba(255,255,255,.15);
+      font-size: 10px;
+      font-weight: 900;
+      letter-spacing: .8px;
+      margin-bottom: 10px;
+    }
+
+    .categories-hero h1 {
+      font-family: "Montserrat", sans-serif;
+      font-size: clamp(30px, 4vw, 44px);
+      line-height: 1.08;
+      font-weight: 900;
+    }
+
+    .categories-hero p {
+      max-width: 720px;
+      margin-top: 10px;
+      color: rgba(255,255,255,.94);
+      font-size: 14px;
+      line-height: 1.65;
+    }
+
+    .categories-intro {
+      margin-bottom: 18px;
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .categories-intro h2 {
+      font-family: "Montserrat", sans-serif;
+      color: #32123d;
+      font-size: 20px;
+      font-weight: 900;
+    }
+
+    .categories-intro p {
+      margin-top: 6px;
+      color: #6c6170;
+      font-size: 12px;
+    }
+
+    .categories-intro a {
+      min-height: 36px;
+      padding: 0 14px;
+      border: 1px solid rgba(255, 15, 104, .3);
+      border-radius: 18px;
+      display: inline-flex;
+      align-items: center;
+      color: #ff0f68;
+      font-size: 10px;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+
+    .category-card-grid {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .category-card {
+      position: relative;
+      overflow: hidden;
+      min-height: 220px;
+      padding: 22px 18px 18px;
+      border: 1px solid rgba(210, 50, 110, .12);
+      border-radius: 14px;
+      background: #fff;
+      box-shadow: 0 8px 24px rgba(70, 20, 70, .08);
+      transition: transform .2s ease, box-shadow .2s ease;
+    }
+
+    .category-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 14px 30px rgba(70, 20, 70, .13);
+    }
+
+    .category-card::before {
+      content: "";
+      position: absolute;
+      right: -35px;
+      bottom: -45px;
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      background: rgba(255, 15, 104, .05);
+    }
+
+    .category-card-icon {
+      width: 52px;
+      height: 52px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      color: #fff;
+      font-size: 22px;
+      margin-bottom: 14px;
+      box-shadow: 0 7px 18px rgba(75, 13, 104, .12);
+    }
+
+    .icon-pink {
+      background: linear-gradient(135deg, #ff0f68, #d40b70);
+    }
+
+    .icon-purple {
+      background: linear-gradient(135deg, #7825c6, #4b0d68);
+    }
+
+    .icon-orange {
+      background: linear-gradient(135deg, #ffad00, #ff8a00);
+    }
+
+    .category-card h3 {
+      position: relative;
+      z-index: 2;
+      font-family: "Montserrat", sans-serif;
+      color: #32123d;
+      font-size: 14px;
+      line-height: 1.3;
+      font-weight: 900;
+    }
+
+    .category-card p {
+      position: relative;
+      z-index: 2;
+      margin-top: 8px;
+      color: #6c6170;
+      font-size: 10.5px;
+      line-height: 1.55;
+    }
+
+    .category-card-footer {
+      position: relative;
+      z-index: 2;
+      margin-top: 15px;
+      padding-top: 11px;
+      border-top: 1px solid #f1e6ec;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: #d40b70;
+      font-size: 9.5px;
+      font-weight: 900;
+    }
+
+    .category-card-count {
+      color: #7a6d7d;
+      font-weight: 700;
+    }
+
+    @media (max-width: 1100px) {
+      .category-card-grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 900px) {
+      .category-card-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 700px) {
+      .category-card-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .categories-intro {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .categories-page {
+        padding-top: 20px;
+      }
+
+      .categories-hero {
+        padding: 25px 20px;
+      }
+
+      .category-card-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .category-card {
+        min-height: 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <a class="skip-link" href="#conteudo-principal">
+    Ir para o conteúdo principal
+  </a>
+
+  <div class="top-utility">
+    <div class="container utility-inner">
+
+      <nav class="utility-links" aria-label="Links rápidos">
+        <a href="artigos.html"><span>★</span><span>Dicas</span></a>
+        <a href="courses.html"><span>♥</span><span>Tutoriais</span></a>
+        <a href="artigos.html?categoria=produtos"><span>🎁</span><span>Produtos</span></a>
+        <a href="artigos.html?categoria=artistica"><span>✣</span><span>Inspirações</span></a>
+      </nav>
+
+      <div class="utility-social" aria-label="Redes sociais">
+        <a href="#" aria-label="Instagram">◎</a>
+        <a href="#" aria-label="YouTube">▶</a>
+        <a href="#" aria-label="Pinterest">ⓟ</a>
+        <a href="#" aria-label="TikTok">♪</a>
+      </div>
+
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+
+      <a href="index.html" class="brand" aria-label="Beleza em Foco">
+
+        <div class="brand-icon" aria-hidden="true">
+          <span class="lipstick lipstick-one"></span>
+          <span class="lipstick lipstick-two"></span>
+        </div>
+
+        <div class="brand-copy">
+          <span class="brand-name">Beleza em Foco</span>
+          <span class="brand-tagline">
+            MAQUIAGEM • AUTOCUIDADO • CONFIANÇA
+          </span>
+        </div>
+
+      </a>
+
+      <form
+        class="header-search"
+        id="header-search-form"
+        action="buscar.html"
+        method="get"
+        role="search"
+      >
+        <label class="sr-only" for="header-search-input">
+          Buscar no site
+        </label>
+
+        <input
+          id="header-search-input"
+          name="q"
+          type="search"
+          placeholder="Buscar artigos, tutoriais, produtos..."
+          autocomplete="off"
+        >
+
+        <button type="submit" aria-label="Pesquisar">
+          <span class="search-icon"></span>
+        </button>
+
+        <div
+          class="search-suggestions"
+          id="search-suggestions"
+          aria-live="polite"
+        ></div>
+      </form>
+
+      <div class="header-actions">
+
+        <a href="courses.html" class="header-action courses-button">
+          <span>♛</span>
+          <span>Meus Cursos</span>
+        </a>
+
+        <a
+          href="artigos.html?favoritos=1"
+          class="header-action favorites-button"
+        >
+          <span>★</span>
+          <span>Favoritos (<strong id="favorites-count">0</strong>)</span>
+        </a>
+
+      </div>
+
+      <button
+        class="mobile-menu-toggle"
+        id="mobile-menu-toggle"
+        type="button"
+        aria-label="Abrir menu"
+        aria-controls="main-navigation"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+  </header>
+
+  <nav
+    class="main-navigation"
+    id="main-navigation"
+    aria-label="Navegação principal"
+  >
+    <div class="container nav-inner">
+
+      <ul class="main-menu">
+
+        <li>
+          <a href="index.html" class="nav-link nav-home">
+            <span>⌂</span>
+            INÍCIO
+          </a>
+        </li>
+
+        <li class="has-dropdown">
+
+          <button
+            class="nav-dropdown-button"
+            type="button"
+            aria-expanded="false"
+          >
+            ARTIGOS
+            <span class="dropdown-chevron">⌄</span>
+          </button>
+
+          <div class="dropdown-menu">
+            <a href="artigos.html?categoria=iniciantes">Maquiagem para iniciantes</a>
+            <a href="artigos.html?categoria=pele">Pele</a>
+            <a href="artigos.html?categoria=olhos">Olhos</a>
+            <a href="artigos.html?categoria=sobrancelhas">Sobrancelhas</a>
+            <a href="artigos.html?categoria=cilios">Cílios</a>
+            <a href="artigos.html?categoria=labios">Lábios</a>
+            <a href="artigos.html?categoria=artistica">Maquiagem artística</a>
+            <a href="artigos.html?categoria=drag">Drag Queen</a>
+            <a href="artigos.html?categoria=produtos">Produtos e ferramentas</a>
+          </div>
+
+        </li>
+
+        <li class="has-dropdown">
+
+          <button
+            class="nav-dropdown-button"
+            type="button"
+            aria-expanded="false"
+          >
+            TUTORIAIS
+            <span class="dropdown-chevron">⌄</span>
+          </button>
+
+          <div class="dropdown-menu">
+            <a href="course/lesson-01-maquiagem-para-iniciantes.html">Maquiagem básica</a>
+            <a href="courses.html">Maquiagem social</a>
+            <a href="course/lesson-05-maquiagem-glam.html">Maquiagem glam</a>
+            <a href="artigos.html?categoria=olhos">Olhos</a>
+            <a href="course/lesson-02-preparacao-de-pele.html">Pele</a>
+            <a href="course/lesson-04-cilios-posticos.html">Cílios</a>
+            <a href="course/lesson-03-design-de-sobrancelhas.html">Sobrancelhas</a>
+          </div>
+
+        </li>
+
+        <li>
+          <a href="artigos.html?categoria=produtos" class="nav-link">
+            PRODUTOS
+          </a>
+        </li>
+
+        <li>
+          <a href="categorias.html" class="nav-link">
+            CATEGORIAS
+          </a>
+        </li>
+
+        <li>
+          <a href="about.html" class="nav-link">
+            SOBRE NÓS
+          </a>
+        </li>
+
+        <li>
+          <a href="mailto:juarezimoveispronto@hotmail.com" class="nav-link">
+            CONTATO
+          </a>
+        </li>
+
+      </ul>
+
+      <a href="artigos.html" class="articles-counter">
+        <span>▥</span>
+        <strong>50 ARTIGOS</strong>
+      </a>
+
+    </div>
+  </nav>
+
+  <main id="conteudo-principal" class="categories-page">
+
+    <div class="container">
+
+      <section class="categories-hero">
+
+        <div class="categories-hero-content">
+
+          <span class="categories-kicker">
+            ✦ ENCONTRE SEU TEMA
+          </span>
+
+          <h1>Explore nossas categorias</h1>
+
+          <p>
+            Navegue pelos principais temas do Beleza em Foco e encontre
+            conteúdos para aprender novas técnicas, aprimorar sua maquiagem
+            e descobrir inspirações para todos os estilos.
+          </p>
+
+        </div>
+
+      </section>
+
+      <div class="categories-intro">
+
+        <div>
+          <h2>Escolha uma categoria</h2>
+          <p>
+            Cada categoria leva diretamente aos artigos relacionados.
+          </p>
+        </div>
+
+        <a href="artigos.html">
+          Ver todos os 50 artigos →
+        </a>
+
+      </div>
+
+      <section class="category-card-grid" aria-label="Categorias">
+
+        <a
+          href="artigos.html?categoria=iniciantes"
+          class="category-card"
+        >
+          <div class="category-card-icon icon-pink">✦</div>
+
+          <h3>Maquiagem para Iniciantes</h3>
+
+          <p>
+            Conteúdos para quem está começando e quer aprender
+            maquiagem passo a passo desde a base.
+          </p>
+
+          <div class="category-card-footer">
+            <span>Explorar →</span>
+            <span class="category-card-count">Guias básicos</span>
+          </div>
+        </a>
+
+        <a
+          href="artigos.html?categoria=pele"
+          class="category-card"
+        >
+          <div class="category-card-icon icon-orange">◇</div>
+
+          <h3>Pele</h3>
+
+          <p>
+            Preparação, base, corretivo, pó, blush, iluminador e
+            técnicas para um acabamento mais bonito.
+          </p>
+
+          <div class="category-card-footer">
+            <span>Explorar →</span>
+            <span class="category-card-count">Pele perfeita</span>
+          </div>
+        </a>
+
+        <a
+          href="artigos.html?categoria=olhos"
+          class="category-card"
+        >
+          <div class="category-card-icon icon-purple">◉</div>
+
+          <h3>Olhos</h3>
+
+          <p>
+            Delineado, sombras, esfumado, cut crease, smokey eye
+            e combinações de cores.
+          </p>
+
+          <div class="category-card-footer">
+            <span>Explorar →</span>
+            <span class="category-card-count">Olhar em destaque</span>
+          </div>
+        </a>
+
+        <a
+          href="artigos.html?categoria=sobrancelhas"
+          class="category-card"
+        >
+          <div class="category-card-icon icon-pink">⌁</div>
+
+          <h3>Sobrancelhas</h3>
+
+          <p>
+            Design, mapeamento, preenchimento natural, correções
+            e produtos essenciais.
+          </p>
+
+          <div class="category-card-footer">
+            <span>Explorar →</span>
+            <span class="category-card-count">Design e técnica</span>
+          </div>
+        </a>
+
+        <a
+          href="artigos.html?categoria=cilios"
+          class="category-card"
+        >
+          <div class="category-card-icon icon-purple">✧</div>
+
+          <h3>Cílios</h3>
+
+          <p>
+            Aplicação de cílios postiços, ajustes, remoção,
+            formatos e técnicas com máscara.
+          </p>
+
+          <div class="category-card-footer">
+            <span>Explorar →</span>
+            <span class="category-card-count">Cílios marcantes</span>
+          </div>
+        </a>
+
+        <a
+          href="artigos.html?categoria=labios"
+          class="category-card"
+        >
+          <div class="category-card-icon icon-pink">♥</div>
+
+          <h3>Lábios</h3>
+
+          <p>
+            Batom, contorno labial, gloss, acabamento matte
+            e técnicas para valorizar o formato dos lábios.
+          </p>
+
+          <div class="category-card-footer">
+            <span>Explorar →</span>
+            <span class="category-card-count">Cores e acabamento</span>
+          </div>
+        </a>
+
+        <a
+          href="artigos.html?categoria=produtos"
+          class="category-card"
+        >
+          <div class="category-card-icon icon-orange">♙</div>
+
+          <h3>Ferramentas</h3>
+
+          <p>
+            Pincéis, esponjas, organização, higiene e montagem
+            de um kit de maquiagem funcional.
+          </p>
+
+          <div class="category-card-footer">
+            <span>Explorar →</span>
+            <span class="category-card-count">Produtos essenciais</span>
+          </div>
+        </a>
+
+        <a
+          href="artigos.html?categoria=tutoriais"
+          class="category-card"
+        >
+          <div class="category-card-icon icon-pink">▶</div>
+
+          <h3>Maquiagem Social</h3>
+
+          <p>
+            Looks para festas, casamentos, dia a dia, fotos
+            e maquiagens glam completas.
+          </p>
+
+          <div class="category-card-footer">
+            <span>Explorar →</span>
+            <span class="category-card-count">Tutoriais completos</span>
+          </div>
+        </a>
+
+        <a
+          href="artigos.html?categoria=drag"
+          class="category-card"
+        >
+          <div class="category-card-icon icon-purple">♛</div>
+
+          <h3>Drag Queen</h3>
+
+          <p>
+            Contorno transformador, sobrancelhas, olhos dramáticos
+            e construção de maquiagem drag.
+          </p>
+
+          <div class="category-card-footer">
+            <span>Explorar →</span>
+            <span class="category-card-count">Expressão e impacto</span>
+          </div>
+        </a>
+
+        <a
+          href="artigos.html?categoria=artistica"
+          class="category-card"
+        >
+          <div class="category-card-icon icon-orange">✣</div>
+
+          <h3>Maquiagem Artística</h3>
+
+          <p>
+            Primeiros passos, planejamento, criatividade,
+            ferramentas e técnicas para explorar a maquiagem como arte.
+          </p>
+
+          <div class="category-card-footer">
+            <span>Explorar →</span>
+            <span class="category-card-count">Criatividade</span>
+          </div>
+        </a>
+
+      </section>
+
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+
+    <div class="footer-decor footer-decor-left"></div>
+    <div class="footer-decor footer-decor-right"></div>
+
+    <div class="container footer-grid">
+
+      <div class="footer-brand">
+
+        <a href="index.html" class="footer-logo">
+          <span class="footer-lipstick">♟</span>
+          <span>Beleza em Foco</span>
+        </a>
+
+        <p>
+          Seu portal completo sobre maquiagem,
+          beleza e autocuidado. Inspiração diária
+          para realçar sua beleza única.
+        </p>
+
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram">◎</a>
+          <a href="#" aria-label="YouTube">▶</a>
+          <a href="#" aria-label="Pinterest">ⓟ</a>
+          <a href="#" aria-label="TikTok">♪</a>
+          <a href="#" aria-label="Facebook">f</a>
+        </div>
+
+      </div>
+
+      <div class="footer-column">
+
+        <h2>Navegação</h2>
+
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="artigos.html">Artigos</a></li>
+          <li><a href="courses.html">Tutoriais</a></li>
+          <li><a href="categorias.html">Categorias</a></li>
+          <li><a href="mailto:juarezimoveispronto@hotmail.com">Contato</a></li>
+        </ul>
+
+      </div>
+
+      <div class="footer-column">
+
+        <h2>Institucional</h2>
+
+        <ul>
+          <li><a href="about.html">Sobre Nós</a></li>
+          <li><a href="privacy.html">Política de Privacidade</a></li>
+          <li><a href="cookies.html">Política de Cookies</a></li>
+          <li><a href="terms.html">Termos de Uso</a></li>
+          <li><a href="editorial-policy.html">Política Editorial</a></li>
+        </ul>
+
+      </div>
+
+      <div class="footer-newsletter">
+
+        <h2>Newsletter</h2>
+
+        <p>
+          Receba dicas exclusivas e novidades
+          direto no seu e-mail!
+        </p>
+
+        <form id="newsletter-form" novalidate>
+
+          <label class="sr-only" for="newsletter-email">
+            Seu melhor e-mail
+          </label>
+
+          <div class="newsletter-form-row">
+
+            <input
+              type="email"
+              id="newsletter-email"
+              placeholder="Seu melhor e-mail"
+              required
+            >
+
+            <button type="submit">
+              Inscrever-se
+            </button>
+
+          </div>
+
+          <p
+            class="newsletter-feedback"
+            id="newsletter-feedback"
+            aria-live="polite"
+          ></p>
+
+        </form>
+
+      </div>
+
+      <div class="footer-quote">
+        <span>Beleza começa</span>
+        <span>quando você</span>
+        <span>se escolhe! <b>♥</b></span>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+      <div class="container footer-bottom-inner">
+
+        <p>
+          © 2026 Beleza em Foco. Todos os direitos reservados.
+        </p>
+
+        <p class="footer-love">
+          Feito com <span>♥</span> para realçar a sua beleza!
+        </p>
+
+      </div>
+
+    </div>
+
+    <div class="developer-credit">
+
+      Desenvolvido por
+
+      <a
+        href="https://dfc-black.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        DFC — Digital Future Company
+      </a>
+
+    </div>
+
+  </footer>
+
+  <div
+    class="cookie-banner"
+    id="cookie-banner"
+    role="dialog"
+    aria-label="Preferências de cookies"
+    hidden
+  >
+
+    <div class="cookie-content">
+
+      <div>
+        <strong>Privacidade e cookies</strong>
+
+        <p>
+          Usamos cookies para melhorar sua experiência, analisar
+          o uso do site e preparar recursos de publicidade.
+        </p>
+
+        <a href="cookies.html">
+          Política de Cookies
+        </a>
+      </div>
+
+      <div class="cookie-actions">
+
+        <button
+          type="button"
+          class="cookie-settings"
+          id="cookie-settings"
+        >
+          Configurar
+        </button>
+
+        <button
+          type="button"
+          class="cookie-reject"
+          id="cookie-reject"
+        >
+          Rejeitar não essenciais
+        </button>
+
+        <button
+          type="button"
+          class="cookie-accept"
+          id="cookie-accept"
+        >
+          Aceitar
+        </button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>

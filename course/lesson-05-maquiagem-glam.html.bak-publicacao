@@ -1,0 +1,1341 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Maquiagem Glam Passo a Passo | Beleza em Foco</title>
+
+  <meta
+    name="description"
+    content="Aprenda maquiagem glam passo a passo: preparação, pele, olhos, esfumado, brilho, delineado, cílios, contorno, iluminador e lábios."
+  >
+
+  <link
+    rel="canonical"
+    href="https://seudominio.com/course/lesson-05-maquiagem-glam.html"
+  >
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@500;600;700;800;900&family=Playfair+Display:ital,wght@1,700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="stylesheet" href="../css/course.css">
+
+  <script src="../js/main.js" defer></script>
+  <script src="../js/search.js" defer></script>
+  <script src="../js/favorites.js" defer></script>
+  <script src="../js/course-progress.js" defer></script>
+  <script src="../js/consent.js" defer></script>
+</head>
+
+<body>
+
+<a class="skip-link" href="#conteudo-principal">
+  Ir para o conteúdo principal
+</a>
+
+<div class="top-utility">
+  <div class="container utility-inner">
+
+    <nav class="utility-links" aria-label="Links rápidos">
+      <a href="../artigos.html"><span>★</span><span>Dicas</span></a>
+      <a href="../courses.html"><span>♥</span><span>Tutoriais</span></a>
+      <a href="../artigos.html?categoria=produtos"><span>🎁</span><span>Produtos</span></a>
+      <a href="../artigos.html?categoria=artistica"><span>✣</span><span>Inspirações</span></a>
+    </nav>
+
+    <div class="utility-social">
+      <a href="#" aria-label="Instagram">◎</a>
+      <a href="#" aria-label="YouTube">▶</a>
+      <a href="#" aria-label="Pinterest">ⓟ</a>
+      <a href="#" aria-label="TikTok">♪</a>
+    </div>
+
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+
+    <a href="../index.html" class="brand" aria-label="Beleza em Foco">
+
+      <div class="brand-icon" aria-hidden="true">
+        <span class="lipstick lipstick-one"></span>
+        <span class="lipstick lipstick-two"></span>
+      </div>
+
+      <div class="brand-copy">
+        <span class="brand-name">Beleza em Foco</span>
+        <span class="brand-tagline">
+          MAQUIAGEM • AUTOCUIDADO • CONFIANÇA
+        </span>
+      </div>
+
+    </a>
+
+    <form
+      class="header-search"
+      action="../buscar.html"
+      method="get"
+      role="search"
+    >
+      <label class="sr-only" for="header-search-input">
+        Buscar no site
+      </label>
+
+      <input
+        id="header-search-input"
+        name="q"
+        type="search"
+        placeholder="Buscar artigos, tutoriais, produtos..."
+        autocomplete="off"
+      >
+
+      <button type="submit" aria-label="Pesquisar">
+        <span class="search-icon"></span>
+      </button>
+
+      <div
+        class="search-suggestions"
+        id="search-suggestions"
+        aria-live="polite"
+      ></div>
+    </form>
+
+    <div class="header-actions">
+
+      <a href="../courses.html" class="header-action courses-button">
+        <span>♛</span>
+        <span>Meus Cursos</span>
+      </a>
+
+      <a
+        href="../artigos.html?favoritos=1"
+        class="header-action favorites-button"
+      >
+        <span>★</span>
+        <span>
+          Favoritos (<strong id="favorites-count">0</strong>)
+        </span>
+      </a>
+
+    </div>
+
+    <button
+      class="mobile-menu-toggle"
+      id="mobile-menu-toggle"
+      type="button"
+      aria-label="Abrir menu"
+      aria-controls="main-navigation"
+      aria-expanded="false"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+  </div>
+</header>
+
+<nav
+  class="main-navigation"
+  id="main-navigation"
+  aria-label="Navegação principal"
+>
+  <div class="container nav-inner">
+
+    <ul class="main-menu">
+
+      <li>
+        <a href="../index.html" class="nav-link nav-home">
+          <span>⌂</span>
+          INÍCIO
+        </a>
+      </li>
+
+      <li class="has-dropdown">
+        <button
+          class="nav-dropdown-button"
+          type="button"
+          aria-expanded="false"
+        >
+          ARTIGOS
+          <span class="dropdown-chevron">⌄</span>
+        </button>
+
+        <div class="dropdown-menu">
+          <a href="../artigos.html?categoria=iniciantes">Maquiagem para iniciantes</a>
+          <a href="../artigos.html?categoria=pele">Pele</a>
+          <a href="../artigos.html?categoria=olhos">Olhos</a>
+          <a href="../artigos.html?categoria=sobrancelhas">Sobrancelhas</a>
+          <a href="../artigos.html?categoria=cilios">Cílios</a>
+          <a href="../artigos.html?categoria=labios">Lábios</a>
+          <a href="../artigos.html?categoria=artistica">Maquiagem artística</a>
+          <a href="../artigos.html?categoria=drag">Drag Queen</a>
+          <a href="../artigos.html?categoria=produtos">Produtos e ferramentas</a>
+        </div>
+      </li>
+
+      <li>
+        <a href="../courses.html" class="nav-link">
+          TUTORIAIS
+        </a>
+      </li>
+
+      <li>
+        <a href="../artigos.html?categoria=produtos" class="nav-link">
+          PRODUTOS
+        </a>
+      </li>
+
+      <li>
+        <a href="../categorias.html" class="nav-link">
+          CATEGORIAS
+        </a>
+      </li>
+
+      <li>
+        <a href="../about.html" class="nav-link">
+          SOBRE NÓS
+        </a>
+      </li>
+
+      <li>
+        <a href="mailto:juarezimoveispronto@hotmail.com" class="nav-link">
+          CONTATO
+        </a>
+      </li>
+
+    </ul>
+
+    <a href="../artigos.html" class="articles-counter">
+      <span>▥</span>
+      <strong>50 ARTIGOS</strong>
+    </a>
+
+  </div>
+</nav>
+
+<main id="conteudo-principal" class="course-shell">
+
+  <div class="container">
+
+    <div class="course-layout">
+
+      <aside class="course-sidebar-panel">
+
+        <div class="course-sidebar-header">
+
+          <span>Curso gratuito</span>
+
+          <h2>
+            Maquiagem:
+            Do Zero ao Glam
+          </h2>
+
+          <p>
+            6 aulas organizadas em uma sequência prática.
+          </p>
+
+        </div>
+
+        <div class="course-sidebar-progress">
+
+          <div class="course-sidebar-progress-top">
+
+            <span>Seu progresso</span>
+
+            <strong class="course-sidebar-progress-percentage">
+              0%
+            </strong>
+
+          </div>
+
+          <div class="course-sidebar-progress-track">
+            <div class="course-sidebar-progress-fill"></div>
+          </div>
+
+        </div>
+
+        <nav class="course-lessons-nav" aria-label="Aulas do curso">
+
+          <a
+            href="lesson-01-maquiagem-para-iniciantes.html"
+            class="course-lesson-link"
+            data-lesson-id="lesson-01"
+          >
+            <span class="course-lesson-index">01</span>
+
+            <span class="course-lesson-copy">
+              <strong>Maquiagem para Iniciantes</strong>
+              <span>Fundamentos</span>
+            </span>
+          </a>
+
+          <a
+            href="lesson-02-preparacao-de-pele.html"
+            class="course-lesson-link"
+            data-lesson-id="lesson-02"
+          >
+            <span class="course-lesson-index">02</span>
+
+            <span class="course-lesson-copy">
+              <strong>Preparação de Pele</strong>
+              <span>Pele e acabamento</span>
+            </span>
+          </a>
+
+          <a
+            href="lesson-03-design-de-sobrancelhas.html"
+            class="course-lesson-link"
+            data-lesson-id="lesson-03"
+          >
+            <span class="course-lesson-index">03</span>
+
+            <span class="course-lesson-copy">
+              <strong>Design de Sobrancelhas</strong>
+              <span>Mapeamento</span>
+            </span>
+          </a>
+
+          <a
+            href="lesson-04-cilios-posticos.html"
+            class="course-lesson-link"
+            data-lesson-id="lesson-04"
+          >
+            <span class="course-lesson-index">04</span>
+
+            <span class="course-lesson-copy">
+              <strong>Cílios Postiços</strong>
+              <span>Aplicação</span>
+            </span>
+          </a>
+
+          <a
+            href="lesson-05-maquiagem-glam.html"
+            class="course-lesson-link active"
+            data-lesson-id="lesson-05"
+          >
+            <span class="course-lesson-index">05</span>
+
+            <span class="course-lesson-copy">
+              <strong>Maquiagem Glam</strong>
+              <span>Look completo</span>
+            </span>
+          </a>
+
+          <a
+            href="lesson-06-maquiagem-drag-queen.html"
+            class="course-lesson-link"
+            data-lesson-id="lesson-06"
+          >
+            <span class="course-lesson-index">06</span>
+
+            <span class="course-lesson-copy">
+              <strong>Maquiagem Drag Queen</strong>
+              <span>Transformação</span>
+            </span>
+          </a>
+
+        </nav>
+
+      </aside>
+
+      <div class="lesson-main">
+
+        <div class="lesson-topbar">
+
+          <nav class="lesson-breadcrumb" aria-label="Breadcrumb">
+            <a href="../index.html">Início</a>
+            <span>›</span>
+            <a href="../courses.html">Curso</a>
+            <span>›</span>
+            <span>Aula 05</span>
+          </nav>
+
+          <a href="../courses.html" class="lesson-back-course">
+            ← Voltar ao curso
+          </a>
+
+        </div>
+
+        <header class="lesson-hero">
+
+          <div class="lesson-hero-content">
+
+            <span class="lesson-tag">
+              AULA 05 • MAQUIAGEM GLAM
+            </span>
+
+            <h1>
+              Maquiagem Glam:
+              construindo um look completo
+            </h1>
+
+            <p>
+              Nesta aula vamos reunir pele, sobrancelhas, olhos,
+              cílios e lábios em uma maquiagem mais intensa, com
+              contraste, brilho e acabamento sofisticado.
+            </p>
+
+            <div class="lesson-meta-row">
+
+              <span class="lesson-meta-pill">
+                ✦ Nível intermediário
+              </span>
+
+              <span class="lesson-meta-pill">
+                ✧ Glam completo
+              </span>
+
+              <span class="lesson-meta-pill">
+                ▶ Vídeo complementar
+              </span>
+
+              <span class="lesson-meta-pill">
+                ✓ Aula gratuita
+              </span>
+
+            </div>
+
+          </div>
+
+        </header>
+
+        <article class="lesson-content">
+
+          <section id="intro">
+
+            <h2>Introdução</h2>
+
+            <p>
+              Maquiagem glam é uma construção de impacto. Ela normalmente
+              combina pele bem trabalhada, olhos mais definidos, iluminação
+              estratégica, cílios marcantes e lábios escolhidos para
+              equilibrar o conjunto. Apesar do resultado parecer complexo,
+              a lógica continua sendo a mesma das aulas anteriores: trabalhar
+              por etapas, controlar quantidade e observar o rosto como um todo.
+            </p>
+
+            <p>
+              O glam não precisa significar excesso em todas as regiões.
+              Uma maquiagem pode ser sofisticada e intensa sem utilizar
+              produto demais. O segredo está na combinação entre contraste,
+              acabamento e definição.
+            </p>
+
+            <p>
+              Nesta aula vamos construir uma versão clássica de maquiagem
+              glam. Vamos preparar a pele, estruturar os olhos com sombra,
+              trabalhar profundidade, adicionar brilho de maneira controlada,
+              aplicar delineado e cílios, finalizar o rosto com blush,
+              contorno e iluminador e escolher os lábios.
+            </p>
+
+            <p>
+              O objetivo é que você entenda a lógica por trás de cada etapa.
+              Assim, depois poderá adaptar cores, intensidade e acabamento
+              para diferentes estilos e ocasiões.
+            </p>
+
+          </section>
+
+          <div class="lesson-toc">
+
+            <strong>Nesta aula você vai aprender:</strong>
+
+            <ul>
+              <li><a href="#planejamento">1. Planejamento do look</a></li>
+              <li><a href="#pele">2. Preparação da pele para glam</a></li>
+              <li><a href="#sobrancelhas">3. Sobrancelhas equilibradas</a></li>
+              <li><a href="#olhos-base">4. Construindo a base dos olhos</a></li>
+              <li><a href="#profundidade">5. Criando profundidade</a></li>
+              <li><a href="#brilho">6. Aplicando brilho</a></li>
+              <li><a href="#delineado">7. Delineado</a></li>
+              <li><a href="#cilios">8. Cílios postiços</a></li>
+              <li><a href="#dimensao">9. Contorno, blush e iluminador</a></li>
+              <li><a href="#labios">10. Escolha dos lábios</a></li>
+              <li><a href="#acabamento">11. Acabamento final</a></li>
+              <li><a href="#erros">12. Erros comuns</a></li>
+            </ul>
+
+          </div>
+
+          <section id="planejamento">
+
+            <h2>1. Planeje o look antes de começar</h2>
+
+            <p>
+              Antes de aplicar qualquer produto, pense no resultado que
+              você deseja. Você quer olhos muito intensos e lábios mais
+              neutros? Quer usar brilho no centro da pálpebra? Prefere uma
+              maquiagem com tons quentes, frios ou neutros?
+            </p>
+
+            <p>
+              Tomar essas decisões antes ajuda a evitar mudanças bruscas no
+              meio do processo. Quando você não tem uma direção, é comum ir
+              adicionando produto até a maquiagem ficar mais intensa do que
+              o planejado.
+            </p>
+
+            <h3>Escolha uma referência de intensidade</h3>
+
+            <p>
+              Não precisa copiar uma maquiagem específica. Basta decidir
+              se o resultado será mais suave, médio ou dramático. Isso
+              influencia quantidade de sombra, espessura do delineado,
+              escolha dos cílios e intensidade do contorno.
+            </p>
+
+            <div class="lesson-highlight">
+              Um look glam funciona melhor quando existe equilíbrio. Se
+              tudo estiver extremamente intenso ao mesmo tempo, o rosto
+              pode perder pontos de destaque.
+            </div>
+
+          </section>
+
+          <section id="pele">
+
+            <h2>2. Preparação da pele para uma maquiagem glam</h2>
+
+            <p>
+              Uma maquiagem mais elaborada pode permanecer no rosto por
+              várias horas, por isso preparação e acabamento precisam ser
+              bem pensados. Comece com limpeza e hidratação adequadas.
+            </p>
+
+            <p>
+              Não exagere no hidratante apenas porque a maquiagem será
+              longa. Excesso de produto pode prejudicar a aderência da base.
+              Utilize uma quantidade equilibrada e dê tempo para absorção.
+            </p>
+
+            <p>
+              Primer pode ser usado de forma localizada. Se você costuma
+              apresentar oleosidade em determinada região, pode escolher um
+              produto voltado para esse efeito. Se outra área estiver mais
+              seca, a preparação pode ser diferente.
+            </p>
+
+            <h3>Base em camadas finas</h3>
+
+            <p>
+              Mesmo no glam, cobertura alta não precisa significar uma camada
+              grossa. Trabalhe com pouca base e construa gradualmente.
+              Regiões que já estão uniformes não precisam receber produto
+              repetidas vezes.
+            </p>
+
+            <h3>Corretivo estratégico</h3>
+
+            <p>
+              Aplique corretivo nos pontos que realmente necessitam de
+              cobertura ou iluminação. A região dos olhos costuma funcionar
+              melhor com camadas controladas para evitar acúmulo.
+            </p>
+
+            <figure class="lesson-step-figure">
+
+              <div
+                class="lesson-image-placeholder"
+                data-image-target="../assets/img/course/lesson-05-glam-01.webp"
+              >
+                <span>IMAGEM 01</span>
+
+                <small>
+                  Sequência educacional mostrando pele glam em construção:
+                  base em camada fina, corretivo estratégico e selagem leve
+                  nas áreas necessárias.
+                </small>
+              </div>
+
+              <figcaption>
+                Uma maquiagem glam sofisticada começa com pele equilibrada,
+                não com excesso de cobertura.
+              </figcaption>
+
+            </figure>
+
+          </section>
+
+          <section id="sobrancelhas">
+
+            <h2>3. Sobrancelhas equilibradas</h2>
+
+            <p>
+              Como os olhos terão maior intensidade, as sobrancelhas precisam
+              acompanhar o look sem dominar o rosto. Penteie os fios,
+              identifique falhas e preencha com pequenos traços.
+            </p>
+
+            <p>
+              Você pode aumentar discretamente a definição da cauda em
+              comparação com uma maquiagem natural, mas continue evitando
+              uma frente muito escura.
+            </p>
+
+            <p>
+              Observe o conjunto depois de trabalhar os dois lados. A
+              sobrancelha deve estruturar o olhar e servir como moldura,
+              não competir com a sombra.
+            </p>
+
+          </section>
+
+          <section id="olhos-base">
+
+            <h2>4. Construindo a base dos olhos</h2>
+
+            <p>
+              Para facilitar o esfumado, comece preparando a pálpebra. Um
+              primer de olhos ou uma pequena quantidade de corretivo pode
+              ajudar a uniformizar a área, dependendo da técnica escolhida.
+            </p>
+
+            <p>
+              Evite uma camada grossa. Produto demais pode acumular nas
+              linhas da pálpebra e alterar a textura da sombra.
+            </p>
+
+            <h3>Sombra de transição</h3>
+
+            <p>
+              Comece com uma tonalidade média e suave. Aplique no côncavo
+              utilizando um pincel de esfumar e movimentos leves. Essa cor
+              cria uma transição entre sua pele e as tonalidades mais
+              profundas que serão adicionadas depois.
+            </p>
+
+            <h3>Construa aos poucos</h3>
+
+            <p>
+              Não tente chegar imediatamente à cor final. Adicione pouco
+              pigmento, esfume e observe. A intensidade deve crescer de
+              maneira gradual.
+            </p>
+
+          </section>
+
+          <section id="profundidade">
+
+            <h2>5. Criando profundidade nos olhos</h2>
+
+            <p>
+              Depois da transição, utilize uma tonalidade mais profunda para
+              marcar a região externa do olho. Concentre a maior parte do
+              pigmento no canto externo e leve o restante suavemente para
+              o côncavo.
+            </p>
+
+            <p>
+              Para um glam clássico, tons de marrom profundo, vinho,
+              ameixa, preto suave ou outras cores intensas podem funcionar.
+              A escolha depende da paleta e do resultado desejado.
+            </p>
+
+            <h3>Controle o pincel</h3>
+
+            <p>
+              Segurar o pincel muito próximo das cerdas tende a aumentar a
+              pressão. Para esfumar, experimente segurá-lo um pouco mais
+              distante e deixe as cerdas trabalharem suavemente.
+            </p>
+
+            <h3>Não leve a sombra longe demais</h3>
+
+            <p>
+              Observe o formato dos olhos. Expandir muito a sombra para fora
+              ou para cima pode alterar o desenho de maneira indesejada.
+              Faça pequenas expansões e avalie de frente.
+            </p>
+
+          </section>
+
+          <section id="brilho">
+
+            <h2>6. Como aplicar brilho sem perder definição</h2>
+
+            <p>
+              O brilho é um dos elementos mais associados ao glam, mas ele
+              precisa de contraste para aparecer. Se toda a pálpebra tiver
+              a mesma intensidade, o efeito pode perder profundidade.
+            </p>
+
+            <p>
+              Uma estratégia é concentrar o brilho no centro e na parte
+              interna da pálpebra, mantendo a região externa mais profunda.
+            </p>
+
+            <h3>Aplicação com o dedo</h3>
+
+            <p>
+              Algumas sombras metálicas ou cintilantes podem entregar maior
+              intensidade quando pressionadas com o dedo limpo. Utilize
+              pequenas batidas em vez de arrastar.
+            </p>
+
+            <h3>Aplicação com pincel</h3>
+
+            <p>
+              Um pincel mais firme pode oferecer precisão. Dependendo da
+              fórmula, você pode construir o brilho em pequenas camadas.
+            </p>
+
+            <p>
+              Se estiver usando glitter cosmético, siga rigorosamente as
+              orientações de uso e utilize apenas produtos indicados para a
+              região dos olhos.
+            </p>
+
+            <figure class="lesson-step-figure">
+
+              <div
+                class="lesson-image-placeholder"
+                data-image-target="../assets/img/course/lesson-05-glam-02.webp"
+              >
+                <span>IMAGEM 02</span>
+
+                <small>
+                  Close educacional do olho mostrando transição no côncavo,
+                  canto externo profundo e brilho concentrado no centro da
+                  pálpebra.
+                </small>
+              </div>
+
+              <figcaption>
+                O contraste entre profundidade e luz cria o efeito glam
+                sem deixar a pálpebra visualmente chapada.
+              </figcaption>
+
+            </figure>
+
+          </section>
+
+          <section id="delineado">
+
+            <h2>7. Delineado no look glam</h2>
+
+            <p>
+              Delineado pode reforçar a linha dos cílios e adicionar
+              definição, mas a espessura deve conversar com o restante da
+              maquiagem.
+            </p>
+
+            <p>
+              Comece fazendo uma linha fina próxima à raiz. Aumente apenas
+              se desejar um efeito mais dramático. É mais fácil engrossar
+              um delineado do que reduzir depois.
+            </p>
+
+            <h3>Gatinho</h3>
+
+            <p>
+              Se optar pelo gatinho, desenhe primeiro uma pequena direção
+              no canto externo. Compare os dois lados antes de preencher
+              completamente.
+            </p>
+
+            <p>
+              Não busque simetria perfeita milimétrica. O mais importante
+              é que os dois lados apresentem direção e intensidade
+              visualmente equilibradas.
+            </p>
+
+          </section>
+
+          <section id="cilios">
+
+            <h2>8. Cílios postiços no glam</h2>
+
+            <p>
+              Agora você pode aplicar a técnica estudada na Aula 04.
+              Escolha um modelo que complemente o desenho dos olhos sem
+              esconder completamente a sombra.
+            </p>
+
+            <p>
+              Meça a faixa, faça ajustes se necessário, aplique uma camada
+              fina de cola e respeite o tempo indicado pelo fabricante.
+              Apoie primeiro o centro e ajuste os cantos.
+            </p>
+
+            <p>
+              Em maquiagens mais intensas, cílios postiços ajudam a
+              equilibrar a profundidade das sombras e tornam o olhar mais
+              definido.
+            </p>
+
+          </section>
+
+          <section id="dimensao">
+
+            <h2>9. Contorno, blush e iluminador</h2>
+
+            <p>
+              Depois dos olhos, volte para o rosto e observe se a pele
+              precisa de mais estrutura. Contorno, blush e iluminador podem
+              ser intensificados um pouco em relação a uma maquiagem
+              cotidiana, mas ainda devem ser construídos em camadas.
+            </p>
+
+            <h3>Contorno</h3>
+
+            <p>
+              Aplique nas regiões onde deseja criar profundidade. Esfume as
+              bordas e evite deixar linhas evidentes. Em uma maquiagem glam,
+              a estrutura pode ser mais definida, mas ainda deve parecer
+              integrada à pele.
+            </p>
+
+            <h3>Blush</h3>
+
+            <p>
+              Escolha uma tonalidade que converse com olhos e lábios.
+              Comece com pouco produto e construa a intensidade.
+            </p>
+
+            <h3>Iluminador</h3>
+
+            <p>
+              Aplique nos pontos altos que deseja destacar. O alto das
+              maçãs do rosto costuma ser uma região clássica. Dependendo
+              da textura da pele e do efeito desejado, prefira uma aplicação
+              suave a uma faixa muito intensa.
+            </p>
+
+          </section>
+
+          <section id="labios">
+
+            <h2>10. Escolhendo os lábios</h2>
+
+            <p>
+              Existem várias possibilidades. Uma maquiagem glam com olhos
+              muito intensos pode ser equilibrada com um batom nude, rosado
+              ou gloss. Também é possível criar um look marcante combinando
+              olhos e lábios fortes.
+            </p>
+
+            <p>
+              Antes de decidir, observe o rosto completo. Pergunte qual
+              região você quer que seja percebida primeiro.
+            </p>
+
+            <h3>Contorno labial</h3>
+
+            <p>
+              Um lápis pode ajudar a definir as bordas e aumentar a precisão.
+              Faça o contorno seguindo o formato natural ou realizando
+              pequenas correções controladas.
+            </p>
+
+            <h3>Batom</h3>
+
+            <p>
+              Aplique do centro para as extremidades. Se desejar maior
+              durabilidade, construa camadas finas em vez de aplicar uma
+              grande quantidade de uma vez.
+            </p>
+
+            <figure class="lesson-step-figure">
+
+              <div
+                class="lesson-image-placeholder"
+                data-image-target="../assets/img/course/lesson-05-glam-03.webp"
+              >
+                <span>IMAGEM 03</span>
+
+                <small>
+                  Resultado final de uma maquiagem glam completa mostrando
+                  pele iluminada, olhos esfumados com brilho, cílios
+                  postiços, contorno, blush e lábios equilibrados.
+                </small>
+              </div>
+
+              <figcaption>
+                O resultado final deve parecer intenso e sofisticado,
+                mantendo equilíbrio entre pele, olhos e lábios.
+              </figcaption>
+
+            </figure>
+
+          </section>
+
+          <section id="acabamento">
+
+            <h2>11. Acabamento final</h2>
+
+            <p>
+              Agora afaste-se do espelho e observe o conjunto. Essa etapa
+              é essencial porque durante a aplicação ficamos muito próximos
+              de pequenas regiões e podemos perder a percepção geral.
+            </p>
+
+            <p>
+              Observe se os dois olhos apresentam intensidade semelhante,
+              se o blush está equilibrado, se o contorno está bem esfumado
+              e se existe alguma região com excesso de pó.
+            </p>
+
+            <h3>Corrija antes de adicionar</h3>
+
+            <p>
+              Se algo parecer desequilibrado, não conclua automaticamente
+              que precisa adicionar produto no outro lado. Às vezes, a
+              melhor solução é suavizar o excesso.
+            </p>
+
+            <h3>Spray de acabamento</h3>
+
+            <p>
+              Se você utiliza spray, aplique conforme as instruções do
+              produto. Ele pode complementar a finalização, mas não corrige
+              automaticamente excesso de maquiagem ou preparação inadequada.
+            </p>
+
+          </section>
+
+          <section id="erros">
+
+            <h2>12. Erros comuns em maquiagem glam</h2>
+
+            <h3>Intensificar tudo ao mesmo tempo</h3>
+
+            <p>
+              Quando olhos, sobrancelhas, contorno, blush, iluminador e
+              lábios estão todos no máximo, pode faltar hierarquia visual.
+              Escolha pontos principais de destaque.
+            </p>
+
+            <h3>Aplicar sombra escura de uma só vez</h3>
+
+            <p>
+              Cores profundas são mais difíceis de corrigir. Construa
+              lentamente.
+            </p>
+
+            <h3>Não esfumar as bordas</h3>
+
+            <p>
+              Uma maquiagem glam pode ser intensa sem possuir transições
+              duras. Esfumado bem feito mantém profundidade e acabamento.
+            </p>
+
+            <h3>Exagerar na base</h3>
+
+            <p>
+              Glam não significa uma máscara de produto. Cobertura pode
+              ser construída em camadas finas.
+            </p>
+
+            <h3>Usar iluminador em excesso</h3>
+
+            <p>
+              Muito iluminador pode competir com o restante da maquiagem
+              e destacar textura. Observe sob diferentes ângulos.
+            </p>
+
+            <h3>Não considerar a iluminação do evento</h3>
+
+            <p>
+              Uma maquiagem vista apenas sob luz forte do espelho pode
+              parecer diferente em ambientes escuros, luz natural ou
+              fotografias.
+            </p>
+
+          </section>
+
+          <section id="seguranca">
+
+            <h2>Higiene e segurança</h2>
+
+            <p>
+              Uma maquiagem mais elaborada costuma envolver mais produtos
+              e ferramentas, portanto organização e higiene se tornam ainda
+              mais importantes.
+            </p>
+
+            <ul>
+              <li>Mantenha pincéis e esponjas limpos.</li>
+              <li>Use apenas glitter e produtos apropriados para a área dos olhos.</li>
+              <li>Não compartilhe máscara de cílios ou produtos de contato direto com olhos.</li>
+              <li>Use somente cola apropriada para cílios postiços.</li>
+              <li>Não aplique cosméticos em regiões irritadas ou lesionadas.</li>
+              <li>Observe qualquer reação incomum durante o uso.</li>
+              <li>Remova a maquiagem com cuidado ao final.</li>
+            </ul>
+
+            <div class="lesson-warning">
+              Se surgir ardência intensa, inchaço, dor, alteração da visão
+              ou outra reação preocupante, interrompa o uso dos produtos e
+              procure orientação adequada.
+            </div>
+
+          </section>
+
+          <section id="pratica">
+
+            <h2>Exercício prático</h2>
+
+            <p>
+              Escolha três cores de sombra: uma média para transição, uma
+              mais profunda e uma luminosa. Faça o primeiro olho seguindo
+              a sequência completa e observe o resultado.
+            </p>
+
+            <p>
+              No segundo olho, tente reproduzir a mesma intensidade usando
+              menos produto de cada vez. Compare os dois lados e identifique
+              em qual deles você teve maior controle.
+            </p>
+
+            <p>
+              Depois fotografe o resultado em luz natural e em luz artificial.
+              Observe como brilho, contorno e intensidade mudam conforme a
+              iluminação.
+            </p>
+
+            <p>
+              Esse exercício ajuda a desenvolver algo essencial para
+              maquiagem glam: percepção de equilíbrio.
+            </p>
+
+          </section>
+
+          <section class="lesson-video-section">
+
+            <h2>Vídeo complementar da aula</h2>
+
+            <p>
+              Este espaço está preparado para receber o vídeo prático
+              específico de maquiagem glam.
+            </p>
+
+            <div
+              class="lesson-video-placeholder"
+              data-video-topic="Maquiagem glam profissional passo a passo"
+            >
+              <div>
+
+                <span>▶</span>
+
+                <strong>
+                  Vídeo — Maquiagem Glam Completa
+                </strong>
+
+                <small>
+                  Área preparada para incorporação do vídeo desta aula.
+                </small>
+
+              </div>
+            </div>
+
+          </section>
+
+          <section>
+
+            <h2>Resumo da Aula 05</h2>
+
+            <p>
+              Nesta aula você aprendeu a reunir as principais técnicas do
+              curso em um único look. Uma maquiagem glam começa com
+              planejamento, preparação equilibrada da pele e definição
+              gradual dos olhos.
+            </p>
+
+            <p>
+              Trabalhamos sombra de transição, profundidade no canto externo,
+              aplicação estratégica de brilho, delineado e cílios postiços.
+              Depois, estruturamos o rosto com contorno, blush e iluminador.
+            </p>
+
+            <p>
+              Também vimos que intensidade não significa excesso. Um bom
+              glam possui hierarquia visual e equilíbrio entre as áreas.
+              O acabamento final depende tanto de saber adicionar quanto
+              de saber quando parar.
+            </p>
+
+            <p>
+              Na próxima e última aula, vamos entrar em uma linguagem de
+              maquiagem ainda mais transformadora: maquiagem Drag Queen,
+              trabalhando estrutura facial, sobrancelhas, olhos e expressão
+              de maneira mais dramática.
+            </p>
+
+          </section>
+
+          <div class="lesson-support-grid">
+
+            <div class="lesson-support-card">
+              <strong>Construa em camadas</strong>
+              <p>
+                Intensidade controlada é mais fácil de esfumar e corrigir.
+              </p>
+            </div>
+
+            <div class="lesson-support-card">
+              <strong>Escolha o destaque</strong>
+              <p>
+                Defina quais regiões serão protagonistas no look.
+              </p>
+            </div>
+
+            <div class="lesson-support-card">
+              <strong>Observe de longe</strong>
+              <p>
+                O equilíbrio geral é mais importante que um detalhe isolado.
+              </p>
+            </div>
+
+          </div>
+
+          <div class="mark-complete">
+
+            <button
+              class="btn btn-primary"
+              type="button"
+              data-mark-complete="lesson-05"
+              aria-pressed="false"
+            >
+              Marcar aula como concluída
+            </button>
+
+            <p class="lesson-complete-message"></p>
+
+          </div>
+
+        </article>
+
+        <nav class="lesson-nav" aria-label="Navegação entre aulas">
+
+          <a
+            href="lesson-04-cilios-posticos.html"
+            class="btn btn-secondary"
+          >
+            ← Aula anterior: Cílios Postiços
+          </a>
+
+          <a
+            href="lesson-06-maquiagem-drag-queen.html"
+            class="btn btn-primary"
+          >
+            Próxima aula: Maquiagem Drag Queen →
+          </a>
+
+        </nav>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</main>
+
+<footer class="site-footer">
+
+  <div class="footer-decor footer-decor-left"></div>
+  <div class="footer-decor footer-decor-right"></div>
+
+  <div class="container footer-grid">
+
+    <div class="footer-brand">
+
+      <a href="../index.html" class="footer-logo">
+        <span class="footer-lipstick">♟</span>
+        <span>Beleza em Foco</span>
+      </a>
+
+      <p>
+        Seu portal completo sobre maquiagem,
+        beleza e autocuidado. Inspiração diária
+        para realçar sua beleza única.
+      </p>
+
+      <div class="footer-social">
+        <a href="#" aria-label="Instagram">◎</a>
+        <a href="#" aria-label="YouTube">▶</a>
+        <a href="#" aria-label="Pinterest">ⓟ</a>
+        <a href="#" aria-label="TikTok">♪</a>
+        <a href="#" aria-label="Facebook">f</a>
+      </div>
+
+    </div>
+
+    <div class="footer-column">
+
+      <h2>Navegação</h2>
+
+      <ul>
+        <li><a href="../index.html">Início</a></li>
+        <li><a href="../artigos.html">Artigos</a></li>
+        <li><a href="../courses.html">Tutoriais</a></li>
+        <li><a href="../categorias.html">Categorias</a></li>
+        <li><a href="mailto:juarezimoveispronto@hotmail.com">Contato</a></li>
+      </ul>
+
+    </div>
+
+    <div class="footer-column">
+
+      <h2>Institucional</h2>
+
+      <ul>
+        <li><a href="../about.html">Sobre Nós</a></li>
+        <li><a href="../privacy.html">Política de Privacidade</a></li>
+        <li><a href="../cookies.html">Política de Cookies</a></li>
+        <li><a href="../terms.html">Termos de Uso</a></li>
+        <li><a href="../editorial-policy.html">Política Editorial</a></li>
+      </ul>
+
+    </div>
+
+    <div class="footer-newsletter">
+
+      <h2>Newsletter</h2>
+
+      <p>
+        Receba dicas exclusivas e novidades
+        direto no seu e-mail!
+      </p>
+
+      <form id="newsletter-form" novalidate>
+
+        <label class="sr-only" for="newsletter-email">
+          Seu melhor e-mail
+        </label>
+
+        <div class="newsletter-form-row">
+
+          <input
+            type="email"
+            id="newsletter-email"
+            placeholder="Seu melhor e-mail"
+            required
+          >
+
+          <button type="submit">
+            Inscrever-se
+          </button>
+
+        </div>
+
+        <p
+          class="newsletter-feedback"
+          id="newsletter-feedback"
+          aria-live="polite"
+        ></p>
+
+      </form>
+
+    </div>
+
+    <div class="footer-quote">
+      <span>Beleza começa</span>
+      <span>quando você</span>
+      <span>se escolhe! <b>♥</b></span>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+
+    <div class="container footer-bottom-inner">
+
+      <p>
+        © 2026 Beleza em Foco. Todos os direitos reservados.
+      </p>
+
+      <p class="footer-love">
+        Feito com <span>♥</span> para realçar a sua beleza!
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="developer-credit">
+
+    Desenvolvido por
+
+    <a
+      href="https://dfc-black.vercel.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      DFC — Digital Future Company
+    </a>
+
+  </div>
+
+</footer>
+
+<div
+  class="cookie-banner"
+  id="cookie-banner"
+  role="dialog"
+  aria-label="Preferências de cookies"
+  hidden
+>
+
+  <div class="cookie-content">
+
+    <div>
+
+      <strong>Privacidade e cookies</strong>
+
+      <p>
+        Usamos cookies para melhorar sua experiência,
+        analisar o uso do site e preparar recursos de publicidade.
+      </p>
+
+      <a href="../cookies.html">
+        Política de Cookies
+      </a>
+
+    </div>
+
+    <div class="cookie-actions">
+
+      <button
+        type="button"
+        class="cookie-settings"
+        id="cookie-settings"
+      >
+        Configurar
+      </button>
+
+      <button
+        type="button"
+        class="cookie-reject"
+        id="cookie-reject"
+      >
+        Rejeitar não essenciais
+      </button>
+
+      <button
+        type="button"
+        class="cookie-accept"
+        id="cookie-accept"
+      >
+        Aceitar
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>

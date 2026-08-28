@@ -1,0 +1,1484 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Preparação de Pele para Maquiagem | Beleza em Foco</title>
+
+  <meta
+    name="description"
+    content="Aprenda a preparar a pele para maquiagem passo a passo: limpeza, hidratação, primer, base, corretivo, pó, blush, contorno, iluminador e acabamento."
+  >
+
+  <link
+    rel="canonical"
+    href="https://seudominio.com/course/lesson-02-preparacao-de-pele.html"
+  >
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@500;600;700;800;900&family=Playfair+Display:ital,wght@1,700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="stylesheet" href="../css/course.css">
+
+  <script src="../js/main.js" defer></script>
+  <script src="../js/search.js" defer></script>
+  <script src="../js/favorites.js" defer></script>
+  <script src="../js/course-progress.js" defer></script>
+  <script src="../js/consent.js" defer></script>
+</head>
+
+<body>
+
+<a class="skip-link" href="#conteudo-principal">
+  Ir para o conteúdo principal
+</a>
+
+<div class="top-utility">
+  <div class="container utility-inner">
+
+    <nav class="utility-links" aria-label="Links rápidos">
+      <a href="../artigos.html"><span>★</span><span>Dicas</span></a>
+      <a href="../courses.html"><span>♥</span><span>Tutoriais</span></a>
+      <a href="../artigos.html?categoria=produtos"><span>🎁</span><span>Produtos</span></a>
+      <a href="../artigos.html?categoria=artistica"><span>✣</span><span>Inspirações</span></a>
+    </nav>
+
+    <div class="utility-social">
+      <a href="#" aria-label="Instagram">◎</a>
+      <a href="#" aria-label="YouTube">▶</a>
+      <a href="#" aria-label="Pinterest">ⓟ</a>
+      <a href="#" aria-label="TikTok">♪</a>
+    </div>
+
+  </div>
+</div>
+
+
+<header class="site-header">
+  <div class="container header-inner">
+
+    <a href="../index.html" class="brand" aria-label="Beleza em Foco">
+
+      <div class="brand-icon" aria-hidden="true">
+        <span class="lipstick lipstick-one"></span>
+        <span class="lipstick lipstick-two"></span>
+      </div>
+
+      <div class="brand-copy">
+        <span class="brand-name">Beleza em Foco</span>
+
+        <span class="brand-tagline">
+          MAQUIAGEM • AUTOCUIDADO • CONFIANÇA
+        </span>
+      </div>
+
+    </a>
+
+
+    <form
+      class="header-search"
+      action="../buscar.html"
+      method="get"
+      role="search"
+    >
+
+      <label class="sr-only" for="header-search-input">
+        Buscar no site
+      </label>
+
+      <input
+        id="header-search-input"
+        name="q"
+        type="search"
+        placeholder="Buscar artigos, tutoriais, produtos..."
+        autocomplete="off"
+      >
+
+      <button type="submit" aria-label="Pesquisar">
+        <span class="search-icon"></span>
+      </button>
+
+      <div
+        class="search-suggestions"
+        id="search-suggestions"
+        aria-live="polite"
+      ></div>
+
+    </form>
+
+
+    <div class="header-actions">
+
+      <a href="../courses.html" class="header-action courses-button">
+        <span>♛</span>
+        <span>Meus Cursos</span>
+      </a>
+
+      <a
+        href="../artigos.html?favoritos=1"
+        class="header-action favorites-button"
+      >
+        <span>★</span>
+
+        <span>
+          Favoritos (<strong id="favorites-count">0</strong>)
+        </span>
+      </a>
+
+    </div>
+
+
+    <button
+      class="mobile-menu-toggle"
+      id="mobile-menu-toggle"
+      type="button"
+      aria-label="Abrir menu"
+      aria-controls="main-navigation"
+      aria-expanded="false"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+  </div>
+</header>
+
+
+<nav
+  class="main-navigation"
+  id="main-navigation"
+  aria-label="Navegação principal"
+>
+  <div class="container nav-inner">
+
+    <ul class="main-menu">
+
+      <li>
+        <a href="../index.html" class="nav-link nav-home">
+          <span>⌂</span>
+          INÍCIO
+        </a>
+      </li>
+
+
+      <li class="has-dropdown">
+
+        <button
+          class="nav-dropdown-button"
+          type="button"
+          aria-expanded="false"
+        >
+          ARTIGOS
+          <span class="dropdown-chevron">⌄</span>
+        </button>
+
+        <div class="dropdown-menu">
+
+          <a href="../artigos.html?categoria=iniciantes">
+            Maquiagem para iniciantes
+          </a>
+
+          <a href="../artigos.html?categoria=pele">
+            Pele
+          </a>
+
+          <a href="../artigos.html?categoria=olhos">
+            Olhos
+          </a>
+
+          <a href="../artigos.html?categoria=sobrancelhas">
+            Sobrancelhas
+          </a>
+
+          <a href="../artigos.html?categoria=cilios">
+            Cílios
+          </a>
+
+          <a href="../artigos.html?categoria=labios">
+            Lábios
+          </a>
+
+          <a href="../artigos.html?categoria=artistica">
+            Maquiagem artística
+          </a>
+
+          <a href="../artigos.html?categoria=drag">
+            Drag Queen
+          </a>
+
+          <a href="../artigos.html?categoria=produtos">
+            Produtos e ferramentas
+          </a>
+
+        </div>
+
+      </li>
+
+
+      <li>
+        <a href="../courses.html" class="nav-link">
+          TUTORIAIS
+        </a>
+      </li>
+
+
+      <li>
+        <a href="../artigos.html?categoria=produtos" class="nav-link">
+          PRODUTOS
+        </a>
+      </li>
+
+
+      <li>
+        <a href="../categorias.html" class="nav-link">
+          CATEGORIAS
+        </a>
+      </li>
+
+
+      <li>
+        <a href="../about.html" class="nav-link">
+          SOBRE NÓS
+        </a>
+      </li>
+
+
+      <li>
+        <a href="../contact.html" class="nav-link">
+          CONTATO
+        </a>
+      </li>
+
+    </ul>
+
+
+    <a href="../artigos.html" class="articles-counter">
+      <span>▥</span>
+      <strong>50 ARTIGOS</strong>
+    </a>
+
+  </div>
+</nav>
+
+
+<main id="conteudo-principal" class="course-shell">
+
+  <div class="container">
+
+    <div class="course-layout">
+
+
+      <!-- =================================================
+           SIDEBAR
+      ================================================== -->
+
+      <aside class="course-sidebar-panel">
+
+        <div class="course-sidebar-header">
+
+          <span>Curso gratuito</span>
+
+          <h2>
+            Maquiagem:
+            Do Zero ao Glam
+          </h2>
+
+          <p>
+            6 aulas organizadas em uma sequência prática.
+          </p>
+
+        </div>
+
+
+        <div class="course-sidebar-progress">
+
+          <div class="course-sidebar-progress-top">
+
+            <span>Seu progresso</span>
+
+            <strong class="course-sidebar-progress-percentage">
+              0%
+            </strong>
+
+          </div>
+
+
+          <div class="course-sidebar-progress-track">
+
+            <div
+              class="course-sidebar-progress-fill"
+            ></div>
+
+          </div>
+
+        </div>
+
+
+        <nav class="course-lessons-nav" aria-label="Aulas do curso">
+
+          <a
+            href="lesson-01-maquiagem-para-iniciantes.html"
+            class="course-lesson-link"
+            data-lesson-id="lesson-01"
+          >
+
+            <span class="course-lesson-index">01</span>
+
+            <span class="course-lesson-copy">
+              <strong>Maquiagem para Iniciantes</strong>
+              <span>Fundamentos</span>
+            </span>
+
+          </a>
+
+
+          <a
+            href="lesson-02-preparacao-de-pele.html"
+            class="course-lesson-link active"
+            data-lesson-id="lesson-02"
+          >
+
+            <span class="course-lesson-index">02</span>
+
+            <span class="course-lesson-copy">
+              <strong>Preparação de Pele</strong>
+              <span>Pele e acabamento</span>
+            </span>
+
+          </a>
+
+
+          <a
+            href="lesson-03-design-de-sobrancelhas.html"
+            class="course-lesson-link"
+            data-lesson-id="lesson-03"
+          >
+
+            <span class="course-lesson-index">03</span>
+
+            <span class="course-lesson-copy">
+              <strong>Design de Sobrancelhas</strong>
+              <span>Mapeamento</span>
+            </span>
+
+          </a>
+
+
+          <a
+            href="lesson-04-cilios-posticos.html"
+            class="course-lesson-link"
+            data-lesson-id="lesson-04"
+          >
+
+            <span class="course-lesson-index">04</span>
+
+            <span class="course-lesson-copy">
+              <strong>Cílios Postiços</strong>
+              <span>Aplicação</span>
+            </span>
+
+          </a>
+
+
+          <a
+            href="lesson-05-maquiagem-glam.html"
+            class="course-lesson-link"
+            data-lesson-id="lesson-05"
+          >
+
+            <span class="course-lesson-index">05</span>
+
+            <span class="course-lesson-copy">
+              <strong>Maquiagem Glam</strong>
+              <span>Look completo</span>
+            </span>
+
+          </a>
+
+
+          <a
+            href="lesson-06-maquiagem-drag-queen.html"
+            class="course-lesson-link"
+            data-lesson-id="lesson-06"
+          >
+
+            <span class="course-lesson-index">06</span>
+
+            <span class="course-lesson-copy">
+              <strong>Maquiagem Drag Queen</strong>
+              <span>Transformação</span>
+            </span>
+
+          </a>
+
+        </nav>
+
+      </aside>
+
+
+      <!-- =================================================
+           CONTEÚDO PRINCIPAL
+      ================================================== -->
+
+      <div class="lesson-main">
+
+        <div class="lesson-topbar">
+
+          <nav class="lesson-breadcrumb" aria-label="Breadcrumb">
+
+            <a href="../index.html">Início</a>
+            <span>›</span>
+
+            <a href="../courses.html">Curso</a>
+            <span>›</span>
+
+            <span>Aula 02</span>
+
+          </nav>
+
+
+          <a href="../courses.html" class="lesson-back-course">
+            ← Voltar ao curso
+          </a>
+
+        </div>
+
+
+        <header class="lesson-hero">
+
+          <div class="lesson-hero-content">
+
+            <span class="lesson-tag">
+              AULA 02 • PELE E ACABAMENTO
+            </span>
+
+            <h1>
+              Preparação de Pele:
+              do cuidado inicial ao acabamento
+            </h1>
+
+            <p>
+              Aprenda a construir uma pele equilibrada usando limpeza,
+              hidratação, base, corretivo, pó, blush, contorno e iluminador
+              de forma gradual, sem deixar o rosto pesado.
+            </p>
+
+
+            <div class="lesson-meta-row">
+
+              <span class="lesson-meta-pill">
+                ✦ Nível iniciante
+              </span>
+
+              <span class="lesson-meta-pill">
+                ◇ Preparação de pele
+              </span>
+
+              <span class="lesson-meta-pill">
+                ▶ Vídeo complementar
+              </span>
+
+              <span class="lesson-meta-pill">
+                ✓ Aula gratuita
+              </span>
+
+            </div>
+
+          </div>
+
+        </header>
+
+
+        <article class="lesson-content">
+
+
+          <!-- INTRODUÇÃO -->
+
+          <section id="intro">
+
+            <h2>Introdução</h2>
+
+            <p>
+              A preparação de pele é uma das etapas que mais influenciam
+              o resultado final da maquiagem. Mesmo uma maquiagem simples
+              pode parecer muito mais bem acabada quando a pele foi
+              preparada de acordo com suas necessidades. Da mesma forma,
+              uma técnica avançada pode perder qualidade quando existe
+              excesso de produto, hidratação inadequada ou aplicação
+              feita sem observar textura e oleosidade.
+            </p>
+
+            <p>
+              Preparar a pele não significa esconder completamente
+              poros, linhas, manchas ou outras características naturais.
+              Pele real possui textura. O objetivo da maquiagem é criar
+              um acabamento harmonioso, uniforme e adequado ao efeito
+              desejado, respeitando aquilo que existe no rosto.
+            </p>
+
+            <p>
+              Nesta aula vamos trabalhar desde o cuidado inicial até a
+              aplicação dos produtos que dão cor e dimensão ao rosto.
+              Você vai aprender por que aplicar menos produto costuma
+              produzir um resultado melhor, como escolher regiões que
+              realmente precisam de pó e como evitar alguns dos erros
+              que deixam a maquiagem marcada ou pesada.
+            </p>
+
+          </section>
+
+
+          <!-- SUMÁRIO -->
+
+          <div class="lesson-toc">
+
+            <strong>Nesta aula você vai aprender:</strong>
+
+            <ul>
+              <li><a href="#avaliar">1. Avaliar a pele antes de maquiar</a></li>
+              <li><a href="#limpeza">2. Limpeza e preparação inicial</a></li>
+              <li><a href="#hidratacao">3. Hidratação</a></li>
+              <li><a href="#primer">4. Quando usar primer</a></li>
+              <li><a href="#base">5. Como trabalhar a base</a></li>
+              <li><a href="#corretivo">6. Aplicação de corretivo</a></li>
+              <li><a href="#po">7. Selagem com pó</a></li>
+              <li><a href="#dimensao">8. Blush, contorno e iluminador</a></li>
+              <li><a href="#acabamento">9. Acabamento e avaliação final</a></li>
+              <li><a href="#erros">10. Erros comuns</a></li>
+              <li><a href="#seguranca">11. Higiene e segurança</a></li>
+            </ul>
+
+          </div>
+
+
+          <!-- 1 -->
+
+          <section id="avaliar">
+
+            <h2>1. Avalie a pele antes de começar</h2>
+
+            <p>
+              Antes de escolher qualquer produto, observe a pele. Ela
+              está apresentando brilho excessivo? Existem áreas
+              ressecadas? A região abaixo dos olhos está mais seca?
+              Existem pontos onde a base costuma desaparecer rapidamente?
+              Essas informações ajudam a decidir o que realmente será
+              necessário.
+            </p>
+
+            <p>
+              É comum encontrar mais de uma característica no mesmo
+              rosto. Uma pessoa pode ter a testa e o nariz mais oleosos,
+              por exemplo, enquanto as laterais do rosto apresentam
+              sensação de ressecamento. Isso significa que a preparação
+              não precisa ser idêntica em todas as áreas.
+            </p>
+
+            <h3>Pele seca</h3>
+
+            <p>
+              Em peles com tendência ao ressecamento, a prioridade costuma
+              ser conforto e hidratação. Produtos excessivamente secos ou
+              grandes quantidades de pó podem destacar descamação e linhas
+              superficiais.
+            </p>
+
+            <h3>Pele oleosa</h3>
+
+            <p>
+              Quem apresenta maior produção de oleosidade pode trabalhar
+              com camadas leves e selecionar produtos compatíveis com essa
+              característica. Isso não significa retirar toda a hidratação
+              da rotina. Pele oleosa também precisa de cuidado adequado.
+            </p>
+
+            <h3>Pele mista</h3>
+
+            <p>
+              A pele mista pede uma abordagem localizada. É possível
+              hidratar regiões mais secas e usar menos produto nas áreas
+              que produzem maior quantidade de óleo.
+            </p>
+
+            <div class="lesson-highlight">
+              <strong>Regra importante:</strong> observe seu próprio rosto.
+              Uma técnica que funciona perfeitamente para outra pessoa
+              pode precisar de ajustes para funcionar em você.
+            </div>
+
+          </section>
+
+
+          <!-- 2 -->
+
+          <section id="limpeza">
+
+            <h2>2. Limpeza e preparação inicial</h2>
+
+            <p>
+              A maquiagem deve começar sobre uma superfície limpa. Resíduos
+              de produtos antigos, suor, oleosidade acumulada e sujeira
+              podem interferir na aderência e no acabamento dos cosméticos.
+            </p>
+
+            <p>
+              Utilize uma rotina de limpeza compatível com sua pele e evite
+              experimentar produtos agressivos apenas porque você pretende
+              fazer uma maquiagem mais elaborada. O objetivo não é deixar
+              o rosto extremamente seco, mas remover resíduos e preparar
+              uma superfície confortável.
+            </p>
+
+            <p>
+              Depois da limpeza, seque o rosto delicadamente. Esfregar a
+              toalha com força pode aumentar sensibilidade e vermelhidão,
+              principalmente em pessoas que já possuem pele reativa.
+            </p>
+
+          </section>
+
+
+          <!-- 3 -->
+
+          <section id="hidratacao">
+
+            <h2>3. Hidratação: uma etapa fundamental</h2>
+
+            <p>
+              Hidratação é uma etapa importante porque ajuda a criar uma
+              superfície mais confortável para receber a maquiagem.
+              Quando a pele está muito ressecada, produtos de cobertura
+              podem aderir de forma irregular e destacar pequenas áreas
+              de descamação.
+            </p>
+
+            <p>
+              Use uma quantidade compatível com o produto escolhido.
+              Aplicar hidratante demais imediatamente antes da base também
+              pode prejudicar o acabamento. O excesso pode fazer com que
+              outros produtos escorreguem ou demorem mais para estabilizar.
+            </p>
+
+            <p>
+              Após aplicar o hidratante, dê alguns minutos para que ele
+              seja absorvido. Durante o dia, o protetor solar também deve
+              fazer parte da rotina conforme as instruções do produto.
+            </p>
+
+            <figure class="lesson-step-figure">
+
+              <div class="lesson-image-placeholder">
+                <span>IMAGEM 01</span>
+
+                <small>
+                  Sequência educacional mostrando rosto limpo,
+                  pequena quantidade de hidratante distribuída
+                  em pontos estratégicos e aplicação suave antes
+                  da maquiagem.
+                </small>
+              </div>
+
+              <figcaption>
+                A preparação começa com uma pele limpa e hidratada,
+                sem excesso de produto na superfície.
+              </figcaption>
+
+            </figure>
+
+          </section>
+
+
+          <!-- 4 -->
+
+          <section id="primer">
+
+            <h2>4. Primer: quando ele realmente ajuda?</h2>
+
+            <p>
+              Primer é frequentemente apresentado como uma etapa
+              obrigatória, mas não precisa ser. Ele é uma ferramenta
+              adicional que pode ser selecionada de acordo com o efeito
+              desejado e com a forma como sua pele reage aos produtos.
+            </p>
+
+            <p>
+              Existem primers desenvolvidos para efeitos diferentes:
+              alguns ajudam a controlar visualmente o brilho, outros
+              deixam sensação mais hidratante e existem fórmulas que
+              suavizam temporariamente a aparência de textura.
+            </p>
+
+            <p>
+              Para quem está começando, uma abordagem simples funciona
+              bem: se sua maquiagem já apresenta boa aparência após a
+              hidratação, não há necessidade de adicionar produtos apenas
+              para aumentar o número de etapas.
+            </p>
+
+            <h3>Aplicação localizada</h3>
+
+            <p>
+              Quando fizer sentido usar primer, ele pode ser aplicado
+              apenas onde existe necessidade. Uma região com maior
+              aparência de porosidade, por exemplo, pode receber uma
+              camada fina enquanto o restante do rosto permanece somente
+              hidratado.
+            </p>
+
+          </section>
+
+
+          <!-- 5 -->
+
+          <section id="base">
+
+            <h2>5. Como aplicar base sem deixar a pele pesada</h2>
+
+            <p>
+              Um dos principais erros de quem está começando é colocar
+              muita base logo na primeira aplicação. Uma quantidade
+              grande dificulta o controle, aumenta a chance de acúmulo e
+              pode deixar a maquiagem com aparência espessa.
+            </p>
+
+            <p>
+              Comece com pouco produto. Distribua pequenas quantidades
+              nas áreas centrais do rosto e espalhe em direção às
+              extremidades. Depois, observe se realmente existe necessidade
+              de adicionar uma segunda camada em algum ponto.
+            </p>
+
+            <h3>Esponja</h3>
+
+            <p>
+              A esponja pode proporcionar aplicação suave quando usada
+              com movimentos de pressão. Evite esfregar a pele com força.
+              O objetivo é pressionar e distribuir o produto gradualmente.
+            </p>
+
+            <h3>Pincel</h3>
+
+            <p>
+              Pincéis próprios para base também funcionam muito bem.
+              Dependendo do formato, você pode trabalhar com movimentos
+              circulares leves ou pequenas batidas. Observe se ficaram
+              marcas de cerdas e finalize suavemente quando necessário.
+            </p>
+
+            <h3>Mãos</h3>
+
+            <p>
+              Algumas fórmulas leves também podem ser distribuídas com
+              os dedos limpos. O calor das mãos pode ajudar determinados
+              produtos a se espalharem, mas higiene continua sendo
+              indispensável.
+            </p>
+
+            <p>
+              Independente da ferramenta, verifique mandíbula, laterais
+              do nariz, testa e região próxima à linha do cabelo. São
+              áreas onde diferenças de cobertura costumam ficar mais
+              visíveis.
+            </p>
+
+            <figure class="lesson-step-figure">
+
+              <div class="lesson-image-placeholder">
+                <span>IMAGEM 02</span>
+
+                <small>
+                  Comparação educacional mostrando aplicação de base
+                  em camada fina com esponja ou pincel, começando no
+                  centro do rosto e espalhando para as extremidades.
+                </small>
+              </div>
+
+              <figcaption>
+                Construir a cobertura aos poucos oferece mais controle
+                e reduz o risco de acabamento pesado.
+              </figcaption>
+
+            </figure>
+
+          </section>
+
+
+          <!-- 6 -->
+
+          <section id="corretivo">
+
+            <h2>6. Corretivo: use somente onde for necessário</h2>
+
+            <p>
+              O corretivo complementa a cobertura da base. Ele pode ser
+              usado abaixo dos olhos, em pequenas marcas ou em regiões
+              onde você deseja uniformizar um pouco mais o tom.
+            </p>
+
+            <p>
+              Você não precisa desenhar um grande triângulo de produto
+              abaixo de cada olho. Em muitas pessoas, uma quantidade
+              pequena aplicada nos pontos mais escuros é suficiente.
+              Espalhe suavemente e observe o resultado antes de adicionar
+              mais.
+            </p>
+
+            <h3>Escolha da tonalidade</h3>
+
+            <p>
+              Para cobertura de pequenas marcas, um corretivo próximo
+              ao tom da pele costuma proporcionar resultado mais natural.
+              Produtos muito claros podem destacar a região em vez de
+              simplesmente uniformizá-la.
+            </p>
+
+            <h3>Região dos olhos</h3>
+
+            <p>
+              A pele próxima aos olhos é delicada e costuma apresentar
+              movimento constante. Camadas grossas podem acumular com mais
+              facilidade. Trabalhar com pequenas quantidades ajuda a
+              manter o acabamento confortável.
+            </p>
+
+          </section>
+
+
+          <!-- 7 -->
+
+          <section id="po">
+
+            <h2>7. Pó: selar não significa cobrir o rosto inteiro</h2>
+
+            <p>
+              O pó pode ajudar a reduzir brilho e aumentar a estabilidade
+              de produtos cremosos. No entanto, aplicar grande quantidade
+              sobre todo o rosto nem sempre é necessário.
+            </p>
+
+            <p>
+              Observe as regiões que realmente precisam de controle.
+              Testa, nariz e queixo costumam produzir mais oleosidade em
+              muitas pessoas, enquanto outras áreas podem ficar bonitas
+              sem uma camada adicional.
+            </p>
+
+            <h3>Pó solto</h3>
+
+            <p>
+              O pó solto normalmente possui textura fina e pode ser
+              aplicado com pincel ou esponja em pequenas quantidades.
+              Retire o excesso da ferramenta antes de encostar na pele.
+            </p>
+
+            <h3>Pó compacto</h3>
+
+            <p>
+              O compacto é prático e fácil de transportar. Dependendo da
+              fórmula, pode adicionar um pouco mais de cobertura. Por isso,
+              controle a quantidade para evitar acúmulo.
+            </p>
+
+            <div class="lesson-highlight">
+              Se a pele já estiver com aparência bonita, não existe
+              obrigação de adicionar mais produto. Aprender quando parar
+              é uma habilidade importante na maquiagem.
+            </div>
+
+          </section>
+
+
+          <!-- 8 -->
+
+          <section id="dimensao">
+
+            <h2>8. Blush, contorno e iluminador</h2>
+
+            <p>
+              Depois da aplicação de produtos de cobertura, o rosto pode
+              parecer visualmente mais uniforme. Blush, contorno e
+              iluminador ajudam a devolver dimensão, cor e pontos de luz.
+            </p>
+
+            <h3>Blush</h3>
+
+            <p>
+              O blush devolve aparência de cor ao rosto. Comece com pouco
+              produto e aumente gradualmente. A posição pode ser adaptada
+              ao efeito desejado e ao formato do rosto.
+            </p>
+
+            <p>
+              Para um resultado suave, retire o excesso do pincel antes
+              da aplicação. É muito mais fácil intensificar uma cor do que
+              remover um excesso forte.
+            </p>
+
+            <h3>Contorno</h3>
+
+            <p>
+              O contorno utiliza sombra visual para criar profundidade.
+              Quem está começando não precisa alterar completamente as
+              proporções do rosto. Uma aplicação discreta abaixo das
+              maçãs, nas laterais da testa ou na linha da mandíbula pode
+              ser suficiente, dependendo do efeito desejado.
+            </p>
+
+            <p>
+              Esfume bem as bordas. Um contorno bem construído deve
+              conversar com o restante da maquiagem em vez de parecer
+              uma faixa isolada.
+            </p>
+
+            <h3>Iluminador</h3>
+
+            <p>
+              O iluminador destaca regiões que refletem luz. Ele pode ser
+              aplicado no alto das maçãs do rosto, arco do cupido ou outros
+              pontos escolhidos conforme o estilo da maquiagem.
+            </p>
+
+            <p>
+              Para resultado natural, use pouco produto e observe o rosto
+              sob diferentes ângulos. Algumas fórmulas muito intensas podem
+              destacar mais a textura, portanto adapte a aplicação ao
+              acabamento que você deseja.
+            </p>
+
+            <figure class="lesson-step-figure">
+
+              <div class="lesson-image-placeholder">
+                <span>IMAGEM 03</span>
+
+                <small>
+                  Posicionamento educacional de blush, contorno e
+                  iluminador em um rosto, indicando áreas de cor,
+                  profundidade e pontos de luz.
+                </small>
+              </div>
+
+              <figcaption>
+                Blush, contorno e iluminador trabalham juntos para
+                devolver dimensão ao rosto depois da aplicação da base.
+              </figcaption>
+
+            </figure>
+
+          </section>
+
+
+          <!-- 9 -->
+
+          <section id="acabamento">
+
+            <h2>9. Avaliação e acabamento final</h2>
+
+            <p>
+              Antes de considerar a pele finalizada, afaste-se do espelho.
+              Observe o rosto como um conjunto. Verifique se existem
+              divisões muito marcadas entre base, blush e contorno ou se
+              alguma região recebeu mais produto do que as outras.
+            </p>
+
+            <p>
+              Se perceber excesso de produto em pó, um pincel limpo e
+              macio pode ajudar a suavizar a região. Quando a maquiagem
+              parece seca demais, não tente compensar imediatamente
+              adicionando várias camadas de outros cosméticos. Primeiro
+              identifique onde está o problema.
+            </p>
+
+            <p>
+              A iluminação utilizada durante a aplicação também influencia
+              bastante sua percepção. Sempre que possível, confira a pele
+              em luz natural ou em uma iluminação neutra antes de sair.
+            </p>
+
+            <h3>Spray de acabamento</h3>
+
+            <p>
+              Sprays podem ser usados dependendo da fórmula e do efeito
+              desejado. Eles não corrigem automaticamente uma preparação
+              mal feita, mas podem complementar a finalização de uma pele
+              já bem construída.
+            </p>
+
+          </section>
+
+
+          <!-- 10 -->
+
+          <section id="erros">
+
+            <h2>10. Erros comuns na preparação de pele</h2>
+
+            <h3>Aplicar produtos demais</h3>
+
+            <p>
+              Quanto mais produto você coloca no rosto, maior a chance
+              de ocorrer acúmulo. Comece com camadas pequenas e acrescente
+              apenas quando houver necessidade.
+            </p>
+
+            <h3>Não esperar a preparação assentar</h3>
+
+            <p>
+              Aplicar base imediatamente sobre uma grande quantidade de
+              hidratante ainda úmido pode fazer com que os produtos se
+              misturem de maneira indesejada. Aguarde alguns minutos.
+            </p>
+
+            <h3>Usar pó em excesso</h3>
+
+            <p>
+              Excesso de pó pode deixar a pele opaca, pesada e destacar
+              determinadas texturas. Trabalhe principalmente nas áreas
+              que realmente precisam de selagem.
+            </p>
+
+            <h3>Escolher base apenas olhando a embalagem</h3>
+
+            <p>
+              A cor percebida dentro do frasco nem sempre representa
+              exatamente o resultado na pele. Quando possível, teste
+              adequadamente e observe a cor em uma iluminação confiável.
+            </p>
+
+            <h3>Ignorar pescoço e mandíbula</h3>
+
+            <p>
+              O objetivo não é necessariamente levar grandes quantidades
+              de base até o pescoço. O mais importante é garantir que
+              não exista uma diferença evidente entre o rosto e as áreas
+              próximas.
+            </p>
+
+            <h3>Tentar apagar completamente a textura da pele</h3>
+
+            <p>
+              Maquiagem pode suavizar visualmente algumas características,
+              mas não transforma pele real em uma superfície digital.
+              Aceitar textura natural evita a busca por camadas cada vez
+              mais pesadas de produto.
+            </p>
+
+          </section>
+
+
+          <!-- 11 -->
+
+          <section id="seguranca">
+
+            <h2>11. Higiene e segurança</h2>
+
+            <p>
+              Produtos usados sobre a pele precisam ser manuseados com
+              cuidado. Pincéis, esponjas e mãos entram em contato direto
+              com o rosto, por isso a higiene deve fazer parte da rotina
+              de maquiagem.
+            </p>
+
+            <ul>
+              <li>Lave as mãos antes de iniciar.</li>
+              <li>Mantenha pincéis e esponjas higienizados.</li>
+              <li>Não utilize produtos com cheiro ou aparência alterados.</li>
+              <li>Evite compartilhar itens de uso pessoal.</li>
+              <li>Respeite as instruções de conservação do fabricante.</li>
+              <li>Não aplique cosméticos sobre pele lesionada sem orientação adequada.</li>
+              <li>Interrompa o uso caso apareça uma reação importante.</li>
+            </ul>
+
+            <div class="lesson-warning">
+              <strong>Atenção:</strong> ardência intensa, inchaço,
+              dificuldade para respirar ou outras reações preocupantes
+              não devem ser tratadas apenas como um problema de maquiagem.
+              Interrompa o uso do produto e procure atendimento adequado.
+            </div>
+
+          </section>
+
+
+          <!-- VIDEO -->
+
+          <section class="lesson-video-section">
+
+            <h2>Vídeo complementar da aula</h2>
+
+            <p>
+              Este espaço está preparado para receber o vídeo prático
+              específico sobre preparação de pele.
+            </p>
+
+
+            <div
+              class="lesson-video-placeholder"
+              data-video-topic="Preparação de pele para maquiagem passo a passo"
+            >
+
+              <div>
+
+                <span>▶</span>
+
+                <strong>
+                  Vídeo — Preparação de Pele
+                </strong>
+
+                <small>
+                  Área preparada para incorporação do vídeo desta aula.
+                </small>
+
+              </div>
+
+            </div>
+
+          </section>
+
+
+          <!-- RESUMO -->
+
+          <section>
+
+            <h2>Resumo da Aula 02</h2>
+
+            <p>
+              Nesta aula você aprendeu que uma boa preparação de pele não
+              é resultado de uma quantidade enorme de cosméticos. Ela é
+              construída a partir da observação da própria pele, aplicação
+              em camadas finas e seleção consciente dos produtos.
+            </p>
+
+            <p>
+              Vimos a importância de começar com a pele limpa, trabalhar
+              hidratação de forma equilibrada e utilizar primer apenas
+              quando houver um objetivo específico. Também aprendemos a
+              construir cobertura gradualmente com base e corretivo, em vez
+              de tentar esconder tudo em uma única camada.
+            </p>
+
+            <p>
+              O pó deve ser aplicado de maneira estratégica, principalmente
+              onde a maquiagem realmente precisa de controle. Depois,
+              blush, contorno e iluminador devolvem dimensão e cor ao rosto.
+              Por fim, observar o conjunto em diferentes iluminações ajuda
+              a perceber excessos e melhorar o acabamento.
+            </p>
+
+            <p>
+              Esse conhecimento será muito importante nas próximas aulas,
+              porque sobrancelhas, cílios e olhos ficam visualmente mais
+              equilibrados quando a base do rosto foi construída com
+              cuidado.
+            </p>
+
+          </section>
+
+
+          <!-- APOIO -->
+
+          <div class="lesson-support-grid">
+
+            <div class="lesson-support-card">
+
+              <strong>Menos é mais</strong>
+
+              <p>
+                Comece sempre com pequenas quantidades e construa
+                a cobertura gradualmente.
+              </p>
+
+            </div>
+
+
+            <div class="lesson-support-card">
+
+              <strong>Observe sua pele</strong>
+
+              <p>
+                Não aplique a mesma quantidade de produto em todas
+                as regiões apenas por hábito.
+              </p>
+
+            </div>
+
+
+            <div class="lesson-support-card">
+
+              <strong>Confira a luz</strong>
+
+              <p>
+                Sempre que possível, analise o acabamento também
+                em iluminação natural.
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <!-- CONCLUSÃO -->
+
+          <div class="mark-complete">
+
+            <button
+              class="btn btn-primary"
+              type="button"
+              data-mark-complete="lesson-02"
+              aria-pressed="false"
+            >
+              Marcar aula como concluída
+            </button>
+
+            <p class="lesson-complete-message"></p>
+
+          </div>
+
+        </article>
+
+
+        <!-- NAVEGAÇÃO -->
+
+        <nav class="lesson-nav" aria-label="Navegação entre aulas">
+
+          <a
+            href="lesson-01-maquiagem-para-iniciantes.html"
+            class="btn btn-secondary"
+          >
+            ← Aula anterior: Fundamentos
+          </a>
+
+
+          <a
+            href="lesson-03-design-de-sobrancelhas.html"
+            class="btn btn-primary"
+          >
+            Próxima aula: Sobrancelhas →
+          </a>
+
+        </nav>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</main>
+
+
+<footer class="site-footer">
+
+  <div class="footer-decor footer-decor-left"></div>
+  <div class="footer-decor footer-decor-right"></div>
+
+  <div class="container footer-grid">
+
+
+    <div class="footer-brand">
+
+      <a href="../index.html" class="footer-logo">
+        <span class="footer-lipstick">♟</span>
+        <span>Beleza em Foco</span>
+      </a>
+
+      <p>
+        Seu portal completo sobre maquiagem,
+        beleza e autocuidado. Inspiração diária
+        para realçar sua beleza única.
+      </p>
+
+      <div class="footer-social">
+        <a href="#" aria-label="Instagram">◎</a>
+        <a href="#" aria-label="YouTube">▶</a>
+        <a href="#" aria-label="Pinterest">ⓟ</a>
+        <a href="#" aria-label="TikTok">♪</a>
+        <a href="#" aria-label="Facebook">f</a>
+      </div>
+
+    </div>
+
+
+    <div class="footer-column">
+
+      <h2>Navegação</h2>
+
+      <ul>
+        <li><a href="../index.html">Início</a></li>
+        <li><a href="../artigos.html">Artigos</a></li>
+        <li><a href="../courses.html">Tutoriais</a></li>
+        <li><a href="../categorias.html">Categorias</a></li>
+        <li><a href="../contact.html">Contato</a></li>
+      </ul>
+
+    </div>
+
+
+    <div class="footer-column">
+
+      <h2>Institucional</h2>
+
+      <ul>
+        <li><a href="../about.html">Sobre Nós</a></li>
+        <li><a href="../privacy.html">Política de Privacidade</a></li>
+        <li><a href="../cookies.html">Política de Cookies</a></li>
+        <li><a href="../terms.html">Termos de Uso</a></li>
+        <li><a href="../editorial-policy.html">Política Editorial</a></li>
+      </ul>
+
+    </div>
+
+
+    <div class="footer-newsletter">
+
+      <h2>Newsletter</h2>
+
+      <p>
+        Receba dicas exclusivas e novidades
+        direto no seu e-mail!
+      </p>
+
+
+      <form id="newsletter-form" novalidate>
+
+        <label class="sr-only" for="newsletter-email">
+          Seu melhor e-mail
+        </label>
+
+        <div class="newsletter-form-row">
+
+          <input
+            type="email"
+            id="newsletter-email"
+            placeholder="Seu melhor e-mail"
+            required
+          >
+
+          <button type="submit">
+            Inscrever-se
+          </button>
+
+        </div>
+
+
+        <p
+          class="newsletter-feedback"
+          id="newsletter-feedback"
+          aria-live="polite"
+        ></p>
+
+      </form>
+
+    </div>
+
+
+    <div class="footer-quote">
+      <span>Beleza começa</span>
+      <span>quando você</span>
+      <span>se escolhe! <b>♥</b></span>
+    </div>
+
+  </div>
+
+
+  <div class="footer-bottom">
+
+    <div class="container footer-bottom-inner">
+
+      <p>
+        © 2026 Beleza em Foco. Todos os direitos reservados.
+      </p>
+
+      <p class="footer-love">
+        Feito com <span>♥</span> para realçar a sua beleza!
+      </p>
+
+    </div>
+
+  </div>
+
+
+  <div class="developer-credit">
+
+    Desenvolvido por
+
+    <a
+      href="https://dfc-black.vercel.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      DFC — Digital Future Company
+    </a>
+
+  </div>
+
+</footer>
+
+
+<div
+  class="cookie-banner"
+  id="cookie-banner"
+  role="dialog"
+  aria-label="Preferências de cookies"
+  hidden
+>
+
+  <div class="cookie-content">
+
+    <div>
+
+      <strong>Privacidade e cookies</strong>
+
+      <p>
+        Usamos cookies para melhorar sua experiência,
+        analisar o uso do site e preparar recursos de publicidade.
+      </p>
+
+      <a href="../cookies.html">
+        Política de Cookies
+      </a>
+
+    </div>
+
+
+    <div class="cookie-actions">
+
+      <button
+        type="button"
+        class="cookie-settings"
+        id="cookie-settings"
+      >
+        Configurar
+      </button>
+
+      <button
+        type="button"
+        class="cookie-reject"
+        id="cookie-reject"
+      >
+        Rejeitar não essenciais
+      </button>
+
+      <button
+        type="button"
+        class="cookie-accept"
+        id="cookie-accept"
+      >
+        Aceitar
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>

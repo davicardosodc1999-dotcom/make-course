@@ -1,0 +1,1621 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Design de Sobrancelhas para Iniciantes | Beleza em Foco</title>
+
+  <meta
+    name="description"
+    content="Aprenda design de sobrancelhas para iniciantes: mapeamento, formato natural, preenchimento, simetria, produtos, acabamento e erros comuns."
+  >
+
+  <link
+    rel="canonical"
+    href="https://seudominio.com/course/lesson-03-design-de-sobrancelhas.html"
+  >
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@500;600;700;800;900&family=Playfair+Display:ital,wght@1,700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="stylesheet" href="../css/course.css">
+
+  <script src="../js/main.js" defer></script>
+  <script src="../js/search.js" defer></script>
+  <script src="../js/favorites.js" defer></script>
+  <script src="../js/course-progress.js" defer></script>
+  <script src="../js/consent.js" defer></script>
+</head>
+
+<body>
+
+<a class="skip-link" href="#conteudo-principal">
+  Ir para o conteúdo principal
+</a>
+
+
+<div class="top-utility">
+  <div class="container utility-inner">
+
+    <nav class="utility-links" aria-label="Links rápidos">
+      <a href="../artigos.html"><span>★</span><span>Dicas</span></a>
+      <a href="../courses.html"><span>♥</span><span>Tutoriais</span></a>
+      <a href="../artigos.html?categoria=produtos"><span>🎁</span><span>Produtos</span></a>
+      <a href="../artigos.html?categoria=artistica"><span>✣</span><span>Inspirações</span></a>
+    </nav>
+
+    <div class="utility-social">
+      <a href="#" aria-label="Instagram">◎</a>
+      <a href="#" aria-label="YouTube">▶</a>
+      <a href="#" aria-label="Pinterest">ⓟ</a>
+      <a href="#" aria-label="TikTok">♪</a>
+    </div>
+
+  </div>
+</div>
+
+
+<header class="site-header">
+  <div class="container header-inner">
+
+    <a href="../index.html" class="brand" aria-label="Beleza em Foco">
+
+      <div class="brand-icon" aria-hidden="true">
+        <span class="lipstick lipstick-one"></span>
+        <span class="lipstick lipstick-two"></span>
+      </div>
+
+      <div class="brand-copy">
+
+        <span class="brand-name">
+          Beleza em Foco
+        </span>
+
+        <span class="brand-tagline">
+          MAQUIAGEM • AUTOCUIDADO • CONFIANÇA
+        </span>
+
+      </div>
+
+    </a>
+
+
+    <form
+      class="header-search"
+      action="../buscar.html"
+      method="get"
+      role="search"
+    >
+
+      <label
+        class="sr-only"
+        for="header-search-input"
+      >
+        Buscar no site
+      </label>
+
+      <input
+        id="header-search-input"
+        name="q"
+        type="search"
+        placeholder="Buscar artigos, tutoriais, produtos..."
+        autocomplete="off"
+      >
+
+      <button
+        type="submit"
+        aria-label="Pesquisar"
+      >
+        <span class="search-icon"></span>
+      </button>
+
+      <div
+        class="search-suggestions"
+        id="search-suggestions"
+        aria-live="polite"
+      ></div>
+
+    </form>
+
+
+    <div class="header-actions">
+
+      <a
+        href="../courses.html"
+        class="header-action courses-button"
+      >
+        <span>♛</span>
+        <span>Meus Cursos</span>
+      </a>
+
+      <a
+        href="../artigos.html?favoritos=1"
+        class="header-action favorites-button"
+      >
+        <span>★</span>
+
+        <span>
+          Favoritos (<strong id="favorites-count">0</strong>)
+        </span>
+      </a>
+
+    </div>
+
+
+    <button
+      class="mobile-menu-toggle"
+      id="mobile-menu-toggle"
+      type="button"
+      aria-label="Abrir menu"
+      aria-controls="main-navigation"
+      aria-expanded="false"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+  </div>
+</header>
+
+
+<nav
+  class="main-navigation"
+  id="main-navigation"
+  aria-label="Navegação principal"
+>
+  <div class="container nav-inner">
+
+    <ul class="main-menu">
+
+      <li>
+        <a
+          href="../index.html"
+          class="nav-link nav-home"
+        >
+          <span>⌂</span>
+          INÍCIO
+        </a>
+      </li>
+
+
+      <li class="has-dropdown">
+
+        <button
+          class="nav-dropdown-button"
+          type="button"
+          aria-expanded="false"
+        >
+          ARTIGOS
+          <span class="dropdown-chevron">⌄</span>
+        </button>
+
+        <div class="dropdown-menu">
+
+          <a href="../artigos.html?categoria=iniciantes">
+            Maquiagem para iniciantes
+          </a>
+
+          <a href="../artigos.html?categoria=pele">
+            Pele
+          </a>
+
+          <a href="../artigos.html?categoria=olhos">
+            Olhos
+          </a>
+
+          <a href="../artigos.html?categoria=sobrancelhas">
+            Sobrancelhas
+          </a>
+
+          <a href="../artigos.html?categoria=cilios">
+            Cílios
+          </a>
+
+          <a href="../artigos.html?categoria=labios">
+            Lábios
+          </a>
+
+          <a href="../artigos.html?categoria=artistica">
+            Maquiagem artística
+          </a>
+
+          <a href="../artigos.html?categoria=drag">
+            Drag Queen
+          </a>
+
+          <a href="../artigos.html?categoria=produtos">
+            Produtos e ferramentas
+          </a>
+
+        </div>
+
+      </li>
+
+
+      <li>
+        <a href="../courses.html" class="nav-link">
+          TUTORIAIS
+        </a>
+      </li>
+
+      <li>
+        <a
+          href="../artigos.html?categoria=produtos"
+          class="nav-link"
+        >
+          PRODUTOS
+        </a>
+      </li>
+
+      <li>
+        <a href="../categorias.html" class="nav-link">
+          CATEGORIAS
+        </a>
+      </li>
+
+      <li>
+        <a href="../about.html" class="nav-link">
+          SOBRE NÓS
+        </a>
+      </li>
+
+      <li>
+        <a href="mailto:juarezimoveispronto@hotmail.com" class="nav-link">
+          CONTATO
+        </a>
+      </li>
+
+    </ul>
+
+
+    <a
+      href="../artigos.html"
+      class="articles-counter"
+    >
+      <span>▥</span>
+      <strong>50 ARTIGOS</strong>
+    </a>
+
+  </div>
+</nav>
+
+
+<main
+  id="conteudo-principal"
+  class="course-shell"
+>
+
+  <div class="container">
+
+    <div class="course-layout">
+
+
+      <!-- ================================================
+           SIDEBAR
+      ================================================= -->
+
+      <aside class="course-sidebar-panel">
+
+        <div class="course-sidebar-header">
+
+          <span>Curso gratuito</span>
+
+          <h2>
+            Maquiagem:
+            Do Zero ao Glam
+          </h2>
+
+          <p>
+            6 aulas organizadas em uma sequência prática.
+          </p>
+
+        </div>
+
+
+        <div class="course-sidebar-progress">
+
+          <div class="course-sidebar-progress-top">
+
+            <span>Seu progresso</span>
+
+            <strong
+              class="course-sidebar-progress-percentage"
+            >
+              0%
+            </strong>
+
+          </div>
+
+
+          <div class="course-sidebar-progress-track">
+
+            <div
+              class="course-sidebar-progress-fill"
+            ></div>
+
+          </div>
+
+        </div>
+
+
+        <nav
+          class="course-lessons-nav"
+          aria-label="Aulas do curso"
+        >
+
+          <a
+            href="lesson-01-maquiagem-para-iniciantes.html"
+            class="course-lesson-link"
+            data-lesson-id="lesson-01"
+          >
+
+            <span class="course-lesson-index">
+              01
+            </span>
+
+            <span class="course-lesson-copy">
+              <strong>
+                Maquiagem para Iniciantes
+              </strong>
+              <span>Fundamentos</span>
+            </span>
+
+          </a>
+
+
+          <a
+            href="lesson-02-preparacao-de-pele.html"
+            class="course-lesson-link"
+            data-lesson-id="lesson-02"
+          >
+
+            <span class="course-lesson-index">
+              02
+            </span>
+
+            <span class="course-lesson-copy">
+              <strong>
+                Preparação de Pele
+              </strong>
+              <span>Pele e acabamento</span>
+            </span>
+
+          </a>
+
+
+          <a
+            href="lesson-03-design-de-sobrancelhas.html"
+            class="course-lesson-link active"
+            data-lesson-id="lesson-03"
+          >
+
+            <span class="course-lesson-index">
+              03
+            </span>
+
+            <span class="course-lesson-copy">
+              <strong>
+                Design de Sobrancelhas
+              </strong>
+              <span>Mapeamento</span>
+            </span>
+
+          </a>
+
+
+          <a
+            href="lesson-04-cilios-posticos.html"
+            class="course-lesson-link"
+            data-lesson-id="lesson-04"
+          >
+
+            <span class="course-lesson-index">
+              04
+            </span>
+
+            <span class="course-lesson-copy">
+              <strong>
+                Cílios Postiços
+              </strong>
+              <span>Aplicação</span>
+            </span>
+
+          </a>
+
+
+          <a
+            href="lesson-05-maquiagem-glam.html"
+            class="course-lesson-link"
+            data-lesson-id="lesson-05"
+          >
+
+            <span class="course-lesson-index">
+              05
+            </span>
+
+            <span class="course-lesson-copy">
+              <strong>
+                Maquiagem Glam
+              </strong>
+              <span>Look completo</span>
+            </span>
+
+          </a>
+
+
+          <a
+            href="lesson-06-maquiagem-drag-queen.html"
+            class="course-lesson-link"
+            data-lesson-id="lesson-06"
+          >
+
+            <span class="course-lesson-index">
+              06
+            </span>
+
+            <span class="course-lesson-copy">
+              <strong>
+                Maquiagem Drag Queen
+              </strong>
+              <span>Transformação</span>
+            </span>
+
+          </a>
+
+        </nav>
+
+      </aside>
+
+
+      <!-- ================================================
+           CONTEÚDO
+      ================================================= -->
+
+      <div class="lesson-main">
+
+        <div class="lesson-topbar">
+
+          <nav
+            class="lesson-breadcrumb"
+            aria-label="Breadcrumb"
+          >
+            <a href="../index.html">Início</a>
+            <span>›</span>
+
+            <a href="../courses.html">Curso</a>
+            <span>›</span>
+
+            <span>Aula 03</span>
+          </nav>
+
+
+          <a
+            href="../courses.html"
+            class="lesson-back-course"
+          >
+            ← Voltar ao curso
+          </a>
+
+        </div>
+
+
+        <header class="lesson-hero">
+
+          <div class="lesson-hero-content">
+
+            <span class="lesson-tag">
+              AULA 03 • SOBRANCELHAS
+            </span>
+
+            <h1>
+              Design de Sobrancelhas:
+              formato, mapeamento e preenchimento
+            </h1>
+
+            <p>
+              Aprenda a observar a estrutura natural das sobrancelhas,
+              identificar pontos de referência e preencher pequenas
+              falhas sem deixar o resultado excessivamente marcado.
+            </p>
+
+
+            <div class="lesson-meta-row">
+
+              <span class="lesson-meta-pill">
+                ✦ Nível iniciante
+              </span>
+
+              <span class="lesson-meta-pill">
+                ⌁ Mapeamento
+              </span>
+
+              <span class="lesson-meta-pill">
+                ▶ Vídeo complementar
+              </span>
+
+              <span class="lesson-meta-pill">
+                ✓ Aula gratuita
+              </span>
+
+            </div>
+
+          </div>
+
+        </header>
+
+
+        <article class="lesson-content">
+
+
+          <!-- INTRODUÇÃO -->
+
+          <section id="intro">
+
+            <h2>Introdução</h2>
+
+            <p>
+              As sobrancelhas possuem um papel importante na expressão do
+              rosto. Mesmo quando o restante da maquiagem é muito simples,
+              pequenas mudanças no formato, na intensidade ou na direção
+              dos fios podem alterar bastante a forma como percebemos os
+              olhos e as proporções faciais.
+            </p>
+
+            <p>
+              Isso não significa que exista uma sobrancelha perfeita ou
+              que todas devam seguir o mesmo desenho. Pelo contrário:
+              sobrancelhas naturais apresentam diferenças de espessura,
+              direção dos fios, altura e densidade. Até mesmo os dois lados
+              do mesmo rosto raramente são exatamente iguais.
+            </p>
+
+            <p>
+              Nesta aula, o objetivo não será transformar suas sobrancelhas
+              em duas linhas idênticas. Vamos aprender a analisar o formato
+              existente, localizar pontos de referência, preencher falhas
+              com leveza e criar equilíbrio sem apagar completamente a
+              personalidade natural do rosto.
+            </p>
+
+            <p>
+              Também vamos conversar sobre produtos, quantidade, escolha
+              de cor e erros comuns. Ao final, você deverá conseguir
+              realizar um preenchimento simples e entender por que
+              pequenas correções costumam produzir um resultado mais
+              elegante do que tentar redesenhar toda a sobrancelha.
+            </p>
+
+          </section>
+
+
+          <!-- SUMÁRIO -->
+
+          <div class="lesson-toc">
+
+            <strong>Nesta aula você vai aprender:</strong>
+
+            <ul>
+              <li><a href="#estrutura">1. Entendendo a estrutura da sobrancelha</a></li>
+              <li><a href="#preparacao">2. Preparação antes do preenchimento</a></li>
+              <li><a href="#mapeamento">3. Como fazer o mapeamento básico</a></li>
+              <li><a href="#simetria">4. Simetria sem exagero</a></li>
+              <li><a href="#produtos">5. Produtos para sobrancelhas</a></li>
+              <li><a href="#cor">6. Escolha da cor</a></li>
+              <li><a href="#preenchimento">7. Preenchimento passo a passo</a></li>
+              <li><a href="#frente">8. Como deixar a frente natural</a></li>
+              <li><a href="#acabamento">9. Esfumado e acabamento</a></li>
+              <li><a href="#erros">10. Erros comuns</a></li>
+              <li><a href="#higiene">11. Higiene e cuidados</a></li>
+            </ul>
+
+          </div>
+
+
+          <!-- 1 -->
+
+          <section id="estrutura">
+
+            <h2>1. Entendendo a estrutura da sobrancelha</h2>
+
+            <p>
+              Antes de usar lápis, sombra ou qualquer outro produto,
+              observe suas sobrancelhas sem maquiagem. Essa análise inicial
+              é importante porque permite identificar onde realmente
+              existem falhas e quais partes já possuem densidade suficiente.
+            </p>
+
+            <p>
+              De forma didática, podemos dividir a sobrancelha em três
+              regiões principais: início, corpo e cauda. O início é a parte
+              mais próxima do centro do rosto. O corpo representa a maior
+              região da sobrancelha e normalmente inclui o ponto de maior
+              elevação. A cauda é a parte final, que se afina em direção
+              à lateral do rosto.
+            </p>
+
+            <h3>O início</h3>
+
+            <p>
+              A região inicial costuma ficar mais natural quando apresenta
+              menor concentração de produto. Os fios nessa área muitas
+              vezes crescem em direção mais vertical ou diagonal, criando
+              uma aparência leve. Quando desenhamos um bloco muito escuro
+              nessa região, o resultado pode parecer pesado.
+            </p>
+
+            <h3>O corpo</h3>
+
+            <p>
+              No corpo da sobrancelha normalmente existe maior densidade
+              visual. É nessa região que pequenas falhas podem ser
+              preenchidas com mais definição. Ainda assim, o objetivo não
+              deve ser criar uma superfície completamente uniforme.
+              Permitir que alguns fios continuem visíveis ajuda a preservar
+              a naturalidade.
+            </p>
+
+            <h3>A cauda</h3>
+
+            <p>
+              A cauda costuma ser mais fina e definida. Em algumas pessoas,
+              essa parte possui menos fios e pode precisar de um pouco mais
+              de produto. Entretanto, prolongá-la excessivamente para baixo
+              pode modificar a expressão do rosto e criar sensação de olhar
+              caído.
+            </p>
+
+            <div class="lesson-highlight">
+              <strong>Lembre-se:</strong> o formato natural é o seu principal
+              guia. O mapeamento serve para orientar e equilibrar, não para
+              obrigar todos os rostos a terem a mesma sobrancelha.
+            </div>
+
+          </section>
+
+
+          <!-- 2 -->
+
+          <section id="preparacao">
+
+            <h2>2. Preparação antes do preenchimento</h2>
+
+            <p>
+              Antes de começar, penteie os fios com uma escovinha limpa.
+              Esse passo simples permite observar o crescimento natural e
+              identificar espaços onde existem menos fios. Penteie primeiro
+              para cima e depois acompanhe a direção natural em direção à
+              cauda.
+            </p>
+
+            <p>
+              Caso a região esteja com excesso de creme, base ou corretivo,
+              retire suavemente o excesso antes de aplicar o produto para
+              sobrancelhas. Uma superfície muito úmida pode fazer lápis,
+              sombra ou pomada escorregarem e dificultar a precisão.
+            </p>
+
+            <p>
+              Evite começar desenhando linhas fortes nas bordas. Primeiro
+              observe. Depois faça marcações muito leves. Uma sobrancelha
+              bem construída costuma nascer de várias correções pequenas,
+              e não de um grande desenho feito em uma única etapa.
+            </p>
+
+          </section>
+
+
+          <!-- 3 -->
+
+          <section id="mapeamento">
+
+            <h2>3. Como fazer o mapeamento básico</h2>
+
+            <p>
+              O mapeamento utiliza pontos de referência do rosto para
+              orientar início, arco e final da sobrancelha. Ele não deve
+              ser interpretado como uma fórmula matemática rígida. Rostos
+              apresentam proporções diferentes, então os pontos encontrados
+              podem precisar de pequenos ajustes visuais.
+            </p>
+
+            <h3>Ponto inicial</h3>
+
+            <p>
+              Como referência, posicione um pincel fino ou lápis
+              verticalmente próximo à lateral do nariz. A região onde essa
+              linha encontra a sobrancelha oferece uma indicação aproximada
+              do ponto inicial.
+            </p>
+
+            <p>
+              Antes de remover fios ou preencher até essa marca, observe o
+              resultado de frente. Pessoas com diferentes proporções entre
+              nariz, olhos e sobrancelhas podem precisar de pequenas
+              adaptações para manter harmonia.
+            </p>
+
+            <h3>Ponto de maior elevação</h3>
+
+            <p>
+              O ponto de elevação pode ser estimado criando uma linha
+              imaginária que parte da lateral do nariz e passa pela região
+              externa da íris quando o olhar está direcionado para frente.
+              Essa referência ajuda a localizar uma área onde a sobrancelha
+              pode começar a mudar de direção.
+            </p>
+
+            <p>
+              Não é necessário criar um arco alto se sua sobrancelha
+              naturalmente é mais reta. O objetivo é reconhecer a estrutura
+              existente e utilizá-la a favor do resultado.
+            </p>
+
+            <h3>Ponto final</h3>
+
+            <p>
+              Para estimar o final, imagine uma linha partindo da lateral
+              do nariz em direção ao canto externo do olho. O encontro
+              dessa linha com a região da sobrancelha oferece uma referência
+              aproximada para a cauda.
+            </p>
+
+            <figure class="lesson-step-figure">
+
+              <div
+                class="lesson-image-placeholder"
+                data-image-target="../assets/img/course/lesson-03-sobrancelhas-01.webp"
+              >
+
+                <span>IMAGEM 01</span>
+
+                <small>
+                  Mapeamento educacional da sobrancelha mostrando
+                  claramente os três pontos: início, ponto de maior
+                  elevação e final, usando linhas de referência
+                  partindo da lateral do nariz.
+                </small>
+
+              </div>
+
+              <figcaption>
+                Os três pontos ajudam a analisar a estrutura, mas devem
+                ser adaptados às características naturais de cada rosto.
+              </figcaption>
+
+            </figure>
+
+          </section>
+
+
+          <!-- 4 -->
+
+          <section id="simetria">
+
+            <h2>4. Simetria sem tentar transformar as duas em cópias</h2>
+
+            <p>
+              Um erro muito comum é tentar fazer as duas sobrancelhas
+              absolutamente idênticas. Rostos humanos apresentam assimetrias
+              naturais. Um olho pode ficar discretamente mais alto, um lado
+              do rosto pode possuir músculos mais ativos e até a direção dos
+              fios pode mudar entre uma sobrancelha e outra.
+            </p>
+
+            <p>
+              O objetivo mais realista é buscar equilíbrio. Observe se os
+              inícios possuem distância semelhante, se os pontos de maior
+              elevação conversam visualmente e se as caudas terminam em
+              posições harmoniosas.
+            </p>
+
+            <p>
+              Durante o preenchimento, alterne entre os lados. Fazer uma
+              sobrancelha inteira e somente depois começar a outra pode
+              dificultar a comparação. Trabalhar pequenos passos em ambas
+              permite corrigir diferenças antes que elas se tornem muito
+              marcadas.
+            </p>
+
+            <div class="lesson-highlight">
+              Afaste-se do espelho durante o processo. De muito perto,
+              diferenças mínimas parecem enormes. Quando você observa
+              o rosto completo, consegue avaliar melhor o equilíbrio.
+            </div>
+
+          </section>
+
+
+          <!-- 5 -->
+
+          <section id="produtos">
+
+            <h2>5. Produtos para preencher sobrancelhas</h2>
+
+            <p>
+              Existem diferentes tipos de produtos, e nenhum deles é
+              obrigatório para todas as pessoas. A escolha depende da
+              experiência, do resultado desejado e da quantidade de falhas
+              que precisam ser preenchidas.
+            </p>
+
+            <h3>Lápis</h3>
+
+            <p>
+              O lápis é prático e permite desenhar pequenos traços. Pontas
+              finas oferecem maior controle para reproduzir visualmente a
+              direção dos fios. A principal atenção deve ser a pressão:
+              apertar demais pode criar linhas muito escuras.
+            </p>
+
+            <h3>Sombra</h3>
+
+            <p>
+              Sombra específica para sobrancelhas ou uma sombra matte de
+              tonalidade adequada pode produzir acabamento suave. Ela pode
+              ser aplicada com pincel chanfrado, construindo intensidade
+              gradualmente.
+            </p>
+
+            <h3>Pomada</h3>
+
+            <p>
+              Pomadas costumam oferecer maior pigmentação e definição.
+              Como podem marcar rapidamente, use pouca quantidade no pincel
+              e retire o excesso antes de começar. Para iniciantes, é mais
+              seguro trabalhar em camadas muito finas.
+            </p>
+
+            <h3>Gel</h3>
+
+            <p>
+              Géis podem ajudar a pentear e manter os fios na direção
+              desejada. Existem versões transparentes e coloridas. Algumas
+              pessoas conseguem um ótimo resultado apenas penteando os fios
+              com gel, sem necessidade de preencher todas as regiões.
+            </p>
+
+          </section>
+
+
+          <!-- 6 -->
+
+          <section id="cor">
+
+            <h2>6. Como escolher a cor do produto</h2>
+
+            <p>
+              Uma cor muito escura pode fazer a sobrancelha dominar o rosto.
+              Para um resultado natural, observe não apenas a cor dos fios,
+              mas também a profundidade visual da maquiagem como um todo.
+            </p>
+
+            <p>
+              Em muitas situações, tons levemente menos intensos que os
+              fios produzem efeito mais suave. Produtos extremamente quentes
+              ou avermelhados também podem ficar evidentes quando a
+              sobrancelha possui aparência mais neutra ou fria.
+            </p>
+
+            <p>
+              Faça um teste em pequena área. Observe o resultado de longe e
+              em iluminação natural quando possível. A tonalidade correta é
+              aquela que ajuda a preencher sem criar uma mancha separada dos
+              fios existentes.
+            </p>
+
+          </section>
+
+
+          <!-- 7 -->
+
+          <section id="preenchimento">
+
+            <h2>7. Preenchimento passo a passo</h2>
+
+            <p>
+              Depois de observar o formato e escolher o produto, comece
+              pelas áreas que possuem falhas mais visíveis. Evite preencher
+              toda a sobrancelha automaticamente.
+            </p>
+
+            <h3>Passo 1 — penteie os fios</h3>
+
+            <p>
+              Use uma escovinha para organizar os fios. Isso revela os
+              espaços reais entre eles e impede que você pinte regiões que
+              já estavam suficientemente preenchidas.
+            </p>
+
+            <h3>Passo 2 — marque a linha inferior com leveza</h3>
+
+            <p>
+              Se precisar de mais definição, faça pequenos traços na parte
+              inferior do corpo da sobrancelha. Não crie uma linha grossa
+              contínua. Trabalhe em etapas e esfume sempre que necessário.
+            </p>
+
+            <h3>Passo 3 — preencha as falhas</h3>
+
+            <p>
+              Faça traços curtos seguindo a direção natural dos fios.
+              Próximo ao início, os movimentos podem ser mais verticais.
+              Conforme você avança para o corpo e para a cauda, acompanhe
+              a mudança de direção natural da sobrancelha.
+            </p>
+
+            <h3>Passo 4 — construa a cauda</h3>
+
+            <p>
+              A cauda pode receber um pouco mais de definição, mas evite
+              prolongá-la demais. A ponta deve ficar fina e integrada ao
+              restante do desenho.
+            </p>
+
+            <figure class="lesson-step-figure">
+
+              <div
+                class="lesson-image-placeholder"
+                data-image-target="../assets/img/course/lesson-03-sobrancelhas-02.webp"
+              >
+
+                <span>IMAGEM 02</span>
+
+                <small>
+                  Close educacional mostrando pequenos traços finos
+                  imitando fios naturais, com menor intensidade na
+                  frente e maior definição no corpo e na cauda.
+                </small>
+
+              </div>
+
+              <figcaption>
+                Traços pequenos e leves preservam a aparência dos fios
+                naturais e facilitam correções.
+              </figcaption>
+
+            </figure>
+
+          </section>
+
+
+          <!-- 8 -->
+
+          <section id="frente">
+
+            <h2>8. Como deixar a frente da sobrancelha natural</h2>
+
+            <p>
+              A frente é uma das regiões que mais denunciam um preenchimento
+              pesado. Quando a pessoa desenha uma linha vertical muito
+              definida e preenche toda a área com a mesma intensidade da
+              cauda, a sobrancelha pode adquirir aparência de bloco.
+            </p>
+
+            <p>
+              Para evitar esse efeito, utilize menos produto na parte
+              inicial. Se estiver usando pincel, trabalhe primeiro no corpo
+              e na cauda. Depois, com o pequeno resíduo restante nas cerdas,
+              faça movimentos leves na frente.
+            </p>
+
+            <p>
+              Também é possível reproduzir visualmente alguns fios com
+              traços verticais ou levemente inclinados, respeitando o
+              crescimento natural.
+            </p>
+
+            <h3>Evite linhas muito retas</h3>
+
+            <p>
+              Observe que os fios reais não formam uma borda perfeitamente
+              geométrica. Quando o contorno superior e inferior é desenhado
+              de maneira rígida em toda a extensão, o resultado pode perder
+              naturalidade.
+            </p>
+
+          </section>
+
+
+          <!-- 9 -->
+
+          <section id="acabamento">
+
+            <h2>9. Esfumado e acabamento</h2>
+
+            <p>
+              Depois de preencher, penteie novamente com a escovinha.
+              Esse movimento ajuda a distribuir o produto e suavizar
+              regiões onde a pigmentação ficou mais concentrada.
+            </p>
+
+            <p>
+              Observe de frente, de lado e de uma distância maior. Analise
+              especialmente os inícios e as caudas. Se uma sobrancelha
+              parecer mais escura, tente suavizar com a escovinha antes de
+              adicionar produto na outra.
+            </p>
+
+            <h3>Corretivo ao redor da sobrancelha</h3>
+
+            <p>
+              Algumas técnicas utilizam corretivo ao redor das bordas para
+              aumentar a definição. Isso pode funcionar em maquiagens mais
+              marcadas, mas não é obrigatório. Para um acabamento natural,
+              normalmente basta corrigir pequenas manchas caso seja
+              necessário.
+            </p>
+
+            <p>
+              Se optar por usar corretivo, utilize uma quantidade pequena
+              e esfume bem as bordas para que não fique uma faixa clara
+              destacando artificialmente toda a sobrancelha.
+            </p>
+
+            <h3>Gel para finalizar</h3>
+
+            <p>
+              Um gel pode ajudar a manter os fios organizados. Penteie
+              seguindo o formato escolhido e retire excesso do aplicador
+              antes de encostar na sobrancelha.
+            </p>
+
+            <figure class="lesson-step-figure">
+
+              <div
+                class="lesson-image-placeholder"
+                data-image-target="../assets/img/course/lesson-03-sobrancelhas-03.webp"
+              >
+
+                <span>IMAGEM 03</span>
+
+                <small>
+                  Comparação final mostrando sobrancelha preenchida,
+                  escovinha esfumando o produto e acabamento natural
+                  com fios ainda visíveis.
+                </small>
+
+              </div>
+
+              <figcaption>
+                O acabamento final deve preservar textura e direção
+                dos fios em vez de criar uma superfície chapada.
+              </figcaption>
+
+            </figure>
+
+          </section>
+
+
+          <!-- 10 -->
+
+          <section id="erros">
+
+            <h2>10. Erros comuns ao preencher as sobrancelhas</h2>
+
+            <h3>Usar muita pressão</h3>
+
+            <p>
+              Quanto maior a pressão com lápis ou pincel, mais pigmentado
+              tende a ficar o resultado. Comece com a mão leve e aumente
+              apenas onde for necessário.
+            </p>
+
+            <h3>Escurecer demais a frente</h3>
+
+            <p>
+              O início costuma ficar mais bonito com menor concentração de
+              produto. Uma frente extremamente escura pode pesar a expressão.
+            </p>
+
+            <h3>Aumentar demais a espessura</h3>
+
+            <p>
+              Pequenos ajustes podem ser feitos, mas desenhar muito além
+              dos fios naturais exige maior habilidade e pode alterar
+              bastante as proporções do rosto.
+            </p>
+
+            <h3>Alongar excessivamente a cauda</h3>
+
+            <p>
+              Uma cauda muito longa e descendente pode mudar a leitura do
+              olhar. Utilize o ponto de referência como guia e observe o
+              conjunto do rosto antes de prolongar o desenho.
+            </p>
+
+            <h3>Escolher uma cor muito escura</h3>
+
+            <p>
+              Uma tonalidade intensa demais pode criar contraste exagerado.
+              Teste pequenas quantidades antes de preencher toda a região.
+            </p>
+
+            <h3>Tentar corrigir uma sobrancelha acrescentando produto na outra</h3>
+
+            <p>
+              Esse é um ciclo comum. Uma fica um pouco maior, então você
+              aumenta a outra; depois a segunda fica mais escura e você
+              adiciona mais produto na primeira. Quando perceber diferença,
+              tente primeiro remover ou suavizar o excesso.
+            </p>
+
+            <h3>Não esfumar</h3>
+
+            <p>
+              Mesmo um produto bem aplicado pode ficar artificial quando
+              permanece concentrado em uma única região. A escovinha é uma
+              ferramenta simples, mas extremamente útil para integrar
+              pigmento e fios.
+            </p>
+
+          </section>
+
+
+          <!-- 11 -->
+
+          <section id="higiene">
+
+            <h2>11. Higiene e cuidados</h2>
+
+            <p>
+              Ferramentas utilizadas nas sobrancelhas também precisam ser
+              mantidas limpas. Escovinhas, pinças e pincéis acumulam
+              resíduos de maquiagem, oleosidade e contato com a pele.
+            </p>
+
+            <ul>
+              <li>Mantenha pincéis limpos e completamente secos antes de guardá-los.</li>
+              <li>Evite compartilhar produtos que entram em contato direto com a pele.</li>
+              <li>Mantenha lápis e pomadas devidamente fechados.</li>
+              <li>Observe alterações incomuns de cheiro, textura ou aparência.</li>
+              <li>Não use ferramentas sujas em áreas irritadas ou lesionadas.</li>
+              <li>Não tente remover profundamente pelos encravados ou lesões por conta própria.</li>
+              <li>Interrompa o uso de cosméticos que provoquem reação importante.</li>
+            </ul>
+
+            <div class="lesson-warning">
+              <strong>Atenção:</strong> esta aula ensina maquiagem e
+              preenchimento visual. Procedimentos que envolvam alterações
+              permanentes, lesões de pele ou reações importantes exigem
+              avaliação adequada por profissional qualificado.
+            </div>
+
+          </section>
+
+
+          <!-- PRÁTICA -->
+
+          <section id="pratica">
+
+            <h2>Exercício prático</h2>
+
+            <p>
+              Para praticar, faça primeiro apenas uma correção leve. Penteie
+              os fios, observe as falhas e escolha no máximo três pequenas
+              regiões para preencher.
+            </p>
+
+            <p>
+              Quando terminar, tire uma foto de frente em iluminação
+              neutra. Depois retire parte do produto e refaça utilizando
+              menos pressão. Compare os resultados. Esse exercício ajuda a
+              desenvolver percepção de quantidade.
+            </p>
+
+            <p>
+              Em seguida, treine os traços que imitam fios. Em vez de
+              desenhar diretamente na sobrancelha, você pode praticar
+              movimentos rápidos e leves no dorso da mão ou em uma folha.
+              O objetivo é aprender a controlar começo, direção e final do
+              movimento.
+            </p>
+
+            <p>
+              A coordenação melhora com repetição. Não espere simetria
+              absoluta logo nas primeiras tentativas. Concentre-se primeiro
+              em aprender a controlar intensidade, direção e quantidade.
+            </p>
+
+          </section>
+
+
+          <!-- VIDEO -->
+
+          <section class="lesson-video-section">
+
+            <h2>Vídeo complementar da aula</h2>
+
+            <p>
+              Este espaço está preparado para receber o vídeo prático
+              específico sobre design e preenchimento de sobrancelhas.
+            </p>
+
+            <div
+              class="lesson-video-placeholder"
+              data-video-topic="Design de sobrancelhas para iniciantes e mapeamento"
+            >
+
+              <div>
+
+                <span>▶</span>
+
+                <strong>
+                  Vídeo — Design de Sobrancelhas
+                </strong>
+
+                <small>
+                  Área preparada para incorporação do vídeo desta aula.
+                </small>
+
+              </div>
+
+            </div>
+
+          </section>
+
+
+          <!-- RESUMO -->
+
+          <section>
+
+            <h2>Resumo da Aula 03</h2>
+
+            <p>
+              Nesta aula você aprendeu que design de sobrancelhas começa
+              pela observação e não pelo desenho. Antes de adicionar
+              produto, precisamos compreender início, corpo, arco e cauda,
+              além da direção natural dos fios.
+            </p>
+
+            <p>
+              O mapeamento fornece pontos de referência úteis para analisar
+              início, maior elevação e final da sobrancelha, mas essas
+              referências devem ser adaptadas ao rosto. O objetivo não é
+              fabricar sobrancelhas idênticas, e sim construir equilíbrio.
+            </p>
+
+            <p>
+              Também vimos como escolher entre lápis, sombra, pomada e gel,
+              por que uma tonalidade exageradamente escura pode pesar a
+              expressão e como pequenos traços seguindo a direção dos fios
+              criam um resultado mais natural.
+            </p>
+
+            <p>
+              A parte inicial deve receber menos pigmentação, enquanto o
+              corpo e a cauda podem ter um pouco mais de definição. Depois
+              do preenchimento, a escovinha ajuda a distribuir produto e
+              integrar os fios.
+            </p>
+
+            <p>
+              Nas próximas aulas vamos trabalhar elementos que aumentam
+              ainda mais a definição do olhar. Na Aula 04, você aprenderá
+              como medir, ajustar, aplicar e remover cílios postiços com
+              cuidado.
+            </p>
+
+          </section>
+
+
+          <!-- APOIO -->
+
+          <div class="lesson-support-grid">
+
+            <div class="lesson-support-card">
+
+              <strong>Observe primeiro</strong>
+
+              <p>
+                Identifique as falhas antes de começar a adicionar
+                produto.
+              </p>
+
+            </div>
+
+
+            <div class="lesson-support-card">
+
+              <strong>Mão leve</strong>
+
+              <p>
+                Pequenos traços são mais fáceis de corrigir do que
+                linhas muito escuras.
+              </p>
+
+            </div>
+
+
+            <div class="lesson-support-card">
+
+              <strong>Esfume sempre</strong>
+
+              <p>
+                A escovinha ajuda a integrar pigmento e fios para
+                um acabamento mais natural.
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <!-- CONCLUSÃO -->
+
+          <div class="mark-complete">
+
+            <button
+              class="btn btn-primary"
+              type="button"
+              data-mark-complete="lesson-03"
+              aria-pressed="false"
+            >
+              Marcar aula como concluída
+            </button>
+
+            <p class="lesson-complete-message"></p>
+
+          </div>
+
+        </article>
+
+
+        <!-- ================================================
+             NAVEGAÇÃO
+        ================================================= -->
+
+        <nav
+          class="lesson-nav"
+          aria-label="Navegação entre aulas"
+        >
+
+          <a
+            href="lesson-02-preparacao-de-pele.html"
+            class="btn btn-secondary"
+          >
+            ← Aula anterior: Preparação de Pele
+          </a>
+
+
+          <a
+            href="lesson-04-cilios-posticos.html"
+            class="btn btn-primary"
+          >
+            Próxima aula: Cílios Postiços →
+          </a>
+
+        </nav>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</main>
+
+
+<footer class="site-footer">
+
+  <div class="footer-decor footer-decor-left"></div>
+  <div class="footer-decor footer-decor-right"></div>
+
+
+  <div class="container footer-grid">
+
+
+    <div class="footer-brand">
+
+      <a href="../index.html" class="footer-logo">
+        <span class="footer-lipstick">♟</span>
+        <span>Beleza em Foco</span>
+      </a>
+
+      <p>
+        Seu portal completo sobre maquiagem,
+        beleza e autocuidado. Inspiração diária
+        para realçar sua beleza única.
+      </p>
+
+      <div class="footer-social">
+        <a href="#" aria-label="Instagram">◎</a>
+        <a href="#" aria-label="YouTube">▶</a>
+        <a href="#" aria-label="Pinterest">ⓟ</a>
+        <a href="#" aria-label="TikTok">♪</a>
+        <a href="#" aria-label="Facebook">f</a>
+      </div>
+
+    </div>
+
+
+    <div class="footer-column">
+
+      <h2>Navegação</h2>
+
+      <ul>
+        <li><a href="../index.html">Início</a></li>
+        <li><a href="../artigos.html">Artigos</a></li>
+        <li><a href="../courses.html">Tutoriais</a></li>
+        <li><a href="../categorias.html">Categorias</a></li>
+        <li><a href="mailto:juarezimoveispronto@hotmail.com">Contato</a></li>
+      </ul>
+
+    </div>
+
+
+    <div class="footer-column">
+
+      <h2>Institucional</h2>
+
+      <ul>
+        <li><a href="../about.html">Sobre Nós</a></li>
+        <li><a href="../privacy.html">Política de Privacidade</a></li>
+        <li><a href="../cookies.html">Política de Cookies</a></li>
+        <li><a href="../terms.html">Termos de Uso</a></li>
+        <li><a href="../editorial-policy.html">Política Editorial</a></li>
+      </ul>
+
+    </div>
+
+
+    <div class="footer-newsletter">
+
+      <h2>Newsletter</h2>
+
+      <p>
+        Receba dicas exclusivas e novidades
+        direto no seu e-mail!
+      </p>
+
+
+      <form id="newsletter-form" novalidate>
+
+        <label
+          class="sr-only"
+          for="newsletter-email"
+        >
+          Seu melhor e-mail
+        </label>
+
+
+        <div class="newsletter-form-row">
+
+          <input
+            type="email"
+            id="newsletter-email"
+            placeholder="Seu melhor e-mail"
+            required
+          >
+
+          <button type="submit">
+            Inscrever-se
+          </button>
+
+        </div>
+
+
+        <p
+          class="newsletter-feedback"
+          id="newsletter-feedback"
+          aria-live="polite"
+        ></p>
+
+      </form>
+
+    </div>
+
+
+    <div class="footer-quote">
+      <span>Beleza começa</span>
+      <span>quando você</span>
+      <span>se escolhe! <b>♥</b></span>
+    </div>
+
+  </div>
+
+
+  <div class="footer-bottom">
+
+    <div class="container footer-bottom-inner">
+
+      <p>
+        © 2026 Beleza em Foco. Todos os direitos reservados.
+      </p>
+
+      <p class="footer-love">
+        Feito com <span>♥</span> para realçar a sua beleza!
+      </p>
+
+    </div>
+
+  </div>
+
+
+  <div class="developer-credit">
+
+    Desenvolvido por
+
+    <a
+      href="https://dfc-black.vercel.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      DFC — Digital Future Company
+    </a>
+
+  </div>
+
+</footer>
+
+
+<div
+  class="cookie-banner"
+  id="cookie-banner"
+  role="dialog"
+  aria-label="Preferências de cookies"
+  hidden
+>
+
+  <div class="cookie-content">
+
+    <div>
+
+      <strong>
+        Privacidade e cookies
+      </strong>
+
+      <p>
+        Usamos cookies para melhorar sua experiência,
+        analisar o uso do site e preparar recursos de publicidade.
+      </p>
+
+      <a href="../cookies.html">
+        Política de Cookies
+      </a>
+
+    </div>
+
+
+    <div class="cookie-actions">
+
+      <button
+        type="button"
+        class="cookie-settings"
+        id="cookie-settings"
+      >
+        Configurar
+      </button>
+
+      <button
+        type="button"
+        class="cookie-reject"
+        id="cookie-reject"
+      >
+        Rejeitar não essenciais
+      </button>
+
+      <button
+        type="button"
+        class="cookie-accept"
+        id="cookie-accept"
+      >
+        Aceitar
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,1416 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Beleza em Foco | Maquiagem, Autocuidado e Confiança</title>
+
+  <meta
+    name="description"
+    content="Beleza em Foco: dicas de maquiagem, tutoriais passo a passo, autocuidado, produtos e inspirações para realçar sua beleza."
+  >
+
+  <meta name="theme-color" content="#ff0f68">
+
+  <link rel="canonical" href="https://seudominio.com/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Beleza em Foco">
+  <meta
+    property="og:description"
+    content="Maquiagem, autocuidado e confiança. Tutoriais, artigos e inspirações para todos os estilos."
+  >
+  <meta property="og:url" content="https://seudominio.com/">
+  <meta property="og:image" content="assets/img/hero-maquiagem.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Beleza em Foco">
+  <meta
+    name="twitter:description"
+    content="Maquiagem, autocuidado e confiança."
+  >
+  <meta name="twitter:image" content="assets/img/hero-maquiagem.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@500;600;700;800;900&family=Playfair+Display:ital,wght@1,700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <script src="js/main.js" defer></script>
+  <script src="js/search.js" defer></script>
+  <script src="js/favorites.js" defer></script>
+  <script src="js/articles.js" defer></script>
+  <script src="js/consent.js" defer></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Beleza em Foco",
+    "url": "https://seudominio.com/",
+    "description": "Portal brasileiro sobre maquiagem, autocuidado e confiança.",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://seudominio.com/buscar.html?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+
+<link rel="stylesheet" href="css/lipstick3d.css">
+</head>
+
+<body>
+
+  <a class="skip-link" href="#conteudo-principal">
+    Ir para o conteúdo principal
+  </a>
+
+  <!-- =====================================================
+       BARRA SUPERIOR
+  ====================================================== -->
+
+  <div class="top-utility">
+    <div class="container utility-inner">
+
+      <nav class="utility-links" aria-label="Links rápidos">
+        <a href="artigos.html">
+          <span aria-hidden="true">★</span>
+          <span>Dicas</span>
+        </a>
+
+        <a href="courses.html">
+          <span aria-hidden="true">♥</span>
+          <span>Tutoriais</span>
+        </a>
+
+        <a href="artigos.html?categoria=produtos">
+          <span aria-hidden="true">🎁</span>
+          <span>Produtos</span>
+        </a>
+
+        <a href="artigos.html?categoria=inspiracoes">
+          <span aria-hidden="true">✣</span>
+          <span>Inspirações</span>
+        </a>
+      </nav>
+
+      <div class="utility-social" aria-label="Redes sociais">
+        <a href="#" aria-label="Instagram">
+          <span class="social-letter">◎</span>
+        </a>
+
+        <a href="#" aria-label="YouTube">
+          <span class="social-letter">▶</span>
+        </a>
+
+        <a href="#" aria-label="Pinterest">
+          <span class="social-letter">ⓟ</span>
+        </a>
+
+        <a href="#" aria-label="TikTok">
+          <span class="social-letter">♪</span>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- =====================================================
+       HEADER PRINCIPAL
+  ====================================================== -->
+
+  <header class="site-header">
+    <div class="container header-inner">
+
+      <a
+        href="index.html"
+        class="brand"
+        aria-label="Beleza em Foco - Página inicial"
+      >
+        <div class="brand-icon" aria-hidden="true">
+          <span class="lipstick lipstick-one"></span>
+          <span class="lipstick lipstick-two"></span>
+        </div>
+
+        <div class="brand-copy">
+          <span class="brand-name">Beleza em Foco</span>
+
+          <span class="brand-tagline">
+            MAQUIAGEM • AUTOCUIDADO • CONFIANÇA
+          </span>
+        </div>
+      </a>
+
+
+      <form
+        class="header-search"
+        id="header-search-form"
+        action="buscar.html"
+        method="get"
+        role="search"
+      >
+        <label class="sr-only" for="header-search-input">
+          Buscar no site
+        </label>
+
+        <input
+          id="header-search-input"
+          name="q"
+          type="search"
+          placeholder="Buscar artigos, tutoriais, produtos..."
+          autocomplete="off"
+        >
+
+        <button type="submit" aria-label="Pesquisar">
+          <span class="search-icon" aria-hidden="true"></span>
+        </button>
+
+        <div
+          class="search-suggestions"
+          id="search-suggestions"
+          aria-live="polite"
+        ></div>
+      </form>
+
+
+      <div class="header-actions">
+
+        <a href="courses.html" class="header-action courses-button">
+          <span aria-hidden="true">♛</span>
+          <span>Meus Cursos</span>
+        </a>
+
+        <a
+          href="artigos.html?favoritos=1"
+          class="header-action favorites-button"
+        >
+          <span aria-hidden="true">★</span>
+          <span>Favoritos (<strong id="favorites-count">0</strong>)</span>
+        </a>
+
+      </div>
+
+
+      <button
+        class="mobile-menu-toggle"
+        id="mobile-menu-toggle"
+        type="button"
+        aria-label="Abrir menu"
+        aria-controls="main-navigation"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+  </header>
+
+
+  <!-- =====================================================
+       NAVEGAÇÃO PRINCIPAL
+  ====================================================== -->
+
+  <nav
+    class="main-navigation"
+    id="main-navigation"
+    aria-label="Navegação principal"
+  >
+    <div class="container nav-inner">
+
+      <ul class="main-menu">
+
+        <li>
+          <a href="index.html" class="nav-link nav-home active">
+            <span aria-hidden="true">⌂</span>
+            INÍCIO
+          </a>
+        </li>
+
+
+        <li class="has-dropdown">
+
+          <button
+            class="nav-dropdown-button"
+            type="button"
+            aria-expanded="false"
+          >
+            ARTIGOS
+            <span class="dropdown-chevron" aria-hidden="true">⌄</span>
+          </button>
+
+          <div class="dropdown-menu">
+
+            <a href="artigos.html?categoria=iniciantes">
+              Maquiagem para iniciantes
+            </a>
+
+            <a href="artigos.html?categoria=pele">
+              Pele
+            </a>
+
+            <a href="artigos.html?categoria=olhos">
+              Olhos
+            </a>
+
+            <a href="artigos.html?categoria=sobrancelhas">
+              Sobrancelhas
+            </a>
+
+            <a href="artigos.html?categoria=cilios">
+              Cílios
+            </a>
+
+            <a href="artigos.html?categoria=labios">
+              Lábios
+            </a>
+
+            <a href="artigos.html?categoria=artistica">
+              Maquiagem artística
+            </a>
+
+            <a href="artigos.html?categoria=drag">
+              Drag Queen
+            </a>
+
+            <a href="artigos.html?categoria=produtos">
+              Produtos e ferramentas
+            </a>
+
+          </div>
+
+        </li>
+
+
+        <li class="has-dropdown">
+
+          <button
+            class="nav-dropdown-button"
+            type="button"
+            aria-expanded="false"
+          >
+            TUTORIAIS
+            <span class="dropdown-chevron" aria-hidden="true">⌄</span>
+          </button>
+
+          <div class="dropdown-menu">
+
+            <a href="course/lesson-01-maquiagem-para-iniciantes.html">
+              Maquiagem básica
+            </a>
+
+            <a href="courses.html">
+              Maquiagem social
+            </a>
+
+            <a href="course/lesson-05-maquiagem-glam.html">
+              Maquiagem glam
+            </a>
+
+            <a href="artigos.html?categoria=olhos">
+              Olhos
+            </a>
+
+            <a href="course/lesson-02-preparacao-de-pele.html">
+              Pele
+            </a>
+
+            <a href="course/lesson-04-cilios-posticos.html">
+              Cílios
+            </a>
+
+            <a href="course/lesson-03-design-de-sobrancelhas.html">
+              Sobrancelhas
+            </a>
+
+          </div>
+
+        </li>
+
+
+        <li>
+          <a href="artigos.html?categoria=produtos" class="nav-link">
+            PRODUTOS
+          </a>
+        </li>
+
+
+        <li>
+          <a href="about.html" class="nav-link">
+            SOBRE NÓS
+          </a>
+        </li>
+
+
+        <li>
+          <a href="mailto:juarezimoveispronto@hotmail.com" class="nav-link">
+            CONTATO
+          </a>
+        </li>
+
+      </ul>
+
+
+      <a href="artigos.html" class="articles-counter">
+        <span aria-hidden="true">▥</span>
+        <strong>50 ARTIGOS</strong>
+      </a>
+
+    </div>
+  </nav>
+
+
+  <!-- =====================================================
+       HERO
+  ====================================================== -->
+
+  <main id="conteudo-principal">
+
+    <section class="hero">
+
+      <div class="hero-background-glow hero-glow-left"></div>
+      <div class="hero-background-glow hero-glow-right"></div>
+
+      <div class="container hero-inner">
+
+        <div class="hero-copy">
+
+          <h1>
+            Realce sua beleza.
+            <span>Revele sua melhor versão!</span>
+          </h1>
+
+          <p>
+            Dicas práticas, tutoriais passo a passo e inspirações
+            para você arrasar em qualquer ocasião.
+          </p>
+
+          <div class="hero-buttons">
+
+            <a href="#artigos-destaque" class="btn btn-primary">
+              <span aria-hidden="true">🚀</span>
+              Explorar Artigos
+            </a>
+
+            <a href="courses.html" class="btn btn-light">
+              <span aria-hidden="true">▶</span>
+              Ver Tutoriais
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <div class="hero-model">
+
+          <img
+            src="assets/img/hero-maquiagem.png"
+            width="760"
+            height="500"
+            alt="Mulher com maquiagem glam aplicando blush"
+            fetchpriority="high"
+          >
+
+        </div>
+
+
+        <div class="hero-features">
+
+          <div class="hero-feature">
+
+            <div class="hero-feature-icon feature-pink">
+              <span aria-hidden="true">🎓</span>
+            </div>
+
+            <div>
+              <strong>Tutoriais</strong>
+              <span>Passo a passo<br>completo</span>
+            </div>
+
+          </div>
+
+
+          <div class="hero-feature">
+
+            <div class="hero-feature-icon feature-purple">
+              <span aria-hidden="true">💡</span>
+            </div>
+
+            <div>
+              <strong>Inspirações</strong>
+              <span>Ideias para todos<br>os estilos</span>
+            </div>
+
+          </div>
+
+
+          <div class="hero-feature">
+
+            <div class="hero-feature-icon feature-orange">
+              <span aria-hidden="true">♥</span>
+            </div>
+
+            <div>
+              <strong>Autocuidado</strong>
+              <span>Cuide de você,<br>sempre!</span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         ÁREA PRINCIPAL
+    ==================================================== -->
+
+    <section class="home-content">
+
+      <div class="container home-layout">
+
+        <!-- COLUNA DOS ARTIGOS -->
+
+        <div class="featured-content" id="artigos-destaque">
+
+          <div class="section-heading-row">
+
+            <div class="section-title">
+              <span class="section-title-icon" aria-hidden="true">🔥</span>
+
+              <div>
+                <h2>Todos os Artigos</h2>
+                <span class="title-line"></span>
+              </div>
+            </div>
+
+            <a href="artigos.html" class="view-all-button">
+              50 artigos para você explorar
+              <span aria-hidden="true">→</span>
+            </a>
+
+          </div>
+
+
+          <div class="article-grid">
+
+
+            <!-- ARTIGO 01 -->
+
+            <article
+              class="article-card"
+              data-category="olhos"
+              data-article-id="01"
+            >
+
+              <a
+                href="articles/como-fazer-delineado-gatinho-para-iniciantes.html"
+                class="article-image-link"
+              >
+
+                <div class="article-image-wrapper">
+
+                  <img
+                    src="assets/img/articles/21-delineado-para-iniciantes-capa.webp"
+                    alt="Olho maquiado com delineado preto"
+                    width="520"
+                    height="300"
+                    loading="lazy"
+                  >
+
+                  <span class="article-number">01</span>
+
+                  <span class="article-category">
+                    MAQUIAGEM DOS OLHOS
+                  </span>
+
+                </div>
+
+              </a>
+
+
+              <div class="article-card-body">
+
+                <button
+                  class="favorite-toggle"
+                  type="button"
+                  data-favorite-id="01"
+                  aria-label="Adicionar artigo aos favoritos"
+                >
+                  ♡
+                </button>
+
+                <h3>
+                  <a href="articles/como-fazer-delineado-gatinho-para-iniciantes.html">
+                    Delineado Perfeito: Do Básico ao Gatinho Profissional
+                  </a>
+                </h3>
+
+                <p>
+                  Aprenda técnicas infalíveis para fazer o delineado
+                  perfeito e valorizar seu olhar.
+                </p>
+
+              </div>
+
+
+              <div class="article-meta">
+
+                <span>
+                  <span aria-hidden="true">▣</span>
+                  15/05/2024
+                </span>
+
+                <span>
+                  <span aria-hidden="true">◷</span>
+                  8 min
+                </span>
+
+                <span>
+                  <span aria-hidden="true">☵</span>
+                  12
+                </span>
+
+              </div>
+
+            </article>
+
+
+            <!-- ARTIGO 02 -->
+
+            <article
+              class="article-card"
+              data-category="pele"
+              data-article-id="02"
+            >
+
+              <a
+                href="articles/como-preparar-a-pele-antes-da-maquiagem.html"
+                class="article-image-link"
+              >
+
+                <div class="article-image-wrapper">
+
+                  <img
+                    src="assets/img/articles/02-preparacao-de-pele-capa.webp"
+                    alt="Mulher com pele preparada para maquiagem"
+                    width="520"
+                    height="300"
+                    loading="lazy"
+                  >
+
+                  <span class="article-number">02</span>
+
+                  <span class="article-category">
+                    PELE
+                  </span>
+
+                </div>
+
+              </a>
+
+
+              <div class="article-card-body">
+
+                <button
+                  class="favorite-toggle"
+                  type="button"
+                  data-favorite-id="02"
+                  aria-label="Adicionar artigo aos favoritos"
+                >
+                  ♡
+                </button>
+
+                <h3>
+                  <a href="articles/como-preparar-a-pele-antes-da-maquiagem.html">
+                    Pele Impecável: Guia Completo de Preparação
+                  </a>
+                </h3>
+
+                <p>
+                  Passo a passo para preparar a pele antes da maquiagem
+                  e garantir um acabamento perfeito.
+                </p>
+
+              </div>
+
+
+              <div class="article-meta">
+
+                <span>
+                  <span aria-hidden="true">▣</span>
+                  13/05/2024
+                </span>
+
+                <span>
+                  <span aria-hidden="true">◷</span>
+                  10 min
+                </span>
+
+                <span>
+                  <span aria-hidden="true">☵</span>
+                  18
+                </span>
+
+              </div>
+
+            </article>
+
+
+            <!-- ARTIGO 03 -->
+
+            <article
+              class="article-card"
+              data-category="produtos"
+              data-article-id="03"
+            >
+
+              <a
+                href="articles/kit-de-maquiagem-para-iniciantes.html"
+                class="article-image-link"
+              >
+
+                <div class="article-image-wrapper">
+
+                  <img
+                    src="assets/img/articles/36-pinceis-de-maquiagem-guia-completo-capa.webp"
+                    alt="Pincéis e produtos de maquiagem"
+                    width="520"
+                    height="300"
+                    loading="lazy"
+                  >
+
+                  <span class="article-number">03</span>
+
+                  <span class="article-category">
+                    PRODUTOS
+                  </span>
+
+                </div>
+
+              </a>
+
+
+              <div class="article-card-body">
+
+                <button
+                  class="favorite-toggle"
+                  type="button"
+                  data-favorite-id="03"
+                  aria-label="Adicionar artigo aos favoritos"
+                >
+                  ♡
+                </button>
+
+                <h3>
+                  <a href="articles/kit-de-maquiagem-para-iniciantes.html">
+                    Pincéis de Maquiagem: Para Que Serve Cada Um?
+                  </a>
+                </h3>
+
+                <p>
+                  Guia completo dos pincéis essenciais e como usar
+                  cada um corretamente.
+                </p>
+
+              </div>
+
+
+              <div class="article-meta">
+
+                <span>
+                  <span aria-hidden="true">▣</span>
+                  10/05/2024
+                </span>
+
+                <span>
+                  <span aria-hidden="true">◷</span>
+                  9 min
+                </span>
+
+                <span>
+                  <span aria-hidden="true">☵</span>
+                  15
+                </span>
+
+              </div>
+
+            </article>
+
+
+            <!-- ARTIGO 04 -->
+
+            <article
+              class="article-card"
+              data-category="labios"
+              data-article-id="04"
+            >
+
+              <a
+                href="articles/como-aplicar-batom-perfeitamente.html"
+                class="article-image-link"
+              >
+
+                <div class="article-image-wrapper">
+
+                  <img
+                    src="assets/img/articles/como-aplicar-batom-perfeitamente-capa.png"
+                    alt="Mulher usando batom vermelho"
+                    width="520"
+                    height="300"
+                    loading="lazy"
+                  >
+
+                  <span class="article-number">04</span>
+
+                  <span class="article-category">
+                    LÁBIOS
+                  </span>
+
+                </div>
+
+              </a>
+
+
+              <div class="article-card-body">
+
+                <button
+                  class="favorite-toggle"
+                  type="button"
+                  data-favorite-id="04"
+                  aria-label="Adicionar artigo aos favoritos"
+                >
+                  ♡
+                </button>
+
+                <h3>
+                  <a href="articles/como-aplicar-batom-perfeitamente.html">
+                    Batons que Valorizam: Cores para Cada Tom de Pele
+                  </a>
+                </h3>
+
+                <p>
+                  Descubra as cores de batom que mais combinam com
+                  você e arrase sempre!
+                </p>
+
+              </div>
+
+
+              <div class="article-meta">
+
+                <span>
+                  <span aria-hidden="true">▣</span>
+                  08/05/2024
+                </span>
+
+                <span>
+                  <span aria-hidden="true">◷</span>
+                  7 min
+                </span>
+
+                <span>
+                  <span aria-hidden="true">☵</span>
+                  11
+                </span>
+
+              </div>
+
+            </article>
+
+          </div>
+
+
+          <!-- ARTIGOS ADICIONAIS -->
+
+          <div
+            class="additional-articles"
+            id="additional-articles"
+            hidden
+          >
+
+            <article class="mini-article-card">
+              <a href="articles/maquiagem-para-iniciantes-guia-completo.html">
+                <strong>
+                  Maquiagem para Iniciantes: Guia Completo Passo a Passo
+                </strong>
+                <span>INICIANTES</span>
+              </a>
+            </article>
+
+            <article class="mini-article-card">
+              <a href="articles/como-aplicar-mascara-de-cilios-corretamente.html">
+                <strong>
+                  Como Aplicar Cílios Postiços Passo a Passo
+                </strong>
+                <span>CÍLIOS</span>
+              </a>
+            </article>
+
+            <article class="mini-article-card">
+              <a href="articles/como-aplicar-sombra-nos-olhos.html">
+                <strong>
+                  Sombra para Iniciantes: Guia Completo
+                </strong>
+                <span>OLHOS</span>
+              </a>
+            </article>
+
+            <article class="mini-article-card">
+              <a href="articles/maquiagem-para-a-noite-guia-completo.html">
+                <strong>
+                  Maquiagem Glam Profissional Passo a Passo
+                </strong>
+                <span>GLAM</span>
+              </a>
+            </article>
+
+          </div>
+
+
+          <button
+            type="button"
+            class="load-more-button"
+            id="load-more-articles"
+          >
+            <span aria-hidden="true">⟳</span>
+            Carregar mais artigos
+          </button>
+
+
+          <!-- =================================================
+               BENEFÍCIOS
+          ================================================== -->
+
+          <section
+            class="trust-strip"
+            aria-label="Benefícios do Beleza em Foco"
+          >
+
+            <article class="trust-item">
+
+              <div class="trust-icon trust-pink">
+                <span aria-hidden="true">◇</span>
+              </div>
+
+              <div>
+                <strong>Conteúdo de Qualidade</strong>
+                <span>Informações confiáveis<br>e atualizadas</span>
+              </div>
+
+            </article>
+
+
+            <article class="trust-item">
+
+              <div class="trust-icon trust-purple">
+                <span aria-hidden="true">♡</span>
+              </div>
+
+              <div>
+                <strong>Feito com Amor</strong>
+                <span>Cada artigo pensado<br>para você</span>
+              </div>
+
+            </article>
+
+
+            <article class="trust-item">
+
+              <div class="trust-icon trust-orange">
+                <span aria-hidden="true">♢</span>
+              </div>
+
+              <div>
+                <strong>Seguro e Confiável</strong>
+                <span>Site protegido e privacidade<br>garantida</span>
+              </div>
+
+            </article>
+
+
+            <article class="trust-item">
+
+              <div class="trust-icon trust-pink">
+                <span aria-hidden="true">☺</span>
+              </div>
+
+              <div>
+                <strong>Comunidade</strong>
+                <span>Mulheres compartilhando<br>beleza</span>
+              </div>
+
+            </article>
+
+          </section>
+
+        </div>
+
+
+        <!-- =================================================
+             SIDEBAR
+        ================================================== -->
+
+        <aside class="home-sidebar">
+
+          <!-- SIGA-NOS -->
+
+          
+<section class="sidebar-section lipstick-showcase" aria-label="Batom 3D interativo">
+  <div class="lipstick-copy"><span>BELEZA EM MOVIMENTO</span><strong>Experimente</strong></div>
+  <button class="lipstick3d" id="lipstick3d" type="button" aria-label="Abrir ou fechar batom 3D" aria-pressed="false">
+    <span class="lipstick3d-scene">
+      <span class="lipstick3d-shadow"></span>
+      <span class="lipstick3d-body">
+        <span class="lipstick3d-stick"></span>
+        <span class="lipstick3d-neck"></span>
+        <span class="lipstick3d-base"></span>
+      </span>
+      <span class="lipstick3d-cap"></span>
+    </span>
+  </button>
+  <span class="lipstick3d-hint">Passe o mouse • clique para abrir</span>
+</section>
+<section class="sidebar-section categories-section">
+
+            <div class="sidebar-heading">
+              <span aria-hidden="true">▰</span>
+              <h2>Categorias</h2>
+            </div>
+
+            <ul class="category-list">
+
+              <li>
+                <a href="artigos.html?categoria=olhos">
+                  <span class="category-left">
+                    <span class="category-icon">◉</span>
+                    Maquiagem dos Olhos
+                  </span>
+
+                  <span class="category-count">12</span>
+                </a>
+              </li>
+
+
+              <li>
+                <a href="artigos.html?categoria=pele">
+                  <span class="category-left">
+                    <span class="category-icon">◇</span>
+                    Pele e Cuidados
+                  </span>
+
+                  <span class="category-count">10</span>
+                </a>
+              </li>
+
+
+              <li>
+                <a href="artigos.html?categoria=labios">
+                  <span class="category-left">
+                    <span class="category-icon">◆</span>
+                    Lábios
+                  </span>
+
+                  <span class="category-count">8</span>
+                </a>
+              </li>
+
+
+              <li>
+                <a href="courses.html">
+                  <span class="category-left">
+                    <span class="category-icon">▣</span>
+                    Tutoriais
+                  </span>
+
+                  <span class="category-count">9</span>
+                </a>
+              </li>
+
+
+              <li>
+                <a href="artigos.html?categoria=produtos">
+                  <span class="category-left">
+                    <span class="category-icon">♙</span>
+                    Produtos
+                  </span>
+
+                  <span class="category-count">7</span>
+                </a>
+              </li>
+
+
+              <li>
+                <a href="artigos.html?categoria=cabelos">
+                  <span class="category-left">
+                    <span class="category-icon">♟</span>
+                    Cabelos e Penteados
+                  </span>
+
+                  <span class="category-count">4</span>
+                </a>
+              </li>
+
+            </ul>
+
+
+            <a href="categorias.html" class="all-categories-button">
+              Explorar todas as categorias
+              <span aria-hidden="true">→</span>
+            </a>
+
+          </section>
+
+        </aside>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- =====================================================
+       FOOTER
+  ====================================================== -->
+
+  <footer class="site-footer">
+
+    <div class="footer-decor footer-decor-left"></div>
+    <div class="footer-decor footer-decor-right"></div>
+
+    <div class="container footer-grid">
+
+      <!-- MARCA -->
+
+      <div class="footer-brand">
+
+        <a href="index.html" class="footer-logo">
+          <span class="footer-lipstick">♟</span>
+          <span>Beleza em Foco</span>
+        </a>
+
+        <p>
+          Seu portal completo sobre maquiagem,<br>
+          beleza e autocuidado. Inspiração diária<br>
+          para realçar sua beleza única.
+        </p>
+
+        <div class="footer-social">
+
+          <a href="#" aria-label="Instagram">◎</a>
+          <a href="#" aria-label="YouTube">▶</a>
+          <a href="#" aria-label="Pinterest">ⓟ</a>
+          <a href="#" aria-label="TikTok">♪</a>
+          <a href="#" aria-label="Facebook">f</a>
+
+        </div>
+
+      </div>
+
+
+      <!-- NAVEGAÇÃO -->
+
+      <div class="footer-column">
+
+        <h2>Navegação</h2>
+
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="artigos.html">Artigos</a></li>
+          <li><a href="courses.html">Tutoriais</a></li>
+          <li><a href="mailto:juarezimoveispronto@hotmail.com">Contato</a></li>
+        </ul>
+
+      </div>
+
+
+      <!-- INSTITUCIONAL -->
+
+      <div class="footer-column">
+
+        <h2>Institucional</h2>
+
+        <ul>
+          <li><a href="about.html">Sobre Nós</a></li>
+          <li><a href="privacy.html">Política de Privacidade</a></li>
+          <li><a href="terms.html">Termos de Uso</a></li>
+          <li><a href="cookies.html">Política de Cookies</a></li>
+        </ul>
+
+      </div>
+
+
+      <!-- NEWSLETTER -->
+
+      <div class="footer-newsletter" id="newsletter">
+
+        <h2>Newsletter</h2>
+
+        <p>
+          Receba dicas exclusivas e novidades<br>
+          direto no seu e-mail!
+        </p>
+
+        <form id="newsletter-form" novalidate>
+
+          <label class="sr-only" for="newsletter-email">
+            Seu melhor e-mail
+          </label>
+
+          <div class="newsletter-form-row">
+
+            <input
+              type="email"
+              id="newsletter-email"
+              name="email"
+              placeholder="Seu melhor e-mail"
+              required
+            >
+
+            <button type="submit">
+              Inscrever-se
+            </button>
+
+          </div>
+
+          <p
+            class="newsletter-feedback"
+            id="newsletter-feedback"
+            aria-live="polite"
+          ></p>
+
+        </form>
+
+      </div>
+
+
+      <!-- FRASE -->
+
+      <div class="footer-quote" aria-label="Mensagem inspiradora">
+        <span>Beleza começa</span>
+        <span>quando você</span>
+        <span>se escolhe! <b>♥</b></span>
+      </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+      <div class="container footer-bottom-inner">
+
+        <p>
+          © 2026 Beleza em Foco. Todos os direitos reservados.
+        </p>
+
+        <p class="footer-love">
+          Feito com <span>♥</span> para realçar a sua beleza!
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <div class="developer-credit">
+
+      Desenvolvido por
+
+      <a
+        href="https://dfc-black.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        DFC — Digital Future Company
+      </a>
+
+    </div>
+
+  </footer>
+
+
+  <!-- =====================================================
+       COOKIE CONSENT
+  ====================================================== -->
+
+  <div
+    class="cookie-banner"
+    id="cookie-banner"
+    role="dialog"
+    aria-label="Preferências de cookies"
+    hidden
+  >
+
+    <div class="cookie-content">
+
+      <div>
+        <strong>Privacidade e cookies</strong>
+
+        <p>
+          Usamos cookies para melhorar sua experiência, analisar
+          o uso do site e preparar recursos de publicidade.
+        </p>
+
+        <a href="cookies.html">
+          Política de Cookies
+        </a>
+      </div>
+
+
+      <div class="cookie-actions">
+
+        <button
+          type="button"
+          class="cookie-settings"
+          id="cookie-settings"
+        >
+          Configurar
+        </button>
+
+        <button
+          type="button"
+          class="cookie-reject"
+          id="cookie-reject"
+        >
+          Rejeitar não essenciais
+        </button>
+
+        <button
+          type="button"
+          class="cookie-accept"
+          id="cookie-accept"
+        >
+          Aceitar
+        </button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+<script id="home-articles-sync">
+document.addEventListener("DOMContentLoaded",function(){
+const a=window.belezaEmFocoArticles||[];
+if(!a.length)return;
+function u(c,o,n){
+if(!c||!o)return;
+c.querySelectorAll("a").forEach(l=>l.href=o.url);
+const t=c.querySelector("h2")||c.querySelector("h3")||c.querySelector(".article-title");
+if(t){const l=t.querySelector("a");if(l){l.textContent=o.title;l.href=o.url}else{t.textContent=o.title}}
+const g=c.querySelector(".article-category")||c.querySelector(".category");if(g)g.textContent=o.category;
+const p=c.querySelector(".article-description")||c.querySelector(".article-card-body p")||c.querySelector("p");if(p)p.textContent=o.description;
+const num=c.querySelector(".article-number");if(num)num.textContent=String(n+1).padStart(2,"0");
+}
+document.querySelectorAll(".article-grid .article-card").forEach((c,i)=>u(c,a[i],i));
+document.querySelectorAll(".mini-article-card").forEach((c,i)=>u(c,a[i+4],i+4));
+});
+</script>
+
+
+<script src="js/lipstick3d.js" defer></script>
+<script id="home-all-articles">
+document.addEventListener("DOMContentLoaded", () => {
+  const articles = window.belezaEmFocoArticles || [];
+  const grid = document.querySelector("#artigos-destaque .article-grid");
+  if (!grid || !articles.length) return;
+
+  grid.innerHTML = ""; const existing = new Set(
+    [...grid.querySelectorAll("a[href]")].map(a => {
+      try { return new URL(a.href, location.href).pathname.split("/").pop(); }
+      catch(e) { return ""; }
+    })
+  );
+
+  const categorySlug = value =>
+    (value || "maquiagem")
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-|-$/g, "");
+
+  articles.forEach((article, index) => {
+    const filename = (article.url || "").split("/").pop();
+    if (!filename || existing.has(filename)) return;
+
+    const number = String(index + 1).padStart(2, "0");
+    const category = article.category || "Maquiagem";
+    const slug = filename.replace(/\.html$/i, "");
+    const image = `assets/img/articles/${slug}-capa.png`;
+
+    const card = document.createElement("article");
+    card.className = "article-card";
+    card.dataset.category = categorySlug(category);
+    card.dataset.articleId = article.id || number;
+
+    card.innerHTML = `
+      <a href="${article.url}" class="article-image-link">
+        <div class="article-image-wrapper">
+          <img
+            src="${image}"
+            alt="${article.title}"
+            width="520"
+            height="300"
+            loading="lazy"
+            onerror="if(!this.dataset.pngFallback){this.dataset.pngFallback='1';this.src=this.src.replace(/\.webp$/i,'.png')}else{this.style.visibility='hidden'}"
+          >
+          <span class="article-number">${number}</span>
+          <span class="article-category">${category.toUpperCase()}</span>
+        </div>
+      </a>
+
+      <div class="article-card-body">
+        <button
+          class="favorite-toggle"
+          type="button"
+          data-favorite-id="${article.id || number}"
+          aria-label="Adicionar artigo aos favoritos"
+        >♡</button>
+
+        <h3>
+          <a href="${article.url}">${article.title}</a>
+        </h3>
+
+        <p>${article.description || "Confira este guia completo de maquiagem e aprenda todas as etapas."}</p>
+      </div>
+
+      <div class="article-meta">
+        <span><span aria-hidden="true">▣</span> Beleza em Foco</span>
+        <span><span aria-hidden="true">◷</span> Guia completo</span>
+      </div>
+    `;
+
+    grid.appendChild(card);
+    existing.add(filename);
+  });
+
+  if (typeof updateFavoriteButtons === "function") {
+    updateFavoriteButtons();
+  }
+
+  console.log("HOME: " + grid.querySelectorAll(".article-card").length + " artigos exibidos");
+});
+</script>
+</body>
+</html>

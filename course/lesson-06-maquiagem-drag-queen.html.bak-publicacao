@@ -1,0 +1,1364 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Maquiagem Drag Queen para Iniciantes | Beleza em Foco</title>
+
+  <meta
+    name="description"
+    content="Aprenda maquiagem Drag Queen para iniciantes: preparação, bloqueio de sobrancelhas, estrutura facial, contorno, olhos dramáticos, cut crease, cílios e acabamento."
+  >
+
+  <link
+    rel="canonical"
+    href="https://seudominio.com/course/lesson-06-maquiagem-drag-queen.html"
+  >
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@500;600;700;800;900&family=Playfair+Display:ital,wght@1,700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="stylesheet" href="../css/course.css">
+
+  <script src="../js/main.js" defer></script>
+  <script src="../js/search.js" defer></script>
+  <script src="../js/favorites.js" defer></script>
+  <script src="../js/course-progress.js" defer></script>
+  <script src="../js/consent.js" defer></script>
+</head>
+
+<body>
+
+<a class="skip-link" href="#conteudo-principal">
+  Ir para o conteúdo principal
+</a>
+
+<div class="top-utility">
+  <div class="container utility-inner">
+
+    <nav class="utility-links" aria-label="Links rápidos">
+      <a href="../artigos.html"><span>★</span><span>Dicas</span></a>
+      <a href="../courses.html"><span>♥</span><span>Tutoriais</span></a>
+      <a href="../artigos.html?categoria=produtos"><span>🎁</span><span>Produtos</span></a>
+      <a href="../artigos.html?categoria=artistica"><span>✣</span><span>Inspirações</span></a>
+    </nav>
+
+    <div class="utility-social">
+      <a href="#" aria-label="Instagram">◎</a>
+      <a href="#" aria-label="YouTube">▶</a>
+      <a href="#" aria-label="Pinterest">ⓟ</a>
+      <a href="#" aria-label="TikTok">♪</a>
+    </div>
+
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+
+    <a href="../index.html" class="brand" aria-label="Beleza em Foco">
+
+      <div class="brand-icon" aria-hidden="true">
+        <span class="lipstick lipstick-one"></span>
+        <span class="lipstick lipstick-two"></span>
+      </div>
+
+      <div class="brand-copy">
+        <span class="brand-name">Beleza em Foco</span>
+        <span class="brand-tagline">
+          MAQUIAGEM • AUTOCUIDADO • CONFIANÇA
+        </span>
+      </div>
+
+    </a>
+
+    <form
+      class="header-search"
+      action="../buscar.html"
+      method="get"
+      role="search"
+    >
+      <label class="sr-only" for="header-search-input">
+        Buscar no site
+      </label>
+
+      <input
+        id="header-search-input"
+        name="q"
+        type="search"
+        placeholder="Buscar artigos, tutoriais, produtos..."
+        autocomplete="off"
+      >
+
+      <button type="submit" aria-label="Pesquisar">
+        <span class="search-icon"></span>
+      </button>
+
+      <div
+        class="search-suggestions"
+        id="search-suggestions"
+        aria-live="polite"
+      ></div>
+    </form>
+
+    <div class="header-actions">
+
+      <a href="../courses.html" class="header-action courses-button">
+        <span>♛</span>
+        <span>Meus Cursos</span>
+      </a>
+
+      <a
+        href="../artigos.html?favoritos=1"
+        class="header-action favorites-button"
+      >
+        <span>★</span>
+        <span>
+          Favoritos (<strong id="favorites-count">0</strong>)
+        </span>
+      </a>
+
+    </div>
+
+    <button
+      class="mobile-menu-toggle"
+      id="mobile-menu-toggle"
+      type="button"
+      aria-label="Abrir menu"
+      aria-controls="main-navigation"
+      aria-expanded="false"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+  </div>
+</header>
+
+<nav
+  class="main-navigation"
+  id="main-navigation"
+  aria-label="Navegação principal"
+>
+  <div class="container nav-inner">
+
+    <ul class="main-menu">
+
+      <li>
+        <a href="../index.html" class="nav-link nav-home">
+          <span>⌂</span>
+          INÍCIO
+        </a>
+      </li>
+
+      <li class="has-dropdown">
+        <button
+          class="nav-dropdown-button"
+          type="button"
+          aria-expanded="false"
+        >
+          ARTIGOS
+          <span class="dropdown-chevron">⌄</span>
+        </button>
+
+        <div class="dropdown-menu">
+          <a href="../artigos.html?categoria=iniciantes">Maquiagem para iniciantes</a>
+          <a href="../artigos.html?categoria=pele">Pele</a>
+          <a href="../artigos.html?categoria=olhos">Olhos</a>
+          <a href="../artigos.html?categoria=sobrancelhas">Sobrancelhas</a>
+          <a href="../artigos.html?categoria=cilios">Cílios</a>
+          <a href="../artigos.html?categoria=labios">Lábios</a>
+          <a href="../artigos.html?categoria=artistica">Maquiagem artística</a>
+          <a href="../artigos.html?categoria=drag">Drag Queen</a>
+          <a href="../artigos.html?categoria=produtos">Produtos e ferramentas</a>
+        </div>
+      </li>
+
+      <li>
+        <a href="../courses.html" class="nav-link">
+          TUTORIAIS
+        </a>
+      </li>
+
+      <li>
+        <a href="../artigos.html?categoria=produtos" class="nav-link">
+          PRODUTOS
+        </a>
+      </li>
+
+      <li>
+        <a href="../categorias.html" class="nav-link">
+          CATEGORIAS
+        </a>
+      </li>
+
+      <li>
+        <a href="../about.html" class="nav-link">
+          SOBRE NÓS
+        </a>
+      </li>
+
+      <li>
+        <a href="mailto:juarezimoveispronto@hotmail.com" class="nav-link">
+          CONTATO
+        </a>
+      </li>
+
+    </ul>
+
+    <a href="../artigos.html" class="articles-counter">
+      <span>▥</span>
+      <strong>50 ARTIGOS</strong>
+    </a>
+
+  </div>
+</nav>
+
+<main id="conteudo-principal" class="course-shell">
+
+  <div class="container">
+
+    <div class="course-layout">
+
+      <aside class="course-sidebar-panel">
+
+        <div class="course-sidebar-header">
+
+          <span>Curso gratuito</span>
+
+          <h2>
+            Maquiagem:
+            Do Zero ao Glam
+          </h2>
+
+          <p>
+            6 aulas organizadas em uma sequência prática.
+          </p>
+
+        </div>
+
+        <div class="course-sidebar-progress">
+
+          <div class="course-sidebar-progress-top">
+
+            <span>Seu progresso</span>
+
+            <strong class="course-sidebar-progress-percentage">
+              0%
+            </strong>
+
+          </div>
+
+          <div class="course-sidebar-progress-track">
+            <div class="course-sidebar-progress-fill"></div>
+          </div>
+
+        </div>
+
+        <nav class="course-lessons-nav" aria-label="Aulas do curso">
+
+          <a
+            href="lesson-01-maquiagem-para-iniciantes.html"
+            class="course-lesson-link"
+            data-lesson-id="lesson-01"
+          >
+            <span class="course-lesson-index">01</span>
+
+            <span class="course-lesson-copy">
+              <strong>Maquiagem para Iniciantes</strong>
+              <span>Fundamentos</span>
+            </span>
+          </a>
+
+          <a
+            href="lesson-02-preparacao-de-pele.html"
+            class="course-lesson-link"
+            data-lesson-id="lesson-02"
+          >
+            <span class="course-lesson-index">02</span>
+
+            <span class="course-lesson-copy">
+              <strong>Preparação de Pele</strong>
+              <span>Pele e acabamento</span>
+            </span>
+          </a>
+
+          <a
+            href="lesson-03-design-de-sobrancelhas.html"
+            class="course-lesson-link"
+            data-lesson-id="lesson-03"
+          >
+            <span class="course-lesson-index">03</span>
+
+            <span class="course-lesson-copy">
+              <strong>Design de Sobrancelhas</strong>
+              <span>Mapeamento</span>
+            </span>
+          </a>
+
+          <a
+            href="lesson-04-cilios-posticos.html"
+            class="course-lesson-link"
+            data-lesson-id="lesson-04"
+          >
+            <span class="course-lesson-index">04</span>
+
+            <span class="course-lesson-copy">
+              <strong>Cílios Postiços</strong>
+              <span>Aplicação</span>
+            </span>
+          </a>
+
+          <a
+            href="lesson-05-maquiagem-glam.html"
+            class="course-lesson-link"
+            data-lesson-id="lesson-05"
+          >
+            <span class="course-lesson-index">05</span>
+
+            <span class="course-lesson-copy">
+              <strong>Maquiagem Glam</strong>
+              <span>Look completo</span>
+            </span>
+          </a>
+
+          <a
+            href="lesson-06-maquiagem-drag-queen.html"
+            class="course-lesson-link active"
+            data-lesson-id="lesson-06"
+          >
+            <span class="course-lesson-index">06</span>
+
+            <span class="course-lesson-copy">
+              <strong>Maquiagem Drag Queen</strong>
+              <span>Transformação</span>
+            </span>
+          </a>
+
+        </nav>
+
+      </aside>
+
+      <div class="lesson-main">
+
+        <div class="lesson-topbar">
+
+          <nav class="lesson-breadcrumb" aria-label="Breadcrumb">
+            <a href="../index.html">Início</a>
+            <span>›</span>
+            <a href="../courses.html">Curso</a>
+            <span>›</span>
+            <span>Aula 06</span>
+          </nav>
+
+          <a href="../courses.html" class="lesson-back-course">
+            ← Voltar ao curso
+          </a>
+
+        </div>
+
+        <header class="lesson-hero">
+
+          <div class="lesson-hero-content">
+
+            <span class="lesson-tag">
+              AULA 06 • MAQUIAGEM DRAG QUEEN
+            </span>
+
+            <h1>
+              Maquiagem Drag Queen:
+              estrutura, drama e transformação
+            </h1>
+
+            <p>
+              Na aula final do curso, você vai conhecer os fundamentos
+              da maquiagem Drag Queen, trabalhando transformação facial,
+              sobrancelhas, contorno, olhos dramáticos, cut crease,
+              cílios e acabamento.
+            </p>
+
+            <div class="lesson-meta-row">
+
+              <span class="lesson-meta-pill">
+                ✦ Nível intermediário
+              </span>
+
+              <span class="lesson-meta-pill">
+                ♛ Transformação
+              </span>
+
+              <span class="lesson-meta-pill">
+                ▶ Vídeo complementar
+              </span>
+
+              <span class="lesson-meta-pill">
+                ✓ Aula gratuita
+              </span>
+
+            </div>
+
+          </div>
+
+        </header>
+
+        <article class="lesson-content">
+
+          <section id="intro">
+
+            <h2>Introdução</h2>
+
+            <p>
+              A maquiagem Drag Queen utiliza princípios tradicionais de
+              maquiagem, mas costuma ampliar contraste, proporção,
+              iluminação e desenho facial de maneira intencional.
+              O objetivo não é apenas corrigir pequenas diferenças, e sim
+              construir uma personagem visual, explorar expressão e criar
+              impacto.
+            </p>
+
+            <p>
+              Por isso, técnicas como contorno, desenho de sobrancelhas,
+              cut crease, delineado e cílios podem ser muito mais intensas
+              do que em uma maquiagem social. Ainda assim, a lógica por
+              trás dessas técnicas continua baseada em luz, sombra,
+              formato e equilíbrio.
+            </p>
+
+            <p>
+              Não existe uma única maquiagem Drag correta. Existem estilos
+              muito diferentes: clássico, glamouroso, editorial, camp,
+              alternativo, artístico, club kid e inúmeros outros.
+              Nesta aula vamos trabalhar uma estrutura introdutória,
+              suficiente para você entender os principais fundamentos.
+            </p>
+
+            <p>
+              Mais importante do que copiar um rosto específico é entender
+              o motivo de cada decisão. Quando você compreende por que uma
+              sombra está sendo colocada em determinado ponto, consegue
+              adaptar a técnica para diferentes personagens.
+            </p>
+
+          </section>
+
+          <div class="lesson-toc">
+
+            <strong>Nesta aula você vai aprender:</strong>
+
+            <ul>
+              <li><a href="#conceito">1. Pensando a transformação</a></li>
+              <li><a href="#preparacao">2. Preparação da pele</a></li>
+              <li><a href="#sobrancelha">3. Estrutura das sobrancelhas</a></li>
+              <li><a href="#pele">4. Cobertura e estrutura facial</a></li>
+              <li><a href="#contorno">5. Contorno Drag Queen</a></li>
+              <li><a href="#iluminacao">6. Iluminação estratégica</a></li>
+              <li><a href="#olhos">7. Olhos ampliados e dramáticos</a></li>
+              <li><a href="#cutcrease">8. Cut crease</a></li>
+              <li><a href="#delineado">9. Delineado e cílios</a></li>
+              <li><a href="#blush">10. Blush e acabamento</a></li>
+              <li><a href="#labios">11. Lábios</a></li>
+              <li><a href="#erros">12. Erros comuns</a></li>
+              <li><a href="#seguranca">13. Higiene e segurança</a></li>
+            </ul>
+
+          </div>
+
+          <section id="conceito">
+
+            <h2>1. Pense na transformação antes de maquiar</h2>
+
+            <p>
+              Antes de começar, defina o tipo de personagem que você deseja
+              construir. Isso influencia altura das sobrancelhas, formato
+              dos olhos, intensidade do contorno, posição do blush e
+              tamanho dos lábios.
+            </p>
+
+            <p>
+              Uma transformação mais clássica pode trabalhar linhas
+              elegantes e simétricas. Uma proposta artística pode exagerar
+              proporções, utilizar cores incomuns e até romper
+              intencionalmente algumas regras tradicionais de maquiagem.
+            </p>
+
+            <p>
+              Pense em três perguntas: qual será o ponto principal do rosto,
+              qual sensação você quer transmitir e quais proporções deseja
+              alterar visualmente.
+            </p>
+
+            <div class="lesson-highlight">
+              Maquiagem Drag não é apenas “maquiagem mais forte”.
+              Ela pode utilizar maquiagem como ferramenta de personagem,
+              narrativa, exagero, humor, glamour e expressão.
+            </div>
+
+          </section>
+
+          <section id="preparacao">
+
+            <h2>2. Preparação da pele</h2>
+
+            <p>
+              Mesmo quando o resultado será muito dramático, a preparação
+              continua importante. Limpeza, hidratação e aplicação
+              estratégica de primer ajudam a criar uma superfície mais
+              previsível para receber as próximas camadas.
+            </p>
+
+            <p>
+              Evite transformar preparação em excesso. Colocar grandes
+              quantidades de hidratante e primer não aumenta
+              automaticamente a duração da maquiagem.
+            </p>
+
+            <p>
+              Considere também que uma maquiagem Drag pode envolver
+              produtos mais densos e permanecer várias horas no rosto.
+              Conforto e compatibilidade entre produtos são importantes.
+            </p>
+
+          </section>
+
+          <section id="sobrancelha">
+
+            <h2>3. Estrutura das sobrancelhas</h2>
+
+            <p>
+              Sobrancelhas possuem enorme influência sobre a expressão.
+              Em maquiagem Drag, elas podem ser mantidas próximas do
+              formato natural ou redesenhadas em uma posição visualmente
+              mais elevada.
+            </p>
+
+            <p>
+              Algumas técnicas de Drag utilizam cobertura temporária dos
+              fios para permitir um novo desenho. Essa etapa exige produtos
+              apropriados, prática e cuidado para não irritar a pele nem
+              danificar os fios.
+            </p>
+
+            <h3>Para iniciantes</h3>
+
+            <p>
+              Você não precisa começar cobrindo completamente a sobrancelha.
+              É possível aprender a linguagem visual Drag apenas
+              modificando levemente o formato com maquiagem.
+            </p>
+
+            <p>
+              Penteie os fios, defina uma linha superior um pouco mais
+              elevada e observe como isso altera o espaço disponível entre
+              sobrancelha e olhos.
+            </p>
+
+            <figure class="lesson-step-figure">
+
+              <div
+                class="lesson-image-placeholder"
+                data-image-target="../assets/img/course/lesson-06-drag-01.webp"
+              >
+                <span>IMAGEM 01</span>
+
+                <small>
+                  Comparação educacional mostrando sobrancelha natural
+                  e proposta Drag redesenhada mais alta, destacando
+                  como o novo posicionamento aumenta visualmente
+                  o espaço para a maquiagem dos olhos.
+                </small>
+              </div>
+
+              <figcaption>
+                Elevar visualmente a sobrancelha pode criar mais espaço
+                para sombras, cut crease e delineados dramáticos.
+              </figcaption>
+
+            </figure>
+
+          </section>
+
+          <section id="pele">
+
+            <h2>4. Cobertura e estrutura facial</h2>
+
+            <p>
+              A pele Drag costuma trabalhar maior contraste entre regiões
+              iluminadas e sombreadas. Para que isso funcione, a base
+              precisa oferecer uma superfície relativamente uniforme.
+            </p>
+
+            <p>
+              Ainda assim, evite aplicar uma camada enorme de produto de
+              uma só vez. Trabalhe em etapas. Construa cobertura onde
+              necessário e preserve o máximo possível de controle.
+            </p>
+
+            <p>
+              Corretivos mais claros e produtos de contorno mais profundos
+              podem ser usados para criar uma nova leitura de proporção,
+              mas o efeito deve ser planejado antes de começar a espalhar.
+            </p>
+
+          </section>
+
+          <section id="contorno">
+
+            <h2>5. Contorno Drag Queen: criando nova estrutura</h2>
+
+            <p>
+              Contorno utiliza sombras visuais para alterar a percepção de
+              profundidade. Em Drag, esse contraste pode ser muito mais
+              intenso do que em uma maquiagem cotidiana.
+            </p>
+
+            <h3>Maçãs do rosto</h3>
+
+            <p>
+              O contorno abaixo das maçãs pode ser levado em uma direção
+              mais ascendente para criar sensação de rosto elevado.
+              Posicionar a região escura muito abaixo pode produzir efeito
+              oposto.
+            </p>
+
+            <h3>Testa</h3>
+
+            <p>
+              Sombras nas laterais da testa podem ajudar a modificar a
+              percepção de largura. Observe sempre o desenho completo;
+              não existe uma posição universal.
+            </p>
+
+            <h3>Mandíbula</h3>
+
+            <p>
+              Dependendo da personagem, a mandíbula pode ser suavizada,
+              estreitada visualmente ou até destacada. O contorno deve
+              acompanhar o conceito da transformação.
+            </p>
+
+            <h3>Nariz</h3>
+
+            <p>
+              O nariz frequentemente recebe contorno mais gráfico em
+              maquiagem Drag. Linhas de sombra podem aproximar visualmente
+              as laterais, enquanto uma região clara central cria contraste.
+            </p>
+
+            <p>
+              Comece com pouca intensidade e aumente. Mesmo em maquiagem
+              dramática, linhas não esfumadas podem parecer acidentais em
+              vez de intencionais.
+            </p>
+
+            <figure class="lesson-step-figure">
+
+              <div
+                class="lesson-image-placeholder"
+                data-image-target="../assets/img/course/lesson-06-drag-02.webp"
+              >
+                <span>IMAGEM 02</span>
+
+                <small>
+                  Diagrama educacional de contorno Drag mostrando áreas
+                  profundas nas laterais da testa, abaixo das maçãs,
+                  mandíbula e nariz, combinadas com áreas claras
+                  estratégicas no centro do rosto.
+                </small>
+              </div>
+
+              <figcaption>
+                A transformação acontece pelo contraste entre áreas
+                de sombra e luz, não apenas pela quantidade de produto.
+              </figcaption>
+
+            </figure>
+
+          </section>
+
+          <section id="iluminacao">
+
+            <h2>6. Iluminação estratégica</h2>
+
+            <p>
+              Onde o contorno cria profundidade, a iluminação ajuda a
+              projetar visualmente outras regiões para frente.
+              Essa relação é central na maquiagem Drag.
+            </p>
+
+            <p>
+              Regiões centrais da testa, abaixo dos olhos, centro do nariz
+              e áreas específicas do queixo podem receber produtos mais
+              claros dependendo do desenho desejado.
+            </p>
+
+            <p>
+              A diferença entre claro e escuro pode ser maior do que em uma
+              maquiagem social, mas precisa existir transição.
+              Contraste forte não significa bordas completamente
+              desconectadas.
+            </p>
+
+          </section>
+
+          <section id="olhos">
+
+            <h2>7. Olhos ampliados e dramáticos</h2>
+
+            <p>
+              Os olhos são frequentemente uma das áreas mais expressivas
+              da maquiagem Drag. A sombra pode ultrapassar bastante o
+              côncavo natural para criar a ilusão de uma pálpebra maior.
+            </p>
+
+            <p>
+              Em vez de seguir obrigatoriamente a dobra natural, você pode
+              construir uma nova linha visual um pouco acima dela.
+              Isso cria espaço para cores, brilho, delineado e cut crease.
+            </p>
+
+            <h3>Sombra de transição</h3>
+
+            <p>
+              Comece criando um arco de transição na altura desejada.
+              Use uma tonalidade média e esfume as bordas.
+            </p>
+
+            <h3>Profundidade</h3>
+
+            <p>
+              Adicione uma cor mais escura abaixo ou ao redor da transição,
+              construindo contraste progressivamente.
+            </p>
+
+            <h3>Expansão externa</h3>
+
+            <p>
+              Levar a sombra em direção às têmporas pode criar um desenho
+              mais alongado e teatral. Compare os dois lados antes de
+              aumentar muito a extensão.
+            </p>
+
+          </section>
+
+          <section id="cutcrease">
+
+            <h2>8. Cut crease Drag Queen</h2>
+
+            <p>
+              Cut crease cria uma divisão nítida entre a região de
+              profundidade e a pálpebra móvel. Em maquiagem Drag, essa
+              linha pode ser desenhada acima do côncavo natural para
+              aumentar visualmente os olhos.
+            </p>
+
+            <h3>Defina o novo côncavo</h3>
+
+            <p>
+              Antes de cortar, observe a altura criada pela sombra.
+              A nova linha deve conversar com a sobrancelha e com a
+              direção externa do olho.
+            </p>
+
+            <h3>Crie a área clara</h3>
+
+            <p>
+              Com um produto adequado e um pincel mais preciso, desenhe
+              a região que será limpa e iluminada.
+            </p>
+
+            <p>
+              Trabalhe aos poucos. Uma linha muito alta ou irregular pode
+              exigir várias correções. Compare constantemente os dois olhos.
+            </p>
+
+            <h3>Sele as bordas</h3>
+
+            <p>
+              Depois de criar o corte, utilize sombra para definir ainda
+              mais o contraste. A região clara pode receber sombra matte,
+              cintilante ou brilho dependendo do look.
+            </p>
+
+          </section>
+
+          <section id="delineado">
+
+            <h2>9. Delineado e cílios</h2>
+
+            <p>
+              Delineado Drag pode ser mais grosso, alongado e gráfico.
+              Ele ajuda a conectar o novo formato dos olhos aos cílios
+              postiços.
+            </p>
+
+            <p>
+              Comece definindo direção e espessura antes de preencher toda
+              a área. Pequenas marcações ajudam a manter os lados
+              visualmente relacionados.
+            </p>
+
+            <h3>Cílios maiores</h3>
+
+            <p>
+              Como as sombras e o delineado são intensos, um cílio muito
+              delicado pode desaparecer visualmente. Modelos maiores podem
+              complementar o look, desde que sejam confortáveis e ajustados.
+            </p>
+
+            <p>
+              Use o que aprendeu na Aula 04: medir, cortar gradualmente,
+              aplicar cola apropriada, aguardar o tempo indicado e apoiar
+              primeiro o centro.
+            </p>
+
+            <figure class="lesson-step-figure">
+
+              <div
+                class="lesson-image-placeholder"
+                data-image-target="../assets/img/course/lesson-06-drag-03.webp"
+              >
+                <span>IMAGEM 03</span>
+
+                <small>
+                  Resultado educacional de olhos Drag com sobrancelhas
+                  elevadas, cut crease amplo, delineado gráfico,
+                  sombras dramáticas e cílios postiços volumosos.
+                </small>
+              </div>
+
+              <figcaption>
+                A relação entre sobrancelha, novo côncavo, delineado
+                e cílios define grande parte da transformação do olhar.
+              </figcaption>
+
+            </figure>
+
+          </section>
+
+          <section id="blush">
+
+            <h2>10. Blush e acabamento do rosto</h2>
+
+            <p>
+              Em maquiagem Drag, blush pode funcionar não apenas como
+              cor, mas também como elemento de conexão entre contorno,
+              olhos e têmporas.
+            </p>
+
+            <p>
+              Uma aplicação mais elevada pode reforçar a direção ascendente
+              criada pelo contorno. Algumas propostas também levam cor para
+              regiões próximas das têmporas.
+            </p>
+
+            <p>
+              Observe a paleta usada nos olhos. O blush não precisa ter a
+              mesma cor, mas deve conversar visualmente com o conjunto.
+            </p>
+
+            <h3>Iluminador</h3>
+
+            <p>
+              Iluminador pode ser mais intenso em um look Drag glamouroso.
+              Ainda assim, selecione os pontos de destaque para que o rosto
+              não fique com a mesma reflexão em todas as regiões.
+            </p>
+
+          </section>
+
+          <section id="labios">
+
+            <h2>11. Lábios e expressão</h2>
+
+            <p>
+              Lábios são outra região que pode ser redesenhada de maneira
+              mais intensa. O contorno pode ultrapassar discretamente as
+              bordas naturais para criar novas proporções.
+            </p>
+
+            <h3>Defina primeiro o arco</h3>
+
+            <p>
+              Marque o centro do lábio superior e depois trabalhe as
+              laterais. Isso ajuda a controlar simetria.
+            </p>
+
+            <h3>Construa o formato gradualmente</h3>
+
+            <p>
+              Se quiser ampliar visualmente os lábios, faça pequenos
+              ajustes em vez de desenhar muito além da borda natural em
+              toda a extensão.
+            </p>
+
+            <h3>Crie dimensão</h3>
+
+            <p>
+              Tons mais escuros nas extremidades e mais claros no centro
+              podem aumentar a sensação de volume. Gloss também pode ser
+              usado em pontos estratégicos.
+            </p>
+
+          </section>
+
+          <section id="erros">
+
+            <h2>12. Erros comuns ao começar maquiagem Drag</h2>
+
+            <h3>Apenas aumentar a quantidade de produto</h3>
+
+            <p>
+              Transformação não vem apenas do excesso. Direção, contraste,
+              posicionamento e desenho são muito mais importantes.
+            </p>
+
+            <h3>Desenhar sem planejar</h3>
+
+            <p>
+              Quando sobrancelha, cut crease, delineado e contorno são
+              criados sem uma direção comum, o rosto pode parecer formado
+              por elementos desconectados.
+            </p>
+
+            <h3>Contorno muito baixo</h3>
+
+            <p>
+              Se o objetivo é levantar visualmente o rosto, posicionar o
+              contorno muito abaixo pode produzir o efeito oposto.
+            </p>
+
+            <h3>Não deixar espaço suficiente para os olhos</h3>
+
+            <p>
+              Quando a sobrancelha está muito próxima do formato natural
+              e o cut crease é desenhado na dobra original, pode faltar
+              espaço para uma proposta Drag mais ampla.
+            </p>
+
+            <h3>Esquecer de observar à distância</h3>
+
+            <p>
+              Maquiagem Drag costuma trabalhar com proporções grandes.
+              Afastar-se do espelho é essencial para entender como essas
+              formas funcionam juntas.
+            </p>
+
+            <h3>Tentar simetria absoluta</h3>
+
+            <p>
+              Mesmo em um look gráfico, rostos não são perfeitamente
+              simétricos. Busque equilíbrio visual, não cópia milimétrica.
+            </p>
+
+          </section>
+
+          <section id="seguranca">
+
+            <h2>13. Higiene e segurança</h2>
+
+            <p>
+              Maquiagens elaboradas envolvem mais etapas, ferramentas,
+              pigmentos e produtos próximos dos olhos. Cuidados básicos
+              continuam sendo indispensáveis.
+            </p>
+
+            <ul>
+              <li>Lave as mãos antes da aplicação.</li>
+              <li>Mantenha pincéis e esponjas limpos.</li>
+              <li>Use apenas produtos indicados para a região em que serão aplicados.</li>
+              <li>Não utilize glitter artesanal próximo aos olhos.</li>
+              <li>Use cola apropriada para cílios postiços.</li>
+              <li>Evite compartilhar máscara de cílios e outros produtos de contato direto.</li>
+              <li>Não continue usando um cosmético que provoque reação importante.</li>
+              <li>Faça a remoção com calma e sem esfregar agressivamente a pele.</li>
+            </ul>
+
+            <div class="lesson-warning">
+              <strong>Atenção:</strong> se houver dor intensa, inchaço,
+              alteração visual, dificuldade para respirar ou outra reação
+              preocupante, interrompa o uso dos produtos e procure
+              atendimento adequado.
+            </div>
+
+          </section>
+
+          <section id="pratica">
+
+            <h2>Exercício final do curso</h2>
+
+            <p>
+              Antes de construir uma maquiagem Drag completa, faça um
+              desenho simples em uma fotografia do próprio rosto ou em um
+              face chart. Defina a posição das sobrancelhas, contorno,
+              iluminação, cut crease e lábios.
+            </p>
+
+            <p>
+              Depois reproduza esse planejamento com maquiagem. Durante
+              cada etapa, compare o resultado com a ideia original e faça
+              ajustes quando necessário.
+            </p>
+
+            <p>
+              Não tente corrigir cada pequena diferença imediatamente.
+              Termine blocos inteiros da maquiagem e depois observe o rosto
+              de longe. Muitas assimetrias que parecem enormes de perto
+              praticamente desaparecem quando vistas no conjunto.
+            </p>
+
+            <p>
+              Fotografe o resultado de frente e de perfil. Analise quais
+              decisões realmente modificaram as proporções e quais regiões
+              poderiam ter mais ou menos intensidade em uma próxima
+              tentativa.
+            </p>
+
+          </section>
+
+          <section class="lesson-video-section">
+
+            <h2>Vídeo complementar da aula</h2>
+
+            <p>
+              Este espaço está preparado para receber o vídeo prático
+              específico sobre maquiagem Drag Queen para iniciantes.
+            </p>
+
+            <div
+              class="lesson-video-placeholder"
+              data-video-topic="Maquiagem Drag Queen para iniciantes passo a passo"
+            >
+              <div>
+
+                <span>▶</span>
+
+                <strong>
+                  Vídeo — Maquiagem Drag Queen
+                </strong>
+
+                <small>
+                  Área preparada para incorporação do vídeo desta aula.
+                </small>
+
+              </div>
+            </div>
+
+          </section>
+
+          <section>
+
+            <h2>Resumo da Aula 06</h2>
+
+            <p>
+              Nesta aula final você aprendeu que maquiagem Drag trabalha
+              transformação por meio de proporção, contraste e expressão.
+              Não se trata apenas de aumentar a intensidade da maquiagem
+              comum, mas de reconstruir visualmente partes do rosto.
+            </p>
+
+            <p>
+              Vimos como o posicionamento das sobrancelhas influencia o
+              espaço dos olhos, como contorno e iluminação podem alterar a
+              percepção da estrutura facial e como cut crease, delineado e
+              cílios constroem um olhar mais dramático.
+            </p>
+
+            <p>
+              Também trabalhamos blush, iluminador e lábios como elementos
+              de uma personagem completa. Cada parte precisa conversar com
+              a direção visual escolhida no início.
+            </p>
+
+            <p>
+              Ao longo das seis aulas, você passou pelos fundamentos da
+              maquiagem, preparação de pele, design de sobrancelhas, cílios
+              postiços, maquiagem glam e agora transformação Drag Queen.
+              Esse percurso fornece uma base sólida para continuar
+              praticando e aprofundando técnicas específicas.
+            </p>
+
+            <p>
+              A evolução vem principalmente da repetição. Use os conteúdos
+              do curso como referência, faça versões diferentes de cada
+              técnica e registre seus resultados para observar seu progresso.
+            </p>
+
+          </section>
+
+          <div class="lesson-support-grid">
+
+            <div class="lesson-support-card">
+              <strong>Planeje o rosto</strong>
+              <p>
+                Defina as novas proporções antes de começar a adicionar
+                camadas de maquiagem.
+              </p>
+            </div>
+
+            <div class="lesson-support-card">
+              <strong>Pense em contraste</strong>
+              <p>
+                Luz e sombra criam mais transformação do que simplesmente
+                usar produto em excesso.
+              </p>
+            </div>
+
+            <div class="lesson-support-card">
+              <strong>Crie sua linguagem</strong>
+              <p>
+                Use os fundamentos para desenvolver personagens e estilos
+                próprios.
+              </p>
+            </div>
+
+          </div>
+
+          <div class="mark-complete">
+
+            <button
+              class="btn btn-primary"
+              type="button"
+              data-mark-complete="lesson-06"
+              aria-pressed="false"
+            >
+              Marcar aula como concluída
+            </button>
+
+            <p class="lesson-complete-message"></p>
+
+          </div>
+
+        </article>
+
+        <nav class="lesson-nav" aria-label="Navegação entre aulas">
+
+          <a
+            href="lesson-05-maquiagem-glam.html"
+            class="btn btn-secondary"
+          >
+            ← Aula anterior: Maquiagem Glam
+          </a>
+
+          <a
+            href="../courses.html"
+            class="btn btn-primary"
+          >
+            ✓ Finalizar e voltar ao curso
+          </a>
+
+        </nav>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</main>
+
+<footer class="site-footer">
+
+  <div class="footer-decor footer-decor-left"></div>
+  <div class="footer-decor footer-decor-right"></div>
+
+  <div class="container footer-grid">
+
+    <div class="footer-brand">
+
+      <a href="../index.html" class="footer-logo">
+        <span class="footer-lipstick">♟</span>
+        <span>Beleza em Foco</span>
+      </a>
+
+      <p>
+        Seu portal completo sobre maquiagem,
+        beleza e autocuidado. Inspiração diária
+        para realçar sua beleza única.
+      </p>
+
+      <div class="footer-social">
+        <a href="#" aria-label="Instagram">◎</a>
+        <a href="#" aria-label="YouTube">▶</a>
+        <a href="#" aria-label="Pinterest">ⓟ</a>
+        <a href="#" aria-label="TikTok">♪</a>
+        <a href="#" aria-label="Facebook">f</a>
+      </div>
+
+    </div>
+
+    <div class="footer-column">
+
+      <h2>Navegação</h2>
+
+      <ul>
+        <li><a href="../index.html">Início</a></li>
+        <li><a href="../artigos.html">Artigos</a></li>
+        <li><a href="../courses.html">Tutoriais</a></li>
+        <li><a href="../categorias.html">Categorias</a></li>
+        <li><a href="mailto:juarezimoveispronto@hotmail.com">Contato</a></li>
+      </ul>
+
+    </div>
+
+    <div class="footer-column">
+
+      <h2>Institucional</h2>
+
+      <ul>
+        <li><a href="../about.html">Sobre Nós</a></li>
+        <li><a href="../privacy.html">Política de Privacidade</a></li>
+        <li><a href="../cookies.html">Política de Cookies</a></li>
+        <li><a href="../terms.html">Termos de Uso</a></li>
+        <li><a href="../editorial-policy.html">Política Editorial</a></li>
+      </ul>
+
+    </div>
+
+    <div class="footer-newsletter">
+
+      <h2>Newsletter</h2>
+
+      <p>
+        Receba dicas exclusivas e novidades
+        direto no seu e-mail!
+      </p>
+
+      <form id="newsletter-form" novalidate>
+
+        <label class="sr-only" for="newsletter-email">
+          Seu melhor e-mail
+        </label>
+
+        <div class="newsletter-form-row">
+
+          <input
+            type="email"
+            id="newsletter-email"
+            placeholder="Seu melhor e-mail"
+            required
+          >
+
+          <button type="submit">
+            Inscrever-se
+          </button>
+
+        </div>
+
+        <p
+          class="newsletter-feedback"
+          id="newsletter-feedback"
+          aria-live="polite"
+        ></p>
+
+      </form>
+
+    </div>
+
+    <div class="footer-quote">
+      <span>Beleza começa</span>
+      <span>quando você</span>
+      <span>se escolhe! <b>♥</b></span>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+
+    <div class="container footer-bottom-inner">
+
+      <p>
+        © 2026 Beleza em Foco. Todos os direitos reservados.
+      </p>
+
+      <p class="footer-love">
+        Feito com <span>♥</span> para realçar a sua beleza!
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="developer-credit">
+
+    Desenvolvido por
+
+    <a
+      href="https://dfc-black.vercel.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      DFC — Digital Future Company
+    </a>
+
+  </div>
+
+</footer>
+
+<div
+  class="cookie-banner"
+  id="cookie-banner"
+  role="dialog"
+  aria-label="Preferências de cookies"
+  hidden
+>
+
+  <div class="cookie-content">
+
+    <div>
+
+      <strong>Privacidade e cookies</strong>
+
+      <p>
+        Usamos cookies para melhorar sua experiência,
+        analisar o uso do site e preparar recursos de publicidade.
+      </p>
+
+      <a href="../cookies.html">
+        Política de Cookies
+      </a>
+
+    </div>
+
+    <div class="cookie-actions">
+
+      <button
+        type="button"
+        class="cookie-settings"
+        id="cookie-settings"
+      >
+        Configurar
+      </button>
+
+      <button
+        type="button"
+        class="cookie-reject"
+        id="cookie-reject"
+      >
+        Rejeitar não essenciais
+      </button>
+
+      <button
+        type="button"
+        class="cookie-accept"
+        id="cookie-accept"
+      >
+        Aceitar
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
